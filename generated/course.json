@@ -1,0 +1,79 @@
+{
+  "key": "defi-course",
+  "title": "DeFi 101 Course",
+  "summary": "ADD Intro to the course\n",
+  "details": "ADD DEtails of the course\n",
+  "duration": "1 - 2 hours",
+  "highlights": [
+    "Intro to Decentralized Finance",
+    "DeFi vs CeFi",
+    "Blockchain history and basics",
+    "All DeFi building blocks",
+    "Summaries and questions for each chapter"
+  ],
+  "publishStatus": "Live",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg",
+  "topics": [
+    {
+      "title": "What is DeFi and Use Cases",
+      "key": "what-is-defi",
+      "details": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases\n\nDetails\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
+      "order": 0,
+      "questions": [
+        {
+          "uuid": "4d404192-3ea7-4994-a080-2f0457a97753",
+          "type": "SingleChoice",
+          "content": "What is the main purpose of DeFi?",
+          "hint": "Purpose of DeFi in the current scenario",
+          "explanation": "Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "why-do-we-need-defi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Provide banking facilties only to high worth individuals",
+              "key": "A"
+            },
+            {
+              "content": "Providing financial solutions on blockchain",
+              "key": "B"
+            },
+            {
+              "content": "Trade and earn more using cryptocurrency",
+              "key": "C"
+            },
+            {
+              "content": "Encourage money laundering.",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "ccde44af-f5ac-45e8-b41e-d2ba87af7809",
+          "title": "Introduction to Decentralised Finance",
+          "shortTitle": "Intro to DeFi",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=btB__oHQ0sU",
+          "subTopics": [
+            "why-do-we-need-defi"
+          ],
+          "details": "This video enables learners to know about\n  * Centralised banking system\n  * DeFi components    \n  * DEXs\n  * DeFi advantages\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Why do we need DeFi?",
+          "shortTitle": "Why DeFi",
+          "key": "why-do-we-need-defi",
+          "details": "- Why do we need DeFi ?\nThis needs to be explained as bullet points\n"
+        }
+      ]
+    }
+  ]
+}

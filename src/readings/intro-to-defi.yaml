@@ -1,0 +1,13 @@
+- uuid: ccde44af-f5ac-45e8-b41e-d2ba87af7809
+  title: Introduction to Decentralised Finance
+  shortTitle: Intro to DeFi
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=btB__oHQ0sU
+  subTopics:
+    - why-do-we-need-defi
+  details: |
+    This video enables learners to know about
+      * Centralised banking system
+      * DeFi components    
+      * DEXs
+      * DeFi advantages

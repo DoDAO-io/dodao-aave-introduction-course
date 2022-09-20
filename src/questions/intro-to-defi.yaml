@@ -1,0 +1,19 @@
+- uuid: 4d404192-3ea7-4994-a080-2f0457a97753
+  type: SingleChoice
+  content: What is the main purpose of DeFi?
+  hint: Purpose of DeFi in the current scenario
+  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  answerKeys:
+    - B
+  subTopics:
+    - why-do-we-need-defi
+  difficultyLevel: "Low"
+  choices:
+    - content: Provide banking facilties only to high worth individuals
+      key: A
+    - content: Providing financial solutions on blockchain
+      key: B
+    - content: Trade and earn more using cryptocurrency
+      key: C
+    - content: Encourage money laundering.
+      key: D

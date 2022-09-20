@@ -1,0 +1,30 @@
+title: DeFi 101 Course
+key: defi-course
+summary: |
+  ADD Intro to the course
+highlights:
+  - Intro to Decentralized Finance
+  - DeFi vs CeFi
+  - Blockchain history and basics
+  - All DeFi building blocks
+  - Summaries and questions for each chapter
+publishStatus: Live
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
+details:  | 
+  ADD DEtails of the course
+duration: 1 - 2 hours
+topics:
+  - title: What is DeFi and Use Cases
+    key: what-is-defi
+    details: |
+      This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
+      
+      Details
+        * What is DeFi 
+        * CeFi vs DeFi
+        * Use cases of DeFi
+    readings: intro-to-defi.yaml
+    summaries: intro-to-defi.yaml
+    questions: intro-to-defi.yaml
+    status: In Progress
+    completionWeek: In Progress
