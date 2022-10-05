@@ -26,8 +26,8 @@
     - Use cases of Lending and Borrowing 
 
       * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
-      * Borrowers take out loans to increase the capital for their businesses, startups, etc. Borrowers leverage their investments by investing in vehicles like the stock market, mutual funds, bonds, etc to amplify their returns. Borrowing helps you to get money in urgent situations
-        or for improvement purposes when capital is insufficient.
+      * Borrowers take out loans to increase the capital for their businesses, startups, etc. Borrowers leverage their investments by investing in vehicles like the stock market, mutual funds, bonds, etc to amplify their returns. 
+        Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
 
 - title: Lending and borrowing in TradFi
   shortTitle: Lending and Borrowing
@@ -54,55 +54,45 @@
   shortTitle: Lending-Borrowing-DeFi
   key: lending-borrowing-DeFi
   details: |
-   - Lending and Borrowing in DeFi 
+    - Lending and Borrowing in DeFi 
+      * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
+      * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
+      * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
+      * DeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security.
+      * The amount of collateral must follow the protocol's over-collateralization limit. 
+      * Flash loans are loans that can be obtained instantly and without any collateral.
+      * Most DeFi protocols are governed by their native token holders.
 
-     * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
-     * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
-     * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
-     * DeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security.
-     * The amount of collateral must follow the protocol's over-collateralization limit. 
-     * Flash loans are loans that can be obtained instantly and without any collateral.
-     * Most DeFi protocols are governed by their native token holders.
-   
-   - Benefits of DeFi Lending and Borrowing
+    - Benefits of DeFi Lending and Borrowing
+      1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
+      2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
+      3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
+                              Most of the interest from borrowers goes to lenders.
 
-     1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
-     2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
-     3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
-                            Most of the interest from borrowers goes to lenders.
-   
 - title: Managing risks
   shortTitle: Managing-Risks
   key: managing-risks
   details: |
      
-      - Volatility Risk  {#volatility-risk}
-
-        Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. 
-        However, users can lend and borrow stablecoins to neglect this risk.
-
-        * Collateral Liquidation
-          Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-          The values will differ for different DeFi's. The volatility of assets is also a factor that leads to collateral liquidation.
-
-        DeFi tackles these issues by considering several factors. The important two factors are
-        1. Loan To Value
-        2. Healthfactor
-
-           Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
-           at risk of being liquidated due to insufficient collateral. 
-          
-      - Protocol Risk 
-
-        DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
-
-        * Smart contract risk
-          These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. These risks are mitigated by rigorous code audits.
-
-        * Oracle risks
-          These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
-          Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world cause considerable losses to the protocol.  
-          DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high quality nodes or data providers in order to ensure security and high quality data.
-            
-            
+    - Volatility Risk 
+      Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. 
+      However, users can lend and borrow stablecoins to neglect this risk.
+      * Collateral Liquidation
+        Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
+        The values will differ for different DeFi's. The volatility of assets is also a factor that leads to collateral liquidation.
+      DeFi tackles these issues by considering several factors. The important two factors are
+      1. Loan To Value
+      2. Healthfactor
+      Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
+      at risk of being liquidated due to insufficient collateral. 
+    
+    - Protocol Risk 
+      DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+      * Smart contract risk
+        These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. These risks are mitigated by rigorous code audits.
+      * Oracle risks
+        These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
+        Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world cause considerable losses to the protocol.  
+        DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high quality nodes or data providers in order to ensure security and high quality data.
+           
            
