@@ -19,6 +19,14 @@
       "key": "what-is-defi",
       "details": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases\n\nDetails\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
       "order": 0,
+      "explanations": [
+        {
+          "title": "Why do we need DeFi?",
+          "shortTitle": "Why DeFi",
+          "key": "why-do-we-need-defi",
+          "details": "- Why do we need DeFi ?\nThis needs to be explained in a detailed way\n"
+        }
+      ],
       "questions": [
         {
           "uuid": "4d404192-3ea7-4994-a080-2f0457a97753",
