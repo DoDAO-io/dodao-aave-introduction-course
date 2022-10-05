@@ -29,3 +29,16 @@ topics:
     questions: intro-to-defi.yaml
     status: In Progress
     completionWeek: In Progress
+  - title: Intro to Lending and Borrowing in DeFi
+    key: lending-and-borrowing-in-defi
+    details: |
+      .......
+      
+      Details
+        * .....
+    explanations: intro-to-lending-borrowing.yaml
+    readings: intro-to-lending-borrowing.yaml
+    summaries: intro-to-lending-borrowing.yaml
+    questions: intro-to-lending-borrowing.yaml
+    status: In Progress
+    completionWeek: In Progress
