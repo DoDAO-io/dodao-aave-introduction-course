@@ -1,15 +1,15 @@
 {
-  "key": "defi-course",
-  "title": "DeFi 101 Course",
-  "summary": "ADD Intro to the course\n",
+  "key": "aave-introductory-course",
+  "title": "Introduction to AAVE",
+  "summary": "Lending and borrowing in DeFi are secured by blockchain and smart contracts. Users can lend their money without limits \nsimilarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained.\n",
   "details": "ADD DEtails of the course\n",
   "duration": "1 - 2 hours",
   "highlights": [
     "Intro to Decentralized Finance",
-    "DeFi vs CeFi",
-    "Blockchain history and basics",
-    "All DeFi building blocks",
-    "Summaries and questions for each chapter"
+    "Intro to DeFi",
+    "Intro Lending and Borrowing",
+    "How Lending and Borrowings in AAVE",
+    "Other Features of AAVE"
   ],
   "publishStatus": "Live",
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg",
