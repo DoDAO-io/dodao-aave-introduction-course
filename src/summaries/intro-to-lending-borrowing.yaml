@@ -28,7 +28,7 @@
       * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
 
 - title: Lending and borrowing in TradFi
-  shortTitle: Lending and Borrowing
+  shortTitle: "Trad: Lend & Borrow"
   key: lending-borrowing-tradFi
   details: |
     - Lending and Borrowing in TradFi 
@@ -47,7 +47,7 @@
       **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.
 
 - title: Lending and borrowing in DeFi
-  shortTitle: Lending-Borrowing-DeFi
+  shortTitle: "DeFi: Lend & Borrow"
   key: lending-borrowing-DeFi
   details: |
     - Lending and Borrowing in DeFi 

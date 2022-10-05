@@ -1,5 +1,5 @@
-- title: Overview
-  shortTitle: Lending and Borrowing basics
+- title: Lending and Borrowing Basics
+  shortTitle: Overview
   key: lending-borrowing-intro
   details: |
     ## Important Terms
@@ -42,7 +42,7 @@
 
 
 - title: Lending and Borrowing in TradFi
-  shortTitle: Lending-Borrowing in TradFi
+  shortTitle: "Trad: Lend & Borrow"
   key: lending-borrowing
   details: |
     ### Lending and Borrowing in TradFi 
@@ -77,7 +77,7 @@
     There is a chance of servers going down for traditional finances as they are centralized. Traditional finances are not transparent. They have numerous blind spots.
 
 - title: Lending and Borrowing in DeFi
-  shortTitle: Lending and borrowingin DeFi
+  shortTitle: "DeFi: Lend & Borrow"
   key: lending-borrowing
   details: |
     ## Lending and Borrowing in DeFi 
@@ -104,8 +104,8 @@
     3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,
     anyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. 
 
-- title: Managing Risks in DeFi
-  shortTitle: Explain Risks and how they are mitigated
+- title: Explain Risks and how they are mitigated
+  shortTitle: Risks in DeFi
   key: Managing-Risks
   details: |
     ## Managing Risks

@@ -5,143 +5,86 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  ## Intro to Lending and Borrowing in DeFi
  
- **Intro to Lending and borrowing in DeFi**        
-- Why do we need DeFi ?
-This needs to be explained as bullet points
- 
- **Fiat-backed Stable Coins**        
-* Since their introduction in 2014, fiat-backed stablecoins have grown in popularity and usage. 
-* They were the first stablecoins to appear. 
-* Each USD-pegged token issued by fiat-backed stablecoins is backed 1:1 by actual US dollars.
-* Basically an IOU (I owe you) for a traditional fiat currency (usually dollars). 
-* Fiat-backed stablecoins must therefore be backed by bank accounts that contain USD. 
-* As a result, the old financial system's centralized structure and regulated institutions are used by fiat-backed stablecoin issuers. 
-* However, despite the unique properties of stablecoins and blockchain technology, the activity of producing stablecoins is not specifically regulated by any financial institution. 
-* Stablecoins backed by fiat have a high level of stability, but decentralization and capital efficiency suffer as a result.
-* Due to this, stablecoin issuers have poor levels of transparency, which makes it difficult for investors and consumers to put their trust in them.
-* The most well-known fiat-backed stablecoin is Tether Holdings' USDT. 
-* In order to counteract the extreme volatility in the cryptocurrency markets, USDT is primarily utilized for trading on both centralized and decentralized exchanges as well as a store of wealth. 
-* USDT is one of the most reliable and durable stablecoins on the market, thanks to its direct backing with fiat money. 
-* Based on the success of USDT, other new fiat-backed stablecoins have entered the market, including USDC from Circle and BUSD from Binance. 
-- Pros
-  * Safe against crypto volatility.
-  * Changes in price are minimal i.e. high level of stability
-  * Ideal issuer for big and institutional investors entering the cryptocurrency markets since they can produce stablecoins based on actual USD
-  * Serve as a point of entry for professional capital and support future market expansion.
-- Cons
-  * Centralized i.e. someone must issue the tokens.
-  * Requires auditing to ensure the company has sufficient reserves.
-  * Suppliers' lack of transparency and accountability.
-  * Customers must go through an AML and KYC process in order to borrow stablecoins against USD
- 
- **Crypto-backed Stable Coins**        
-* The drawbacks and compromises of centralized fiat-backed stablecoins are addressed by crypto-backed stablecoins. 
-* Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. 
-* These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets like BTC, ETH, other tokens, or any tokenized asset. 
-* In order to produce or mint new stablecoins, digital assets are thus locked as collateral in smart contracts. 
-* DAI from MakerDAO is a well-known illustration of a stablecoin backed by cryptocurrency. 
-* On-chain stablecoin methods use an open-source methodology, which has sped up innovation and increased competition in this market.
-* Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. 
-* This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2. 
-* Therefore, if crypto prices fall, more crypto must be used to back the stablecoin, otherwise, the stablecoins' value would decrease.
-* Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability. 
-* As a result, the collateral has less volatility, which lowers the chance of a large decline in its value. Two excellent instances of this are DAI and FRAX.
-- Pros
-  * Transparent and fully decentralized.
-  * Quick to turn into other crypto assets.
-  * No external custodians i.e. all assets are controlled by Ethereum accounts.
-- Cons
-  * Less stable than fiat-backed stablecoins.
-  * Volatile, You need to keep an eye on the value of the crypto collateral.
-  * Due to the volatility of the collateral, most crypto-backed stablecoins are over-collateralized in order to account for it
- 
- **Commodity-backed Stable Coins**        
-* Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. 
-* They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin. 
-* The coins may or may not be redeemable for the physical asset. 
-* In a sense, commodity-backed stablecoins are a digital representation of a valuable real-world asset. 
-* Commodity-backed stablecoins are particularly useful for those who find it difficult to get their hands on literal precious materials but still want to invest in them. 
-* Investing in a commodity-backed stablecoin, say one that is backed by gold, gives an investor something that holds the same value as the collateral and can be liquidated when desired. 
-* Because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.
-* Gold is generally the most popular collateral to use for commodity-backed stablecoins. 
-* Take Paxos Gold (PAXG), for example. The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.
-* Tether Gold (XAUt) is another example of a gold-backed stablecoin. Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
-- Pros
-  * Safe against crypto volatility.
-  * Digital representation of a real-world asset
-- Cons
-  * Centralized i.e. someone must issue the tokens.
-  * You need to trust the token issuer and the precious metal reserves.
- 
- **Algorithmic Stable Coins**        
-* Algorithmic stablecoins do not use fiat or cryptocurrency as collateral. Instead, their price stability results from the use of specialized algorithms and smart contracts that manage the supply of tokens in circulation.
-* Algorithmic stablecoins differ from most stablecoins in that these processes are included in the protocol and made accessible to everyone on the blockchain.
-* Rebase. Stablecoins that use rebase algorithms to maintain the peg alter the base supply. 
-* In proportion to the coin's price deviation from the peg (the price of the fiat currency it follows), the protocol mints (additionally adds) or burns (removes) supply from circulation. 
-* When the market price falls below the price of the fiat currency it follows, an algorithmic stablecoin system reduces the number of tokens in circulation. 
-* If the token's price exceeds the price of the fiat currency it follows, fresh tokens enter the circulation to reduce the stablecoin's value. 
-* Coins are minted into or destroyed from the wallets of coin holders. The number of these tokens a holder owns will fluctuate, but their wallet will always reflect the share because the quantity in circulation fluctuates frequently.
-* Seigniorage. Seigniorage algorithmic stablecoins employ a multi-coin system in which the price of one currency is designed to be stable and the price of at least one other coin is designed to promote that stability. 
-* Seigniorage methods often use a combination of protocol-based mint-and-burn processes and free market mechanisms to incentivize market participants to buy or sell non-stablecoins in order to drive the stablecoin's price closer to its peg. 
-* Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. 
-* Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. 
-* In the event that investors choose to sell-off their stablecoins, the protocol creates new price-floating tokens while the stablecoin supply fluctuates.
-* A third type, fractional-algorithmic stablecoins, is gaining popularity. 
-* Part seigniorage, part collateralized, fractional algorithmic stablecoins seek to hold their value by integrating the finest mechanisms from "pure" uncollateralized stablecoins and their collateralized equivalents. This model was pioneered by Frax Finance. 
-* DAI, FRAX, and Ampleforth are some of the well-known examples.
-- Pros
-  * No collateral is needed.
-  * Controlled by a public algorithm.
-- Cons
-  * You need to trust (or be able to read) the algorithm.
-  * Your balance of coins will change based on the total supply.
- 
- **Top Stablecoins by Market Capitalization**        
-![Top Stablecoins](https://github.com/DoDAO-io/dodao-defi-course/blob/56a02823bf722a12d42e2b981769677a6a01574d/images/top-stablecoins.png?raw=true)
-Reference: https://ethereum.org/en/stablecoins/
- 
- **Collapse of Stablecoins**        
-* Stable coins also possess many new risks and security challenges that need to be addressed and can lead to their collapse if left unchecked. 
-* These show up as three fundamental design issues that affect defi as a whole. 
-* First, is technical security, which pertains to atomic or almost immediate risks-free exploits of technical structure. 
-* Second, there is the issue of economic security, which entails the risky manipulation of market equilibrium over time. 
-* Thirdly, the issue of economic stability asks whether stable outcomes are genuinely produced by incentives when a protocol is secure. 
+ **Overview**        
+- Important terms
 
-- Terra Luna Crash
-  * The past meltdown of UST (an algorithmic stablecoin) highlighted the dangers of algorithmic stablecoins.
-  * Many retail investors, DAOs, and protocols experienced large losses, and the UST bubble brought down the whole crypto market.
-  * Stablecoins were hit by a larger crypto sell-off that occurred shortly after the US Federal Reserve boosted interest rates. 
-  * With rising economic uncertainty and greater inflation, investors switched their portfolios away from risky assets such as stablecoins and other cryptocurrencies. 
-  * Then Luna's meltdown and UST de-pegging pulled down the broader crypto markets.
-  * Terra, like Bitcoin and Ethereum, has its own blockchain. Its principal product is the UST, an algorithmic stablecoin tied to the dollar that is maintained by code, constant market activity, and conviction. 
-  * The theoretical support for UST's peg was also provided by its computational link to Terra's basic currency, Luna.
-  * Algorithmic stablecoins operate via an arbitrage-encouraging mechanism. It is essentially game theory. 
-  * People can purchase 1 UST, for instance, at 98 cents and receive $1 worth of Luna, making a 2-cent profit. They can exchange $1 Luna for $1 UST and make a profit of 2 cents if 1 UST is up to $1.02.
-  * The "value" of UST came from a lending platform called Anchor, which gave buyers of UST who lent it to the protocol a 19.5 percent yield. 
-  * In addition, Terra had other defenses in place to protect its peg, such as a backup of billions of dollars worth of Bitcoin.
-  * What transpired, then? a downward spiral. According to some experts, wealthy investors short-sold the Terra stablecoin in an effort to attack it. 
-  * They borrowed large amounts of Bitcoin in order to purchase UST with the goal of making enormous profits when the value of UST fell after selling all of their Bitcoin to the market to cause a larger panic. 
-  * Because of this, UST's peg to the dollar was broken, which resulted to a bank run as investors who had earned interest through Anchor rushed to cash out before the connected token Luna also plummeted.
+  Credit score - It is the score determined by banking activities like repayment of loans, length of credit history, etc.
+
+  Collateral - It is an asset that is locked to borrow loans.
+
+  Smart contracts - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
+
+  Leverage - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
+
+  Oracles - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.
+
+  Loan to value - It is a ratio that tells how much of a loan can be borrowed against the collateral.
+
+  Over collateralization - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
+
+- Lending and borrowing basics
+  * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
+  * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. 
+
+- Use cases of Lending and Borrowing 
+
+  * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
+  * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
  
- **What's next for Stable Coins?**        
-* Despite the recent downturn in the markets, stablecoins are still a promising, relatively low-risk, and legitimate way to gain cryptocurrency exposure.
-* The dangers of a complete crash, such as in the case of UST, are diminished while the capital efficiency continues to be higher than for stablecoins that are only backed by cash and cryptocurrency. 
-* The hybrid-backed stablecoin FRAX from Frax Finance is an illustration of this.
-* As stablecoin payment infrastructure spreads across continents and many governments have already started working toward some kind of regulation.
-- Regulations ahead
-  * Regulation and central bank digital currencies will have a significant impact on the stablecoin landscape.
-  * US legislators consider measures to regulate the cryptocurrency market. 
-  * A hard cap on the daily activity of huge stablecoins is something that the European Commission is considering doing across the pond.
-  * Stablecoins require regulation as they are "backed by assets that may lose value or become illiquid during stress" and are "susceptible to runs," according to research by the US Federal Reserve.
-  * It is believed that CBDCs (Central Bank Digital Currencies) will close the stablecoin market's gap. 
-  * CBDCs will be completely convertible to other kinds of legal tender currency, unlike stablecoins, which will not have the same status as central bank money.
-  * The majority of stablecoins are now issued by private enterprises, but this will change as central banks issue their own, known as CBDCs (central bank digital currencies).
-  * In March 2022, US President Biden signed an executive order establishing a framework for regulators to follow in establishing a Federal Reserve (Fed) CBDC.
-  * The European Central Bank has stated that smart contracts will almost certainly be incorporated into a digital euro. Since 2020, the Bank of England has been working with HM Treasury to develop a sterling CBDC.
-  * It is expected that the first sterling CBDC will appear in the middle of this decade.
-  * Many countries are currently conducting research. In an ideal world, CBDCs would be able to communicate with one another. 
-  * The Bank of International Settlements is currently testing this on a shared platform with four central banks. 
-  * It is worth mentioning that, similar to how the Eurodollar banking system works, an offshore commercially-issued USD stablecoin can exist regardless of what US regulators decide.
-  * Eurodollar deposits are denominated in dollars and are not regulated in the United States.
+ **Lending and borrowing in TradFi**        
+- Lending and Borrowing in TradFi 
+
+  * Traditional Finance work based on trust, users or customers must trust these institutions to lend and borrow assets. 
+  * Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. 
+  * The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. 
+  * Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.
+
+- Disadvantages of Lending and Borrowing in TradFi 
+
+  **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.
+
+  **Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. 
+
+  **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.
+ 
+ **Lending and borrowing in DeFi**        
+- Lending and Borrowing in DeFi 
+  * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
+  * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
+  * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
+
+- Benefits of DeFi Lending and Borrowing
+  1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
+  2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
+  3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
+                         
+ 
+ **Managing risks**        
+- Volatility Risk 
+  
+  Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
+  so users must consider the volatility of the assets before lending or borrowing. 
+  
+  * Collateral Liquidation
+    Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
+    The volatility of assets is also a factor that leads to collateral liquidation.
+  
+  DeFi tackles these issues by considering several factors. The important two factors are
+  1. Loan To Value
+  2. Healthfactor
+  Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
+  at risk of being liquidated due to insufficient collateral. 
+
+- Protocol Risk 
+  DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+  
+  * Smart contract risk
+    These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
+  
+  * Oracle risks
+    These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
+    Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
+       
+       
  
  
