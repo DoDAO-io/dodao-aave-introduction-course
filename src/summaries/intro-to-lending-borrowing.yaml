@@ -3,13 +3,12 @@
   key: why-do-we-lending-borrowing
   details: |
     - Important terms
+
       Credit score - It is the score determined by banking activities like repayment of loans, length of credit history, etc.
 
       Collateral - It is an asset that is locked to borrow loans.
 
       Smart contracts - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
-
-      ROI - Return on investment is the total value of the investment, which includes the initial amount, profits, and losses.
 
       Leverage - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
 
@@ -20,14 +19,13 @@
       Over collateralization - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
 
     - Lending and borrowing basics
-      * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. The person or organization that lends the money is called the lender.
-      * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. The person or organization who borrows the money under an agreement to pay it back is called a borrower. 
+      * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
+      * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. 
 
     - Use cases of Lending and Borrowing 
 
       * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
-      * Borrowers take out loans to increase the capital for their businesses, startups, etc. Borrowers leverage their investments by investing in vehicles like the stock market, mutual funds, bonds, etc to amplify their returns. 
-        Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+      * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
 
 - title: Lending and borrowing in TradFi
   shortTitle: Lending and Borrowing
@@ -39,16 +37,14 @@
       * Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. 
       * The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. 
       * Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.
-      * The interest is fixed for lenders, and therefore, the returns are guaranteed.
 
     - Disadvantages of Lending and Borrowing in TradFi 
 
-      **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Transactions are monitored. Traditional finance has the right to censorship hence they can ban 
-      specific people if they want.
+      **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.
 
       **Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. 
 
-      **Capital and system inefficiency:** The interest rates are less for lenders and high for borrowers. Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent as they have numerous blind spots.
+      **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.
 
 - title: Lending and borrowing in DeFi
   shortTitle: Lending-Borrowing-DeFi
@@ -58,28 +54,26 @@
       * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
       * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
       * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
-      * DeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security.
-      * The amount of collateral must follow the protocol's over-collateralization limit. 
-      * Flash loans are loans that can be obtained instantly and without any collateral.
-      * Most DeFi protocols are governed by their native token holders.
 
     - Benefits of DeFi Lending and Borrowing
       1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
       2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
       3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
-                              Most of the interest from borrowers goes to lenders.
+                             
 
 - title: Managing risks
   shortTitle: Managing-Risks
   key: managing-risks
   details: |
-     
     - Volatility Risk 
-      Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. 
-      However, users can lend and borrow stablecoins to neglect this risk.
+      
+      Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
+      so users must consider the volatility of the assets before lending or borrowing. 
+      
       * Collateral Liquidation
         Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-        The values will differ for different DeFi's. The volatility of assets is also a factor that leads to collateral liquidation.
+        The volatility of assets is also a factor that leads to collateral liquidation.
+      
       DeFi tackles these issues by considering several factors. The important two factors are
       1. Loan To Value
       2. Healthfactor
@@ -88,11 +82,12 @@
     
     - Protocol Risk 
       DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+      
       * Smart contract risk
-        These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. These risks are mitigated by rigorous code audits.
+        These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
+      
       * Oracle risks
         These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
-        Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world cause considerable losses to the protocol.  
-        DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high quality nodes or data providers in order to ensure security and high quality data.
+        Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
            
            
