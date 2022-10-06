@@ -109,8 +109,7 @@ anyone can view and analyze their core smart contracts. Most of the interest fro
 Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. 
 However, users can lend and borrow stablecoins to neglect this risk.
 
-* Collateral Liquidation
-
+#### Collateral Liquidation
 Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. 
 The values will differ for different DeFi’s. The volatility of assets is also a factor that leads to collateral liquidation.
 
@@ -126,11 +125,11 @@ of a position in Aave approaches one, the position is in danger of being liquida
 ### Protocol Risk
 DeFi‘s are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
 
-* Smart contract risk
+#### Smart contract risk
 These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. 
 These risks are mitigated by rigorous code audits.
 
-* Oracle risks
+### Oracle risks
 These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data 
 like price feed, total supply, etc. Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world 
 cause considerable losses to the protocol.  DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high

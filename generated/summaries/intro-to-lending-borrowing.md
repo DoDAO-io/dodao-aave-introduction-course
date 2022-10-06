@@ -6,28 +6,34 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Intro to Lending and Borrowing in DeFi
  
  **Overview**        
-- Important terms
+### Important terms
 
-  Credit score - It is the score determined by banking activities like repayment of loans, length of credit history, etc.
+#### Credit score 
+It is the score determined by banking activities like repayment of loans, length of credit history, etc.
 
-  Collateral - It is an asset that is locked to borrow loans.
+#### Collateral
+It is an asset that is locked to borrow loans.
 
-  Smart contracts - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
+#### Smart contracts
+These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
 
-  Leverage - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
+#### Leverage 
+In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
 
-  Oracles - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.
+#### Oracles 
+These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.
 
-  Loan to value - It is a ratio that tells how much of a loan can be borrowed against the collateral.
+#### Loan to value 
+It is a ratio that tells how much of a loan can be borrowed against the collateral.
 
-  Over collateralization - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
+#### Over collateralization 
+Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
 
-- Lending and borrowing basics
+### Lending and borrowing basics
   * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
   * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. 
 
-- Use cases of Lending and Borrowing 
-
+### Use cases of Lending and Borrowing 
   * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
   * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
  
@@ -60,28 +66,28 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
                          
  
  **Managing risks**        
-- Volatility Risk 
+### Volatility Risk 
   
-  Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
-  so users must consider the volatility of the assets before lending or borrowing. 
+Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
+so users must consider the volatility of the assets before lending or borrowing. 
   
-  * Collateral Liquidation
-    Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-    The volatility of assets is also a factor that leads to collateral liquidation.
+#### Collateral Liquidation
+Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
+The volatility of assets is also a factor that leads to collateral liquidation.
   
-  DeFi tackles these issues by considering several factors. The important two factors are
+DeFi tackles these issues by considering several factors. The important two factors are
   1. Loan To Value
   2. Healthfactor
-  Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
-  at risk of being liquidated due to insufficient collateral. 
+Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
+at risk of being liquidated due to insufficient collateral. 
 
-- Protocol Risk 
-  DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+### Protocol Risk 
+DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
   
-  * Smart contract risk
+#### Smart contract risk
     These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
   
-  * Oracle risks
+#### Oracle risks
     These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
     Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
        
