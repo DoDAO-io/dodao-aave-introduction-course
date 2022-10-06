@@ -1,4 +1,4 @@
-- uuid: 4147cd1d-7af0-4a4e-ad79-f660d019d14e
+- uuid: 357968af-952a-46dd-8862-d16c551601a8
   title: Introduction to Decentralised Finance
   shortTitle: Intro to DeFi
   type: YoutubeVideo
@@ -11,3 +11,17 @@
       * DeFi components    
       * DEXs
       * DeFi advantages
+
+- uuid: adc702b9-3417-47cf-ae0d-549194e7acf8
+  title: DeFi introduction and use cases
+  shortTitle: DeFi intro and use cases
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=btB__oHQ0sU
+  subTopics:
+    - why-do-we-need-defi
+  details: |
+    This video enables learners to know about
+      * DeFi ecosystem
+      * DeFi components    
+      * Margin trading, oracles, AMMs etc.,
+      * DeFi advantages and risks
