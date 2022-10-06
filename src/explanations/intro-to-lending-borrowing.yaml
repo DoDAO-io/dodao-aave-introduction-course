@@ -4,24 +4,24 @@
   details: |
     ## Important Terms
 
-    Credit score - It is the score determined by banking activities like repayment of loans, length of credit history, etc.
+    **Credit score** - It is the score determined by banking activities like repayment of loans, length of credit history, etc.
 
-    Collateral - It is an asset that is locked to borrow loans.
+    **Collateral** - It is an asset that is locked to borrow loans.
 
-    Smart contracts - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
+    **Smart contracts** - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.
 
-    ROI - Return on investment is the total value of the investment, which includes the initial amount, profits, and losses.
+    **ROI** - Return on investment is the total value of the investment, which includes the initial amount, profits, and losses.
 
-    Leverage - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
+    **Leverage** - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. 
 
-    EMI - An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. 
+    **EMI** - An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. 
     Equated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. 
 
-    Oracles - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.
+    **Oracles** - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.
 
-    Loan to value - It is a ratio that tells how much of a loan can be borrowed against the collateral.
+    **Loan to value** - It is a ratio that tells how much of a loan can be borrowed against the collateral.
 
-    Over collateralization - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
+    **Over collateralization** - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
 
     ## Intro to Lending and Borrowing 
 
@@ -65,12 +65,12 @@
     The governance is controlled by major shareholders or higher authorities of the bank.
 
 
-    ### Disadvantages of Lending and Borrowing in TradFi {#disadvantages-of-lending-and-borrowing-in-tradfi}
+    ### Disadvantages of Lending and Borrowing in TradFi 
 
     **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. The customer must complete their KYC for lending and borrowing. Transactions are monitored. 
     Traditional finance has the right to censorship hence they can ban specific people if they want. Traditional finances are prone to mismanagement and fraud.
 
-    **Complexity and user experience: **The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. 
+    **Complexity and user experience:** The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. 
     Transaction limits are imposed on users, which gives a bad user experience. The users are required to maintain a minimum balance to avoid charges. 
 
     **Capital and system inefficiency:** The interest rates are less for lenders and high for borrowers. Traditional finance takes most of the profits from the borrowers. This makes the lenders' capital inefficient. 
@@ -85,13 +85,13 @@
     Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
     Users can lend their money without limits similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained. 
     Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. This makes the protocol capital efficient. 
-    The possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi’s are almost instant. Maintenance of minimum balance isn’t necessary in the case of DeFi.
+    The possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi's are almost instant. Maintenance of minimum balance isn't necessary in the case of DeFi.
 
     DeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security. The amount of collateral must be 
     more than the amount borrowed, and it should follow the protocol's over-collateralization limit. Flash loans are loans that can be obtained instantly and without any collateral. 
     Flash loans can be borrowed by using smart contracts and available for only specific protocols like Aave and Uniswap. 
 
-    Most DeFi protocols are governed by their native token holders. Hence every change to the protocol will be done by the token holders. DeFi’s are built on smart contracts 
+    Most DeFi protocols are governed by their native token holders. Hence every change to the protocol will be done by the token holders. DeFi's are built on smart contracts 
     hence anyone can view and analyze the protocol.
 
 
@@ -100,8 +100,8 @@
     Benefits of DeFi Lending and Borrowing
 
     1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
-    2. **Universal**- DeFi’s are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
-    3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,
+    2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
+    3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent,
     anyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. 
 
 - title: Explain Risks and how they are mitigated
@@ -115,10 +115,9 @@
     Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. 
     However, users can lend and borrow stablecoins to neglect this risk.
 
-    * Collateral Liquidation
-
+    #### Collateral Liquidation
     Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-    The values will differ for different DeFi’s. The volatility of assets is also a factor that leads to collateral liquidation.
+    The values will differ for different DeFi's. The volatility of assets is also a factor that leads to collateral liquidation.
 
     DeFi tackles these issues by considering several factors. The important two factors are
     1. Loan To Value
@@ -130,7 +129,7 @@
     of a position in Aave approaches one, the position is in danger of being liquidated.
 
     ### Protocol Risk
-    DeFi‘s are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+    DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
 
     * Smart contract risk
     These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. 

@@ -1,4 +1,4 @@
-- uuid: d14aecb8-1bb0-4e03-acf2-a44d30a9ddd6
+- uuid: 68d9898f-4838-4218-9356-dba391a63fdd
   type: SingleChoice
   content: What is collateral and over collateralization?
   hint: Collateral and over-collateralization
@@ -6,12 +6,12 @@
   answerKeys:
     - C
   subTopics:
-    - lending-borrowing-intro
+    - why-do-we-lending-borrowing
   difficultyLevel: Low
   choices:
     - content: Collateral is returns on lent assets.
       key: A
-    - content: collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.
+    - content: Collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.
       key: B
     - content: Collateral is a security locked by borrower and locking collateral at a higher value than the borrowed amount is called over-collateralization.
       key: C
@@ -28,7 +28,7 @@
     - C
     - D
   subTopics:
-    - lending-borrowing-intro
+    - why-do-we-lending-borrowing
   difficultyLevel: Low
   choices:
     - content: Lending increases the capital of lenders.
@@ -37,7 +37,7 @@
       key: B
     - content: Borrowers leverage their investments by investing in investment vehicles like the stock market to amplify the returns.                
       key: C
-    - content: borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+    - content: Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
       key: D
 - uuid: a4ea1fb0-f2dd-4fba-b3b3-75e57164010c
   type: SingleChoice
@@ -47,7 +47,7 @@
   answerKeys:
     - B
   subTopics:
-    - lending-borrowing-intro
+    - why-do-we-lending-borrowing
   difficultyLevel: Low
   choices:
     - content: Leveraging
@@ -67,12 +67,12 @@
   answerKeys:
     - B
   subTopics:
-    - lending-borrowing-intro
+    - why-do-we-lending-borrowing
   difficultyLevel: Medium
   choices:
-    - content: blockchains are get real world data from internet
+    - content: Blockchains are get real world data from internet
       key: A
-    - content: through oracles
+    - content: Through oracles
       key: B
     - content: They cant get real world data
       key: C
@@ -82,13 +82,13 @@
   type: MultipleChoice
   content: Which of the following are correct about traditional finance?
   hint: NoHint
-  explanation: 
+  explanation: TradFi are centralized,simple and less riskier when compared to others. Traditional Finances takes most of the interest from borrowers.
   answerKeys:
     - A
     - B
     - D
   subTopics:
-    - TradFi
+    - lending-borrowing-tradFi
   difficultyLevel: Low
   choices:
     - content: Traditional finances are centralized.
@@ -99,27 +99,6 @@
       key: C
     - content: Traditional Finances are simple and less riskier.
       key: D
-
-- uuid: de5ff61a-c167-431f-84e3-ef192ddd2bb7
-  type: SingleChoice
-  content: Why interest rates for borrowers are very high when compared to lenders in TradFi?
-  hint: TradFi takes most of the profit from borrowers
-  explanation: Banks takes most of the profits from the borrowers hence the interest rate for borrowers are very high when compared to lenders.
-  answerKeys:
-    - A
-  subTopics:
-    - TradFi
-  difficultyLevel: Medium
-  choices:
-    - content: Banks or TradFi makes profit from the difference of interest rates. 
-      key: A
-    - content: No specific reasons
-      key: B
-    - content: The borrowers gets favoured.
-      key: C
-    - content: The lenders gets favoured.
-      key: D
-
 - uuid: cc996d05-b62d-43b0-8eaf-a23d7d9d873d
   type: MultipleChoice
   content: What are the challenges to privacy in TradFi?
@@ -129,7 +108,7 @@
     - B
     - C
   subTopics:
-    - types
+    - lending-borrowing-tradFi
   difficultyLevel: Medium
   choices:
     - content: Banks check and collect the data from all the legal documents of an user for opening account.
@@ -138,7 +117,7 @@
       key: B
     - content: Transactions are monitored in TradFi.
       key: C
-    - content: No personal data is required for lending and borrowing in Defi.
+    - content: No personal data is required for lending and borrowing in DeFi.
       key: D
 
 - uuid: 46633903-58f6-411b-84b9-6cba1a9f8009
@@ -151,14 +130,14 @@
     - B
     - C
   subTopics:
-    - types
+    - lending-borrowing-tradFi
   difficultyLevel: Medium
   choices:
     - content: Traditional Finances allow censorship.
       key: A
     - content: Traditional Finances are not transparent.
       key: B
-    - content: Traditional Finances are simple and less risky when comapared to others.
+    - content: Traditional Finances are simple and less risky when compared to others.
       key: C
     - content: None of these
       key: D
@@ -166,14 +145,14 @@
   type: SingleChoice
   content: How users assets are secured by DeFi?
   hint: NoHint
-  explanation: explanation
+  explanation: Assets are secured by blockchain and smart-contracts.
   answerKeys:
     - B
   subTopics:
-    - types
+    - lending-borrowing-DeFi
   difficultyLevel: Medium
   choices:
-    - content: Assets are controlled by world bank.
+    - content: Assets are controlled by Swiss bank.
       key: A
     - content: Assets are secured by blockchain and smart-contracts.
       key: B
@@ -185,22 +164,22 @@
 - uuid: 2f2a8ecb-0743-470e-b63f-ba655b8c2e76
   type: MultipleChoice
   content: Which of the following is(are) correct about interest and interest rates in DeFi?
-  hint: interest rates in DeFi
-  explanation: Interest rates vary for dofferent assets in DeFi. Most of the interest from the borrowers goes to lenders.
+  hint: Interest rates in DeFi
+  explanation: Interest rates vary for different assets in DeFi. Most of the interest from the borrowers goes to lenders.
   answerKeys:
     - B
     - D
   subTopics:
-    - types
+    - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
     - content: Interest rates are constant for every assets.
       key: A
-    - content: Interest rates vary for dofferent assets in DeFi.
+    - content: Interest rates vary for different assets in DeFi.
       key: B
     - content: DeFi's takes most of the interest from the borrowers.
       key: C
-    - content: Most of the interest from the borrowers goes to the lenders
+    - content: Most of the interest from the borrowers goes to the lenders.
       key: D
 
 - uuid: a4bda467-20d1-4744-8b72-dea7060a05e0
@@ -211,10 +190,10 @@
   answerKeys:
     - A
   subTopics:
-    - DeFi
+    - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
-    - content:  Most of the DeFi's are governed by native token holders of the protocol.
+    - content: Most of the DeFi's are governed by native token holders of the protocol.
       key: A
     - content: DeFi's are governed by the artificial intelligence.
       key: B
@@ -224,7 +203,7 @@
       key: D
 - uuid: 2e2c3904-31ee-4c74-85ab-6fecf5ef92f2
   type: MultipleChoice
-  content: What are the advantages of DeFi's?
+  content: What is(are) the advantages of DeFi's?
   hint: NoHint
   explanation: DeFi's are resistant to censorship, transparent and efficient. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
   answerKeys:
@@ -232,7 +211,7 @@
     - C
     - D
   subTopics:
-    - DeFi
+    - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
     - content: DeFi's are resistant to censorship.
@@ -241,19 +220,19 @@
       key: B
     - content: DeFi's are efficient as everything is automated by smart-contracts.
       key: C
-    - content: DeFi's are transparent. No hidden fees are involved in DeFi.
+    - content: DeFi's are transparent hence no hidden fees are involved in DeFi.
       key: D
 - uuid: 703957f8-e6cd-4a80-aa56-8ced9531e741
   type: MultipleChoice
   content: How DeFi's are efficient?
-  hint: decentralized and smart-contracts.
-  explanation: DeFi's are decentralized entities using smart-contracts as their backend they automated everything. Since DeFi's are running on blockchain the possibility of server down is very low.
+  hint: Decentralized and smart-contracts.
+  explanation: DeFi's are decentralized entities using smart-contracts as their backend. Since DeFi's are running on blockchain the possibility of server down is very low.
   answerKeys:
     - A
     - B
     - C
   subTopics:
-    - DeFi
+    - lending-borrowing-DeFi
   difficultyLevel: Medium
   choices:
     - content: Defi's automate the protocol using smart-contracts.
@@ -269,31 +248,31 @@
   type: SingleChoice
   content: What are Flashloans?
   hint: Flashloans are explained in lending in DeFi.
-  explanation: Flashloans are loans which can be borrowed instantly without any collateral by usimg smart-contracts but with certain conditions.
+  explanation: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts but with certain conditions.
   answerKeys:
     - C
   subTopics:
-    - Flash-Loans
+    - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
     - content: It is a normal loan which can be borrowed in TradFi with low interest rates. 
       key: A
-    - content: It is the loans with high collateral as security.
+    - content: It is a loan which is borrowed more than locked collateral.
       key: B
-    - content: Flashloans are loans which can be borrowed instantly without any collateral by usimg smart-contracts.
+    - content: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts.
       key: C
     - content: It is an alternate name of an ordinary loan in DeFi's.
       key: D
 - uuid: 9f71eb33-933e-45a4-815b-31c27a5ae8bb
   type: MultipleChoice
-  content: What are the DeFi protocols which offers Flash-Loans?
+  content: What is(are) the DeFi protocols which offers Flash-Loans?
   hint: NoHint
-  explanation: Aave and Uniswap.
+  explanation: Aave and Uniswap
   answerKeys:
     - B
     - C
   subTopics:
-    - DeFi
+    - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
     - content: Bank of America
@@ -306,120 +285,120 @@
       key: D
 - uuid: 3ac4e9c7-07fe-4f8d-a3e8-5054e104bda9
   type: MultipleChoice
-  content: What are the risks involved in DeFi's?
+  content: What is(are) the risks involved in DeFi's?
   hint: Risks in DeFi's
-  explanation: 
+  explanation: Volatality risks, smart-contract risks and oracle risks.
   answerKeys:
     - A
     - B
     - D
   subTopics:
-    - Risks-DeFi
+    - managing-risks
   difficultyLevel: Low
   choices:
     - content: Volatility risk
       key: A
     - content: Smart-contract risk
       key: B
-    - content: risks are not involved in DeFi
+    - content: Risks are not involved in DeFi
       key: C
     - content: Oracle risk
       key: D
 - uuid: 2c542310-7b78-4ab8-9a44-66ceddd1c829
   type: MultipleChoice
-  content: Which of the following can lead to volatality of assets?
+  content: What are the two important factors for mitigation of Collateral liquidation risk?
   hint: NoHint
-  explanation: 
+  explanation: DeFi tackles this issues by considering two factors Loan to value and health factor.
   answerKeys:
-    - A
     - B
+    - D
   subTopics:
-    - crypto-backed
+    - managing-risks
   difficultyLevel: Low
   choices:
-    - content: These stablecoins are often generated using decentralized protocols to issue and redeem the tokens
+    - content: Utilization rate
       key: A
-    - content: In order to produce or mint new stablecoins, digital assets are locked as collateral in smart contracts
+    - content: Loan-to-value(LTV)
       key: B
-    - content: They are basically an IOU (I owe you) for a traditional fiat currency, usually dollars.
+    - content: Market cap
       key: C
-    - content: None of the above
+    - content: Healthfactor
       key: D
 - uuid: bc34e1fd-dcac-4a72-93ac-33e494c99e22
   type: SingleChoice
-  content: Which of the following is a crypto-backed stablecoin?
-  hint: Others are fiat-backed
-  explanation: DAI and FRAX are two excellent examples of crypto-backed stablecoins
+  content: What is collateral liquidation?
+  hint: Collateral liquidation
+  explanation: Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.
   answerKeys:
-    - D
+    - C
   subTopics:
-    - crypto-backed
+    - managing-risks
   difficultyLevel: Low
   choices:
-    - content: USDT
+    - content: It is the process of gaining interest for locked collateral by borrowers.
       key: A
-    - content: BUSD
+    - content: It is the process of borrowing Flash-Loans.
       key: B
-    - content: USDC
+    - content: It is the forced sale of pledged collateral by the borrower to repay a loan.
       key: C
-    - content: FRAX
+    - content: None of these
       key: D
 - uuid: 61eddda0-ce75-4b0a-b415-37482ff79983
   type: SingleChoice
-  content: Which strategy is used to handle the fluctuations of underlying crypto in crypto-backed stablecoins?
+  content: When collateral liquidation occurs?
   hint: NoHint
-  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible.
+  explanation: It occurs when health factor approaches to one.
   answerKeys:
     - B
   subTopics:
-    - crypto-backed
+    - managing-risks
   difficultyLevel: Medium
   choices:
-    - content: Undercollateralization
+    - content: It occurs when health factor equals to zero.
       key: A
-    - content: Overcollateralization
+    - content: It occurs when Healthfactor approaches to 1.
       key: B
-    - content: Decentralization
+    - content: It occurs when a lender withraws.
       key: C
-    - content: Centralization
+    - content: It occurs at the time of borrowing loans.
       key: D
-- uuid: 83c56a16-d927-44ad-9737-61b50eaee03e
+- uuid: 5ad62e0e-5388-4cd2-9b8e-1da8ff3ff383
   type: SingleChoice
-  content: Suppose a stablecoin with a crypto asset backing is around $1. What would be the value of underlying asset?
-  hint: Overcollateralization
-  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2.
+  content: Assume that ETH has LTV of 50% and DAI has 70% which one is more volatile?
+  hint: NoHint
+  explanation: Higher LTV implies highly stable hence ETH is more volatile than DAI.
   answerKeys:
     - D
   subTopics:
-    - crypto-backed
+    - managing-risks
   difficultyLevel: Medium
   choices:
-    - content: $1
+    - content: both are equally volatile
       key: A
-    - content: $0.1
+    - content: ETH
       key: B
-    - content: $0.01
+    - content: DAI
       key: C
-    - content: $2
+    - content: None of these
       key: D
 - uuid: e989640a-aee4-4a34-9dea-5299a73485c5
   type: SingleChoice
-  content: If crypto prices fall, what should be done to ensure the stability crypto-backed stablecoin?
+  content: How oracle risks are mitigated by DeFi's?
   hint: NoHint
-  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. Therefore, if crypto prices fall, more crypto must be used to back the stablecoin, otherwise, the stablecoins' value would decrease.
+  explanation: They are mitigated by decentralized oracle networks like chainlink.
   answerKeys:
     - B
   subTopics:
-    - crypto-backed
+    - managing-risks
   difficultyLevel: Low
   choices:
-    - content: Less crypto must be used to back the stablecoin
+    - content: They are mitigated by centralized servers.
       key: A
-    - content: More crypto must be used to back the stablecoin
+    - content: They are mitigated by decentralized oracle networks like chainlink.
       key: B
-    - content: Crypto amount used to back the stablecoin should remain same
+    - content: They are mitigated by rigorous code audits.
       key: C
-    - content: Crypto amount used to back the stablecoin should be halfed
+    - content: None of These.
       key: D
       
-      # #######################################################
+    
