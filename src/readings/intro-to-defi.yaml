@@ -4,7 +4,7 @@
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=btB__oHQ0sU
   subTopics:
-    - why-do-we-need-defi
+    - what-is-defi-and-why-do-we-need-it
   details: |
     This video enables learners to know about
       * Centralised banking system
@@ -18,7 +18,7 @@
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=btB__oHQ0sU
   subTopics:
-    - why-do-we-need-defi
+    - how-defi-works-and-its-use-cases
   details: |
     This video enables learners to know about
       * DeFi ecosystem

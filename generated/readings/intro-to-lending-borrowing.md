@@ -16,5 +16,5 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * DeFi advantages
     
  
- Sub Topics: why-do-we-need-defi    
+ Sub Topics: why-do-we-lending-borrowing    
  

@@ -2,7 +2,7 @@
   shortTitle: What is DeFi
   key: what-is-defi
   details: |
-  #### What is DeFi?
+   #### What is DeFi?
    Decentralized finance, or "DeFi" for short, is the concept of a financial institution built on blockchain technology that is not controlled by a single entity. Instead, it is governed by a set of rules that can be modified by users. This allows for a more democratic approach to 
    banking, as there is no central point of power. A DeFi platform is different from traditional financial institutions because it doesn't have people working behind the scenes to run things - instead, it relies on code-based logic. These blocks of code are called smart contracts, 
    and they're deployed on the blockchain. One key feature of smart contracts is that the data they write on the chain is immutable, which means it can't be changed once the transactions are settled. 
@@ -13,7 +13,7 @@
   shortTitle: Why DeFi
   key: why-do-we-need-defi
   details: |
-  #### Why do we need DeFi?
+   #### Why do we need DeFi?
    Banks have been around for a very long time, but the rate of innovation in the banking sector is quite slow. In the past decade, 
    many things have changed, including:
 

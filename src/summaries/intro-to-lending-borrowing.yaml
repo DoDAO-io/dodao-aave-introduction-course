@@ -35,7 +35,7 @@
 
 - title: Lending and borrowing in TradFi
   shortTitle: "Trad: Lend & Borrow"
-  key: lending-borrowing-tradFi
+  key: lending-borrowing-tradfi
   details: |
     - Lending and Borrowing in TradFi 
 
@@ -54,7 +54,7 @@
 
 - title: Lending and borrowing in DeFi
   shortTitle: "DeFi: Lend & Borrow"
-  key: lending-borrowing-DeFi
+  key: lending-borrowing-defi
   details: |
     - Lending and Borrowing in DeFi 
       * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 

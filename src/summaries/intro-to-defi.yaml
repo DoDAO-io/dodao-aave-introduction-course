@@ -1,5 +1,5 @@
 - title: What is DeFi and why do we need it?
-  shortTitle: What is DeFi, why do we need it
+  shortTitle: "DeFi: What & Why"
   key: what-is-defi-and-why-do-we-need-it
   details: |
    #### What is DeFi:
@@ -58,7 +58,7 @@
 
 
 - title: How DeFi works and its use cases
-  shortTitle: Defi working and use cases
+  shortTitle: DeFi Use Cases
   key: how-defi-works-and-its-use-cases
   details: |
    * DeFi protocols are run on the blockchain, so it is important to understand blockchain first.

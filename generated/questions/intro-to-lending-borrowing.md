@@ -19,5 +19,5 @@ Hint: Purpose of DeFi in the current scenario
          
 Explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
 
-Sub Topics: why-do-we-need-defi
+Sub Topics: why-do-we-lending-borrowing
  
