@@ -25,7 +25,7 @@
    Banks work on a credit-based system, which means that they need to be confident that you will repay your loan in full. To get a loan from a bank, you will need to have a good credit score and/or provide collateral in case you default on the loan. 
    This puts people who are on the margins or are just getting started at a disadvantage because they are left out of the current financial system.
    
-   **Profit margins:**
+   **Interest Rates:**
    Banks profit by charging a higher interest rate to borrowers than they offer to lenders. This can lead to a situation where the rich lend to the rich, which promotes circulation of assets within one part of society and can worsen economic conditions.
    
    **Transparency and inefficiency:**
@@ -58,8 +58,7 @@
    2. A hash (An encoded string of characters) uniquely generated with respect to the data it contains  
    3. The hash of the previous blockchain. 
    
-   Since the hash of a block depends on its data, it changes if the data in the block is tampered with. If the hash is changed, then it invalidates the rest of the blockchain. 
-   Since the hashing information on the next blockchain about the changed blockchain will be wrong. 
+   Since the hash of a block depends on its data, it changes if the data in the block is tampered with. Since the hashing information on the next blockchain about the changed blockchain will be wrong if the hash is changed, the rest of the blockchain is invalidated on tampering with one block. 
    This way it is hard to tamper with the data in a blockchain since it would mean all the blocks coming after should also be changed.
    Various technologies like cryptocurrencies, NFTs, and our topic of discussion, DeFi protocols are all built on top of blockchains and this is why, the DeFi protocols are a safer, 
    more transparent and a secure way of finance. Now that we have seen what a blockchain is, let us look at some of the use cases of DeFi.
@@ -84,9 +83,7 @@
    authorization or the listing of currencies. The user has complete control of their wallet for the whole duration, unlike most central exchanges, where they act as custodians for the user's private keys.
    There are different types of DEX, notably AMM (Automated market maker), DEX aggregators (liquidity aggregators), and Order Book DEX.
    In short, 
-   
-   
-   
+
    * AMMs work on the concept of liquidity pools, where people provide liquidity for given currency pairs (equal values of both currencies) and get incentivized. Users can make use of these pools to exchange currencies. 
    * DEX Aggregators allow users to get the best exchange rates by simultaneously interacting with multiple liquidity pools. It is worth noting that all types of exchanges usually suffer from a lack of liquidity, especially for large-scale transactions. 
      DEX aggregators help solve the problem partially by allowing the user to exchange from a larger scale of pools.
