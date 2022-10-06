@@ -1,0 +1,376 @@
+- uuid: 6b07cc4f-9954-48b3-8533-db8a9107ea07
+  type: SingleChoice
+  content: What is the main purpose of DeFi?
+  hint: Purpose of DeFi in the current scenario
+  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  answerKeys:
+    - B
+  subTopics:
+    - why-do-we-need-defi
+  difficultyLevel: "Low"
+  choices:
+    - content: Provide banking facilties only to high worth individuals
+      key: A
+    - content: Providing financial solutions on blockchain
+      key: B
+    - content: Trade and earn more using cryptocurrency
+      key: C
+    - content: Encourage money laundering.
+      key: D
+- uuid: 41e017dd-a7d7-4ed3-a9b8-97dc33449afc
+  type: MultipleChoice
+  content: What can be possible use cases for DeFi?
+  hint: The use cases of DeFi
+  explanation: DeFi is used for storing asset on blockchain, for lending and borrowing assets, tokenization and asset exchange
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: For storing value on blockchain
+      key: A
+    - content: For Lending and borrowing assets
+      key: B
+    - content: For exchange of assets
+      key: C
+    - content: For Securing money in vaults
+      key: D
+- uuid: d8ca36fe-1b4d-4390-b05a-419d854a6100
+  type: SingleChoice
+  content: Which of these is an accurate description associated with TradFi
+  hint: Shortcomings of Traditional finance
+  explanation: Traditional finance is handled by a central body, lacks transparency, is inefficient and lacks innovation.
+  answerKeys:
+    - A
+  difficultyLevel: "Low"
+  choices:
+    - content: Controlled by an authority
+      key: A
+    - content: Open source
+      key: B
+    - content: Transparent system
+      key: C
+    - content: Fairly innovative
+      key: D
+- uuid: d091e037-c787-453d-82c8-6dcb1c5b01e2
+  type: MultipleChoice
+  content: What are some features of DeFi?
+  hint: Features of DeFi
+  explanation: DeFi ledger is immutable, transparent and highly efficient 
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - "introduction-to-decentralised-finance"
+  difficultyLevel: "Low"
+  choices:
+    - content: Limited Access
+      key: A
+    - content: Immutable
+      key: B
+    - content: Highly efficient
+      key: C
+    - content: Opaque
+      key: D      
+- uuid: e989accc-4817-4c06-8611-995d7d069114
+  type: SingleChoice
+  content: What do you understand by interoperability of DeFi?	
+  hint: Features of Decentralised Finance
+  explanation: Interoperability of DeFi refers to interconnection between various dapps in the DeFi ecosystem.
+  answerKeys:
+    - C
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: DeFi is accessible from anywhere.
+      key: A
+    - content: DeFi is free to use for everyone.
+      key: B
+    - content: DeFi applications are interconnected.
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 3aef2590-7787-4761-8a49-14d35c22ad88
+  type: SingleChoice
+  content: Centralised Finance operates on a transparent system.
+  hint: Disadvantages of Centralised system
+  explanation: Centralised finance hides its functioning and procedures from its users which creates confusion and many times hidden charges for them also.
+  answerKeys:
+    - B
+  subTopics:
+    - "centralised-vs-decentralised-finance"
+  difficultyLevel: "Low"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+- uuid: 8f04b67d-6729-4401-80e1-9dca376765db
+  type: MultipleChoice
+  content: How does DeFi help small scale businesses?
+  hint: DeFi has no hidden charges, and it does not depend on credibility.
+  explanation: In DeFi there are no charges for transactions, the fund transfer is fast and affordable and does not depend on credibility of borrower and allows flash loans to its users as well.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: No hidden charges
+      key: A
+    - content: Fast and affordable money transfer
+      key: B
+    - content: Flash Loans
+      key: C
+    - content: Easy money-making opportunity
+      key: D  
+- uuid: 924dd82c-e5f2-48d1-ad71-ff507e978c2d
+  type: MultipleChoice
+  content: Which of the following problems related to bank loans does DeFi solve?
+  hint: Benefits of DeFi over TradFi
+  explanation: TradFi requires a lot of collateral before the loan is granted and loans are granted only to potential borrowers with high net worth/ high credibility.
+  answerKeys:
+    - A
+    - C
+  difficultyLevel: "Medium"
+  choices:
+    - content: Unpaid Centralised loans lead to loss for banks
+      key: A
+    - content: Bank loans are easy to get
+      key: B
+    - content: Banks differentiate between potential borrowers
+      key: C
+    - content: Banks charge low-interest rates
+      key: D
+- uuid: 078e0e8c-4da2-4db9-87d9-7d70bced38cf
+  type: MultipleChoice
+  content: How can someone access the world of DeFi?
+  hint: NoHint
+  explanation: Decentralised Finance can be accessed using the internet, decentralised applications, and a blockchain address.
+  answerKeys:
+    - B
+    - C
+    - D
+  subTopics:
+    - "introduction-to-decentralised-finance"
+  difficultyLevel: "Low"
+  choices:
+    - content: Using Bank accounts
+      key: A
+    - content: Using Decentralised Applications
+      key: B
+    - content: Internet access
+      key: C
+    - content: Blockchain address
+      key: D
+- uuid: 89ed030b-7eb1-4054-8627-4124bf72641a
+  type: MultipleChoice
+  content: Money transfer using banks is cumbersome because?
+  hint: Diadvantages of TradFi
+  explanation: In CeFi funds transfer can take upto 2 days and these transactions need to be significant, micro ones are not allowed. Transfer charges are quite high.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "centralised-vs-decentralised-finance"
+  difficultyLevel: "Low"
+  choices:
+    - content: Fund transfer can take a long time
+      key: A
+    - content: Banks do not allow micro-transactions
+      key: B
+    - content: Bank levy charges on transactions
+      key: C
+    - content: None of these
+      key: D
+- uuid: 76ee573d-4190-405a-9712-f230cd2ec0e5
+  type: MultipleChoice
+  content: DeFi can replace which of the following traditional processes?
+  hint: Features of DeFi
+  explanation: DeFi can be used to conduct each of these listed processes efficiently and at cheaper rate compared to the traditional ways.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Money Transfers
+      key: A
+    - content: Lending and Borrowing
+      key: B
+    - content: Currency exchange
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 84196064-3dc8-4704-824a-a0d239a362c4
+  type: SingleChoice
+  content: What do Flash loans mean?
+  hint: Applications of Flash Loans
+  explanation: Flash loans are instant loan using smart contracts which is granted to anyone without any collateral.
+  answerKeys:
+    - D
+  difficultyLevel: "High"
+  choices:
+    - content: Slow loan processing without collateral.
+      key: A
+    - content: Instant loan processing with collateral
+      key: B
+    - content: Slow loan processing with collateral.
+      key: C
+    - content: Instant loan processing without collateral.
+      key: D
+- uuid: 43680d70-5e2d-4b55-9db4-ecc80e0246e2
+  type: SingleChoice
+  content: What makes DeFi technology so innovative?
+  hint: DeFi is available for all
+  explanation: DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.
+  answerKeys:
+    - C
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Low"
+  choices:
+    - content: DeFi is not easy to understand.
+      key: A
+    - content: Not many people know about it.
+      key: B
+    - content: It is open source and developers can fork it.
+      key: C
+    - content: It is a new technology.
+      key: D
+- uuid: 05055e62-514f-4b57-8b74-d0476e8c0057 
+  type: SingleChoice
+  content: What is an Automated Market Maker?
+  hint: Working of Decentralised Exchanges
+  explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
+  answerKeys:
+    - D
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: A protocol that automatically makes trades for a user
+      key: A
+    - content: A system that ensures there is always enough liquidity to make trades
+      key: B
+    - content: A code function that automatically lists new markets on an exchange
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 056a68b5-2b85-4017-b67d-8c85f6ee116f
+  type: SingleChoice
+  content: Which DeFi component is used for swapping and buying tokens?
+  hint: NoHint
+  explanation: In DeFi, swapping and buying tokens are the features offered by applications known as decentralised exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
+  answerKeys:
+    - B
+  difficultyLevel: "Low"
+  choices:
+    - content: Smart contracts
+      key: A
+    - content: Decentralised Exchanges
+      key: B
+    - content: Stablecoins
+      key: C
+    - content: One cannot lend or borrow using DeFi
+      key: D
+- uuid: 9da26257-525b-41f4-8b23-b353364933ce
+  type: SingleChoice
+  content: How does the transparency of DeFi helps its consumers?
+  hint: Problems in TradFi solved by DeFi
+  explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus their are less chances of a fraud.
+  answerKeys:
+    - D
+  subTopics:
+    - "uses-of-decentralised-finance"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Better understanding of the protocol.
+      key: A
+    - content: No hidden charges.
+      key: B
+    - content: Less fraudulent.
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 68660361-6f13-45a2-851b-8430e15efb7a
+  type: MultipleChoice
+  content: Why traditional finance systems will get outdated?
+  hint: Disadvantges of centralised
+  explanation: TradFi is not open source thus developers cannot access it. Complete control lies on the hands of few authorites thus no one can interfere with the working.
+  answerKeys:
+    - B
+    - C
+  difficultyLevel: "Medium"
+  choices:
+    - content: People do not trust centralised finance.
+      key: A
+    - content: Developers are not allowed to build on top of them.
+      key: B
+    - content: Complete control lies in the hand of a few authorities.
+      key: C
+    - content: They will never get outdated.
+      key: D
+- uuid: 04933663-d2ce-41ce-92b6-2852c77913ca
+  type: singleChoice
+  content: What could be the use of storing realworld assets as tokens in the blockchain?
+  hint: Tokenization use cases
+  explanation: tokenization ensures safety, ease of transfer and cost effective transactions of asset ownership.
+  answerKeys:
+    - D
+  difficultyLevel: "Medium"
+  choices: 
+    - content: Protection from fraudulent claims over assets.
+      key: A
+    - content: Ease of transfer of assets is improved drastically.
+      key: B
+    - content: The transactions do not need a middleman and are hence much more cost effective as compared to real world asset transactions.
+      key: C
+    - content: All of the above.
+      key: D
+- uuid: 5344fde5-41ff-43d2-89db-8008a275aaa1
+  type: multipleChoice
+  content: What is the use of debt tokenization?
+  hint: use cases of tokenization
+  explanation: Debt tokenization ensures that the user is in custody of his invested assets at all times and keeps account of the interest accrued by the user.
+  answerKeys:
+    - A
+    - B
+  difficultyLevel: "Medium"
+  choices: 
+    - content: Keeps count of the interest accrued by the user.
+      key: A
+    - content: Ensures that the user is in custody of his invested assets at all times.
+      key: B
+    - content: Facilitates assets can be held in possession of multiple users at once.
+      key: C
+      
+- uuid: 3e37ae46-df52-4359-acdd-db569ab2fe19
+  type: singleChoice
+  content: What are some of the use cases of Tokenization?
+  hint: examples of tokenization 
+  explanation: The following are implementations of tokenization
+  answerKeys:
+    - D
+  difficultyLevel: "Low"
+  choices: 
+    - content: Real estate tokenization
+      key: A
+    - content: Digitized securities
+      key: B
+    - content: Debt tokenization
+      key: C
+    - content: All of these
+      key: D
+ 
+      
+      
