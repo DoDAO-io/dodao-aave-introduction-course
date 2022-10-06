@@ -1,6 +1,119 @@
+- title: What is DeFi?
+  shortTitle: What is DeFi
+  key: what-is-defi
+  details: |
+  #### What is DeFi?
+   Decentralized finance, or "DeFi" for short, is the concept of a financial institution built on blockchain technology that is not controlled by a single entity. Instead, it is governed by a set of rules that can be modified by users. This allows for a more democratic approach to 
+   banking, as there is no central point of power. A DeFi platform is different from traditional financial institutions because it doesn't have people working behind the scenes to run things - instead, it relies on code-based logic. These blocks of code are called smart contracts, 
+   and they're deployed on the blockchain. One key feature of smart contracts is that the data they write on the chain is immutable, which means it can't be changed once the transactions are settled. 
+   To the DeFi protocol, every blockchain address is an entity. As long as the entity satisfies the conditions that the smart contract programmer puts forth, it's allowed to perform the desired action.
+
+
 - title: Why do we need DeFi?
   shortTitle: Why DeFi
   key: why-do-we-need-defi
   details: |
-    - Why do we need DeFi ?
-    This needs to be explained in a detailed way
+  #### Why do we need DeFi?
+   Banks have been around for a very long time, but the rate of innovation in the banking sector is quite slow. In the past decade, 
+   many things have changed, including:
+
+   1) Our economy is now a global economy, instead of being limited to just one country.
+   2) People prefer online transactions that are instant, instead of in-person banking. 
+   3) Need for more flexibility in how funds can be collected and distributed.
+
+   DeFi (decentralized finance) aims to provide an alternative to traditional banking that comes up with solutions for existing flaws in the banking system. DeFi is based on blockchain technology and offers the following solutions to problems faced in TradFi.
+   
+   #### Innovation:
+   The traditional finance sector has not seen many innovations in the past decade, this has made way for a scenario where newer problems keep arising owing to the developments in technology with 
+   no proper solutions. The users do not have a say in the working of TradFi and the only very people hold authority to be able to innovate in the banking sector which leads to very slow innovation.
+   DeFi is open to all, this creates way for developers to come up with solutions to existing problems and build Decentralized apps which are interconnected, which cater to the DeFi ecosystem. Moreover,
+   the governance of DeFi is such that it paves for innovation.
+   
+   #### Accessibility:
+   Banks work on a credit-based system, which means that they need to be confident that you will repay your loan in full. To get a loan from a bank, you will need to have a good credit score and/or provide collateral in case you default on the loan. 
+   This puts people who are on the margins or are just getting started at a disadvantage because they are left out of the current financial system. This leaves many people around the globe
+   unbanked, since they lack the financial knowledge and capital that banks demand. DeFi on the other hand is accessible to anyone with an internet connection, all you need is a valid blockchain 
+   address. No centralized entity can block or deny you access to anything.
+   
+   #### Interest Rates:
+   Banks profit by charging a higher interest rate to borrowers than they offer to lenders. This can lead to a situation where the rich lend to the rich, which promotes circulation of assets within one part of society and can worsen economic conditions.
+   DeFi decides the interest rates based off of maths of the supply-demand for lending and borrowing of a certain asset and thus is less likely to be overvalued or undervalued.
+   
+   #### Transparency and inefficiency:
+   Banks run background checks on the borrower and have loads of legal paperwork and agreements that need to be signed. Their process of sanctioning a loan is a lengthy and time-consuming one. Add to that the possibility of human lethargy. 
+   Banks are notoriously known for being inefficient. In DeFi, Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
+   
+   #### Flexibility:
+   The markets are no longer just local. We live in the era of the internet, markets are global. Banks still operate at a local level and find it harder and harder to cater to the global market with their existing mechanisms. 
+   Movement of assets is not even possible, if it is, it is a hassle. Exchange and movement of assets is seamless in DeFi.
+   
+   #### Governance:
+   In DeFi protocols, the users are often given voting power to elect the changes that should be made to the protocol. Each protocol has a different governance structure but the concept of voting on changes is a constant and has allowed for a more transparent 
+   and accessible finance option than TradFi has ever been able to achieve.
+   
+
+- title: How does DeFi work?
+  shortTitle: DeFi working
+  key: how-does-defi-work
+  details: |
+   Before we get to understand how DeFi works, we need to know how a blockchain works. It is essential since DeFis runs on the blockchain and has many features in common 
+   with or affiliated to the blockchain that might not make much sense in a non-blockchain context.
+   
+   
+   #### Blockchain Basics:
+   A blockchain is a digital ledger of data, a chain of blocks, hence the name - blockchain. You can imagine it to be a series of record books that are connected to each other. 
+   Each of these records have three important pieces of information: 
+   
+   1. The data stored in the block
+   2. A hash (An encoded string of characters) uniquely generated with respect to the data it contains  
+   3. The hash of the previous blockchain. 
+   
+   Since the hash of a block depends on its data, it changes if the data in the block is tampered with. Since the hashing information on the next blockchain about the changed blockchain will be wrong if the hash is changed, the rest of the blockchain is invalidated on tampering with one block. 
+   This way it is hard to tamper with the data in a blockchain since it would mean all the blocks coming after should also be changed.
+   Various technologies like cryptocurrencies, NFTs, and our topic of discussion, DeFi protocols are all built on top of blockchains and this is why, the DeFi protocols are a safer, 
+   more transparent and a secure way of finance. Now that we have seen what a blockchain is, let us look at some of the use cases of DeFi.
+
+- title: Use cases of DeFi
+  shortTitle: Defi use cases
+  key: use-cases-of-defi
+  details: |
+   #### Lending and Borrowing:
+   The main issue with borrowing money from banks is that it's a very pricey endeavor. Banks make a profit from the difference in APR between what the depositor is paid and what the borrower is charged. Obviously, it's in the bank's best interest to increase the premiums the borrower pays to maximize its profits. And that's exactly what happens. 
+   Banks charge enormous premiums on the money borrowed, and the return on investment they provide to the depositor is shockingly low, as little as 0.05% APY. 
+   DeFi mitigates the problem of unnecessarily high interest rates by employing logic that determines APY and interest premiums based on the supply-demand of a given asset.
+   Lending in DeFi is often a more profitable endeavor than TradFi because the returns available in DeFi protocols are often much higher than the measly 0.05% offered in traditional finance. Furthermore, it is a much safer option; in the event of a default on loan repayment or a 
+   decrease in the value of the security deposit, the protocol will automatically liquidate the collateral and give the proceeds to the lender. While this may sound like a simple process, there is actually quite complex logic involved in determining whether or not a loan is undercollateralized. Lending and borrowing in DeFi is again a vast topic, with various concepts that are largely different from those found in traditional finance. For example, a loan can be taken with a
+   fixed interest rate or a variable one and the collateral itself can be swapped for a different asset, to name a few. But that is a topic for another day. 
+   
+   
+   #### Exchanging of Assets(Exchanges):
+   In central exchanges (Traditional exchanges), often, the central body takes control of the user's private keys (i.e., custody of the user's funds). They validate their users using KYCs (Know Your User) and valid document proof of the user. 
+   They also have strict norms regarding the currencies that can be listed on their exchange. Decentralized exchanges, on the other hand, are trustless and permissionless. That is, the user stays anonymous. No central body exists for the user's 
+   authorization or the listing of currencies. The user has complete control of their wallet for the whole duration, unlike most central exchanges, where they act as custodians for the user's private keys.
+   There are different types of DEX, notably AMM (Automated market maker), DEX aggregators (liquidity aggregators), and Order Book DEX.
+   In short, 
+
+   * AMMs work on the concept of liquidity pools, where people provide liquidity for given currency pairs (equal values of both currencies) and get incentivized. Users can make use of these pools to exchange currencies. 
+   * DEX Aggregators allow users to get the best exchange rates by simultaneously interacting with multiple liquidity pools. It is worth noting that all types of exchanges usually suffer from a lack of liquidity, especially for large-scale transactions. 
+     DEX aggregators help solve the problem partially by allowing the user to exchange from a larger scale of pools.
+   * Order Book DEX is like a marketplace where some buyers and sellers ask their price and, consequently, determine the market price for the currency under consideration. This process of listing can occur on-chain or off-chain. 
+   
+   There are advantages and disadvantages to both centralized and decentralized exchanges, but that is not the focus of this section. 
+   
+   
+   #### Flash loans:
+   DeFi offers loans to the borrower, requiring no collateral to be handed over, these loans are called Flash loans. Flash loans require no collateral and no credibility. With flash loans, DeFi lends you seemingly any amount of money. 
+   But this money must be used and repaid within one transaction block (around 10s). In case the money is not paid back, all changes made to the blockchain after the flash loan are reverted, and it is as if nothing happened at all. 
+   It is to be noted that the user incurs gas fee for any transaction he does during this time.
+
+   
+   #### Tokenization: 
+   Realworld assets can be stored in the blockchain as tokens. For example, real estate tokenization. Real estate tokenization is the token form of a physical real estate which could represent partial ownership, complete ownership, a right to share in the profits generated by real property, 
+   or an interest in a debt secured by real property. A real estate token acts like an NFT, with no other identical copy on the blockchain. The token can accrue interest, and serve as proof of ownership, etc. This also enables fractional property ownership, like a company's stocks, 
+   with all the owners able to reap property returns (for example, rent). Blockchain is global, ensuring that investors from across the world can invest or buy real estate in the USA - _seamlessly_.
+   The elimination of a third party also ensures that the transactional costs are kept at a minimum. Debt tokenization is another exciting application of this technology. On borrowing or investing, tokens are minted for the user. 
+   These tokens accrue interests. On debt repayment or withdrawal of investment, the tokens are burnt. Similarly, tokenized securities (bonds, options, stocks, etc.) can be used to digitize securities, improving their safety and providing 24-hour trading windows, since blockchains are global.
+   Tokenization in the digital security spectrum is also implemented as a pointer that directs to sensitive information and data.
+   
+     
+   
