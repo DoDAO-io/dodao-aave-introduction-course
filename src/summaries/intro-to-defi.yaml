@@ -19,29 +19,35 @@
    * DeFi aims to provide an alternative to traditional banking and provide solutions for existing flaws in the banking system. 
    * Some of the flaws in the banking sector are:
      
-     *Accessibility:*
-     Banks operate on a credit based and put forth many qualifying criteria that make the banking sector less accessible to general public.
+     - *Accessibility:*
+     * Banks operate on a credit based and put forth many qualifying criteria that make the banking sector less accessible to general public.
+     * DeFi on the other hand is accessible to anyone with an internet connection, all you need is a valid blockchain address. No centralized entity can block or deny you access to payments.
 
-     *Interest Rates:*
-     The banks provide the investors with very low returns and put forth very high interest rates for the borrowers. This creates a unfavourable scenario
-     for all users involved.
+     - *High Interest Rates:*
+     * The banks provide the investors with very low returns and put forth very high interest rates for the borrowers. This creates a unfavourable scenario
+       for all users involved.
+     * DeFi decides the interest rates based off of maths of the supply-demand for lending and borrowing of a certain asset and thus is less likely to be overvalued or undervalued.
 
-     *Transparency and Inefficiency:*
-     Banks are centrally governed institutions whose working is not available to be scrutinized by the general public.
-     This means that the user does not know how his assets are being utilised. 
-     Banks have lenghty processes and paperworks concerning sanctioning of loans. They largely employ a human workforce which 
-     creates the possibility of lethargy and human Inefficiency, further slowing the process.
+     - *Transparency and Inefficiency:*
+     * Banks are centrally governed institutions whose working is not available to be scrutinized by the general public.
+     * This means that the user does not know how his assets are being utilised. 
+     * Banks have lengthy processes and paperworks concerning sanctioning of loans. They largely employ a human workforce which 
+       creates the possibility of lethargy and human Inefficiency, further slowing the process.
+     * In DeFi, Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
 
-     *Flexibility:*
-     Banks operate at local levels and find it harder to cope with the global market.
-     Movement of assets and conversions are a hassle. They provide very minimal flexibility in terms
-     of asset movement or excchange.
+     - *Flexibility:*
+     * Banks operate at local levels and find it harder to cope with the global market.
+       Movement of assets and conversions are a hassle. They provide very minimal flexibility in terms
+       of asset movement or exchange.
 
-     *Governance:*
-     In DeFi protocols, the users are often given voting power to elect the changes that should be made to the protocol. Each protocol 
-     has a different governance structure but the concept of voting on changes is a constant and has allowed for a more transparent and accessible finance option than TradFi.
+     - *Governance:*
+     * In DeFi protocols, the users are often given voting power to elect the changes that should be made to the protocol. Each protocol 
+       has a different governance structure but the concept of voting on changes is a constant and has allowed for a more transparent and accessible finance option than TradFi.
    
-   * DeFi aims to solve the above issues.
+     - *Missed growth opportunities and unequal opportunities:*
+     * Potential high ROI projects not being executed due to high cost of credit from banks.
+     * Projects should be financed based on the quality of the idea and the capability of the team behind the idea, but banks fail to achieve this owing to the fundamental design flaw (Credit-based system).
+     * DeFi aims to eradicate this issue by being creditless and instantaneous. 
 
 
 - title: How DeFi works and its use cases
@@ -64,7 +70,7 @@
 
    ##Use cases of DeFi:
    
-   *Lending and Borrowing:*
+   - *Lending and Borrowing:*
    * The main issue of lending and borrowing in TradFi is that it is expensive.
    * It is in the bank's best interest to increase the premiums the borrower pays to maximize its profits. 
    * DeFi mitigates the problem of unnecessarily high interest rates by employing logic that determines APY and interest premiums based on the supply-demand of a given asset.
@@ -73,8 +79,13 @@
    * The process of borrowing in DeFi is seamless. The requirement is to have a valid blockchain address and hold an overcollaterized position for the given loan.
    * Further, it is a much safer option as the lender always holds custody of his assets.
    
-   *Asset Exchanges:*
-
+   - *Flash loans:*
+   * DeFi offers loans to the borrower, requiring no collateral to be handed over, these loans are called Flash loans.
+   * The borrowed money must be used and repaid within one transaction block (around 10s).
+   * In case of a default in repayment, all changes made to the blockchain after the flashloan was taken are reverted and it is like nothing happened at all.
+   * The user only incurs gas fees in this whole process.
+   
+   - *Asset Exchanges:*
    * In central exchanges (Traditional exchanges), often, the central body takes custody of the user's funds.
    * They validate their users using KYCs (Know Your User) and valid document proof of the user.
    * They also have strict norms regarding the currencies that can be listed on their exchange. 
@@ -90,8 +101,7 @@
      
      3)Order Book DEX is like a marketplace where some buyers and sellers ask their price and, consequently, determine the market price for the currency under consideration. This process of listing can occur on-chain or off-chain. 
 
-   *Tokenization:*
-
+   - *Tokenization:*
    * Realworld assets can be stored in the blockchain as tokens.
    * For example, real estate tokenization. A real estate token acts like an NFT, with no other identical copy on the blockchain. The token can accrue interest, and serve as proof of ownership, etc.
    * This also enables fractional property ownership, like a company's stocks, with all the owners able to reap property returns (for example, rent).
