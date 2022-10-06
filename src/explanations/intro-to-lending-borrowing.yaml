@@ -45,8 +45,6 @@
   shortTitle: "Trad: Lend & Borrow"
   key: lending-borrowing
   details: |
-    ### Lending and Borrowing in TradFi 
-
     In traditional finance, banks and other financial institutions play a significant role. They work based on trust - users or customers must trust these institutions to lend and borrow assets. 
     Lending and borrowing in traditional finance are centralized; these financial institutions will provide interest to lenders for lending money to them. Lending in traditional finance is simple 
     and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. Financial institutions offer users loans to make a profit from the interest of the lent assets.
@@ -65,12 +63,12 @@
     The governance is controlled by major shareholders or higher authorities of the bank.
 
 
-    ### Disadvantages of Lending and Borrowing in TradFi {#disadvantages-of-lending-and-borrowing-in-tradfi}
+    ### Disadvantages of Lending and Borrowing in TradFi
 
     **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. The customer must complete their KYC for lending and borrowing. Transactions are monitored. 
     Traditional finance has the right to censorship hence they can ban specific people if they want. Traditional finances are prone to mismanagement and fraud.
 
-    **Complexity and user experience: **The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. 
+    **Complexity and user experience:** The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. 
     Transaction limits are imposed on users, which gives a bad user experience. The users are required to maintain a minimum balance to avoid charges. 
 
     **Capital and system inefficiency:** The interest rates are less for lenders and high for borrowers. Traditional finance takes most of the profits from the borrowers. This makes the lenders' capital inefficient. 
@@ -102,7 +100,7 @@
     1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
     2. **Universal**- DeFi’s are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
     3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,
-    anyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. 
+       anyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. 
 
 - title: Explain Risks and how they are mitigated
   shortTitle: Risks in DeFi
@@ -116,9 +114,8 @@
     However, users can lend and borrow stablecoins to neglect this risk.
 
     * Collateral Liquidation
-
-    Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-    The values will differ for different DeFi’s. The volatility of assets is also a factor that leads to collateral liquidation.
+        Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. 
+        The values will differ for different DeFi’s. The volatility of assets is also a factor that leads to collateral liquidation.
 
     DeFi tackles these issues by considering several factors. The important two factors are
     1. Loan To Value
@@ -133,14 +130,14 @@
     DeFi‘s are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
 
     * Smart contract risk
-    These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. 
-    These risks are mitigated by rigorous code audits.
+        These are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. 
+        These risks are mitigated by rigorous code audits.
 
     * Oracle risks
-    These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data 
-    like price feed, total supply, etc. Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world 
-    cause considerable losses to the protocol.  DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high
-    quality nodes or data providers in order to ensure security and high quality data.
+        These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data 
+        like price feed, total supply, etc. Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world 
+        cause considerable losses to the protocol.  DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high
+        quality nodes or data providers in order to ensure security and high quality data.
     
     
     
