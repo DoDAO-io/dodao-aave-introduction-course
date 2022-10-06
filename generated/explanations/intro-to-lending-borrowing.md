@@ -82,7 +82,7 @@ There is a chance of servers going down for traditional finances as they are cen
 Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
 Users can lend their money without limits similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained. 
 Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. This makes the protocol capital efficient. 
-The possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi’s are almost instant. Maintenance of minimum balance isn't necessary in the case of DeFi.
+The possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi's are almost instant. Maintenance of minimum balance isn't necessary in the case of DeFi.
 
 DeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security. The amount of collateral must be 
 more than the amount borrowed, and it should follow the protocol's over-collateralization limit. Flash loans are loans that can be obtained instantly and without any collateral. 
@@ -98,7 +98,7 @@ Benefits of DeFi Lending and Borrowing
 
 1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
 2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
-3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,
+3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent,
 anyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. 
  
  **Explain Risks and how they are mitigated**        
