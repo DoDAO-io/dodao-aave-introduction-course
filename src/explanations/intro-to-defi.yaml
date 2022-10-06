@@ -15,26 +15,28 @@
    Banks have been around for a very long time, but the rate of innovation in the banking sector is quite slow. In the past decade, 
    many things have changed, including:
 
-   1) Our economy is now a global economy, instead of being limited to just one country;
-   2) People prefer online transactions that are instant, instead of in-person banking; and
+   1) Our economy is now a global economy, instead of being limited to just one country.
+   2) People prefer online transactions that are instant, instead of in-person banking. 
    3) Need for more flexibility in how funds can be collected and distributed.
 
-   DeFi (decentralized finance) aims to provide an alternative to traditional banking that comes up with solutions for existing flaws in the banking system. DeFi is based on blockchain technology and offers the following advantages
+   DeFi (decentralized finance) aims to provide an alternative to traditional banking that comes up with solutions for existing flaws in the banking system. DeFi is based on blockchain technology and offers the following solutions to problems faced in TradFi.
    
    **Accessibility**
    Banks work on a credit-based system, which means that they need to be confident that you will repay your loan in full. To get a loan from a bank, you will need to have a good credit score and/or provide collateral in case you default on the loan. 
-   This puts people who are on the margins or are just getting started at a disadvantage because they are left out of the current financial system.
+   This puts people who are on the margins or are just getting started at a disadvantage because they are left out of the current financial system. DeFi on the other hand is accessible to anyone with an internet connection, all you need is a valid blockchain 
+   address. No centralized entity can block or deny you access to anything.
    
    **Interest Rates:**
    Banks profit by charging a higher interest rate to borrowers than they offer to lenders. This can lead to a situation where the rich lend to the rich, which promotes circulation of assets within one part of society and can worsen economic conditions.
+   DeFi decides the interest rates based off of maths of the supply-demand for lending and borrowing of a certain asset and thus is less likely to be overvalued or undervalued.
    
    **Transparency and inefficiency:**
    Banks run background checks on the borrower and have loads of legal paperwork and agreements that need to be signed. Their process of sanctioning a loan is a lengthy and time-consuming one. Add to that the possibility of human lethargy. 
-   Banks are notoriously known for being inefficient.
+   Banks are notoriously known for being inefficient. In DeFi, Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
    
    **Flexibility:**
    The markets are no longer just local. We live in the era of the internet, markets are global. Banks still operate at a local level and find it harder and harder to cater to the global market with their existing mechanisms. 
-   Movement of assets is not even possible, if it is, it is a hassle.
+   Movement of assets is not even possible, if it is, it is a hassle. Exchange and movement of assets is seamless in DeFi.
    
    **Governance:**
    In DeFi protocols, the users are often given voting power to elect the changes that should be made to the protocol. Each protocol has a different governance structure but the concept of voting on changes is a constant and has allowed for a more transparent 
@@ -73,7 +75,8 @@
    Banks charge enormous premiums on the money borrowed, and the return on investment they provide to the depositor is shockingly low, as little as 0.05% APY. 
    DeFi mitigates the problem of unnecessarily high interest rates by employing logic that determines APY and interest premiums based on the supply-demand of a given asset.
    Lending in DeFi is often a more profitable endeavor than TradFi because the returns available in DeFi protocols are often much higher than the measly 0.05% offered in traditional finance. Furthermore, it is a much safer option; in the event of a default on loan repayment or a 
-   decrease in the value of the security deposit, the protocol will automatically liquidate the collateral and give the proceeds to the lender. While this may sound like a simple process, there is actually quite complex logic involved in determining whether or not a loan is undercollateralized. Lending and borrowing in DeFi is again a vast topic, with various concepts that are largely different from those found in traditional finance. For example, a loan can be taken with a fixed interest rate or a variable one and the collateral itself can be swapped for a different asset, to name a few. But that is a topic for another day. 
+   decrease in the value of the security deposit, the protocol will automatically liquidate the collateral and give the proceeds to the lender. While this may sound like a simple process, there is actually quite complex logic involved in determining whether or not a loan is undercollateralized. Lending and borrowing in DeFi is again a vast topic, with various concepts that are largely different from those found in traditional finance. For example, a loan can be taken with a
+   fixed interest rate or a variable one and the collateral itself can be swapped for a different asset, to name a few. But that is a topic for another day. 
    
    
    ## Exchanging of Assets(Exchanges):
@@ -90,6 +93,14 @@
    * Order Book DEX is like a marketplace where some buyers and sellers ask their price and, consequently, determine the market price for the currency under consideration. This process of listing can occur on-chain or off-chain. 
    
    There are advantages and disadvantages to both centralized and decentralized exchanges, but that is not the focus of this section. 
+   
+   
+   ## Flash loans:
+   
+   DeFi offers loans to the borrower, requiring no collateral to be handed over, these loans are called Flash loans. Flash loans require no collateral and no credibility. With flash loans, DeFi lends you seemingly any amount of money. 
+   But this money must be used and repaid within one transaction block (around 10s). In case the money is not paid back, all changes made to the blockchain after the flash loan are reverted, and it is as if nothing happened at all. 
+   It is to be noted that the user incurs gas fee for any transaction he does during this time.
+
    
    ## Tokenization:
    
