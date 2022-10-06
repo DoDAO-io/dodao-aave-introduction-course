@@ -1,19 +1,425 @@
-- uuid: 3c35c4d1-4b6d-4071-9019-070426f5bf42
+- uuid: d14aecb8-1bb0-4e03-acf2-a44d30a9ddd6
   type: SingleChoice
-  content: What is the main purpose of DeFi?
-  hint: Purpose of DeFi in the current scenario
-  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  content: What is collateral and over collateralization?
+  hint: Collateral and over-collateralization
+  explanation: Collateral is a security locked by borrower for borrowing. Overcollateralization is a process in which collateral is locked at higher value than borrowed value in order to cover the potential losses of the collateral.
+  answerKeys:
+    - C
+  subTopics:
+    - lending-borrowing-intro
+  difficultyLevel: Low
+  choices:
+    - content: Collateral is returns on lent assets.
+      key: A
+    - content: collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.
+      key: B
+    - content: Collateral is a security locked by borrower and locking collateral at a higher value than the borrowed amount is called over-collateralization.
+      key: C
+    - content: None of these
+      key: D
+
+- uuid: 9b09ff86-e6d3-4861-987d-aa819fe5622a
+  type: MultipleChoice
+  content: What are the use cases of lending and borrowing?
+  hint: To gain interest and get money in urgent situations when capital is insufficient.
+  explanation: To gain interest and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics:
+    - lending-borrowing-intro
+  difficultyLevel: Low
+  choices:
+    - content: Lending increases the capital of lenders.
+      key: A
+    - content: Lending improves decentralization and security.
+      key: B
+    - content: Borrowers leverage their investments by investing in investment vehicles like the stock market to amplify the returns.                
+      key: C
+    - content: borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+      key: D
+- uuid: a4ea1fb0-f2dd-4fba-b3b3-75e57164010c
+  type: SingleChoice
+  content: The act of allowing someone else to use ones assets is called?
+  hint: Lending
+  explanation: Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
   answerKeys:
     - B
   subTopics:
-    - why-do-we-need-defi
-  difficultyLevel: "Low"
+    - lending-borrowing-intro
+  difficultyLevel: Low
   choices:
-    - content: Provide banking facilties only to high worth individuals
+    - content: Leveraging
       key: A
-    - content: Providing financial solutions on blockchain
+    - content: Lending
       key: B
-    - content: Trade and earn more using cryptocurrency
+    - content: Borrowing
       key: C
-    - content: Encourage money laundering.
+    - content: Banking
       key: D
+
+- uuid: dcfa8605-e19c-41e3-908f-8ab9087d4182
+  type: SingleChoice
+  content: How DeFi's are obtaining real world data as blockchains are isolated in nature
+  hint: Oracle
+  explanation: Oracles are nodes which provides real world data to the blockchains.
+  answerKeys:
+    - B
+  subTopics:
+    - lending-borrowing-intro
+  difficultyLevel: Medium
+  choices:
+    - content: blockchains are get real world data from internet
+      key: A
+    - content: through oracles
+      key: B
+    - content: They cant get real world data
+      key: C
+    - content: None of the above
+      key: D
+- uuid: dc3b6825-ee0e-4b79-8116-3063e1386006
+  type: MultipleChoice
+  content: Which of the following are correct about traditional finance?
+  hint: NoHint
+  explanation: 
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - TradFi
+  difficultyLevel: Low
+  choices:
+    - content: Traditional finances are centralized.
+      key: A
+    - content: Traditional Finances takes most of the interest from borrowers.
+      key: B
+    - content: Traditional Finances will provide loans without any agreements and paperworks.
+      key: C
+    - content: Traditional Finances are simple and less riskier.
+      key: D
+
+- uuid: de5ff61a-c167-431f-84e3-ef192ddd2bb7
+  type: SingleChoice
+  content: Why interest rates for borrowers are very high when compared to lenders in TradFi?
+  hint: TradFi takes most of the profit from borrowers
+  explanation: Banks takes most of the profits from the borrowers hence the interest rate for borrowers are very high when compared to lenders.
+  answerKeys:
+    - A
+  subTopics:
+    - TradFi
+  difficultyLevel: Medium
+  choices:
+    - content: Banks or TradFi makes profit from the difference of interest rates. 
+      key: A
+    - content: No specific reasons
+      key: B
+    - content: The borrowers gets favoured.
+      key: C
+    - content: The lenders gets favoured.
+      key: D
+
+- uuid: cc996d05-b62d-43b0-8eaf-a23d7d9d873d
+  type: MultipleChoice
+  content: What are the challenges to privacy in TradFi?
+  hint: NoHint
+  explanation: Users are required to complete their KYC and transactions are monitored in TradFi.
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - types
+  difficultyLevel: Medium
+  choices:
+    - content: Banks check and collect the data from all the legal documents of an user for opening account.
+      key: A
+    - content: Users are required to complete their KYC.
+      key: B
+    - content: Transactions are monitored in TradFi.
+      key: C
+    - content: No personal data is required for lending and borrowing in Defi.
+      key: D
+
+- uuid: 46633903-58f6-411b-84b9-6cba1a9f8009
+  type: MultipleChoice
+  content: Pick the correct statement(s).
+  hint: NoHint
+  explanation: Traditional finances allows censorship and they have numerous blind spots. They are simple and less risky.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - types
+  difficultyLevel: Medium
+  choices:
+    - content: Traditional Finances allow censorship.
+      key: A
+    - content: Traditional Finances are not transparent.
+      key: B
+    - content: Traditional Finances are simple and less risky when comapared to others.
+      key: C
+    - content: None of these
+      key: D
+- uuid: a9513711-0f19-40e8-a9fa-c9c60bb8db70
+  type: SingleChoice
+  content: How users assets are secured by DeFi?
+  hint: NoHint
+  explanation: explanation
+  answerKeys:
+    - B
+  subTopics:
+    - types
+  difficultyLevel: Medium
+  choices:
+    - content: Assets are controlled by world bank.
+      key: A
+    - content: Assets are secured by blockchain and smart-contracts.
+      key: B
+    - content: Assets are secured by group of Finance companies.
+      key: C
+    - content: Assets are not secured 
+      key: D
+
+- uuid: 2f2a8ecb-0743-470e-b63f-ba655b8c2e76
+  type: MultipleChoice
+  content: Which of the following is(are) correct about interest and interest rates in DeFi?
+  hint: interest rates in DeFi
+  explanation: Interest rates vary for dofferent assets in DeFi. Most of the interest from the borrowers goes to lenders.
+  answerKeys:
+    - B
+    - D
+  subTopics:
+    - types
+  difficultyLevel: Low
+  choices:
+    - content: Interest rates are constant for every assets.
+      key: A
+    - content: Interest rates vary for dofferent assets in DeFi.
+      key: B
+    - content: DeFi's takes most of the interest from the borrowers.
+      key: C
+    - content: Most of the interest from the borrowers goes to the lenders
+      key: D
+
+- uuid: a4bda467-20d1-4744-8b72-dea7060a05e0
+  type: SingleChoice
+  content: How does DeFi protocols are governed?
+  hint: NoHint
+  explanation: Most of the DeFi's are governed by native token holders of the protocol since the protocol is decentralized.
+  answerKeys:
+    - A
+  subTopics:
+    - DeFi
+  difficultyLevel: Low
+  choices:
+    - content:  Most of the DeFi's are governed by native token holders of the protocol.
+      key: A
+    - content: DeFi's are governed by the artificial intelligence.
+      key: B
+    - content: DeFi's are governed by group of banks.
+      key: C
+    - content: None of These.
+      key: D
+- uuid: 2e2c3904-31ee-4c74-85ab-6fecf5ef92f2
+  type: MultipleChoice
+  content: What are the advantages of DeFi's?
+  hint: NoHint
+  explanation: DeFi's are resistant to censorship, transparent and efficient. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics:
+    - DeFi
+  difficultyLevel: Low
+  choices:
+    - content: DeFi's are resistant to censorship.
+      key: A
+    - content: DeFi's are simple and no risks involved in it.
+      key: B
+    - content: DeFi's are efficient as everything is automated by smart-contracts.
+      key: C
+    - content: DeFi's are transparent. No hidden fees are involved in DeFi.
+      key: D
+- uuid: 703957f8-e6cd-4a80-aa56-8ced9531e741
+  type: MultipleChoice
+  content: How DeFi's are efficient?
+  hint: decentralized and smart-contracts.
+  explanation: DeFi's are decentralized entities using smart-contracts as their backend they automated everything. Since DeFi's are running on blockchain the possibility of server down is very low.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - DeFi
+  difficultyLevel: Medium
+  choices:
+    - content: Defi's automate the protocol using smart-contracts.
+      key: A
+    - content: The possibility of server down is very low in Defi's.
+      key: B
+    - content: DeFi's are decentralized platforms hence most profits are utilized by users. 
+      key: C
+    - content: DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone and they are resistant to censorship.
+      key: D
+
+- uuid: 76a7de69-eb82-4a45-bf05-ad0eb9f90a1c
+  type: SingleChoice
+  content: What are Flashloans?
+  hint: Flashloans are explained in lending in DeFi.
+  explanation: Flashloans are loans which can be borrowed instantly without any collateral by usimg smart-contracts but with certain conditions.
+  answerKeys:
+    - C
+  subTopics:
+    - Flash-Loans
+  difficultyLevel: Low
+  choices:
+    - content: It is a normal loan which can be borrowed in TradFi with low interest rates. 
+      key: A
+    - content: It is the loans with high collateral as security.
+      key: B
+    - content: Flashloans are loans which can be borrowed instantly without any collateral by usimg smart-contracts.
+      key: C
+    - content: It is an alternate name of an ordinary loan in DeFi's.
+      key: D
+- uuid: 9f71eb33-933e-45a4-815b-31c27a5ae8bb
+  type: MultipleChoice
+  content: What are the DeFi protocols which offers Flash-Loans?
+  hint: NoHint
+  explanation: Aave and Uniswap.
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - DeFi
+  difficultyLevel: Low
+  choices:
+    - content: Bank of America
+      key: A
+    - content: Aave
+      key: B
+    - content: Uniswap
+      key: C
+    - content: Opensea
+      key: D
+- uuid: 3ac4e9c7-07fe-4f8d-a3e8-5054e104bda9
+  type: MultipleChoice
+  content: What are the risks involved in DeFi's?
+  hint: Risks in DeFi's
+  explanation: 
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - Risks-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: Volatility risk
+      key: A
+    - content: Smart-contract risk
+      key: B
+    - content: risks are not involved in DeFi
+      key: C
+    - content: Oracle risk
+      key: D
+- uuid: 2c542310-7b78-4ab8-9a44-66ceddd1c829
+  type: MultipleChoice
+  content: Which of the following can lead to volatality of assets?
+  hint: NoHint
+  explanation: 
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - crypto-backed
+  difficultyLevel: Low
+  choices:
+    - content: These stablecoins are often generated using decentralized protocols to issue and redeem the tokens
+      key: A
+    - content: In order to produce or mint new stablecoins, digital assets are locked as collateral in smart contracts
+      key: B
+    - content: They are basically an IOU (I owe you) for a traditional fiat currency, usually dollars.
+      key: C
+    - content: None of the above
+      key: D
+- uuid: bc34e1fd-dcac-4a72-93ac-33e494c99e22
+  type: SingleChoice
+  content: Which of the following is a crypto-backed stablecoin?
+  hint: Others are fiat-backed
+  explanation: DAI and FRAX are two excellent examples of crypto-backed stablecoins
+  answerKeys:
+    - D
+  subTopics:
+    - crypto-backed
+  difficultyLevel: Low
+  choices:
+    - content: USDT
+      key: A
+    - content: BUSD
+      key: B
+    - content: USDC
+      key: C
+    - content: FRAX
+      key: D
+- uuid: 61eddda0-ce75-4b0a-b415-37482ff79983
+  type: SingleChoice
+  content: Which strategy is used to handle the fluctuations of underlying crypto in crypto-backed stablecoins?
+  hint: NoHint
+  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible.
+  answerKeys:
+    - B
+  subTopics:
+    - crypto-backed
+  difficultyLevel: Medium
+  choices:
+    - content: Undercollateralization
+      key: A
+    - content: Overcollateralization
+      key: B
+    - content: Decentralization
+      key: C
+    - content: Centralization
+      key: D
+- uuid: 83c56a16-d927-44ad-9737-61b50eaee03e
+  type: SingleChoice
+  content: Suppose a stablecoin with a crypto asset backing is around $1. What would be the value of underlying asset?
+  hint: Overcollateralization
+  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2.
+  answerKeys:
+    - D
+  subTopics:
+    - crypto-backed
+  difficultyLevel: Medium
+  choices:
+    - content: $1
+      key: A
+    - content: $0.1
+      key: B
+    - content: $0.01
+      key: C
+    - content: $2
+      key: D
+- uuid: e989640a-aee4-4a34-9dea-5299a73485c5
+  type: SingleChoice
+  content: If crypto prices fall, what should be done to ensure the stability crypto-backed stablecoin?
+  hint: NoHint
+  explanation: Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. Therefore, if crypto prices fall, more crypto must be used to back the stablecoin, otherwise, the stablecoins' value would decrease.
+  answerKeys:
+    - B
+  subTopics:
+    - crypto-backed
+  difficultyLevel: Low
+  choices:
+    - content: Less crypto must be used to back the stablecoin
+      key: A
+    - content: More crypto must be used to back the stablecoin
+      key: B
+    - content: Crypto amount used to back the stablecoin should remain same
+      key: C
+    - content: Crypto amount used to back the stablecoin should be halfed
+      key: D
+      
+      # #######################################################
