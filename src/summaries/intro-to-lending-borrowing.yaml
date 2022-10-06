@@ -66,28 +66,28 @@
   key: managing-risks
   details: |
     - Volatility Risk 
-      
-      Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
-      so users must consider the volatility of the assets before lending or borrowing. 
+        Lending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, 
+        so users must consider the volatility of the assets before lending or borrowing. 
       
       * Collateral Liquidation
-        Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
-        The volatility of assets is also a factor that leads to collateral liquidation.
+          Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. 
+          The volatility of assets is also a factor that leads to collateral liquidation.
       
       DeFi tackles these issues by considering several factors. The important two factors are
       1. Loan To Value
       2. Healthfactor
-      Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
-      at risk of being liquidated due to insufficient collateral. 
+      
+         Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
+         at risk of being liquidated due to insufficient collateral. 
     
     - Protocol Risk 
-      DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
+        DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
       
       * Smart contract risk
-        These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
+          These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
       
       * Oracle risks
-        These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
-        Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
+          These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
+          Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
            
            
