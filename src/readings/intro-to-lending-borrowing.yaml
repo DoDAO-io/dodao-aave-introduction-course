@@ -1,13 +1,27 @@
-- uuid: ccde44af-f5ac-45e8-b41e-d2ba87af7809
-  title: Introduction to Decentralised Finance
-  shortTitle: Intro to DeFi
+- uuid: 13665e38-97ee-4dd1-88f1-896382eb8eb9
+  title: Introduction to lending and borowing in crypto
+  shortTitle: lending and borowing
   type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=btB__oHQ0sU
+  url: https://youtu.be/SrArEE6p3zM
   subTopics:
     - why-do-we-lending-borrowing
   details: |
     This video enables learners to know about
-      * Centralised banking system
-      * DeFi components    
-      * DEXs
-      * DeFi advantages
+      * Lending and borowing in crypto
+      * Centralized and  decentralized lending and borowing 
+      * Working of lending and borrowing in crypto
+      * Risks in Lending and Borrowing in crypto
+
+- uuid: 7a36ecdd-bfdc-4564-b37f-316ef9a6e455
+  title: Lending and borrowing in DeFi
+  shortTitle: Lending and borrowing in DeFi
+  type: YoutubeVideo
+  url: https://youtu.be/aTp9er6S73M
+  subTopics:
+    - lending-borrowing-DeFi
+  details: |
+    This video enables learners to know about
+      * Working of lending and borrowing in DeFi's
+      * Core concepts of lending and borrowing in Aave and Compound
+      * Determination of interest rates and other features in Aave
+      * Risks involved in DeFi
