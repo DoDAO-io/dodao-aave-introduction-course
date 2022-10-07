@@ -1,8 +1,8 @@
 - uuid: ccde44af-f5ac-45e8-b41e-d2ba87af7809
-  title: Introduction to Decentralised Finance
-  shortTitle: Intro to DeFi
+  title: Lending and borrowing introduction
+  shortTitle: Intro to Lending and borrowing
   type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=btB__oHQ0sU
+  url: https://youtu.be/SrArEE6p3zM
   subTopics:
     - why-do-we-lending-borrowing
   details: |
