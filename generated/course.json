@@ -128,34 +128,100 @@
           "title": "Lending and Borrowing Basics",
           "shortTitle": "Overview",
           "key": "lending-borrowing-intro",
-          "details": "## Important Terms\n\nCredit score - It is the score determined by banking activities like repayment of loans, length of credit history, etc.\n\nCollateral - It is an asset that is locked to borrow loans.\n\nSmart contracts - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.\n\nROI - Return on investment is the total value of the investment, which includes the initial amount, profits, and losses.\n\nLeverage - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. \n\nEMI - An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. \nEquated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. \n\nOracles - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.\n\nLoan to value - It is a ratio that tells how much of a loan can be borrowed against the collateral.\n\nOver collateralization - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.\n\n## Intro to Lending and Borrowing \n\nLending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. \nBorrowing in finance involves borrowing money under an agreement to pay it back with interest. The person or organization that lends the money is called the lender. \n\nThe person or organization who borrows the money under an agreement to pay it back is called a borrower. Successful lending and borrowing occur when both the lender and borrower \nagree to the terms and conditions. The assets can be anything of value, such as money, land, or gold.\n\n### Use cases of Lending and Borrowing\n\nBy lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. \nThis helps to counteract the effects of inflation by increasing the value of assets over time.\n\nBorrowers take out loans to increase the capital for their businesses, startups, etc. Borrowers leverage their investments by investing in vehicles like the stock market, mutual funds, \nbonds, etc to amplify their returns. People make use of EMI to buy products. Borrowing helps to tackle financial emergencies and medical emergencies. People may borrow for education. \nIn a nutshell, borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.\n"
+          "details": "## Important Terms\n\n**Credit score** - It is the score determined by banking activities like repayment of loans, length of credit history, etc.\n\n**Collateral** - It is an asset that is locked to borrow loans.\n\n**Smart contracts** - These are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.\n\n**ROI** - Return on investment is the total value of the investment, which includes the initial amount, profits, and losses.\n\n**Leverage** - In financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. \n\n**EMI** - An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. \nEquated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. \n\n**Oracles** - These are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.\n\n**Loan to value** - It is a ratio that tells how much of a loan can be borrowed against the collateral.\n\n**Over collateralization** - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.\n\n## Intro to Lending and Borrowing \n\nLending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. \nBorrowing in finance involves borrowing money under an agreement to pay it back with interest. The person or organization that lends the money is called the lender. \n\nThe person or organization who borrows the money under an agreement to pay it back is called a borrower. Successful lending and borrowing occur when both the lender and borrower \nagree to the terms and conditions. The assets can be anything of value, such as money, land, or gold.\n\n### Use cases of Lending and Borrowing\n\nBy lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. \nThis helps to counteract the effects of inflation by increasing the value of assets over time.\n\nBorrowers take out loans to increase the capital for their businesses, startups, etc. Borrowers leverage their investments by investing in vehicles like the stock market, mutual funds, \nbonds, etc to amplify their returns. People make use of EMI to buy products. Borrowing helps to tackle financial emergencies and medical emergencies. People may borrow for education. \nIn a nutshell, borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.\n"
         },
         {
           "title": "Lending and Borrowing in TradFi",
           "shortTitle": "Trad: Lend & Borrow",
-          "key": "lending-borrowing-in-trad-fi",
-          "details": "### Lending and Borrowing in TradFi \n\nIn traditional finance, banks and other financial institutions play a significant role. They work based on trust - users or customers must trust these institutions to lend and borrow assets. \nLending and borrowing in traditional finance are centralized; these financial institutions will provide interest to lenders for lending money to them. Lending in traditional finance is simple \nand risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. Financial institutions offer users loans to make a profit from the interest of the lent assets.\n\nThe banks take most of the interest or profits, leaving little potential return for lenders. Users can choose to invest in the stock market or other investment vehicles for higher returns; \nhowever, the ROI and security are not guaranteed. With banks, the interest is fixed for lenders, and therefore, the returns are guaranteed. In general, banks are pretty reliable when it\ncomes to safeguarding your money. They're required by law to meet specific standards and criteria, so you can rest assured knowing that your money is in good hands. That said, it's \nstill important to be mindful of your balance and keep enough money in your account to avoid being charged fees. \n\nTraditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans. But for most loans, users or \ncustomers need to put up collateral to get the loan. Loans from traditional financial institutions usually have higher interest rates for borrowers than lenders. For personal loans, users must \nhave a specific threshold value of credit score to borrow the money. The paperwork and multiple agreements required to borrow loans from banks make the process quite complex for users. \nDifferent types of users and loans have different borrowing limits set by banks, who analyze factors such as a user's past banking activities, income, credit score, and other conditions before approving a loan.\n\nIn a nutshell, the banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. Users are required to trust them to lend their assets. \nThe governance is controlled by major shareholders or higher authorities of the bank.\n\n\n### Disadvantages of Lending and Borrowing in TradFi {#disadvantages-of-lending-and-borrowing-in-tradfi}\n\n**Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. The customer must complete their KYC for lending and borrowing. Transactions are monitored. \nTraditional finance has the right to censorship hence they can ban specific people if they want. Traditional finances are prone to mismanagement and fraud.\n\n**Complexity and user experience: **The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. \nTransaction limits are imposed on users, which gives a bad user experience. The users are required to maintain a minimum balance to avoid charges. \n\n**Capital and system inefficiency:** The interest rates are less for lenders and high for borrowers. Traditional finance takes most of the profits from the borrowers. This makes the lenders' capital inefficient. \nThere is a chance of servers going down for traditional finances as they are centralized. Traditional finances are not transparent. They have numerous blind spots.\n"
+          "key": "lending-borrowing",
+          "details": "### Lending and Borrowing in TradFi \n\nIn traditional finance, banks and other financial institutions play a significant role. They work based on trust - users or customers must trust these institutions to lend and borrow assets. \nLending and borrowing in traditional finance are centralized; these financial institutions will provide interest to lenders for lending money to them. Lending in traditional finance is simple \nand risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. Financial institutions offer users loans to make a profit from the interest of the lent assets.\n\nThe banks take most of the interest or profits, leaving little potential return for lenders. Users can choose to invest in the stock market or other investment vehicles for higher returns; \nhowever, the ROI and security are not guaranteed. With banks, the interest is fixed for lenders, and therefore, the returns are guaranteed. In general, banks are pretty reliable when it\ncomes to safeguarding your money. They're required by law to meet specific standards and criteria, so you can rest assured knowing that your money is in good hands. That said, it's \nstill important to be mindful of your balance and keep enough money in your account to avoid being charged fees. \n\nTraditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans. But for most loans, users or \ncustomers need to put up collateral to get the loan. Loans from traditional financial institutions usually have higher interest rates for borrowers than lenders. For personal loans, users must \nhave a specific threshold value of credit score to borrow the money. The paperwork and multiple agreements required to borrow loans from banks make the process quite complex for users. \nDifferent types of users and loans have different borrowing limits set by banks, who analyze factors such as a user's past banking activities, income, credit score, and other conditions before approving a loan.\n\nIn a nutshell, the banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. Users are required to trust them to lend their assets. \nThe governance is controlled by major shareholders or higher authorities of the bank.\n\n\n### Disadvantages of Lending and Borrowing in TradFi \n\n**Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. The customer must complete their KYC for lending and borrowing. Transactions are monitored. \nTraditional finance has the right to censorship hence they can ban specific people if they want. Traditional finances are prone to mismanagement and fraud.\n\n**Complexity and user experience:** The customers must do paperwork like filling out different forms and signing agreements for lending(at the time of account opening) and borrowing, which makes the process quite complex. \nTransaction limits are imposed on users, which gives a bad user experience. The users are required to maintain a minimum balance to avoid charges. \n\n**Capital and system inefficiency:** The interest rates are less for lenders and high for borrowers. Traditional finance takes most of the profits from the borrowers. This makes the lenders' capital inefficient. \nThere is a chance of servers going down for traditional finances as they are centralized. Traditional finances are not transparent. They have numerous blind spots.\n"
         },
         {
           "title": "Lending and Borrowing in DeFi",
           "shortTitle": "DeFi: Lend & Borrow",
-          "key": "lending-borrowing-in-defi",
-          "details": "## Lending and Borrowing in DeFi \n\nLending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. \nUsers can lend their money without limits similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained. \nLending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. This makes the protocol capital efficient. \nThe possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi’s are almost instant. Maintenance of minimum balance isn’t necessary in the case of DeFi.\n\nDeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security. The amount of collateral must be \nmore than the amount borrowed, and it should follow the protocol's over-collateralization limit. Flash loans are loans that can be obtained instantly and without any collateral. \nFlash loans can be borrowed by using smart contracts and available for only specific protocols like Aave and Uniswap. \n\nMost DeFi protocols are governed by their native token holders. Hence every change to the protocol will be done by the token holders. DeFi’s are built on smart contracts \nhence anyone can view and analyze the protocol.\n\n\n### Interacting with Smart Contracts\n\nBenefits of DeFi Lending and Borrowing\n\n1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. \n2. **Universal**- DeFi’s are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.\n3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,\nanyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. \n"
+          "key": "lending-borrowing",
+          "details": "## Lending and Borrowing in DeFi \n\nLending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. \nUsers can lend their money without limits similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained. \nLending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. This makes the protocol capital efficient. \nThe possibility of server down is very low as they run on the blockchain. Lending and borrowing in DeFi's are almost instant. Maintenance of minimum balance isn't necessary in the case of DeFi.\n\nDeFi protocols offer different interest rates for different assets. Users can borrow assets by using collateral as security. The amount of collateral must be \nmore than the amount borrowed, and it should follow the protocol's over-collateralization limit. Flash loans are loans that can be obtained instantly and without any collateral. \nFlash loans can be borrowed by using smart contracts and available for only specific protocols like Aave and Uniswap. \n\nMost DeFi protocols are governed by their native token holders. Hence every change to the protocol will be done by the token holders. DeFi's are built on smart contracts \nhence anyone can view and analyze the protocol.\n\n\n### Interacting with Smart Contracts\n\nBenefits of DeFi Lending and Borrowing\n\n1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. \n2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.\n3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent,\nanyone can view and analyze their core smart contracts. Most of the interest from borrowers goes to lenders. \n"
         },
         {
           "title": "Explain Risks and how they are mitigated",
           "shortTitle": "Risks in DeFi",
           "key": "Managing-Risks",
-          "details": "## Managing Risks\n\n### Volatility Risk \n\nLending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. \nHowever, users can lend and borrow stablecoins to neglect this risk.\n\n#### Collateral Liquidation\nCollateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. \nThe values will differ for different DeFi’s. The volatility of assets is also a factor that leads to collateral liquidation.\n\nDeFi tackles these issues by considering several factors. The important two factors are\n1. Loan To Value\n2. Healthfactor\n\nAssets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to \nknow whether a position is at risk of being liquidated due to insufficient collateral. For example, Aave's DAI tokens have a loan-to-value ratio of 77%, but Chainlink \ntokens have a loan-to-value ratio of just 70%. Since Chain Link tokens are more volatile than DAI, they have much lower loan-to-value ratios. Similarly When the health factor \nof a position in Aave approaches one, the position is in danger of being liquidated.\n\n### Protocol Risk\nDeFi‘s are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.\n\n#### Smart contract risk\nThese are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. \nThese risks are mitigated by rigorous code audits.\n\n### Oracle risks\nThese are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data \nlike price feed, total supply, etc. Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world \ncause considerable losses to the protocol.  DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high\nquality nodes or data providers in order to ensure security and high quality data.\n"
+          "details": "## Managing Risks\n\n### Volatility Risk \n\nLending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, so users must consider the volatility of the assets before lending or borrowing. \nHowever, users can lend and borrow stablecoins to neglect this risk.\n\n#### Collateral Liquidation\nCollateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. Collateral liquidation occurs when the sum of borrowed amount and interest exceeds its threshold value. \nThe values will differ for different DeFi's. The volatility of assets is also a factor that leads to collateral liquidation.\n\nDeFi tackles these issues by considering several factors. The important two factors are\n1. Loan To Value\n2. Healthfactor\n\nAssets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to \nknow whether a position is at risk of being liquidated due to insufficient collateral. For example, Aave's DAI tokens have a loan-to-value ratio of 77%, but Chainlink \ntokens have a loan-to-value ratio of just 70%. Since Chain Link tokens are more volatile than DAI, they have much lower loan-to-value ratios. Similarly When the health factor \nof a position in Aave approaches one, the position is in danger of being liquidated.\n\n### Protocol Risk\nDeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.\n\n#### Smart contract risk\nThese are the risks involved with the smart contracts in the protocol. Hackers or exploiters might exploit the protocol using bugs, Flash Loan attacks, etc. \nThese risks are mitigated by rigorous code audits.\n\n#### Oracle risks\nThese are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data \nlike price feed, total supply, etc. Problems in oracles will be a massive problem for DeFi protocols. Even slight price differences in the protocol from the real world \ncause considerable losses to the protocol.  DeFi mitigates this risk by decentralized oracle networks like chainlink. For example chainlink aggregates independent high\nquality nodes or data providers in order to ensure security and high quality data.\n"
         }
       ],
       "questions": [
         {
-          "uuid": "3c35c4d1-4b6d-4071-9019-070426f5bf42",
+          "uuid": "68d9898f-4838-4218-9356-dba391a63fdd",
           "type": "SingleChoice",
-          "content": "What is the main purpose of DeFi?",
-          "hint": "Purpose of DeFi in the current scenario",
-          "explanation": "Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.",
+          "content": "What is collateral and over collateralization?",
+          "hint": "Collateral and over-collateralization",
+          "explanation": "Collateral is a security locked by borrower for borrowing. Overcollateralization is a process in which collateral is locked at higher value than borrowed value in order to cover the potential losses of the collateral.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "why-do-we-lending-borrowing"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Collateral is returns on lent assets.",
+              "key": "A"
+            },
+            {
+              "content": "Collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.",
+              "key": "B"
+            },
+            {
+              "content": "Collateral is a security locked by borrower and locking collateral at a higher value than the borrowed amount is called over-collateralization.",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9b09ff86-e6d3-4861-987d-aa819fe5622a",
+          "type": "MultipleChoice",
+          "content": "What are the use cases of lending and borrowing?",
+          "hint": "To gain interest and get money in urgent situations when capital is insufficient.",
+          "explanation": "To gain interest and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "why-do-we-lending-borrowing"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Lending increases the capital of lenders.",
+              "key": "A"
+            },
+            {
+              "content": "Lending improves decentralization and security.",
+              "key": "B"
+            },
+            {
+              "content": "Borrowers leverage their investments by investing in investment vehicles like the stock market to amplify the returns.",
+              "key": "C"
+            },
+            {
+              "content": "Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a4ea1fb0-f2dd-4fba-b3b3-75e57164010c",
+          "type": "SingleChoice",
+          "content": "The act of allowing someone else to use ones assets is called?",
+          "hint": "Lending",
+          "explanation": "Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest.",
           "answerKeys": [
             "B"
           ],
@@ -165,19 +231,577 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Provide banking facilties only to high worth individuals",
+              "content": "Leveraging",
               "key": "A"
             },
             {
-              "content": "Providing financial solutions on blockchain",
+              "content": "Lending",
               "key": "B"
             },
             {
-              "content": "Trade and earn more using cryptocurrency",
+              "content": "Borrowing",
               "key": "C"
             },
             {
-              "content": "Encourage money laundering.",
+              "content": "Banking",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "dcfa8605-e19c-41e3-908f-8ab9087d4182",
+          "type": "SingleChoice",
+          "content": "How DeFi's are obtaining real world data since blockchains are isolated in nature?",
+          "hint": "Oracle",
+          "explanation": "Oracles are nodes which provides real world data to the blockchains.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "why-do-we-lending-borrowing"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Blockchains are get real world data from internet",
+              "key": "A"
+            },
+            {
+              "content": "Through oracles",
+              "key": "B"
+            },
+            {
+              "content": "They cant get real world data",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "dc3b6825-ee0e-4b79-8116-3063e1386006",
+          "type": "MultipleChoice",
+          "content": "Which of the following are correct about traditional finance?",
+          "hint": "NoHint",
+          "explanation": "TradFi are centralized,simple and less riskier when compared to others. Traditional Finances takes most of the interest from borrowers.",
+          "answerKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "lending-borrowing-tradFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Traditional finances are centralized.",
+              "key": "A"
+            },
+            {
+              "content": "Traditional Finances takes most of the interest from borrowers.",
+              "key": "B"
+            },
+            {
+              "content": "Traditional Finances will provide loans without any agreements and paperworks.",
+              "key": "C"
+            },
+            {
+              "content": "Traditional Finances are simple and less riskier.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "cc996d05-b62d-43b0-8eaf-a23d7d9d873d",
+          "type": "MultipleChoice",
+          "content": "What are the challenges to privacy in TradFi?",
+          "hint": "NoHint",
+          "explanation": "Users are required to complete their KYC and transactions are monitored in TradFi.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "lending-borrowing-tradFi"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Banks check and collect the data from all the legal documents of an user for opening account.",
+              "key": "A"
+            },
+            {
+              "content": "Users are required to complete their KYC.",
+              "key": "B"
+            },
+            {
+              "content": "Transactions are monitored in TradFi.",
+              "key": "C"
+            },
+            {
+              "content": "No personal data is required for lending and borrowing in DeFi.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "46633903-58f6-411b-84b9-6cba1a9f8009",
+          "type": "MultipleChoice",
+          "content": "Pick the correct statement(s).",
+          "hint": "NoHint",
+          "explanation": "Traditional finances allows censorship and they have numerous blind spots. They are simple and less risky.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "lending-borrowing-tradFi"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Traditional Finances allow censorship.",
+              "key": "A"
+            },
+            {
+              "content": "Traditional Finances are not transparent.",
+              "key": "B"
+            },
+            {
+              "content": "Traditional Finances are simple and less risky when compared to others.",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a9513711-0f19-40e8-a9fa-c9c60bb8db70",
+          "type": "SingleChoice",
+          "content": "How users assets are secured by DeFi?",
+          "hint": "NoHint",
+          "explanation": "Assets are secured by blockchain and smart-contracts.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Assets are controlled by Swiss bank.",
+              "key": "A"
+            },
+            {
+              "content": "Assets are secured by blockchain and smart-contracts.",
+              "key": "B"
+            },
+            {
+              "content": "Assets are secured by group of Finance companies.",
+              "key": "C"
+            },
+            {
+              "content": "Assets are not secured",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2f2a8ecb-0743-470e-b63f-ba655b8c2e76",
+          "type": "MultipleChoice",
+          "content": "Which of the following is(are) correct about interest and interest rates in DeFi?",
+          "hint": "Interest rates in DeFi",
+          "explanation": "Interest rates vary for different assets in DeFi. Most of the interest from the borrowers goes to lenders.",
+          "answerKeys": [
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Interest rates are constant for every assets.",
+              "key": "A"
+            },
+            {
+              "content": "Interest rates vary for different assets in DeFi.",
+              "key": "B"
+            },
+            {
+              "content": "DeFi's takes most of the interest from the borrowers.",
+              "key": "C"
+            },
+            {
+              "content": "Most of the interest from the borrowers goes to the lenders.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a4bda467-20d1-4744-8b72-dea7060a05e0",
+          "type": "SingleChoice",
+          "content": "How does DeFi protocols are governed?",
+          "hint": "NoHint",
+          "explanation": "Most of the DeFi's are governed by native token holders of the protocol since the protocol is decentralized.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Most of the DeFi's are governed by native token holders of the protocol.",
+              "key": "A"
+            },
+            {
+              "content": "DeFi's are governed by the artificial intelligence.",
+              "key": "B"
+            },
+            {
+              "content": "DeFi's are governed by group of banks.",
+              "key": "C"
+            },
+            {
+              "content": "None of These.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2e2c3904-31ee-4c74-85ab-6fecf5ef92f2",
+          "type": "MultipleChoice",
+          "content": "What is(are) the advantages of DeFi's?",
+          "hint": "NoHint",
+          "explanation": "DeFi's are resistant to censorship, transparent and efficient. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "DeFi's are resistant to censorship.",
+              "key": "A"
+            },
+            {
+              "content": "DeFi's are simple and no risks involved in it.",
+              "key": "B"
+            },
+            {
+              "content": "DeFi's are efficient as everything is automated by smart-contracts.",
+              "key": "C"
+            },
+            {
+              "content": "DeFi's are transparent hence no hidden fees are involved in DeFi.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "703957f8-e6cd-4a80-aa56-8ced9531e741",
+          "type": "MultipleChoice",
+          "content": "How DeFi's are efficient?",
+          "hint": "Decentralized and smart-contracts.",
+          "explanation": "DeFi's are decentralized entities using smart-contracts as their backend. Since DeFi's are running on blockchain the possibility of server down is very low.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Defi's automate the protocol using smart-contracts.",
+              "key": "A"
+            },
+            {
+              "content": "The possibility of server down is very low in Defi's.",
+              "key": "B"
+            },
+            {
+              "content": "DeFi's are decentralized platforms hence most profits are utilized by users.",
+              "key": "C"
+            },
+            {
+              "content": "DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone and they are resistant to censorship.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "76a7de69-eb82-4a45-bf05-ad0eb9f90a1c",
+          "type": "SingleChoice",
+          "content": "What are Flashloans?",
+          "hint": "Flashloans are explained in lending in DeFi.",
+          "explanation": "Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts but with certain conditions.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It is a normal loan which can be borrowed in TradFi with low interest rates.",
+              "key": "A"
+            },
+            {
+              "content": "It is a loan which is borrowed more than locked collateral.",
+              "key": "B"
+            },
+            {
+              "content": "Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts.",
+              "key": "C"
+            },
+            {
+              "content": "It is an alternate name of an ordinary loan in DeFi's.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9f71eb33-933e-45a4-815b-31c27a5ae8bb",
+          "type": "MultipleChoice",
+          "content": "What is(are) the DeFi protocols which offers Flash-Loans?",
+          "hint": "NoHint",
+          "explanation": "Aave and Uniswap",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Bank of America",
+              "key": "A"
+            },
+            {
+              "content": "Aave",
+              "key": "B"
+            },
+            {
+              "content": "Uniswap",
+              "key": "C"
+            },
+            {
+              "content": "Opensea",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3ac4e9c7-07fe-4f8d-a3e8-5054e104bda9",
+          "type": "MultipleChoice",
+          "content": "What is(are) the risks involved in DeFi's?",
+          "hint": "Risks in DeFi's",
+          "explanation": "Volatality risks, smart-contract risks and oracle risks.",
+          "answerKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Volatility risk",
+              "key": "A"
+            },
+            {
+              "content": "Smart-contract risk",
+              "key": "B"
+            },
+            {
+              "content": "Risks are not involved in DeFi",
+              "key": "C"
+            },
+            {
+              "content": "Oracle risk",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2c542310-7b78-4ab8-9a44-66ceddd1c829",
+          "type": "MultipleChoice",
+          "content": "What are the two important factors for mitigation of Collateral liquidation risk?",
+          "hint": "NoHint",
+          "explanation": "DeFi tackles this issues by considering two factors Loan to value and health factor.",
+          "answerKeys": [
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Utilization rate",
+              "key": "A"
+            },
+            {
+              "content": "Loan-to-value(LTV)",
+              "key": "B"
+            },
+            {
+              "content": "Market cap",
+              "key": "C"
+            },
+            {
+              "content": "Healthfactor",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "bc34e1fd-dcac-4a72-93ac-33e494c99e22",
+          "type": "SingleChoice",
+          "content": "What is collateral liquidation?",
+          "hint": "Collateral liquidation",
+          "explanation": "Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It is the process of gaining interest for locked collateral by borrowers.",
+              "key": "A"
+            },
+            {
+              "content": "It is the process of borrowing Flash-Loans.",
+              "key": "B"
+            },
+            {
+              "content": "It is the forced sale of pledged collateral by the borrower to repay a loan.",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "61eddda0-ce75-4b0a-b415-37482ff79983",
+          "type": "SingleChoice",
+          "content": "When collateral liquidation occurs?",
+          "hint": "NoHint",
+          "explanation": "It occurs when health factor approaches to one.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It occurs when health factor equals to zero.",
+              "key": "A"
+            },
+            {
+              "content": "It occurs when Healthfactor approaches to 1.",
+              "key": "B"
+            },
+            {
+              "content": "It occurs when a lender withraws.",
+              "key": "C"
+            },
+            {
+              "content": "It occurs at the time of borrowing loans.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5ad62e0e-5388-4cd2-9b8e-1da8ff3ff383",
+          "type": "SingleChoice",
+          "content": "Assume that ETH has LTV of 50% and DAI has 70% which one is more volatile?",
+          "hint": "NoHint",
+          "explanation": "Higher LTV implies highly stable hence ETH is more volatile than DAI.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "both are equally volatile",
+              "key": "A"
+            },
+            {
+              "content": "ETH",
+              "key": "B"
+            },
+            {
+              "content": "DAI",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e989640a-aee4-4a34-9dea-5299a73485c5",
+          "type": "SingleChoice",
+          "content": "How oracle risks are mitigated by DeFi's?",
+          "hint": "NoHint",
+          "explanation": "They are mitigated by decentralized oracle networks like chainlink.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "managing-risks"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "They are mitigated by centralized servers.",
+              "key": "A"
+            },
+            {
+              "content": "They are mitigated by decentralized oracle networks like chainlink.",
+              "key": "B"
+            },
+            {
+              "content": "They are mitigated by rigorous code audits.",
+              "key": "C"
+            },
+            {
+              "content": "None of These.",
               "key": "D"
             }
           ]
@@ -201,25 +825,25 @@
           "title": "Overview",
           "shortTitle": "Important terms",
           "key": "why-do-we-lending-borrowing",
-          "details": "### Important terms\n\n#### Credit score \nIt is the score determined by banking activities like repayment of loans, length of credit history, etc.\n\n#### Collateral\nIt is an asset that is locked to borrow loans.\n\n#### Smart contracts\nThese are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.\n\n#### Leverage \nIn financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. \n\n#### Oracles \nThese are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.\n\n#### Loan to value \nIt is a ratio that tells how much of a loan can be borrowed against the collateral.\n\n#### Over collateralization \nCollateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.\n\n### Lending and borrowing basics\n  * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. \n  * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. \n\n### Use cases of Lending and Borrowing \n  * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. \n  * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.\n"
+          "details": "### Important terms\n\n#### Credit score \nIt is the score determined by banking activities like repayment of loans, length of credit history, etc.\n\n#### Collateral\nIt is an asset that is locked to borrow loans.\n\n#### Smart contracts\nThese are pieces of code deployed in blockchains like Ethereum. These are very helpful for creating Dapps.\n\n#### Leverage \nIn financial terms, leverage is an investment strategy for increasing the potential return of investment by borrowing loans. \n\n#### Oracles \nThese are the nodes that provide real-world data to the blockchain since blockchains are isolated environments.\n\n#### Loan to value \nIt is a ratio that tells how much of a loan can be borrowed against the collateral.\n\n#### Over collateralization \nCollateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.\n\n### Lending and borrowing basics\n* Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. \n* Borrowing in finance involves borrowing money under an agreement to pay it back with interest. \n\n### Use cases of Lending and Borrowing \n\n* By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. \n* Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.\n"
         },
         {
           "title": "Lending and borrowing in TradFi",
           "shortTitle": "Trad: Lend & Borrow",
-          "key": "lending-borrowing-tradfi",
-          "details": "- Lending and Borrowing in TradFi \n\n  * Traditional Finance work based on trust, users or customers must trust these institutions to lend and borrow assets. \n  * Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. \n  * The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. \n  * Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.\n\n- Disadvantages of Lending and Borrowing in TradFi \n\n  **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.\n\n  **Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. \n\n  **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.\n"
+          "key": "lending-borrowing-tradFi",
+          "details": "### Lending and Borrowing in TradFi \n\n* Traditional Finance work based on trust, users or customers must trust these institutions to lend and borrow assets. \n* Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. \n* The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. \n* Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.\n\n### Disadvantages of Lending and Borrowing in TradFi \n\n**Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.\n\n**Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. \n\n**Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.\n"
         },
         {
           "title": "Lending and borrowing in DeFi",
           "shortTitle": "DeFi: Lend & Borrow",
-          "key": "lending-borrowing-defi",
-          "details": "- Lending and Borrowing in DeFi \n  * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. \n  * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. \n  * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. \n\n- Benefits of DeFi Lending and Borrowing\n  1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. \n  2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.\n  3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. \n                         \n"
+          "key": "lending-borrowing-DeFi",
+          "details": "### Lending and Borrowing in DeFi \n* Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. \n* Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. \n* Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. \n\n### Benefits of DeFi Lending and Borrowing\n1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. \n2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.\n3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. \n                        \n"
         },
         {
           "title": "Managing risks",
           "shortTitle": "Managing-Risks",
           "key": "managing-risks",
-          "details": "### Volatility Risk \n  \nLending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, \nso users must consider the volatility of the assets before lending or borrowing. \n  \n#### Collateral Liquidation\nCollateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. \nThe volatility of assets is also a factor that leads to collateral liquidation.\n  \nDeFi tackles these issues by considering several factors. The important two factors are\n  1. Loan To Value\n  2. Healthfactor\nAssets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is \nat risk of being liquidated due to insufficient collateral. \n\n### Protocol Risk \nDeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.\n  \n#### Smart contract risk\n    These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.\n  \n#### Oracle risks\n    These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. \n    Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.\n       \n       \n"
+          "details": "### Volatility Risk \n  \nLending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, \nso users must consider the volatility of the assets before lending or borrowing. \n  \n#### Collateral Liquidation\nCollateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. \nThe volatility of assets is also a factor that leads to collateral liquidation.\n  \nDeFi tackles these issues by considering several factors. The important two factors are\n1. Loan To Value\n2. Healthfactor\n\nAssets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is \nat risk of being liquidated due to insufficient collateral. \n\n### Protocol Risk \nDeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.\n  \n#### Smart contract risk\nThese are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.\n  \n#### Oracle risks\nThese are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. \nProblems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.\n       \n       \n"
         }
       ]
     }

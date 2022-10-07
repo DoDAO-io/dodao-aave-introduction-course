@@ -1,19 +1,404 @@
-- uuid: 3c35c4d1-4b6d-4071-9019-070426f5bf42
+- uuid: 68d9898f-4838-4218-9356-dba391a63fdd
   type: SingleChoice
-  content: What is the main purpose of DeFi?
-  hint: Purpose of DeFi in the current scenario
-  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  content: What is collateral and over collateralization?
+  hint: Collateral and over-collateralization
+  explanation: Collateral is a security locked by borrower for borrowing. Overcollateralization is a process in which collateral is locked at higher value than borrowed value in order to cover the potential losses of the collateral.
+  answerKeys:
+    - C
+  subTopics:
+    - why-do-we-lending-borrowing
+  difficultyLevel: Low
+  choices:
+    - content: Collateral is returns on lent assets.
+      key: A
+    - content: Collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.
+      key: B
+    - content: Collateral is a security locked by borrower and locking collateral at a higher value than the borrowed amount is called over-collateralization.
+      key: C
+    - content: None of these
+      key: D
+
+- uuid: 9b09ff86-e6d3-4861-987d-aa819fe5622a
+  type: MultipleChoice
+  content: What are the use cases of lending and borrowing?
+  hint: To gain interest and get money in urgent situations when capital is insufficient.
+  explanation: To gain interest and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics:
+    - why-do-we-lending-borrowing
+  difficultyLevel: Low
+  choices:
+    - content: Lending increases the capital of lenders.
+      key: A
+    - content: Lending improves decentralization and security.
+      key: B
+    - content: Borrowers leverage their investments by investing in investment vehicles like the stock market to amplify the returns.                
+      key: C
+    - content: Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+      key: D
+- uuid: a4ea1fb0-f2dd-4fba-b3b3-75e57164010c
+  type: SingleChoice
+  content: The act of allowing someone else to use ones assets is called?
+  hint: Lending
+  explanation: Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
   answerKeys:
     - B
   subTopics:
     - why-do-we-lending-borrowing
-  difficultyLevel: "Low"
+  difficultyLevel: Low
   choices:
-    - content: Provide banking facilties only to high worth individuals
+    - content: Leveraging
       key: A
-    - content: Providing financial solutions on blockchain
+    - content: Lending
       key: B
-    - content: Trade and earn more using cryptocurrency
+    - content: Borrowing
       key: C
-    - content: Encourage money laundering.
+    - content: Banking
       key: D
+
+- uuid: dcfa8605-e19c-41e3-908f-8ab9087d4182
+  type: SingleChoice
+  content: How DeFi's are obtaining real world data since blockchains are isolated in nature?
+  hint: Oracle
+  explanation: Oracles are nodes which provides real world data to the blockchains.
+  answerKeys:
+    - B
+  subTopics:
+    - why-do-we-lending-borrowing
+  difficultyLevel: Medium
+  choices:
+    - content: Blockchains are get real world data from internet
+      key: A
+    - content: Through oracles
+      key: B
+    - content: They cant get real world data
+      key: C
+    - content: None of the above
+      key: D
+- uuid: dc3b6825-ee0e-4b79-8116-3063e1386006
+  type: MultipleChoice
+  content: Which of the following are correct about traditional finance?
+  hint: NoHint
+  explanation: TradFi are centralized,simple and less riskier when compared to others. Traditional Finances takes most of the interest from borrowers.
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - lending-borrowing-tradFi
+  difficultyLevel: Low
+  choices:
+    - content: Traditional finances are centralized.
+      key: A
+    - content: Traditional Finances takes most of the interest from borrowers.
+      key: B
+    - content: Traditional Finances will provide loans without any agreements and paperworks.
+      key: C
+    - content: Traditional Finances are simple and less riskier.
+      key: D
+- uuid: cc996d05-b62d-43b0-8eaf-a23d7d9d873d
+  type: MultipleChoice
+  content: What are the challenges to privacy in TradFi?
+  hint: NoHint
+  explanation: Users are required to complete their KYC and transactions are monitored in TradFi.
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - lending-borrowing-tradFi
+  difficultyLevel: Medium
+  choices:
+    - content: Banks check and collect the data from all the legal documents of an user for opening account.
+      key: A
+    - content: Users are required to complete their KYC.
+      key: B
+    - content: Transactions are monitored in TradFi.
+      key: C
+    - content: No personal data is required for lending and borrowing in DeFi.
+      key: D
+
+- uuid: 46633903-58f6-411b-84b9-6cba1a9f8009
+  type: MultipleChoice
+  content: Pick the correct statement(s).
+  hint: NoHint
+  explanation: Traditional finances allows censorship and they have numerous blind spots. They are simple and less risky.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - lending-borrowing-tradFi
+  difficultyLevel: Medium
+  choices:
+    - content: Traditional Finances allow censorship.
+      key: A
+    - content: Traditional Finances are not transparent.
+      key: B
+    - content: Traditional Finances are simple and less risky when compared to others.
+      key: C
+    - content: None of these
+      key: D
+- uuid: a9513711-0f19-40e8-a9fa-c9c60bb8db70
+  type: SingleChoice
+  content: How users assets are secured by DeFi?
+  hint: NoHint
+  explanation: Assets are secured by blockchain and smart-contracts.
+  answerKeys:
+    - B
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Medium
+  choices:
+    - content: Assets are controlled by Swiss bank.
+      key: A
+    - content: Assets are secured by blockchain and smart-contracts.
+      key: B
+    - content: Assets are secured by group of Finance companies.
+      key: C
+    - content: Assets are not secured 
+      key: D
+
+- uuid: 2f2a8ecb-0743-470e-b63f-ba655b8c2e76
+  type: MultipleChoice
+  content: Which of the following is(are) correct about interest and interest rates in DeFi?
+  hint: Interest rates in DeFi
+  explanation: Interest rates vary for different assets in DeFi. Most of the interest from the borrowers goes to lenders.
+  answerKeys:
+    - B
+    - D
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: Interest rates are constant for every assets.
+      key: A
+    - content: Interest rates vary for different assets in DeFi.
+      key: B
+    - content: DeFi's takes most of the interest from the borrowers.
+      key: C
+    - content: Most of the interest from the borrowers goes to the lenders.
+      key: D
+
+- uuid: a4bda467-20d1-4744-8b72-dea7060a05e0
+  type: SingleChoice
+  content: How does DeFi protocols are governed?
+  hint: NoHint
+  explanation: Most of the DeFi's are governed by native token holders of the protocol since the protocol is decentralized.
+  answerKeys:
+    - A
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: Most of the DeFi's are governed by native token holders of the protocol.
+      key: A
+    - content: DeFi's are governed by the artificial intelligence.
+      key: B
+    - content: DeFi's are governed by group of banks.
+      key: C
+    - content: None of These.
+      key: D
+- uuid: 2e2c3904-31ee-4c74-85ab-6fecf5ef92f2
+  type: MultipleChoice
+  content: What is(are) the advantages of DeFi's?
+  hint: NoHint
+  explanation: DeFi's are resistant to censorship, transparent and efficient. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: DeFi's are resistant to censorship.
+      key: A
+    - content: DeFi's are simple and no risks involved in it.
+      key: B
+    - content: DeFi's are efficient as everything is automated by smart-contracts.
+      key: C
+    - content: DeFi's are transparent hence no hidden fees are involved in DeFi.
+      key: D
+- uuid: 703957f8-e6cd-4a80-aa56-8ced9531e741
+  type: MultipleChoice
+  content: How DeFi's are efficient?
+  hint: Decentralized and smart-contracts.
+  explanation: DeFi's are decentralized entities using smart-contracts as their backend. Since DeFi's are running on blockchain the possibility of server down is very low.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Medium
+  choices:
+    - content: Defi's automate the protocol using smart-contracts.
+      key: A
+    - content: The possibility of server down is very low in Defi's.
+      key: B
+    - content: DeFi's are decentralized platforms hence most profits are utilized by users. 
+      key: C
+    - content: DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone and they are resistant to censorship.
+      key: D
+
+- uuid: 76a7de69-eb82-4a45-bf05-ad0eb9f90a1c
+  type: SingleChoice
+  content: What are Flashloans?
+  hint: Flashloans are explained in lending in DeFi.
+  explanation: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts but with certain conditions.
+  answerKeys:
+    - C
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: It is a normal loan which can be borrowed in TradFi with low interest rates. 
+      key: A
+    - content: It is a loan which is borrowed more than locked collateral.
+      key: B
+    - content: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts.
+      key: C
+    - content: It is an alternate name of an ordinary loan in DeFi's.
+      key: D
+- uuid: 9f71eb33-933e-45a4-815b-31c27a5ae8bb
+  type: MultipleChoice
+  content: What is(are) the DeFi protocols which offers Flash-Loans?
+  hint: NoHint
+  explanation: Aave and Uniswap
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - lending-borrowing-DeFi
+  difficultyLevel: Low
+  choices:
+    - content: Bank of America
+      key: A
+    - content: Aave
+      key: B
+    - content: Uniswap
+      key: C
+    - content: Opensea
+      key: D
+- uuid: 3ac4e9c7-07fe-4f8d-a3e8-5054e104bda9
+  type: MultipleChoice
+  content: What is(are) the risks involved in DeFi's?
+  hint: Risks in DeFi's
+  explanation: Volatality risks, smart-contract risks and oracle risks.
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - managing-risks
+  difficultyLevel: Low
+  choices:
+    - content: Volatility risk
+      key: A
+    - content: Smart-contract risk
+      key: B
+    - content: Risks are not involved in DeFi
+      key: C
+    - content: Oracle risk
+      key: D
+- uuid: 2c542310-7b78-4ab8-9a44-66ceddd1c829
+  type: MultipleChoice
+  content: What are the two important factors for mitigation of Collateral liquidation risk?
+  hint: NoHint
+  explanation: DeFi tackles this issues by considering two factors Loan to value and health factor.
+  answerKeys:
+    - B
+    - D
+  subTopics:
+    - managing-risks
+  difficultyLevel: Low
+  choices:
+    - content: Utilization rate
+      key: A
+    - content: Loan-to-value(LTV)
+      key: B
+    - content: Market cap
+      key: C
+    - content: Healthfactor
+      key: D
+- uuid: bc34e1fd-dcac-4a72-93ac-33e494c99e22
+  type: SingleChoice
+  content: What is collateral liquidation?
+  hint: Collateral liquidation
+  explanation: Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.
+  answerKeys:
+    - C
+  subTopics:
+    - managing-risks
+  difficultyLevel: Low
+  choices:
+    - content: It is the process of gaining interest for locked collateral by borrowers.
+      key: A
+    - content: It is the process of borrowing Flash-Loans.
+      key: B
+    - content: It is the forced sale of pledged collateral by the borrower to repay a loan.
+      key: C
+    - content: None of these
+      key: D
+- uuid: 61eddda0-ce75-4b0a-b415-37482ff79983
+  type: SingleChoice
+  content: When collateral liquidation occurs?
+  hint: NoHint
+  explanation: It occurs when health factor approaches to one.
+  answerKeys:
+    - B
+  subTopics:
+    - managing-risks
+  difficultyLevel: Medium
+  choices:
+    - content: It occurs when health factor equals to zero.
+      key: A
+    - content: It occurs when Healthfactor approaches to 1.
+      key: B
+    - content: It occurs when a lender withraws.
+      key: C
+    - content: It occurs at the time of borrowing loans.
+      key: D
+- uuid: 5ad62e0e-5388-4cd2-9b8e-1da8ff3ff383
+  type: SingleChoice
+  content: Assume that ETH has LTV of 50% and DAI has 70% which one is more volatile?
+  hint: NoHint
+  explanation: Higher LTV implies highly stable hence ETH is more volatile than DAI.
+  answerKeys:
+    - D
+  subTopics:
+    - managing-risks
+  difficultyLevel: Medium
+  choices:
+    - content: both are equally volatile
+      key: A
+    - content: ETH
+      key: B
+    - content: DAI
+      key: C
+    - content: None of these
+      key: D
+- uuid: e989640a-aee4-4a34-9dea-5299a73485c5
+  type: SingleChoice
+  content: How oracle risks are mitigated by DeFi's?
+  hint: NoHint
+  explanation: They are mitigated by decentralized oracle networks like chainlink.
+  answerKeys:
+    - B
+  subTopics:
+    - managing-risks
+  difficultyLevel: Low
+  choices:
+    - content: They are mitigated by centralized servers.
+      key: A
+    - content: They are mitigated by decentralized oracle networks like chainlink.
+      key: B
+    - content: They are mitigated by rigorous code audits.
+      key: C
+    - content: None of These.
+      key: D
+      
+    
