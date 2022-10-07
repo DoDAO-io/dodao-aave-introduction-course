@@ -43,7 +43,7 @@
 
 - title: Lending and Borrowing in TradFi
   shortTitle: "Trad: Lend & Borrow"
-  key: lending-borrowing
+  key: lending-borrowing-tradFi
   details: |
     ### Lending and Borrowing in TradFi 
 
@@ -78,7 +78,7 @@
 
 - title: Lending and Borrowing in DeFi
   shortTitle: "DeFi: Lend & Borrow"
-  key: lending-borrowing
+  key: lending-borrowing-DeFi
   details: |
     ## Lending and Borrowing in DeFi 
 
