@@ -122,7 +122,7 @@
     - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
-    - content: No hidden charges
+    - content: DeFi is borderless
       key: A
     - content: Fast and affordable money transfer
       key: B
