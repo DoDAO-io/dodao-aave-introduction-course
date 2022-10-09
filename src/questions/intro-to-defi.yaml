@@ -36,7 +36,7 @@
       key: B
     - content: For exchange of assets
       key: C
-    - content: For Securing money in vaults
+    - content: For Securing money in physical vaults
       key: D
 - uuid: d8ca36fe-1b4d-4390-b05a-419d854a6100
   type: SingleChoice
