@@ -111,7 +111,7 @@
       key: B
 - uuid: 8f04b67d-6729-4401-80e1-9dca376765db
   type: MultipleChoice
-  content: How does DeFi help small scale businesses?
+  content: How is DeFi more inclusive as compared to TradFi?
   hint: DeFi has no hidden charges, and it does not depend on credibility.
   explanation: In DeFi there are no charges for transactions, the fund transfer is fast and affordable and does not depend on credibility of borrower and allows flash loans to its users as well.
   answerKeys:
