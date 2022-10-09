@@ -8,16 +8,32 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
 ---
 
-##### What is collateral and over collateralization?  
+##### What is Collateral?  
 
-- [ ]  Collateral is returns on lent assets.
-- [ ]  Collateral net value of borrowed amount and Overcollateralization is an investment strategy for increasing the potential return of investment.
-- [x]  Collateral is a security locked by borrower and locking collateral at a higher value than the borrowed amount is called over-collateralization.
+- [ ]  Collateral is net returns on lent assets.
+- [ ]  Collateral refers to the net worth of the loan.
+- [x]  Collateral is something pledged as security for repayment of a loan, to be forfeited in the event of a default.
 - [ ]  None of these
   
-Hint: Collateral and over-collateralization
+Hint: NoHint
          
-Explanation: Collateral is a security locked by borrower for borrowing. Overcollateralization is a process in which collateral is locked at higher value than borrowed value in order to cover the potential losses of the collateral.
+Explanation: Collateral is something pledged as security for repayment of a loan, to be forfeited in the event of a default.
+
+Sub Topics: why-do-we-lending-borrowing
+ 
+
+---
+
+##### Why is there the need for over-collateralization?  
+
+- [ ]  Over-collateralization helps to find bugs in the smart-contracts.
+- [ ]  Over-collateralization helps to increase the interest rates for lenders.
+- [x]  Over-collateralization is needed to cover potential losses in case of default. The extra collateral helps to cover the loan in case the loan value exceeds the value of collateral.
+- [ ]  None of these
+  
+Hint: NoHint
+         
+Explanation: Over-collateralization is when you put up more collateral than what is needed to cover a loan. This extra collateral can help to cover potential losses in case of default. Having over-collateralization can help to reduce the risk of default and ensures the security of assets.
 
 Sub Topics: why-do-we-lending-borrowing
  
@@ -26,14 +42,14 @@ Sub Topics: why-do-we-lending-borrowing
 
 ##### What are the use cases of lending and borrowing?  
 
-- [x]  Lending increases the capital of lenders.
+- [x]  Lending increases the value of assets by gaining interest.
 - [ ]  Lending improves decentralization and security.
-- [x]  Borrowers leverage their investments by investing in investment vehicles like the stock market to amplify the returns.
 - [x]  Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+- [x]  Borrowing increases an investment's potential return through leveraging.
   
-Hint: To gain interest and get money in urgent situations when capital is insufficient.
+Hint: NoHint
          
-Explanation: To gain interest and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+Explanation: Lending increases the value of assets by gaining interest on the lent assets and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient. Borrowing increases an investment's potential return through leveraging.
 
 Sub Topics: why-do-we-lending-borrowing
  
@@ -56,44 +72,44 @@ Sub Topics: why-do-we-lending-borrowing
 
 ---
 
-##### How DeFi's are obtaining real world data since blockchains are isolated in nature?  
+##### How DeFi's are obtaining realtime data like asset prices, since blockchains are isolated and cannot talk to the web?  
 
-- [ ]  Blockchains are get real world data from internet
+- [ ]  Blockchains get real world data from internet
 - [x]  Through oracles
 - [ ]  They cant get real world data
 - [ ]  None of the above
   
 Hint: Oracle
          
-Explanation: Oracles are nodes which provides real world data to the blockchains.
+Explanation: Oracles are nodes which provides realtime data like asset prices to the blockchains.
 
 Sub Topics: why-do-we-lending-borrowing
  
 
 ---
 
-##### Which of the following are correct about traditional finance?  
+##### Which of the following are correct about traditional Finance?  
 
-- [x]  Traditional finances are centralized.
+- [x]  Traditional Finances are centralized and allows censorship.
 - [x]  Traditional Finances takes most of the interest from borrowers.
 - [ ]  Traditional Finances will provide loans without any agreements and paperworks.
-- [x]  Traditional Finances are simple and less riskier.
+- [x]  Traditional Finances are simple and less riskier as its regulated.
   
 Hint: NoHint
          
-Explanation: TradFi are centralized,simple and less riskier when compared to others. Traditional Finances takes most of the interest from borrowers.
+Explanation: TradFi is centralized and simpler for the user end when compared to DeFi. Traditional Finances takes most of the interest from borrowers.
 
 Sub Topics: lending-borrowing-tradFi
  
 
 ---
 
-##### What are the challenges to privacy in TradFi?  
+##### What are some privacy issues in TradFi?  
 
 - [ ]  Banks check and collect the data from all the legal documents of an user for opening account.
 - [x]  Users are required to complete their KYC.
 - [x]  Transactions are monitored in TradFi.
-- [ ]  No personal data is required for lending and borrowing in DeFi.
+- [ ]  No personal data is required for lending and borrowing in TradFi.
   
 Hint: NoHint
          
@@ -104,96 +120,80 @@ Sub Topics: lending-borrowing-tradFi
 
 ---
 
-##### Pick the correct statement(s).  
+##### In decentralized finance (DeFi), when users lend their assets, who maintains possession of them?  
 
-- [x]  Traditional Finances allow censorship.
-- [x]  Traditional Finances are not transparent.
-- [x]  Traditional Finances are simple and less risky when compared to others.
+- [ ]  Assets are controlled by Swiss bank.
+- [x]  Assets are maintained by smart-contracts of the protocol.
+- [ ]  Assets are secured by group of Finance companies.
 - [ ]  None of these
   
 Hint: NoHint
          
-Explanation: Traditional finances allows censorship and they have numerous blind spots. They are simple and less risky.
+Explanation: Users assets are maintained by smart-contracts of the protocol.
 
-Sub Topics: lending-borrowing-tradFi
+Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### How users assets are secured by DeFi?  
+##### Which of the following is(are) correct about DeFi protocols?  
 
-- [ ]  Assets are controlled by Swiss bank.
-- [x]  Assets are secured by blockchain and smart-contracts.
-- [ ]  Assets are secured by group of Finance companies.
-- [ ]  Assets are not secured
+- [x]  Users can lend and borrow assets anonymously within DeFi protocols.
+- [x]  Interest rates vary for different assets in DeFi protocols.
+- [ ]  Majority of the interest that accrues goes to DeFi protocols.
+- [x]  Fees in DeFi are quite less as compared to TradFi and majority of the interest that accrues goes to lenders.
   
 Hint: NoHint
          
-Explanation: Assets are secured by blockchain and smart-contracts.
+Explanation: Users can lend and borrow assets without revealing their identities within DeFi protocols. The rates of return differ for different assets in DeFi protocols. The majority of the interest that accrues goes to lenders.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### Which of the following is(are) correct about interest and interest rates in DeFi?  
+##### How are DeFi protocols governed?  
 
-- [ ]  Interest rates are constant for every assets.
-- [x]  Interest rates vary for different assets in DeFi.
-- [ ]  DeFi's takes most of the interest from the borrowers.
-- [x]  Most of the interest from the borrowers goes to the lenders.
-  
-Hint: Interest rates in DeFi
-         
-Explanation: Interest rates vary for different assets in DeFi. Most of the interest from the borrowers goes to lenders.
-
-Sub Topics: lending-borrowing-DeFi
- 
-
----
-
-##### How does DeFi protocols are governed?  
-
-- [x]  Most of the DeFi's are governed by native token holders of the protocol.
-- [ ]  DeFi's are governed by the artificial intelligence.
-- [ ]  DeFi's are governed by group of banks.
+- [x]  Most of the DeFi protocols are governed by native token holders of the protocol.
+- [ ]  DeFi protocols are governed by lenders.
+- [ ]  DeFi protocols are governed by group of banks.
 - [ ]  None of These.
   
 Hint: NoHint
          
-Explanation: Most of the DeFi's are governed by native token holders of the protocol since the protocol is decentralized.
+Explanation: Most of the DeFi protocols are governed by native token holders of the protocol. Token holders vote on different proposals to update or enhance the protocol.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### What is(are) the advantages of DeFi's?  
+##### What are the advantages of DeFi protocol's?  
 
 - [x]  DeFi's are resistant to censorship.
 - [ ]  DeFi's are simple and no risks involved in it.
-- [x]  DeFi's are efficient as everything is automated by smart-contracts.
 - [x]  DeFi's are transparent hence no hidden fees are involved in DeFi.
+- [ ]  None of these
   
 Hint: NoHint
          
-Explanation: DeFi's are resistant to censorship, transparent and efficient. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
+Explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### How DeFi's are efficient?  
+##### How DeFi protocols are efficient?  
 
-- [x]  Defi's automate the protocol using smart-contracts.
-- [x]  The possibility of server down is very low in Defi's.
-- [x]  DeFi's are decentralized platforms hence most profits are utilized by users.
-- [ ]  DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone and they are resistant to censorship.
+- [x]  DeFi's automate the protocol using smart-contracts.
+- [x]  The possibility of server down is very low in DeFi's.
+- [x]  DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.
+- [ ]  None of  These
   
 Hint: Decentralized and smart-contracts.
          
-Explanation: DeFi's are decentralized entities using smart-contracts as their backend. Since DeFi's are running on blockchain the possibility of server down is very low.
+Explanation: DeFi's automate the protocol using smart-contracts. Since DeFi's are running on blockchain the possibility of server down is very low. They are transparent their core smart-contracts can be viewed and analyzed by anyone.
 
 Sub Topics: lending-borrowing-DeFi
  
@@ -202,21 +202,21 @@ Sub Topics: lending-borrowing-DeFi
 
 ##### What are Flashloans?  
 
-- [ ]  It is a normal loan which can be borrowed in TradFi with low interest rates.
-- [ ]  It is a loan which is borrowed more than locked collateral.
-- [x]  Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts.
+- [ ]  It is a ordinary loan which can be borrowed in TradFi with low interest rates.
+- [ ]  It is a zero interest loan which can be borrowed by locking collateral with twice the value of borrowed amount.
+- [x]  Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts with certain conditions.
 - [ ]  It is an alternate name of an ordinary loan in DeFi's.
   
-Hint: Flashloans are explained in lending in DeFi.
+Hint: NoHint
          
-Explanation: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts but with certain conditions.
+Explanation: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts with certain conditions.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### What is(are) the DeFi protocols which offers Flash-Loans?  
+##### Which of the following offers Flashloans?  
 
 - [ ]  Bank of America
 - [x]  Aave
@@ -225,39 +225,39 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: NoHint
          
-Explanation: Aave and Uniswap
+Explanation: Aave and Uniswap offers Flashloans.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### What is(are) the risks involved in DeFi's?  
+##### What are the risks associated with the DeFi protocols?  
 
 - [x]  Volatility risk
 - [x]  Smart-contract risk
-- [ ]  Risks are not involved in DeFi
 - [x]  Oracle risk
+- [ ]  None of these
   
 Hint: Risks in DeFi's
          
-Explanation: Volatality risks, smart-contract risks and oracle risks.
+Explanation: Risks associated with the DeFi protocols are Volatility risk, Smart-contract risk and Oracle risk.
 
 Sub Topics: managing-risks
  
 
 ---
 
-##### What are the two important factors for mitigation of Collateral liquidation risk?  
+##### Which of the following factors helps to mitigate the risk of collateral liquidation?  
 
-- [ ]  Utilization rate
+- [x]  Healthfactor
 - [x]  Loan-to-value(LTV)
 - [ ]  Market cap
-- [x]  Healthfactor
+- [ ]  None of these
   
 Hint: NoHint
          
-Explanation: DeFi tackles this issues by considering two factors Loan to value and health factor.
+Explanation: DeFi protocols mitigates this issue by considering several factors. The two important factors are Loan-to-value and Healthfactor.
 
 Sub Topics: managing-risks
  
@@ -267,11 +267,11 @@ Sub Topics: managing-risks
 ##### What is collateral liquidation?  
 
 - [ ]  It is the process of gaining interest for locked collateral by borrowers.
-- [ ]  It is the process of borrowing Flash-Loans.
+- [ ]  It is the process of distributing profits among the native token holders.
 - [x]  It is the forced sale of pledged collateral by the borrower to repay a loan.
 - [ ]  None of these
   
-Hint: Collateral liquidation
+Hint: NoHint
          
 Explanation: Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.
 
@@ -289,23 +289,23 @@ Sub Topics: managing-risks
   
 Hint: NoHint
          
-Explanation: It occurs when health factor approaches to one.
+Explanation: Collateral liquidation occurs when health factor approaches to one.
 
 Sub Topics: managing-risks
  
 
 ---
 
-##### Assume that ETH has LTV of 50% and DAI has 70% which one is more volatile?  
+##### Assume that ETH has LTV of 50% and DAI has LTV of 70%. Which is more volatile?  
 
 - [ ]  both are equally volatile
-- [ ]  ETH
+- [x]  ETH
 - [ ]  DAI
-- [x]  None of these
+- [ ]  None of these
   
 Hint: NoHint
          
-Explanation: Higher LTV implies highly stable hence ETH is more volatile than DAI.
+Explanation: Higher (Loan to value)LTV implies highly stable asset. Hence ETH is more volatile than DAI.
 
 Sub Topics: managing-risks
  

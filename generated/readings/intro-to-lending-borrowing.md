@@ -7,7 +7,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
   **Introduction to lending and borowing in crypto**
  
- [![Introduction to lending and borowing in crypto](https://img.youtube.com/vi/null/0.jpg)](https://www.youtube.com/watch?v=null)     
+ [![Introduction to lending and borowing in crypto](https://img.youtube.com/vi/SrArEE6p3zM/0.jpg)](https://www.youtube.com/watch?v=SrArEE6p3zM)     
  
  This video enables learners to know about
   * Lending and borowing in crypto
@@ -19,7 +19,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  Sub Topics: why-do-we-lending-borrowing    
   **Lending and borrowing in DeFi**
  
- [![Lending and borrowing in DeFi](https://img.youtube.com/vi/null/0.jpg)](https://www.youtube.com/watch?v=null)     
+ [![Lending and borrowing in DeFi](https://img.youtube.com/vi/aTp9er6S73M/0.jpg)](https://www.youtube.com/watch?v=aTp9er6S73M)     
  
  This video enables learners to know about
   * Working of lending and borrowing in DeFi's
