@@ -47,7 +47,7 @@
     - A
   difficultyLevel: "Low"
   choices:
-    - content: Controlled by an authority
+    - content: Controlled by a central authority
       key: A
     - content: Open source
       key: B
