@@ -94,7 +94,7 @@
       key: A
     - content: Through oracles
       key: B
-    - content: They cant get real world data
+    - content: They can't get real world data
       key: C
     - content: None of the above
       key: D
@@ -239,7 +239,7 @@
       key: B
     - content: DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.
       key: C
-    - content: None of  These
+    - content: None of these
       key: D
 
 - uuid: 76a7de69-eb82-4a45-bf05-ad0eb9f90a1c
@@ -253,7 +253,7 @@
     - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
-    - content: It is a ordinary loan which can be borrowed in TradFi with low interest rates. 
+    - content: It is an ordinary loan which can be borrowed in TradFi with low interest rates. 
       key: A
     - content: It is a zero interest loan which can be borrowed by locking collateral with twice the value of borrowed amount.
       key: B
@@ -354,7 +354,7 @@
   choices:
     - content: It occurs when health factor equals to zero.
       key: A
-    - content: It occurs when Healthfactor approaches to 1.
+    - content: It occurs when healthfactor approaches to 1.
       key: B
     - content: It occurs when a lender withraws.
       key: C

@@ -303,7 +303,7 @@
               "key": "B"
             },
             {
-              "content": "They cant get real world data",
+              "content": "They can't get real world data",
               "key": "C"
             },
             {
@@ -539,7 +539,7 @@
               "key": "C"
             },
             {
-              "content": "None of  These",
+              "content": "None of these",
               "key": "D"
             }
           ]
@@ -559,7 +559,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "It is a ordinary loan which can be borrowed in TradFi with low interest rates.",
+              "content": "It is an ordinary loan which can be borrowed in TradFi with low interest rates.",
               "key": "A"
             },
             {
@@ -727,7 +727,7 @@
               "key": "A"
             },
             {
-              "content": "It occurs when Healthfactor approaches to 1.",
+              "content": "It occurs when healthfactor approaches to 1.",
               "key": "B"
             },
             {

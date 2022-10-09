@@ -76,7 +76,7 @@ Sub Topics: why-do-we-lending-borrowing
 
 - [ ]  Blockchains get real world data from internet
 - [x]  Through oracles
-- [ ]  They cant get real world data
+- [ ]  They can't get real world data
 - [ ]  None of the above
   
 Hint: Oracle
@@ -189,7 +189,7 @@ Sub Topics: lending-borrowing-DeFi
 - [x]  DeFi's automate the protocol using smart-contracts.
 - [x]  The possibility of server down is very low in DeFi's.
 - [x]  DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.
-- [ ]  None of  These
+- [ ]  None of these
   
 Hint: Decentralized and smart-contracts.
          
@@ -202,7 +202,7 @@ Sub Topics: lending-borrowing-DeFi
 
 ##### What are Flashloans?  
 
-- [ ]  It is a ordinary loan which can be borrowed in TradFi with low interest rates.
+- [ ]  It is an ordinary loan which can be borrowed in TradFi with low interest rates.
 - [ ]  It is a zero interest loan which can be borrowed by locking collateral with twice the value of borrowed amount.
 - [x]  Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts with certain conditions.
 - [ ]  It is an alternate name of an ordinary loan in DeFi's.
@@ -283,7 +283,7 @@ Sub Topics: managing-risks
 ##### When collateral liquidation occurs?  
 
 - [ ]  It occurs when health factor equals to zero.
-- [x]  It occurs when Healthfactor approaches to 1.
+- [x]  It occurs when healthfactor approaches to 1.
 - [ ]  It occurs when a lender withraws.
 - [ ]  It occurs at the time of borrowing loans.
   
