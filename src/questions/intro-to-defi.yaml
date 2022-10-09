@@ -79,7 +79,7 @@
   type: SingleChoice
   content: What do you understand by interoperability of DeFi?	
   hint: Features of Decentralised Finance
-  explanation: Interoperability of DeFi refers to interconnection between various dapps in the DeFi ecosystem.
+  explanation: Interoperability of DeFi refers to interconnection between various dapps built by developers in the DeFi ecosystem.
   answerKeys:
     - C
   subTopics:
@@ -90,7 +90,7 @@
       key: A
     - content: DeFi is free to use for everyone.
       key: B
-    - content: DeFi applications are interconnected.
+    - content: Developers can develop DeFi applications that are interconnected.
       key: C
     - content: None of the above
       key: D
