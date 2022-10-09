@@ -57,7 +57,7 @@
       key: D
 - uuid: d091e037-c787-453d-82c8-6dcb1c5b01e2
   type: MultipleChoice
-  content: What are some features of DeFi?
+  content: What are some of the features of DeFi?
   hint: Features of DeFi
   explanation: DeFi ledger is immutable, transparent and highly efficient 
   answerKeys:
