@@ -50,7 +50,7 @@
     - why-do-we-lending-borrowing
   difficultyLevel: Low
   choices:
-    - content: Lending increases the value of assets by gaining interest.
+    - content: Through the acquisition of interest, lending raises the value of assets.
       key: A
     - content: Lending improves decentralization and security.
       key: B
@@ -129,13 +129,13 @@
     - lending-borrowing-DeFi
   difficultyLevel: Medium
   choices:
-    - content: The borrowers need to pay high interest on borrowing
+    - content: In order to lend assets, lenders need to use smart-contracts
       key: A
-    - content: The interest rate for lenders is fixed
+    - content: Under-collateralized loans can be borrowed
       key: B
     - content: Majority of the accrued interest goes to the lenders
       key: C
-    - content: Loans can be provided at zero interest rate
+    - content: Loans are provided at zero interest rate
       key: D
 - uuid: a9513711-0f19-40e8-a9fa-c9c60bb8db70
   type: SingleChoice
@@ -148,13 +148,13 @@
     - lending-borrowing-DeFi
   difficultyLevel: Medium
   choices:
-    - content: Assets are controlled by Swiss bank.
+    - content: Assets are maintained by the founders and developers of the protocol
       key: A
-    - content: Assets are maintained by smart-contracts of the protocol.
+    - content: Assets are maintained by smart-contracts of the protocol
       key: B
-    - content: Assets are secured by group of Finance companies.
+    - content: Assets are maintained by group of Finance companies
       key: C
-    - content: None of these
+    - content: Assets are maintained by an AI 
       key: D
 
 - uuid: 2f2a8ecb-0743-470e-b63f-ba655b8c2e76
@@ -172,7 +172,7 @@
   choices:
     - content: Users can lend and borrow assets anonymously within DeFi protocols.
       key: A
-    - content: Interest rates vary for different assets in DeFi protocols.
+    - content: DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.
       key: B
     - content: Majority of the interest that accrues goes to DeFi protocols.
       key: C
@@ -196,46 +196,47 @@
       key: B
     - content: DeFi protocols are governed by group of banks.
       key: C
-    - content: None of These.
+    - content: DeFi protocols are governed by a diverse group of selected people from around the world.
       key: D
 - uuid: 2e2c3904-31ee-4c74-85ab-6fecf5ef92f2
   type: MultipleChoice
-  content: What are the advantages of DeFi protocols?
+  content: What are the advantages of DeFi protocols over traditional finance?
   hint: NoHint
-  explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's.
+  explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's. DeFi protocols are automated using smart contracts. DeFi eliminates the need for middlemen, which can increase the profitability of lenders.
   answerKeys:
     - A
+    - B
     - C
+    - D
   subTopics:
     - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
     - content: DeFi's are resistant to censorship
       key: A
-    - content: DeFi's are simple and no risks involved in it
+    - content: DeFi protocols are automated using smart contracts
       key: B
     - content: DeFi's are transparent hence no hidden fees are involved in DeFi protocols
       key: C
-    - content: None of these
+    - content: DeFi eliminates the need for middlemen, which can increase the profitability of lenders
       key: D
 - uuid: 703957f8-e6cd-4a80-aa56-8ced9531e741
   type: MultipleChoice
-  content: How DeFi protocols are efficient?
-  hint: Decentralized and smart-contracts.
-  explanation: DeFi's automate the protocol using smart-contracts. Since DeFi's are running on blockchain the possibility of server down is very low. They are transparent their core smart-contracts can be viewed and analyzed by anyone.
+  content: What are the drawbacks of traditonal finance?
+  hint: NoHint
+  explanation: Traditional financial institutions tend to take a large cut of the interest from borrowers, acting as a middleman between lenders and borrowers. Transaction limits are imposed on users. 
   answerKeys:
     - A
-    - B
     - C
   subTopics:
-    - lending-borrowing-DeFi
+    - lending-borrowing-tradFi
   difficultyLevel: Medium
   choices:
-    - content: DeFi's automate the protocol using smart-contracts.
+    - content: Traditional financial institutions tend to take a large cut of the interest from borrowers, acting as a middleman between them and the lenders.
       key: A
-    - content: The possibility of server down is very low in DeFi's.
+    - content: Lending and borrowing using traditional financial systems is exceedingly risky.
       key: B
-    - content: DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.
+    - content: With traditional finance, users are limited to sending transactions only up to a certain amount, and cross-border transactions can cause significant losses in capital.
       key: C
     - content: None of these
       key: D
@@ -244,20 +245,20 @@
   type: SingleChoice
   content: What are Flashloans?
   hint: NoHint
-  explanation: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts with certain conditions.
+  explanation: Flashloans are loans that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts with certain conditions.
   answerKeys:
     - C
   subTopics:
     - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
-    - content: It is an ordinary loan which can be borrowed in TradFi with low interest rates. 
+    - content: A loan from TradFi usually has low interest rates. 
       key: A
-    - content: It is a zero interest loan which can be borrowed by locking collateral with twice the value of borrowed amount.
+    - content: It is a zero interest loan that can be borrowed by using collateral that is worth twice the amount of the loan.
       key: B
-    - content: Flashloans are loans which can be borrowed instantly without any collateral by using smart-contracts with certain conditions.
+    - content: Flashloans are loans that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts with certain conditions.
       key: C
-    - content: It is an alternate name of an ordinary loan in DeFi's.
+    - content: Flashloans are an alternate name of an ordinary loan in DeFi's.
       key: D
 - uuid: 9f71eb33-933e-45a4-815b-31c27a5ae8bb
   type: MultipleChoice
@@ -322,7 +323,7 @@
       key: D
 - uuid: bc34e1fd-dcac-4a72-93ac-33e494c99e22
   type: SingleChoice
-  content: What is collateral liquidation?
+  content: What is Collateral liquidation?
   hint: NoHint
   explanation: Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.
   answerKeys:
@@ -331,7 +332,7 @@
     - managing-risks
   difficultyLevel: Low
   choices:
-    - content: It is the process of gaining interest for locked collateral by borrowers.
+    - content: Collateral liquidation is the action of using gold as security to borrow money.
       key: A
     - content: It is the process of distributing profits among the native token holders.
       key: B
@@ -362,7 +363,7 @@
   type: SingleChoice
   content: Assume that ETH has LTV of 50% and DAI has LTV of 70%. Which is more volatile?
   hint: NoHint
-  explanation: Higher (Loan to value)LTV implies highly stable asset. Hence ETH is more volatile than DAI.
+  explanation: Since higher LTVs imply more stable assets, ETH is more volatile than DAI.
   answerKeys:
     - B
   subTopics:
