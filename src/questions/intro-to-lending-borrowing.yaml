@@ -42,11 +42,10 @@
   type: MultipleChoice
   content: What are the use cases of lending and borrowing?
   hint: NoHint
-  explanation: Lending increases the value of assets by gaining interest on the lent assets and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient. Borrowing increases an investment's potential return through leveraging.
+  explanation: Lending increases the value of assets by gaining interest on the lent assets and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient. 
   answerKeys:
     - A
     - C
-    - D
   subTopics:
     - why-do-we-lending-borrowing
   difficultyLevel: Low
@@ -57,7 +56,7 @@
       key: B
     - content: Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
       key: C
-    - content: Borrowing increases an investment's potential return through leveraging.
+    - content: Borrowing increases the borrowers capital.
       key: D
 - uuid: a4ea1fb0-f2dd-4fba-b3b3-75e57164010c
   type: SingleChoice
@@ -81,7 +80,7 @@
 
 - uuid: dcfa8605-e19c-41e3-908f-8ab9087d4182
   type: SingleChoice
-  content: How DeFi's are obtaining realtime data like asset prices, since blockchains are isolated and cannot talk to the web?
+  content: How DeFi protocols obtain realtime data like asset prices, since blockchains are isolated and cannot talk to the web?
   hint: Oracle
   explanation: Oracles are nodes which provides realtime data like asset prices to the blockchains.
   answerKeys:
@@ -96,7 +95,7 @@
       key: B
     - content: They can't get real world data
       key: C
-    - content: None of the above
+    - content: Real-world data for blockchains is obtained directly from users.
       key: D
 - uuid: dc3b6825-ee0e-4b79-8116-3063e1386006
   type: MultipleChoice
@@ -111,33 +110,32 @@
     - lending-borrowing-tradFi
   difficultyLevel: Low
   choices:
-    - content: Traditional Finances are centralized and allows censorship.
+    - content: Traditional Finance is centralized and allows censorship.
       key: A
-    - content: Traditional Finances takes most of the interest from borrowers.
+    - content: Traditional Finance is inefficient and takes most of the interest from borrowers.
       key: B
-    - content: Traditional Finances will provide loans without any agreements and paperworks.
+    - content: Traditional Finances provides loans without any agreements and paperworks.
       key: C
-    - content: Traditional Finances are simple and less riskier as its regulated.
+    - content: Traditional Finance is less riskier as its regulated.
       key: D
 - uuid: cc996d05-b62d-43b0-8eaf-a23d7d9d873d
-  type: MultipleChoice
-  content: What are some privacy issues in TradFi?
+  type: SingleChoice
+  content: What is the benefit of eliminating middlemen in DeFi protocols?
   hint: NoHint
-  explanation: Users are required to complete their KYC and transactions are monitored in TradFi.
+  explanation: The elimination of middlemen in DeFi protocols makes them more efficient and allows lenders to keep more of the interest that is accrued.
   answerKeys:
-    - B
     - C
   subTopics:
-    - lending-borrowing-tradFi
+    - lending-borrowing-DeFi
   difficultyLevel: Medium
   choices:
-    - content: Banks check and collect the data from all the legal documents of an user for opening account.
+    - content: The borrowers need to pay high interest on borrowing
       key: A
-    - content: Users are required to complete their KYC.
+    - content: The interest rate for lenders is fixed
       key: B
-    - content: Transactions are monitored in TradFi.
+    - content: Majority of the accrued interest goes to the lenders
       key: C
-    - content: No personal data is required for lending and borrowing in TradFi.
+    - content: Loans can be provided at zero interest rate
       key: D
 - uuid: a9513711-0f19-40e8-a9fa-c9c60bb8db70
   type: SingleChoice
@@ -192,7 +190,7 @@
     - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
-    - content: Most of the DeFi protocols are governed by native token holders of the protocol.
+    - content: Most of the DeFi protocols are governed by native token holders of the protocol who vote on proposals to update or enhance the protocol.
       key: A
     - content: DeFi protocols are governed by lenders.
       key: B
@@ -202,9 +200,9 @@
       key: D
 - uuid: 2e2c3904-31ee-4c74-85ab-6fecf5ef92f2
   type: MultipleChoice
-  content: What are the advantages of DeFi protocol's?
+  content: What are the advantages of DeFi protocols?
   hint: NoHint
-  explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
+  explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's.
   answerKeys:
     - A
     - C
@@ -212,11 +210,11 @@
     - lending-borrowing-DeFi
   difficultyLevel: Low
   choices:
-    - content: DeFi's are resistant to censorship.
+    - content: DeFi's are resistant to censorship
       key: A
-    - content: DeFi's are simple and no risks involved in it.
+    - content: DeFi's are simple and no risks involved in it
       key: B
-    - content: DeFi's are transparent hence no hidden fees are involved in DeFi.
+    - content: DeFi's are transparent hence no hidden fees are involved in DeFi protocols
       key: C
     - content: None of these
       key: D

@@ -45,11 +45,11 @@ Sub Topics: why-do-we-lending-borrowing
 - [x]  Lending increases the value of assets by gaining interest.
 - [ ]  Lending improves decentralization and security.
 - [x]  Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
-- [x]  Borrowing increases an investment's potential return through leveraging.
+- [ ]  Borrowing increases the borrowers capital.
   
 Hint: NoHint
          
-Explanation: Lending increases the value of assets by gaining interest on the lent assets and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient. Borrowing increases an investment's potential return through leveraging.
+Explanation: Lending increases the value of assets by gaining interest on the lent assets and borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
 
 Sub Topics: why-do-we-lending-borrowing
  
@@ -72,12 +72,12 @@ Sub Topics: why-do-we-lending-borrowing
 
 ---
 
-##### How DeFi's are obtaining realtime data like asset prices, since blockchains are isolated and cannot talk to the web?  
+##### How DeFi protocols obtain realtime data like asset prices, since blockchains are isolated and cannot talk to the web?  
 
 - [ ]  Blockchains get real world data from internet
 - [x]  Through oracles
 - [ ]  They can't get real world data
-- [ ]  None of the above
+- [ ]  Real-world data for blockchains is obtained directly from users.
   
 Hint: Oracle
          
@@ -90,10 +90,10 @@ Sub Topics: why-do-we-lending-borrowing
 
 ##### Which of the following are correct about traditional Finance?  
 
-- [x]  Traditional Finances are centralized and allows censorship.
-- [x]  Traditional Finances takes most of the interest from borrowers.
-- [ ]  Traditional Finances will provide loans without any agreements and paperworks.
-- [x]  Traditional Finances are simple and less riskier as its regulated.
+- [x]  Traditional Finance is centralized and allows censorship.
+- [x]  Traditional Finance is inefficient and takes most of the interest from borrowers.
+- [ ]  Traditional Finances provides loans without any agreements and paperworks.
+- [x]  Traditional Finance is less riskier as its regulated.
   
 Hint: NoHint
          
@@ -104,18 +104,18 @@ Sub Topics: lending-borrowing-tradFi
 
 ---
 
-##### What are some privacy issues in TradFi?  
+##### What is the benefit of eliminating middlemen in DeFi protocols?  
 
-- [ ]  Banks check and collect the data from all the legal documents of an user for opening account.
-- [x]  Users are required to complete their KYC.
-- [x]  Transactions are monitored in TradFi.
-- [ ]  No personal data is required for lending and borrowing in TradFi.
+- [ ]  The borrowers need to pay high interest on borrowing
+- [ ]  The interest rate for lenders is fixed
+- [x]  Majority of the accrued interest goes to the lenders
+- [ ]  Loans can be provided at zero interest rate
   
 Hint: NoHint
          
-Explanation: Users are required to complete their KYC and transactions are monitored in TradFi.
+Explanation: The elimination of middlemen in DeFi protocols makes them more efficient and allows lenders to keep more of the interest that is accrued.
 
-Sub Topics: lending-borrowing-tradFi
+Sub Topics: lending-borrowing-DeFi
  
 
 ---
@@ -154,7 +154,7 @@ Sub Topics: lending-borrowing-DeFi
 
 ##### How are DeFi protocols governed?  
 
-- [x]  Most of the DeFi protocols are governed by native token holders of the protocol.
+- [x]  Most of the DeFi protocols are governed by native token holders of the protocol who vote on proposals to update or enhance the protocol.
 - [ ]  DeFi protocols are governed by lenders.
 - [ ]  DeFi protocols are governed by group of banks.
 - [ ]  None of These.
@@ -168,16 +168,16 @@ Sub Topics: lending-borrowing-DeFi
 
 ---
 
-##### What are the advantages of DeFi protocol's?  
+##### What are the advantages of DeFi protocols?  
 
-- [x]  DeFi's are resistant to censorship.
-- [ ]  DeFi's are simple and no risks involved in it.
-- [x]  DeFi's are transparent hence no hidden fees are involved in DeFi.
+- [x]  DeFi's are resistant to censorship
+- [ ]  DeFi's are simple and no risks involved in it
+- [x]  DeFi's are transparent hence no hidden fees are involved in DeFi protocols
 - [ ]  None of these
   
 Hint: NoHint
          
-Explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's. Most of the interest from the borrowers goes to lenders.
+Explanation: DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's.
 
 Sub Topics: lending-borrowing-DeFi
  
