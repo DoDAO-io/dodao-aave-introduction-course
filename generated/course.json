@@ -154,8 +154,8 @@
           "uuid": "68d9898f-4838-4218-9356-dba391a63fdd",
           "type": "SingleChoice",
           "content": "What is Collateral?",
-          "hint": "NoHint",
-          "explanation": "Collateral is something pledged as security for repayment of a loan, to be forfeited in the event of a default.",
+          "hint": "Collateral",
+          "explanation": "Collateral is an asset pledged as security for repayment of a loan. If the borrower defaults, the lender can seize the collateral. Borrowers need to pledge collateral to lenders in order to get a loan.",
           "answerKeys": [
             "C"
           ],
@@ -165,15 +165,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Collateral is net returns on lent assets.",
+              "content": "Collateral is net returns on lent assets",
               "key": "A"
             },
             {
-              "content": "Collateral refers to the net worth of the loan.",
+              "content": "Collateral refers to the net worth of the loan",
               "key": "B"
             },
             {
-              "content": "Collateral is something pledged as security for repayment of a loan, to be forfeited in the event of a default.",
+              "content": "Collateral is something pledged as security for repayment of a loan, to be forfeited in the event of a default",
               "key": "C"
             },
             {
@@ -186,8 +186,8 @@
           "uuid": "f46a773b-9198-4e13-bc5d-9d9f5ef6d7d5",
           "type": "SingleChoice",
           "content": "Why is there the need for over-collateralization?",
-          "hint": "NoHint",
-          "explanation": "Over-collateralization is when you put up more collateral than what is needed to cover a loan. This extra collateral can help to cover potential losses in case of default. Having over-collateralization can help to reduce the risk of default and ensures the security of assets.",
+          "hint": "Volatility",
+          "explanation": "When you over-collateralize, you're putting up more collateral than what's necessary to cover a loan. This extra collateral can help to cover potential losses in case of default, and to offset the volatility of the asset.",
           "answerKeys": [
             "C"
           ],
@@ -197,15 +197,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Over-collateralization helps to find bugs in the smart-contracts.",
+              "content": "Over-collateralization helps to find bugs in the smart-contracts",
               "key": "A"
             },
             {
-              "content": "Over-collateralization helps to increase the interest rates for lenders.",
+              "content": "Over-collateralization helps to increase the interest rates for lenders",
               "key": "B"
             },
             {
-              "content": "Over-collateralization is needed to cover potential losses in case of default. The extra collateral helps to cover the loan in case the loan value exceeds the value of collateral.",
+              "content": "Over-collateralization is needed to cover potential losses in case of default. The extra collateral helps to offset the volatility of asset, providing extra security",
               "key": "C"
             },
             {
@@ -230,19 +230,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Through the acquisition of interest, lending raises the value of assets.",
+              "content": "Through the acquisition of interest, lending raises the value of assets",
               "key": "A"
             },
             {
-              "content": "Lending improves decentralization and security.",
+              "content": "Lending improves decentralization and security",
               "key": "B"
             },
             {
-              "content": "Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.",
+              "content": "Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient",
               "key": "C"
             },
             {
-              "content": "Borrowing increases the borrowers capital.",
+              "content": "Borrowing increases the borrowers capital",
               "key": "D"
             }
           ]
@@ -250,7 +250,7 @@
         {
           "uuid": "a4ea1fb0-f2dd-4fba-b3b3-75e57164010c",
           "type": "SingleChoice",
-          "content": "The act of allowing someone else to use ones assets is called?",
+          "content": "What is the act of allowing someone else to use assets under an agreement to return them back called?",
           "hint": "Lending",
           "explanation": "Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest.",
           "answerKeys": [
@@ -306,7 +306,7 @@
               "key": "C"
             },
             {
-              "content": "Real-world data for blockchains is obtained directly from users.",
+              "content": "Real-world data for blockchains is obtained directly from users",
               "key": "D"
             }
           ]
@@ -314,9 +314,9 @@
         {
           "uuid": "dc3b6825-ee0e-4b79-8116-3063e1386006",
           "type": "MultipleChoice",
-          "content": "Which of the following are correct about traditional Finance?",
-          "hint": "NoHint",
-          "explanation": "TradFi is centralized and simpler for the user end when compared to DeFi. Traditional Finances takes most of the interest from borrowers.",
+          "content": "Which of the following are correct about Traditional Finance?",
+          "hint": "Centralized",
+          "explanation": "Traditional finance, when compared to decentralized finance, is centralized and simpler for the end user. However, traditional finance also takes a higher margin of interest from borrowers. Traditional finance is less riskier as its regulated.",
           "answerKeys": [
             "A",
             "B",
@@ -328,19 +328,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Traditional Finance is centralized and allows censorship.",
+              "content": "Traditional Finance is centralized and allows censorship",
               "key": "A"
             },
             {
-              "content": "Traditional Finance is inefficient and takes most of the interest from borrowers.",
+              "content": "Traditional Finance is inefficient and takes a higher margin of interest from borrowers",
               "key": "B"
             },
             {
-              "content": "Traditional Finances provides loans without any agreements and paperworks.",
+              "content": "Traditional Finances provides loans without any agreements and paperworks",
               "key": "C"
             },
             {
-              "content": "Traditional Finance is less riskier as its regulated.",
+              "content": "Traditional Finance is less riskier as its regulated",
               "key": "D"
             }
           ]
@@ -349,7 +349,7 @@
           "uuid": "cc996d05-b62d-43b0-8eaf-a23d7d9d873d",
           "type": "SingleChoice",
           "content": "What is the benefit of eliminating middlemen in DeFi protocols?",
-          "hint": "NoHint",
+          "hint": "Lending",
           "explanation": "The elimination of middlemen in DeFi protocols makes them more efficient and allows lenders to keep more of the interest that is accrued.",
           "answerKeys": [
             "C"
@@ -381,7 +381,7 @@
           "uuid": "a9513711-0f19-40e8-a9fa-c9c60bb8db70",
           "type": "SingleChoice",
           "content": "In decentralized finance (DeFi), when users lend their assets, who maintains possession of them?",
-          "hint": "NoHint",
+          "hint": "Smart-contracts",
           "explanation": "Users assets are maintained by smart-contracts of the protocol.",
           "answerKeys": [
             "B"
@@ -412,12 +412,11 @@
         {
           "uuid": "2f2a8ecb-0743-470e-b63f-ba655b8c2e76",
           "type": "MultipleChoice",
-          "content": "Which of the following is(are) correct about DeFi protocols?",
-          "hint": "NoHint",
-          "explanation": "Users can lend and borrow assets without revealing their identities within DeFi protocols. The rates of return differ for different assets in DeFi protocols. The majority of the interest that accrues goes to lenders.",
+          "content": "Which of the following is (are) correct about lending and borrowing in DeFi protocols?",
+          "hint": "Privacy",
+          "explanation": "Users can lend and borrow assets without revealing their identities within DeFi protocols. The majority of the interest that accrues goes to lenders.",
           "answerKeys": [
             "A",
-            "B",
             "D"
           ],
           "subTopics": [
@@ -426,19 +425,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Users can lend and borrow assets anonymously within DeFi protocols.",
+              "content": "Users can lend and borrow assets anonymously within DeFi protocols",
               "key": "A"
             },
             {
-              "content": "DeFi's are transparent their core smart-contracts can be viewed and analzed by anyone.",
+              "content": "If users own the native token of the protocol, they can borrow assets with zero interest",
               "key": "B"
             },
             {
-              "content": "Majority of the interest that accrues goes to DeFi protocols.",
+              "content": "The majority of interest that accrues goes to DeFi protocols",
               "key": "C"
             },
             {
-              "content": "Fees in DeFi are quite less as compared to TradFi and majority of the interest that accrues goes to lenders.",
+              "content": "The fees in DeFi are significantly lower than in TradFi, so most of the interest that accrues goes to lenders",
               "key": "D"
             }
           ]
@@ -447,8 +446,8 @@
           "uuid": "a4bda467-20d1-4744-8b72-dea7060a05e0",
           "type": "SingleChoice",
           "content": "How are DeFi protocols governed?",
-          "hint": "NoHint",
-          "explanation": "Most of the DeFi protocols are governed by native token holders of the protocol. Token holders vote on different proposals to update or enhance the protocol.",
+          "hint": "Native token holders",
+          "explanation": "Most of the DeFi protocols are governed by the native token holders of the protocol. Token holders vote on different proposals to update or enhance the protocol - something that isn't possible with traditional finance. Traditional finance is instead governed by higher authorities within the institutions.",
           "answerKeys": [
             "A"
           ],
@@ -458,19 +457,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Most of the DeFi protocols are governed by native token holders of the protocol who vote on proposals to update or enhance the protocol.",
+              "content": "Most of the DeFi protocols are governed by native token holders of the protocol who vote on proposals to update or enhance the protocol",
               "key": "A"
             },
             {
-              "content": "DeFi protocols are governed by lenders.",
+              "content": "DeFi protocols are governed by lenders",
               "key": "B"
             },
             {
-              "content": "DeFi protocols are governed by group of banks.",
+              "content": "DeFi protocols are governed by group of banks",
               "key": "C"
             },
             {
-              "content": "DeFi protocols are governed by a diverse group of selected people from around the world.",
+              "content": "DeFi protocols are governed by a diverse group of selected people from around the world",
               "key": "D"
             }
           ]
@@ -478,9 +477,9 @@
         {
           "uuid": "2e2c3904-31ee-4c74-85ab-6fecf5ef92f2",
           "type": "MultipleChoice",
-          "content": "What are the advantages of DeFi protocols over traditional finance?",
-          "hint": "NoHint",
-          "explanation": "DeFi's are resistant to censorship and transparent. No hidden fees are involved in DeFi's. DeFi protocols are automated using smart contracts. DeFi eliminates the need for middlemen, which can increase the profitability of lenders.",
+          "content": "What are the benefits of using DeFi protocols for lending and borrowing?",
+          "hint": "Decentralized and transparent",
+          "explanation": "Decentralized finance protocols are unique in that they're resistant to censorship and more transparent than traditional financial institutions. With DeFi, there are no hidden fees involved because the protocols are automated using smart contracts. This also eliminates the need for middlemen, which can in turn increase the profitability of lenders.",
           "answerKeys": [
             "A",
             "B",
@@ -493,7 +492,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "DeFi's are resistant to censorship",
+              "content": "DeFi's are resistant to censorship, hence anyone can participate in lending and borrowing on these platforms",
               "key": "A"
             },
             {
@@ -513,9 +512,9 @@
         {
           "uuid": "703957f8-e6cd-4a80-aa56-8ced9531e741",
           "type": "MultipleChoice",
-          "content": "What are the drawbacks of traditonal finance?",
-          "hint": "NoHint",
-          "explanation": "Traditional financial institutions tend to take a large cut of the interest from borrowers, acting as a middleman between lenders and borrowers. Transaction limits are imposed on users.",
+          "content": "In what basis personal loans are offered in traditional finance?",
+          "hint": "Credit score",
+          "explanation": "Traditional financial institutions offer loans based on an individual's credit score, income level, and repayment capacity. The primary condition for personal loans from these lenders is to maintain a high credit score.",
           "answerKeys": [
             "A",
             "C"
@@ -526,19 +525,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Traditional financial institutions tend to take a large cut of the interest from borrowers, acting as a middleman between them and the lenders.",
+              "content": "Credit score",
               "key": "A"
             },
             {
-              "content": "Lending and borrowing using traditional financial systems is exceedingly risky.",
+              "content": "Loan-to-value",
               "key": "B"
             },
             {
-              "content": "With traditional finance, users are limited to sending transactions only up to a certain amount, and cross-border transactions can cause significant losses in capital.",
+              "content": "Income level",
               "key": "C"
             },
             {
-              "content": "None of these",
+              "content": "Healthfactor",
               "key": "D"
             }
           ]
@@ -548,7 +547,7 @@
           "type": "SingleChoice",
           "content": "What are Flashloans?",
           "hint": "NoHint",
-          "explanation": "Flashloans are loans that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts with certain conditions.",
+          "explanation": "Flashloans are a unique type of loan that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts. This type of loan is not available in traditional finance, which makes it a great option for those who need quick access to funding.",
           "answerKeys": [
             "C"
           ],
@@ -558,32 +557,31 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A loan from TradFi usually has low interest rates.",
+              "content": "A loan from TradFi usually has low interest rates",
               "key": "A"
             },
             {
-              "content": "It is a zero interest loan that can be borrowed by using collateral that is worth twice the amount of the loan.",
+              "content": "It is a zero interest loan that can be borrowed by using collateral that is worth twice the amount of the loan",
               "key": "B"
             },
             {
-              "content": "Flashloans are loans that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts with certain conditions.",
+              "content": "Flashloans are loans that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts with certain conditions",
               "key": "C"
             },
             {
-              "content": "Flashloans are an alternate name of an ordinary loan in DeFi's.",
+              "content": "Flashloans are an alternate name of an ordinary loan in DeFi's",
               "key": "D"
             }
           ]
         },
         {
           "uuid": "9f71eb33-933e-45a4-815b-31c27a5ae8bb",
-          "type": "MultipleChoice",
-          "content": "Which of the following offers Flashloans?",
-          "hint": "NoHint",
+          "type": "SingleChoice",
+          "content": "Which of the following protocols offers Flashloans?",
+          "hint": "Flashloans",
           "explanation": "Aave and Uniswap offers Flashloans.",
           "answerKeys": [
-            "B",
-            "C"
+            "B"
           ],
           "subTopics": [
             "lending-borrowing-DeFi"
@@ -599,7 +597,7 @@
               "key": "B"
             },
             {
-              "content": "Uniswap",
+              "content": "Binance",
               "key": "C"
             },
             {
@@ -647,7 +645,7 @@
           "type": "MultipleChoice",
           "content": "Which of the following factors helps to mitigate the risk of collateral liquidation?",
           "hint": "NoHint",
-          "explanation": "DeFi protocols mitigates this issue by considering several factors. The two important factors are Loan-to-value and Healthfactor.",
+          "explanation": "DeFi protocols help to mitigate this issue by considering several factors, the two most important of which are Loan-to-value and Healthfactor.",
           "answerKeys": [
             "A",
             "B"
@@ -670,7 +668,7 @@
               "key": "C"
             },
             {
-              "content": "None of these",
+              "content": "Credit score",
               "key": "D"
             }
           ]
@@ -679,8 +677,8 @@
           "uuid": "bc34e1fd-dcac-4a72-93ac-33e494c99e22",
           "type": "SingleChoice",
           "content": "What is Collateral liquidation?",
-          "hint": "NoHint",
-          "explanation": "Collateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan.",
+          "hint": "Volatility",
+          "explanation": "Collateral liquidation is when the borrower is forced to sell their pledged collateral to repay a loan. This may happen because of the volatility of assets.",
           "answerKeys": [
             "C"
           ],
@@ -690,15 +688,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Collateral liquidation is the action of using gold as security to borrow money.",
+              "content": "Collateral liquidation is the act of using gold as security to borrow money",
               "key": "A"
             },
             {
-              "content": "It is the process of distributing profits among the native token holders.",
+              "content": "It is the process of distributing profits among the native token holders",
               "key": "B"
             },
             {
-              "content": "It is the forced sale of pledged collateral by the borrower to repay a loan.",
+              "content": "It is the forced sale of pledged collateral by the borrower to repay a loan",
               "key": "C"
             },
             {
@@ -711,8 +709,8 @@
           "uuid": "61eddda0-ce75-4b0a-b415-37482ff79983",
           "type": "SingleChoice",
           "content": "When collateral liquidation occurs?",
-          "hint": "NoHint",
-          "explanation": "Collateral liquidation occurs when health factor approaches to one.",
+          "hint": "Healthfactor",
+          "explanation": "Collateral liquidation happens when your Healthfactor gets close to one. Borrowers need to keep their Healthfactor above 1 to avoid being liquidated.",
           "answerKeys": [
             "B"
           ],
@@ -722,19 +720,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "It occurs when health factor equals to zero.",
+              "content": "It occurs when Healthfactor equals to zero",
               "key": "A"
             },
             {
-              "content": "It occurs when healthfactor approaches to 1.",
+              "content": "It occurs when Healthfactor approaches to one",
               "key": "B"
             },
             {
-              "content": "It occurs when a lender withraws.",
+              "content": "It occurs when a lender withraws the lent assets",
               "key": "C"
             },
             {
-              "content": "It occurs at the time of borrowing loans.",
+              "content": "It occurs at the time of borrowing loans",
               "key": "D"
             }
           ]
@@ -742,9 +740,9 @@
         {
           "uuid": "5ad62e0e-5388-4cd2-9b8e-1da8ff3ff383",
           "type": "SingleChoice",
-          "content": "Assume that ETH has LTV of 50% and DAI has LTV of 70%. Which is more volatile?",
-          "hint": "NoHint",
-          "explanation": "Since higher LTVs imply more stable assets, ETH is more volatile than DAI.",
+          "content": "Assume that ETH has Loan-To-Value of 50% and DAI has Loan-To-Value of 70%. Which is more volatile?",
+          "hint": "Loan-To-Value",
+          "explanation": "Since higher Loan-To-Value ratios imply more stable assets, ETH is more volatile than DAI.",
           "answerKeys": [
             "B"
           ],
@@ -754,7 +752,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "both are equally volatile",
+              "content": "Both are equally volatile",
               "key": "A"
             },
             {
@@ -776,7 +774,7 @@
           "type": "SingleChoice",
           "content": "How oracle risks are mitigated by DeFi's?",
           "hint": "NoHint",
-          "explanation": "They are mitigated by decentralized oracle networks like chainlink.",
+          "explanation": "Oracle risks are mitigated by decentralized oracle networks like Chainlink. Unlike centralized services, decentralized oracle networks cannot be manipulated, making the data more reliable.",
           "answerKeys": [
             "B"
           ],
@@ -786,19 +784,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "They are mitigated by centralized servers.",
+              "content": "They are mitigated by using centralized servers",
               "key": "A"
             },
             {
-              "content": "They are mitigated by decentralized oracle networks like chainlink.",
+              "content": "They are mitigated by using decentralized oracle networks like Chainlink",
               "key": "B"
             },
             {
-              "content": "They are mitigated by rigorous code audits.",
+              "content": "They are mitigated by rigorous code audits",
               "key": "C"
             },
             {
-              "content": "None of These.",
+              "content": "None of These",
               "key": "D"
             }
           ]
