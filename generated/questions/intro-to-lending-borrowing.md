@@ -209,7 +209,7 @@ Sub Topics: lending-borrowing-tradFi
   
 Hint: NoHint
          
-Explanation: Flashloans are a unique type of loan that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts. This type of loan is not available in traditional finance, which makes it a great option for those who need quick access to funding.
+Explanation: Flashloans are a unique type of loan that can be borrowed and repaid instantaneously, without the need for collateral, by using smart contracts. This type of loan is not available in Traditional Finance, which makes it a great option for those who need quick access to funding.
 
 Sub Topics: lending-borrowing-DeFi
  
@@ -225,7 +225,7 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Flashloans
          
-Explanation: Aave is a DeFi which offers Flashloans.
+Explanation: Aave is a DeFi protocol which offers Flashloans.
 
 Sub Topics: lending-borrowing-DeFi
  
