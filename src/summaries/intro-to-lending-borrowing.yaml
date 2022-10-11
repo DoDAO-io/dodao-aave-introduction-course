@@ -26,46 +26,47 @@
     Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
 
     ### Lending and borrowing basics
-      * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
-      * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. 
+    * Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
+    * Borrowing in finance involves borrowing money under an agreement to pay it back with interest. 
 
     ### Use cases of Lending and Borrowing 
-      * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
-      * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
+
+    * By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
+    * Borrowing helps you to get money in urgent situations or for improvement purposes when capital is insufficient.
 
 - title: Lending and borrowing in TradFi
   shortTitle: "Trad: Lend & Borrow"
-  key: lending-borrowing-tradfi
+  key: lending-borrowing-tradFi
   details: |
-    - Lending and Borrowing in TradFi 
+    ### Lending and Borrowing in TradFi 
 
-      * Traditional Finance work based on trust, users or customers must trust these institutions to lend and borrow assets. 
-      * Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. 
-      * The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. 
-      * Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.
+    * Traditional Finance work based on trust, users or customers must trust these institutions to lend and borrow assets. 
+    * Lending in traditional finance is simple, and risks are low. Customers must complete their KYC (Know Your Customer) verification to lend and borrow money. 
+    * The banks play the middlemen role between the lenders and borrowers but make high profits by providing different interest rates for lenders and borrowers. 
+    * Traditional finances usually allow users to borrow money when they meet certain conditions or criteria. These conditions may vary for different types of loans.
 
-    - Disadvantages of Lending and Borrowing in TradFi 
+    ### Disadvantages of Lending and Borrowing in TradFi 
 
-      **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.
+    **Governance and privacy:** Traditional finances are centralized hence all the changes to the finance are made by specific people. Traditional finance has the right to censorship.
 
-      **Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. 
+    **Complexity and user experience:** The customers must do paperworks for lending and borrowing, which makes the process quite complex. Transaction limits are imposed on users, which gives a bad user experience. 
 
-      **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.
+    **Capital and system inefficiency:** Traditional finance takes most of the profits from the borrowers. Traditional finances are not transparent.
 
 - title: Lending and borrowing in DeFi
   shortTitle: "DeFi: Lend & Borrow"
-  key: lending-borrowing-defi
+  key: lending-borrowing-DeFi
   details: |
-    - Lending and Borrowing in DeFi 
-      * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
-      * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
-      * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
+    ### Lending and Borrowing in DeFi 
+    * Lending and borrowing in DeFi are secured by blockchain and smart contracts. There is no requirement for KYC and paperwork for lending and borrowing. 
+    * Users can lend their money without limits and  lending and borrowing in DeFi is anonymous. 
+    * Lending and borrowing in DeFi are resistant to censorship. DeFi protocols are non-profit protocols hence most of the interest from the borrowers goes to lenders. 
 
-    - Benefits of DeFi Lending and Borrowing
-      1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
-      2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
-      3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
-                             
+    ### Benefits of DeFi Lending and Borrowing
+    1. **Efficiency**-  No manual steps, everything is automated using smart contracts. The possibility of server down is very low. 
+    2. **Universal**- DeFi's are resistant to censorship and anyone can participate in lending and borrowing from any part of the world.
+    3. **No hidden fees**- Elimination of middlemen prevents hidden fees for lenders and borrowers. DeFi protocols are transparent ,anyone can view and analyze their core smart contracts. 
+                            
 
 - title: Managing risks
   shortTitle: Managing-Risks
@@ -81,8 +82,9 @@
     The volatility of assets is also a factor that leads to collateral liquidation.
       
     DeFi tackles these issues by considering several factors. The important two factors are
-      1. Loan To Value
-      2. Healthfactor
+    1. Loan To Value
+    2. Healthfactor
+
     Assets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them as collateral. Healthfactor helps users to know whether a position is 
     at risk of being liquidated due to insufficient collateral. 
     
@@ -90,10 +92,10 @@
     DeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are smart-contract risks, oracle risks, scaling risks, and other risks.
       
     #### Smart contract risk
-        These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
+    These are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.
       
     #### Oracle risks
-        These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
-        Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
+    These are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, they use oracles to provide real-world data like price feed, total supply, etc. 
+    Problems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle networks like chainlink.
            
            
