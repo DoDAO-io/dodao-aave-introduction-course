@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
 
- ## Introduction to AAVE
+ ## Introduction to AAVE (work in progress)
  Lending and borrowing in DeFi are secured by blockchain and smart contracts. Users can lend their money without limits 
 similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained.
 
