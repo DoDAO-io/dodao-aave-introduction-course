@@ -97,7 +97,7 @@ Sub Topics: why-do-we-lending-borrowing
   
 Hint: Centralized
          
-Explanation: Traditional finance, when compared to decentralized finance, is centralized and simpler for the end user. However, traditional finance also takes a higher margin of interest from borrowers. Traditional finance is less riskier as its regulated.
+Explanation: Traditional Finance, when compared to Decentralized Finance, is centralized and simpler for the end user. However, Traditional Finance also takes a higher margin of interest from borrowers. Traditional Finance is less riskier as its regulated.
 
 Sub Topics: lending-borrowing-tradFi
  
@@ -120,7 +120,7 @@ Sub Topics: lending-borrowing-DeFi
 
 ---
 
-##### In decentralized finance (DeFi), when users lend their assets, who maintains possession of them?  
+##### In Decentralized Finance (DeFi), when users lend their assets, who maintains possession of them?  
 
 - [ ]  Assets are maintained by the founders and developers of the protocol
 - [x]  Assets are maintained by smart-contracts of the protocol
@@ -161,7 +161,7 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Native token holders
          
-Explanation: Most of the DeFi protocols are governed by the native token holders of the protocol. Token holders vote on different proposals to update or enhance the protocol - something that isn't possible with traditional finance. Traditional finance is instead governed by higher authorities within the institutions.
+Explanation: Most of the DeFi protocols are governed by the native token holders of the protocol. Token holders vote on different proposals to update or enhance the protocol - something that isn't possible with Traditional Finance. Traditional Finance is instead governed by higher authorities within the institutions.
 
 Sub Topics: lending-borrowing-DeFi
  
@@ -177,14 +177,14 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Decentralized and transparent
          
-Explanation: Decentralized finance protocols are unique in that they're resistant to censorship and more transparent than traditional financial institutions. With DeFi, there are no hidden fees involved because the protocols are automated using smart contracts. This also eliminates the need for middlemen, which can in turn increase the profitability of lenders.
+Explanation: Decentralized Finance protocols are unique in that they're resistant to censorship and more transparent than Traditional Finance. With DeFi, there are no hidden fees involved because the protocols are automated using smart contracts. This also eliminates the need for middlemen, which can in turn increase the profitability of lenders.
 
 Sub Topics: lending-borrowing-DeFi
  
 
 ---
 
-##### In what basis personal loans are offered in traditional finance?  
+##### In what basis personal loans are offered in Traditional Finance?  
 
 - [x]  Credit score
 - [ ]  Loan-to-value
@@ -193,7 +193,7 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Credit score
          
-Explanation: Traditional financial institutions offer loans based on an individual's credit score, income level, and repayment capacity. The primary condition for personal loans from these lenders is to maintain a high credit score.
+Explanation: Traditional Financial institutions offer loans based on an individual's credit score, income level, and repayment capacity. The primary condition for personal loans from these lenders is to maintain a high credit score.
 
 Sub Topics: lending-borrowing-tradFi
  
@@ -225,7 +225,7 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Flashloans
          
-Explanation: Aave and Uniswap offers Flashloans.
+Explanation: Aave is a DeFi which offers Flashloans.
 
 Sub Topics: lending-borrowing-DeFi
  
@@ -241,7 +241,7 @@ Sub Topics: lending-borrowing-DeFi
   
 Hint: Risks in DeFi's
          
-Explanation: Risks associated with the DeFi protocols are Volatility risk, Smart-contract risk and Oracle risk.
+Explanation: Risks associated with the DeFi protocols are volatility risk, smart-contract risk and oracle risk.
 
 Sub Topics: managing-risks
  
@@ -289,7 +289,7 @@ Sub Topics: managing-risks
   
 Hint: Healthfactor
          
-Explanation: Collateral liquidation happens when your Healthfactor gets close to one. Borrowers need to keep their Healthfactor above 1 to avoid being liquidated.
+Explanation: Collateral liquidation happens when the Healthfactor gets close to one. Borrowers need to keep their Healthfactor above 1 to avoid being liquidated.
 
 Sub Topics: managing-risks
  
