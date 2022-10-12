@@ -73,6 +73,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 * Since the hash of a block depends on its data, it changes if the data in the block is tampered with. 
 * Since the hashing information on the next blockchain about the changed blockchain will be wrong, the blockchain is invalidated.
 * DeFi protocols are all built on top of blockchains. This is why, the DeFi protocols are a safer, more transparent and a secure way of finance.
+* Defi uses addresses to uniquely identify entities.
+* There are two types of addresses, user wallet address and smart contract address.
+* Both types of address serve the same purpose of uniquely identifying different entities on the blockchain, to send and receive assets, etc.
 
 #### Use cases of DeFi:
 
