@@ -1,8 +1,8 @@
 - uuid: 6b07cc4f-9954-48b3-8533-db8a9107ea07
   type: SingleChoice
   content: What is the main purpose of DeFi?
-  hint: Purpose of DeFi in the current scenario
-  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  hint: noHint
+  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the Centralized system using blockchain.
   answerKeys:
     - B
   subTopics:
@@ -11,16 +11,16 @@
   choices:
     - content: Provide banking facilties only to high worth individuals
       key: A
-    - content: Providing financial solutions on blockchain
+    - content: Providing Decentralized financial solutions on blockchain
       key: B
     - content: Trade and earn more using cryptocurrency
       key: C
-    - content: Encourage money laundering
+    - content: To provide centralized financial solutions on the blockchain
       key: D
 - uuid: 41e017dd-a7d7-4ed3-a9b8-97dc33449afc
   type: MultipleChoice
   content: What can be the possible use cases for DeFi?
-  hint: The use cases of DeFi
+  hint: noHint
   explanation: DeFi is used in storing asset on blockchain, for lending and borrowing assets, tokenization and asset exchange
   answerKeys:
     - A
@@ -39,7 +39,7 @@
 - uuid: d8ca36fe-1b4d-4390-b05a-419d854a6100
   type: SingleChoice
   content: Which of these is an accurate description associated with TradFi
-  hint: Shortcomings of Traditional finance
+  hint: noHint
   explanation: Traditional finance is handled by a central body, lacks transparency, is inefficient and lacks innovation.
   answerKeys:
     - A
@@ -56,7 +56,7 @@
 - uuid: d091e037-c787-453d-82c8-6dcb1c5b01e2
   type: MultipleChoice
   content: What are some of the features of DeFi?
-  hint: Features of DeFi
+  hint: noHint
   explanation: DeFi ledger is immutable, transparent and highly efficient 
   answerKeys:
     - B
@@ -74,7 +74,7 @@
 - uuid: e989accc-4817-4c06-8611-995d7d069114
   type: SingleChoice
   content: What do you understand by interoperability of DeFi?	
-  hint: Features of Decentralised Finance
+  hint: noHint
   explanation: Interoperability of DeFi refers to interconnection between various dapps built by developers in the DeFi ecosystem.
   answerKeys:
     - C
@@ -90,9 +90,9 @@
       key: D
 - uuid: 3aef2590-7787-4761-8a49-14d35c22ad88
   type: SingleChoice
-  content: Centralised Finance operates on a transparent system.
-  hint: Disadvantages of Centralised system
-  explanation: Centralised finance hides its functioning and procedures from its users which creates confusion and many times hidden charges for them also.
+  content: Only users can have addresses in DeFi
+  hint: Two types of address in DeFi
+  explanation: Users and Smart contracts, both have unique ids used to access them called an address.  
   answerKeys:
     - B
   difficultyLevel: "Low"
@@ -130,7 +130,7 @@
     - C
   difficultyLevel: "Medium"
   choices:
-    - content: Unpaid Centralised loans lead to loss for banks
+    - content: Unpaid Centralized loans lead to loss for banks
       key: A
     - content: Bank loans are easy to get
       key: B
@@ -142,7 +142,7 @@
   type: MultipleChoice
   content: How can someone access the world of DeFi?
   hint: NoHint
-  explanation: Decentralised Finance can be accessed using the internet, decentralised applications, and a blockchain address.
+  explanation: Decentralized Finance can be accessed using the internet, decentralised applications, and a blockchain address.
   answerKeys:
     - B
     - C
@@ -151,7 +151,7 @@
   choices:
     - content: Using Bank accounts
       key: A
-    - content: Using Decentralised Applications
+    - content: Using Decentralized Applications
       key: B
     - content: Internet access
       key: C
@@ -161,7 +161,7 @@
   type: MultipleChoice
   content: Money transfer using banks is cumbersome because?
   hint: Diadvantages of TradFi
-  explanation: In CeFi funds transfer can take upto 2 days and these transactions need to be significant, micro ones are not allowed. Transfer charges are quite high.
+  explanation: In TradFi funds transfer can take upto 2 days and these transactions need to be significant, micro ones are not allowed. Transfer charges are quite high.
   answerKeys:
     - A
     - B
@@ -198,7 +198,7 @@
 - uuid: 84196064-3dc8-4704-824a-a0d239a362c4
   type: SingleChoice
   content: What do Flash loans mean?
-  hint: Applications of Flash Loans
+  hint: Differenciating factor between normal loans and flash loans
   explanation: Flash loans are instant loan using smart contracts which is granted to anyone without any collateral.
   answerKeys:
     - D
@@ -232,8 +232,8 @@
 - uuid: 05055e62-514f-4b57-8b74-d0476e8c0057 
   type: SingleChoice
   content: What is an Automated Market Maker?
-  hint: Working of Decentralised Exchanges
-  explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
+  hint: Working of Decentralized Exchanges
+  explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a Decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
   answerKeys:
     - D
   difficultyLevel: "Medium"
@@ -250,14 +250,14 @@
   type: SingleChoice
   content: Which DeFi component is used for swapping and buying tokens?
   hint: NoHint
-  explanation: In DeFi, swapping and buying tokens are the features offered by applications known as decentralised exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
+  explanation: In DeFi, swapping and buying tokens are the features offered by applications known as Decentralized exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
   answerKeys:
     - B
   difficultyLevel: "Low"
   choices:
     - content: Smart contracts
       key: A
-    - content: Decentralised Exchanges
+    - content: Decentralized Exchanges
       key: B
     - content: Stablecoins
       key: C
@@ -267,7 +267,7 @@
   type: SingleChoice
   content: How does the transparency of DeFi helps its consumers?
   hint: Problems in TradFi solved by DeFi
-  explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus their are less chances of a fraud.
+  explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus there are less chances of fraudulent activites on behalf of the system.
   answerKeys:
     - D
   difficultyLevel: "Medium"
@@ -290,7 +290,7 @@
     - C
   difficultyLevel: "Medium"
   choices:
-    - content: People do not trust centralised finance
+    - content: People do not trust Centralized finance
       key: A
     - content: Developers are not allowed to build on top of them
       key: B
@@ -301,8 +301,8 @@
 - uuid: 04933663-d2ce-41ce-92b6-2852c77913ca
   type: singleChoice
   content: What could be the use of storing realworld assets as tokens in the blockchain?
-  hint: Tokenization use cases
-  explanation: tokenization ensures safety, ease of transfer and cost effective transactions of asset ownership.
+  hint: noHint
+  explanation: Tokenization ensures safety, ease of transfer and cost effective transactions of asset ownership.
   answerKeys:
     - D
   difficultyLevel: "Medium"
@@ -318,7 +318,7 @@
 - uuid: 5344fde5-41ff-43d2-89db-8008a275aaa1
   type: multipleChoice
   content: What is the use of debt tokenization?
-  hint: Use cases of tokenization
+  hint: noHint
   explanation: Debt tokenization ensures that the user is in custody of his invested assets at all times and keeps account of the interest accrued by the user.
   answerKeys:
     - A
@@ -335,7 +335,7 @@
 - uuid: 3e37ae46-df52-4359-acdd-db569ab2fe19
   type: singleChoice
   content: What are some of the use cases of Tokenization?
-  hint: Examples of tokenization 
+  hint: noHint 
   explanation: The following are implementations of tokenization
   answerKeys:
     - D
