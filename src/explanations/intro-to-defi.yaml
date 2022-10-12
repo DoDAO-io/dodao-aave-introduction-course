@@ -69,9 +69,11 @@
    3. The hash of the previous blockchain. 
    
    Since the hash of a block depends on its data, it changes if the data in the block is tampered with. Since the hashing information on the next blockchain about the changed blockchain will be wrong if the hash is changed, the rest of the blockchain is invalidated on tampering with one block. 
-   This way it is hard to tamper with the data in a blockchain since it would mean all the blocks coming after should also be changed. The transactions on DeFi require blockchain wallets, each of these wallets have their own
+   This way it is hard to tamper with the data in a blockchain since it would mean all the blocks coming after should also be changed. 
+   
+   The transactions on DeFi require blockchain wallets, each of these wallets have their own
    address, a unique id which is used to identify them. It is important to note that there are two types of addresses, wallet address and smart contract address. They serve the same purpose of uniquely identifying the given entities and to make transactions to and from them. For example, the 
-   address of the smartcontract is filled as the receiver address when sending assets to be locked into or to be made available for use to a smartcontract.
+  address of the smart contract is filled as the receiver address when sending assets to be locked into or to be made available for use to a smart contract.
    Various technologies like cryptocurrencies, NFTs, and our topic of discussion, DeFi protocols are all built on top of blockchains and this is why, the DeFi protocols are a safer, 
    more transparent and a secure way of finance. Now that we have seen what a blockchain is, let us look at some of the use cases of DeFi.
 
