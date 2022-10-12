@@ -15,19 +15,17 @@
       key: B
     - content: Trade and earn more using cryptocurrency
       key: C
-    - content: Encourage money laundering.
+    - content: Encourage money laundering
       key: D
 - uuid: 41e017dd-a7d7-4ed3-a9b8-97dc33449afc
   type: MultipleChoice
-  content: What can be possible use cases for DeFi?
+  content: What can be the possible use cases for DeFi?
   hint: The use cases of DeFi
-  explanation: DeFi is used for storing asset on blockchain, for lending and borrowing assets, tokenization and asset exchange
+  explanation: DeFi is used in storing asset on blockchain, for lending and borrowing assets, tokenization and asset exchange
   answerKeys:
     - A
     - B
     - C
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: For storing value on blockchain
@@ -53,7 +51,7 @@
       key: B
     - content: Transparent system
       key: C
-    - content: Fairly innovative
+    - content: Moderately innovative
       key: D
 - uuid: d091e037-c787-453d-82c8-6dcb1c5b01e2
   type: MultipleChoice
@@ -63,8 +61,6 @@
   answerKeys:
     - B
     - C
-  subTopics:
-    - "introduction-to-decentralised-finance"
   difficultyLevel: "Low"
   choices:
     - content: Limited Access
@@ -82,15 +78,13 @@
   explanation: Interoperability of DeFi refers to interconnection between various dapps built by developers in the DeFi ecosystem.
   answerKeys:
     - C
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
-    - content: DeFi is accessible from anywhere.
+    - content: DeFi is accessible from anywhere
       key: A
-    - content: DeFi is free to use for everyone.
+    - content: DeFi is free to use for everyone
       key: B
-    - content: Developers can develop DeFi applications that are interconnected.
+    - content: Developers can develop DeFi applications that are interconnected
       key: C
     - content: None of the above
       key: D
@@ -101,8 +95,6 @@
   explanation: Centralised finance hides its functioning and procedures from its users which creates confusion and many times hidden charges for them also.
   answerKeys:
     - B
-  subTopics:
-    - "centralised-vs-decentralised-finance"
   difficultyLevel: "Low"
   choices:
     - content: "True"
@@ -118,8 +110,6 @@
     - A
     - B
     - C
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: DeFi is borderless
@@ -157,8 +147,6 @@
     - B
     - C
     - D
-  subTopics:
-    - "introduction-to-decentralised-finance"
   difficultyLevel: "Low"
   choices:
     - content: Using Bank accounts
@@ -178,8 +166,6 @@
     - A
     - B
     - C
-  subTopics:
-    - "centralised-vs-decentralised-finance"
   difficultyLevel: "Low"
   choices:
     - content: Fund transfer can take a long time
@@ -199,8 +185,6 @@
     - A
     - B
     - C
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: Money Transfers
@@ -220,13 +204,13 @@
     - D
   difficultyLevel: "High"
   choices:
-    - content: Slow loan processing without collateral.
+    - content: Slow loan processing without collateral
       key: A
     - content: Instant loan processing with collateral
       key: B
-    - content: Slow loan processing with collateral.
+    - content: Slow loan processing with collateral
       key: C
-    - content: Instant loan processing without collateral.
+    - content: Instant loan processing without collateral
       key: D
 - uuid: 43680d70-5e2d-4b55-9db4-ecc80e0246e2
   type: SingleChoice
@@ -235,17 +219,15 @@
   explanation: DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.
   answerKeys:
     - C
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: DeFi is not easy to understand.
+    - content: DeFi is not easy to understand
       key: A
-    - content: Not many people know about it.
+    - content: Not many people know about it
       key: B
-    - content: It is open source and developers can fork it.
+    - content: It is open source and developers can fork it
       key: C
-    - content: It is a new technology.
+    - content: It is a new technology
       key: D
 - uuid: 05055e62-514f-4b57-8b74-d0476e8c0057 
   type: SingleChoice
@@ -254,8 +236,6 @@
   explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
   answerKeys:
     - D
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: A protocol that automatically makes trades for a user
@@ -290,35 +270,33 @@
   explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus their are less chances of a fraud.
   answerKeys:
     - D
-  subTopics:
-    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
-    - content: Better understanding of the protocol.
+    - content: Better understanding of the protocol
       key: A
-    - content: No hidden charges.
+    - content: No hidden charges
       key: B
-    - content: Less fraudulent.
+    - content: Less fraudulent
       key: C
     - content: All of the above
       key: D
 - uuid: 68660361-6f13-45a2-851b-8430e15efb7a
   type: MultipleChoice
   content: Why traditional finance systems will get outdated?
-  hint: Disadvantges of centralised
+  hint: Disadvantges of TradFi
   explanation: TradFi is not open source thus developers cannot access it. Complete control lies on the hands of few authorites thus no one can interfere with the working.
   answerKeys:
     - B
     - C
   difficultyLevel: "Medium"
   choices:
-    - content: People do not trust centralised finance.
+    - content: People do not trust centralised finance
       key: A
-    - content: Developers are not allowed to build on top of them.
+    - content: Developers are not allowed to build on top of them
       key: B
-    - content: Complete control lies in the hand of a few authorities.
+    - content: Complete control lies in the hand of a few authorities
       key: C
-    - content: They will never get outdated.
+    - content: They will never get outdated
       key: D
 - uuid: 04933663-d2ce-41ce-92b6-2852c77913ca
   type: singleChoice
@@ -329,35 +307,35 @@
     - D
   difficultyLevel: "Medium"
   choices: 
-    - content: Protection from fraudulent claims over assets.
+    - content: Protection from fraudulent claims over assets
       key: A
-    - content: Ease of transfer of assets is improved drastically.
+    - content: Ease of transfer of assets is improved drastically
       key: B
-    - content: The transactions do not need a middleman and are hence much more cost effective as compared to real world asset transactions.
+    - content: The transactions do not need a middleman and are hence much more cost effective as compared to real world asset transactions
       key: C
-    - content: All of the above.
+    - content: All of the above
       key: D
 - uuid: 5344fde5-41ff-43d2-89db-8008a275aaa1
   type: multipleChoice
   content: What is the use of debt tokenization?
-  hint: use cases of tokenization
+  hint: Use cases of tokenization
   explanation: Debt tokenization ensures that the user is in custody of his invested assets at all times and keeps account of the interest accrued by the user.
   answerKeys:
     - A
     - B
   difficultyLevel: "Medium"
   choices: 
-    - content: Keeps count of the interest accrued by the user.
+    - content: Keeps count of the interest accrued by the user
       key: A
-    - content: Ensures that the user is in custody of his invested assets at all times.
+    - content: Ensures that the user is in custody of his invested assets at all times
       key: B
-    - content: Facilitates assets can be held in possession of multiple users at once.
+    - content: Facilitates assets can be held in possession of multiple users at once
       key: C
       
 - uuid: 3e37ae46-df52-4359-acdd-db569ab2fe19
   type: singleChoice
   content: What are some of the use cases of Tokenization?
-  hint: examples of tokenization 
+  hint: Examples of tokenization 
   explanation: The following are implementations of tokenization
   answerKeys:
     - D
