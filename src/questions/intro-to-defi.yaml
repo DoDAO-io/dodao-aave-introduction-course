@@ -144,7 +144,7 @@
     - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices:
-    - content: Unpaid Centralized loans lead to loss for banks
+    - content: In TradFi liquidation(scenario when the borrower defaults) is handled manually, hence its very inefficient and expensive
       key: A
     - content: Bank loans are easy to get
       key: B
