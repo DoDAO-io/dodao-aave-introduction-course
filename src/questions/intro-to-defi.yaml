@@ -196,7 +196,7 @@
       key: D
 - uuid: 76ee573d-4190-405a-9712-f230cd2ec0e5
   type: MultipleChoice
-  content: DeFi can replace which of the following traditional processes?
+  content: DeFi can replace which of the following traditional processes and help make them more efficient?
   hint: Features of DeFi
   explanation: DeFi can be used to conduct each of these listed processes efficiently and at cheaper rate compared to the traditional ways.
   answerKeys:
