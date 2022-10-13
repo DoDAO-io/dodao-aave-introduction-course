@@ -115,7 +115,7 @@
   type: SingleChoice
   content: How is DeFi more inclusive as compared to TradFi?
   hint: Does not depend on credibility.
-  explanation: In DeFi there are no charges for transactions, the fund transfer is fast and affordable and does not depend on credibility of borrower and allows flash loans to its users as well.
+  explanation: DeFi is borderless, and there are no KYC or background checks, so its not depend on credibility of borrower and allows flash loans to its users as well.
   answerKeys:
     - A
     - B
