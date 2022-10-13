@@ -112,7 +112,7 @@
     - content: "False"
       key: B
 - uuid: 8f04b67d-6729-4401-80e1-9dca376765db
-  type: MultipleChoice
+  type: SingleChoice
   content: How is DeFi more inclusive as compared to TradFi?
   hint: Does not depend on credibility.
   explanation: In DeFi there are no charges for transactions, the fund transfer is fast and affordable and does not depend on credibility of borrower and allows flash loans to its users as well.
