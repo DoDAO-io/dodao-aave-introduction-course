@@ -154,24 +154,23 @@
       key: D
 - uuid: 078e0e8c-4da2-4db9-87d9-7d70bced38cf
   type: MultipleChoice
-  content: How can someone access the world of DeFi?
+  content: How is DeFi more accessible than TradFi?
   hint: NoHint
-  explanation: Decentralized Finance can be accessed using the internet, decentralised applications, and a blockchain address.
+  explanation: Main issue in TradFi is the lack of global infra-structure, since TradFi operates on a more grounded, local level. Global transfers are a breeze in blockchain and are pain in TradFi.
   answerKeys:
-    - B
-    - C
+    - A
     - D
   subTopics: 
     - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
-    - content: Using Bank accounts
+    - content: DeFi is global, opens the market for a global audience and makes international transactions feasible for its users
       key: A
-    - content: Using Decentralized Applications
+    - content: DeFi is more popular than TradFi
       key: B
-    - content: Internet access
+    - content: The question is false, TradFi provides the user with a global infra-structure
       key: C
-    - content: Blockchain address
+    - content: TradFi caters to a local ecosystem and thus only offers highly restrictive options on international transactions
       key: D
 - uuid: 89ed030b-7eb1-4054-8627-4124bf72641a
   type: MultipleChoice
@@ -235,21 +234,23 @@
     - content: Instant loan processing without collateral
       key: D
 - uuid: 43680d70-5e2d-4b55-9db4-ecc80e0246e2
-  type: SingleChoice
+  type: MultipleChoice
   content: What makes DeFi technology so innovative?
   hint: DeFi is available for all
-  explanation: DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.
+  explanation: Blockchain allows developers to program money and move funds with a few lines of code. A single developer can write useful application in DeFi by writing a simple smart contract. 
+               Since TradFi is a closed ecosystem, it is a lot more work to do anything on top of existing Banks.
   answerKeys:
+    - A
     - C
   subTopics: 
     - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
-    - content: DeFi is not easy to understand
+    - content: DeFi works on blockchain, making transactions fast and highly efficient
       key: A
-    - content: Not many people know about it
+    - content: DeFi ecosystem is closed and handled well by authoritative bodies
       key: B
-    - content: It is open source and developers can fork it
+    - content: It is open source and developers can develop applications which enhance the ecosystem
       key: C
     - content: It is a new technology
       key: D
