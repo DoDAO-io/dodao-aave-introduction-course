@@ -98,7 +98,7 @@
       key: D
 - uuid: 3aef2590-7787-4761-8a49-14d35c22ad88
   type: SingleChoice
-  content: Only users can have addresses in DeFi
+  content: Only users can have addresses on blockchain and Smart contacts use a different identifier for sending and receiving money.
   hint: Two types of address in DeFi
   explanation: Users and Smart contracts, both have unique ids used to access them called an address.  
   answerKeys:
