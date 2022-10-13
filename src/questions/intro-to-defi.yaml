@@ -136,7 +136,7 @@
   type: MultipleChoice
   content: Which of the following problems related to bank loans does DeFi solve?
   hint: Benefits of DeFi over TradFi
-  explanation: TradFi requires a lot of collateral before the loan is granted and loans are granted only to potential borrowers with high net worth/ high credibility.
+  explanation: In TradFi the liquidation(scenario when the borrower defaults) is handled manually, hence its very inefficient and expensive. That is the reason loans are granted only to potential borrowers with high net worth/ high credibility.
   answerKeys:
     - A
     - C
