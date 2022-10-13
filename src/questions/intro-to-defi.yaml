@@ -318,7 +318,8 @@
   answerKeys:
     - B
     - C
-  subTopics: disadvantages-of-TradFi  
+  subTopics:
+    - disadvantages-of-TradFi  
   difficultyLevel: "Medium"
   choices:
     - content: People do not trust Centralized finance
