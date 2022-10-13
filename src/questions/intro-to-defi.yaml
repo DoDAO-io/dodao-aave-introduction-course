@@ -26,6 +26,8 @@
     - A
     - B
     - C
+  subTopics: 
+    - use-cases-of-DeFi
   difficultyLevel: "Medium"
   choices:
     - content: For storing value on blockchain
@@ -43,6 +45,8 @@
   explanation: Traditional finance is handled by a central body, lacks transparency, is inefficient and lacks innovation.
   answerKeys:
     - A
+  subTopics: 
+    - features-of-TradFi  
   difficultyLevel: "Low"
   choices:
     - content: Controlled by a central authority
@@ -61,6 +65,8 @@
   answerKeys:
     - B
     - C
+  subTopics: 
+    - features-of-DeFi  
   difficultyLevel: "Low"
   choices:
     - content: Limited Access
@@ -78,6 +84,8 @@
   explanation: Interoperability of DeFi refers to interconnection between various dapps built by developers in the DeFi ecosystem.
   answerKeys:
     - C
+  subTopics: 
+    - features-of-DeFi 
   difficultyLevel: "Medium"
   choices:
     - content: DeFi is accessible from anywhere
@@ -95,6 +103,8 @@
   explanation: Users and Smart contracts, both have unique ids used to access them called an address.  
   answerKeys:
     - B
+  subTopics: 
+    - working-of-DeFi  
   difficultyLevel: "Low"
   choices:
     - content: "True"
@@ -110,6 +120,8 @@
     - A
     - B
     - C
+  subTopics: 
+    - features-of-DeFi  
   difficultyLevel: "Medium"
   choices:
     - content: DeFi is borderless
@@ -128,6 +140,8 @@
   answerKeys:
     - A
     - C
+  subTopics: 
+    - advantages-of-DeFi  
   difficultyLevel: "Medium"
   choices:
     - content: Unpaid Centralized loans lead to loss for banks
@@ -147,6 +161,8 @@
     - B
     - C
     - D
+  subTopics: 
+    - working-of-DeFi  
   difficultyLevel: "Low"
   choices:
     - content: Using Bank accounts
@@ -166,6 +182,8 @@
     - A
     - B
     - C
+  subTopics: 
+    - disadvantages-of-TradFi
   difficultyLevel: "Low"
   choices:
     - content: Fund transfer can take a long time
@@ -185,6 +203,8 @@
     - A
     - B
     - C
+  subTopics: 
+    - use-cases-of-DeFi  
   difficultyLevel: "Medium"
   choices:
     - content: Money Transfers
@@ -202,6 +222,8 @@
   explanation: Flash loans are instant loan using smart contracts which is granted to anyone without any collateral.
   answerKeys:
     - D
+  subTopics: 
+    - flash-loans  
   difficultyLevel: "High"
   choices:
     - content: Slow loan processing without collateral
@@ -219,6 +241,8 @@
   explanation: DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.
   answerKeys:
     - C
+  subTopics: 
+    - working-of-DeFi  
   difficultyLevel: "Low"
   choices:
     - content: DeFi is not easy to understand
@@ -236,6 +260,8 @@
   explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a Decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
   answerKeys:
     - D
+  subTopics: 
+    - decentralized-exchanges  
   difficultyLevel: "Medium"
   choices:
     - content: A protocol that automatically makes trades for a user
@@ -253,6 +279,8 @@
   explanation: In DeFi, swapping and buying tokens are the features offered by applications known as Decentralized exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
   answerKeys:
     - B
+  subTopics: 
+    - decentralized-exchanges  
   difficultyLevel: "Low"
   choices:
     - content: Smart contracts
@@ -270,6 +298,8 @@
   explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus there are less chances of fraudulent activites on behalf of the system.
   answerKeys:
     - D
+  subTopics: 
+    - problems-of-TradFi-solved-by-DeFi  
   difficultyLevel: "Medium"
   choices:
     - content: Better understanding of the protocol
@@ -288,6 +318,7 @@
   answerKeys:
     - B
     - C
+  subTopics: disadvantages-of-TradFi  
   difficultyLevel: "Medium"
   choices:
     - content: People do not trust Centralized finance
@@ -305,6 +336,8 @@
   explanation: Tokenization ensures safety, ease of transfer and cost effective transactions of asset ownership.
   answerKeys:
     - D
+  subTopics: 
+    - Tokenization  
   difficultyLevel: "Medium"
   choices: 
     - content: Protection from fraudulent claims over assets
@@ -323,6 +356,8 @@
   answerKeys:
     - A
     - B
+  subTopics: 
+    - debt-tokenization  
   difficultyLevel: "Medium"
   choices: 
     - content: Keeps count of the interest accrued by the user
@@ -339,6 +374,8 @@
   explanation: The following are implementations of tokenization
   answerKeys:
     - D
+  subTopics: 
+    - tokenization-of-real-world-assets  
   difficultyLevel: "Low"
   choices: 
     - content: Real estate tokenization
