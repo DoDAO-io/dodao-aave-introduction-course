@@ -6,7 +6,7 @@
   answerKeys:
     - B
   subTopics:
-    - why-do-we-need-defi
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Low"
   choices:
     - content: Provide banking facilties only to high worth individuals
@@ -27,7 +27,7 @@
     - B
     - C
   subTopics: 
-    - use-cases-of-DeFi
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Medium"
   choices:
     - content: For storing value on blockchain
@@ -46,7 +46,7 @@
   answerKeys:
     - A
   subTopics: 
-    - features-of-TradFi  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Low"
   choices:
     - content: Controlled by a central authority
@@ -66,7 +66,7 @@
     - B
     - C
   subTopics: 
-    - features-of-DeFi  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Low"
   choices:
     - content: Limited Access
@@ -85,7 +85,7 @@
   answerKeys:
     - C
   subTopics: 
-    - features-of-DeFi 
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices:
     - content: DeFi is accessible from anywhere
@@ -104,7 +104,7 @@
   answerKeys:
     - B
   subTopics: 
-    - working-of-DeFi  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
     - content: "True"
@@ -121,7 +121,7 @@
     - B
     - C
   subTopics: 
-    - features-of-DeFi  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Medium"
   choices:
     - content: DeFi is borderless
@@ -141,7 +141,7 @@
     - A
     - C
   subTopics: 
-    - advantages-of-DeFi  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices:
     - content: Unpaid Centralized loans lead to loss for banks
@@ -162,7 +162,7 @@
     - C
     - D
   subTopics: 
-    - working-of-DeFi  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
     - content: Using Bank accounts
@@ -183,7 +183,7 @@
     - B
     - C
   subTopics: 
-    - disadvantages-of-TradFi
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Low"
   choices:
     - content: Fund transfer can take a long time
@@ -204,7 +204,7 @@
     - B
     - C
   subTopics: 
-    - use-cases-of-DeFi  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices:
     - content: Money Transfers
@@ -223,7 +223,7 @@
   answerKeys:
     - D
   subTopics: 
-    - flash-loans  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "High"
   choices:
     - content: Slow loan processing without collateral
@@ -242,7 +242,7 @@
   answerKeys:
     - C
   subTopics: 
-    - working-of-DeFi  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
     - content: DeFi is not easy to understand
@@ -261,7 +261,7 @@
   answerKeys:
     - D
   subTopics: 
-    - decentralized-exchanges  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Medium"
   choices:
     - content: A protocol that automatically makes trades for a user
@@ -280,7 +280,7 @@
   answerKeys:
     - B
   subTopics: 
-    - decentralized-exchanges  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices:
     - content: Smart contracts
@@ -299,7 +299,7 @@
   answerKeys:
     - D
   subTopics: 
-    - problems-of-TradFi-solved-by-DeFi  
+    - what-is-defi-and-why-do-we-need-it 
   difficultyLevel: "Medium"
   choices:
     - content: Better understanding of the protocol
@@ -319,7 +319,7 @@
     - B
     - C
   subTopics:
-    - disadvantages-of-TradFi  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices:
     - content: People do not trust Centralized finance
@@ -338,7 +338,7 @@
   answerKeys:
     - D
   subTopics: 
-    - Tokenization  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices: 
     - content: Protection from fraudulent claims over assets
@@ -358,7 +358,7 @@
     - A
     - B
   subTopics: 
-    - debt-tokenization  
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Medium"
   choices: 
     - content: Keeps count of the interest accrued by the user
@@ -376,7 +376,7 @@
   answerKeys:
     - D
   subTopics: 
-    - tokenization-of-real-world-assets  
+    - how-defi-works-and-its-use-cases
   difficultyLevel: "Low"
   choices: 
     - content: Real estate tokenization
