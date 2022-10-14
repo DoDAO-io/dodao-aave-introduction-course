@@ -1,19 +1,393 @@
-- uuid: 4d404192-3ea7-4994-a080-2f0457a97753
+- uuid: 6b07cc4f-9954-48b3-8533-db8a9107ea07
   type: SingleChoice
   content: What is the main purpose of DeFi?
-  hint: Purpose of DeFi in the current scenario
-  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.
+  hint: noHint
+  explanation: Decentralised Finance is responsible for providing financial solutions for existing problems in the Centralized system using blockchain.
   answerKeys:
     - B
   subTopics:
-    - how-defi-works-and-its-use-cases
+    - what-is-defi-and-why-do-we-need-it
   difficultyLevel: "Low"
   choices:
     - content: Provide banking facilties only to high worth individuals
       key: A
-    - content: Providing financial solutions on blockchain
+    - content: Providing Decentralized global financial solutions on blockchain
       key: B
     - content: Trade and earn more using cryptocurrency
       key: C
-    - content: Encourage money laundering.
+    - content: To provide centralized financial solutions on the blockchain
       key: D
+- uuid: 41e017dd-a7d7-4ed3-a9b8-97dc33449afc
+  type: MultipleChoice
+  content: What can be the possible use cases for DeFi?
+  hint: noHint
+  explanation: DeFi is used in storing asset on blockchain, for lending and borrowing assets, tokenization and asset exchange
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Medium"
+  choices:
+    - content: For storing value on blockchain
+      key: A
+    - content: For Lending and borrowing assets
+      key: B
+    - content: For exchange of assets
+      key: C
+    - content: For Securing money in physical vaults
+      key: D
+- uuid: d8ca36fe-1b4d-4390-b05a-419d854a6100
+  type: SingleChoice
+  content: Which of these is an accurate description associated with TradFi
+  hint: noHint
+  explanation: Traditional finance is handled by a central body, lacks transparency, is inefficient and lacks innovation.
+  answerKeys:
+    - A
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Low"
+  choices:
+    - content: Controlled by a central authority
+      key: A
+    - content: Open source
+      key: B
+    - content: Transparent system
+      key: C
+    - content: Moderately innovative
+      key: D
+- uuid: d091e037-c787-453d-82c8-6dcb1c5b01e2
+  type: MultipleChoice
+  content: What are some of the features of DeFi?
+  hint: noHint
+  explanation: DeFi ledger is immutable, transparent and highly efficient 
+  answerKeys:
+    - B
+    - C
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Low"
+  choices:
+    - content: Limited Access
+      key: A
+    - content: Immutable
+      key: B
+    - content: Highly efficient
+      key: C
+    - content: Opaque
+      key: D      
+- uuid: e989accc-4817-4c06-8611-995d7d069114
+  type: SingleChoice
+  content: What do you understand by interoperability of DeFi?	
+  hint: noHint
+  explanation: Interoperability of DeFi refers to interconnection between various dapps built by developers in the DeFi ecosystem.
+  answerKeys:
+    - C
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices:
+    - content: DeFi is accessible from anywhere
+      key: A
+    - content: DeFi is free to use for everyone
+      key: B
+    - content: Developers can develop DeFi applications that are interconnected
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 3aef2590-7787-4761-8a49-14d35c22ad88
+  type: SingleChoice
+  content: Only users can have addresses on blockchain and Smart contacts use a different identifier for sending and receiving money.
+  hint: Two types of address in DeFi
+  explanation: Users and Smart contracts, both have unique ids used to access them called an address.  
+  answerKeys:
+    - B
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Low"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+- uuid: 8f04b67d-6729-4401-80e1-9dca376765db
+  type: SingleChoice
+  content: How is DeFi more inclusive as compared to TradFi?
+  hint: Does not depend on credibility.
+  explanation: DeFi is borderless, and there are no KYC or background checks, so its not depend on credibility of borrower and allows flash loans to its users as well.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Medium"
+  choices:
+    - content: DeFi is borderless
+      key: A
+    - content: There are no credibility checks. Users are given the loans as long as they meet the set of criteria set by the protocol.
+      key: B
+    - content: No background checks are needed 
+      key: C
+    - content: Easy money-making opportunity
+      key: D  
+- uuid: 924dd82c-e5f2-48d1-ad71-ff507e978c2d
+  type: MultipleChoice
+  content: Which of the following problems related to bank loans does DeFi solve?
+  hint: Benefits of DeFi over TradFi
+  explanation: In TradFi the liquidation(scenario when the borrower defaults) is handled manually, hence its very inefficient and expensive. That is the reason loans are granted only to potential borrowers with high net worth/ high credibility.
+  answerKeys:
+    - A
+    - C
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices:
+    - content: In TradFi liquidation(scenario when the borrower defaults) is handled manually, hence its very inefficient and expensive
+      key: A
+    - content: Bank loans are easy to get
+      key: B
+    - content: Banks differentiate between potential borrowers based on the credit score
+      key: C
+    - content: Banks charge low-interest rates
+      key: D
+- uuid: 078e0e8c-4da2-4db9-87d9-7d70bced38cf
+  type: MultipleChoice
+  content: How is DeFi more accessible than TradFi?
+  hint: NoHint
+  explanation: Main issue in TradFi is the lack of global infra-structure, since TradFi operates on a more grounded, local level. Global transfers are a breeze in blockchain and are pain in TradFi.
+  answerKeys:
+    - A
+    - D
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Low"
+  choices:
+    - content: DeFi is global, opens the market for a global audience and makes international transactions feasible for its users
+      key: A
+    - content: DeFi is more popular than TradFi
+      key: B
+    - content: The question is false, TradFi provides the user with a global infra-structure
+      key: C
+    - content: TradFi caters to a local ecosystem and thus only offers highly restrictive options on international transactions
+      key: D
+- uuid: 89ed030b-7eb1-4054-8627-4124bf72641a
+  type: MultipleChoice
+  content: Money transfer using banks is cumbersome because?
+  hint: Diadvantages of TradFi
+  explanation: In TradFi funds transfer can take upto 2 days and these transactions need to be significant, micro ones are not allowed. Transfer charges are quite high.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Low"
+  choices:
+    - content: Fund transfer can take a long time
+      key: A
+    - content: Banks do not allow micro-transactions
+      key: B
+    - content: Bank levy charges on transactions
+      key: C
+    - content: None of these
+      key: D
+- uuid: 76ee573d-4190-405a-9712-f230cd2ec0e5
+  type: MultipleChoice
+  content: DeFi can replace which of the following traditional processes and help make them more efficient?
+  hint: Features of DeFi
+  explanation: DeFi can be used to conduct each of these listed processes efficiently and at cheaper rate compared to the traditional ways.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices:
+    - content: Money Transfers
+      key: A
+    - content: Lending and Borrowing
+      key: B
+    - content: Currency exchange
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 84196064-3dc8-4704-824a-a0d239a362c4
+  type: SingleChoice
+  content: What do Flash loans mean?
+  hint: Differenciating factor between normal loans and flash loans
+  explanation: Flash loans are instant loan using smart contracts which is granted to anyone without any collateral.
+  answerKeys:
+    - D
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "High"
+  choices:
+    - content: Slow loan processing without collateral
+      key: A
+    - content: Instant loan processing with collateral
+      key: B
+    - content: Slow loan processing with collateral
+      key: C
+    - content: Instant loan processing without collateral
+      key: D
+- uuid: 43680d70-5e2d-4b55-9db4-ecc80e0246e2
+  type: MultipleChoice
+  content: What makes DeFi technology so innovative?
+  hint: DeFi is available for all
+  explanation: Blockchain allows developers to program money and move funds with a few lines of code. A single developer can write useful application in DeFi by writing a simple smart contract. 
+               Since TradFi is a closed ecosystem, it is a lot more work to do anything on top of existing Banks.
+  answerKeys:
+    - A
+    - C
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Low"
+  choices:
+    - content: DeFi works on blockchain, making transactions fast and highly efficient
+      key: A
+    - content: DeFi ecosystem is closed and handled well by authoritative bodies
+      key: B
+    - content: It is open source and developers can develop applications which enhance the ecosystem
+      key: C
+    - content: It is a new technology
+      key: D
+- uuid: 05055e62-514f-4b57-8b74-d0476e8c0057 
+  type: SingleChoice
+  content: What is an Automated Market Maker?
+  hint: Working of Decentralized Exchanges
+  explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a Decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
+  answerKeys:
+    - D
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Medium"
+  choices:
+    - content: A protocol that automatically makes trades for a user
+      key: A
+    - content: A system that ensures there is always enough liquidity to make trades
+      key: B
+    - content: A code function that automatically lists new markets on an exchange
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 056a68b5-2b85-4017-b67d-8c85f6ee116f
+  type: SingleChoice
+  content: Which DeFi component is used for swapping and buying tokens?
+  hint: NoHint
+  explanation: In DeFi, swapping and buying tokens are the features offered by applications known as Decentralized exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
+  answerKeys:
+    - B
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Low"
+  choices:
+    - content: Smart contracts
+      key: A
+    - content: Decentralized Exchanges
+      key: B
+    - content: Stablecoins
+      key: C
+    - content: One cannot lend or borrow using DeFi
+      key: D
+- uuid: 9da26257-525b-41f4-8b23-b353364933ce
+  type: SingleChoice
+  content: How does the transparency of DeFi helps its consumers?
+  hint: Problems in TradFi solved by DeFi
+  explanation: Transparency of DeFi provides better understanding of the protocol and its workings. It prevents any hidden charges and thus there are less chances of fraudulent activites on behalf of the system.
+  answerKeys:
+    - D
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it 
+  difficultyLevel: "Medium"
+  choices:
+    - content: Better understanding of the protocol
+      key: A
+    - content: No hidden charges
+      key: B
+    - content: Less fraudulent
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 68660361-6f13-45a2-851b-8430e15efb7a
+  type: MultipleChoice
+  content: Why traditional finance systems will get outdated?
+  hint: Disadvantges of TradFi
+  explanation: TradFi is not open source thus developers cannot access it. Complete control lies on the hands of few authorites thus no one can interfere with the working.
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices:
+    - content: People do not trust Centralized finance
+      key: A
+    - content: Developers are not allowed to build on top of them
+      key: B
+    - content: Complete control lies in the hand of a few authorities
+      key: C
+    - content: They will never get outdated
+      key: D
+- uuid: 04933663-d2ce-41ce-92b6-2852c77913ca
+  type: singleChoice
+  content: What could be the use of storing realworld assets as tokens in the blockchain?
+  hint: noHint
+  explanation: Tokenization ensures safety, ease of transfer and cost effective transactions of asset ownership.
+  answerKeys:
+    - D
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices: 
+    - content: Protection from fraudulent claims over assets
+      key: A
+    - content: Ease of transfer of assets is improved drastically
+      key: B
+    - content: The transactions do not need a middleman and are hence much more cost effective as compared to real world asset transactions
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 5344fde5-41ff-43d2-89db-8008a275aaa1
+  type: multipleChoice
+  content: What is the use of debt tokenization?
+  hint: noHint
+  explanation: Debt tokenization ensures that the user is in custody of his invested assets at all times and keeps account of the interest accrued by the user.
+  answerKeys:
+    - A
+    - B
+  subTopics: 
+    - what-is-defi-and-why-do-we-need-it
+  difficultyLevel: "Medium"
+  choices: 
+    - content: Keeps count of the interest accrued by the user
+      key: A
+    - content: Ensures that the user is in custody of his invested assets at all times
+      key: B
+    - content: Facilitates assets can be held in possession of multiple users at once
+      key: C
+      
+- uuid: 3e37ae46-df52-4359-acdd-db569ab2fe19
+  type: singleChoice
+  content: What are some of the use cases of Tokenization?
+  hint: noHint 
+  explanation: The following are implementations of tokenization
+  answerKeys:
+    - D
+  subTopics: 
+    - how-defi-works-and-its-use-cases
+  difficultyLevel: "Low"
+  choices: 
+    - content: Real estate tokenization
+      key: A
+    - content: Digitized securities
+      key: B
+    - content: Debt tokenization
+      key: C
+    - content: All of these
+      key: D
+ 
+      
+      
