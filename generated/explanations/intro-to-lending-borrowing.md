@@ -27,8 +27,7 @@ Equated monthly installments are applied to both interest and principal each mon
 
 **Over collateralization** - Collateral is locked with higher value than borrowed value in order to cover the potential losses of the collateral in case of any fault.
 
-## Intro to Lending and Borrowing 
-
+## Lending and Borrowing Intro 
 Lending is an action of allowing a person or an organization to use the sum of money under an agreement to pay it back later with remuneration, usually in the form of interest. 
 Borrowing in finance involves borrowing money under an agreement to pay it back with interest. The person or organization that lends the money is called the lender. 
 
@@ -36,7 +35,6 @@ The person or organization who borrows the money under an agreement to pay it ba
 agree to the terms and conditions. The assets can be anything of value, such as money, land, or gold.
 
 ### Use cases of Lending and Borrowing
-
 By lending assets and charging interest on those assets, lenders are able to increase the value of their assets while also providing borrowers with an incentive to use their assets. 
 This helps to counteract the effects of inflation by increasing the value of assets over time.
 
