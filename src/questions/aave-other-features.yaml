@@ -1,4 +1,4 @@
-- uuid: e0f6161d-19b2-4ee8-a17f-a4bc9c625a59
+- uuid:  e0f6161d-19b2-4ee8-a17f-a4bc9c625a59
   type: MultipleChoice
   content: What are terms of use associated with flash loans?
   hint: noHint
@@ -18,7 +18,6 @@
       key: C
     - content: Needs to be collateraized compulsorily
       key: D
-
     
 - uuid: a3bace4d-f592-44ca-919d-d296394aaeff
   type: SingleChoice
@@ -99,7 +98,7 @@
     - B
     - C
   subTopics:
-    - flash-loans-applications
+    - applications-of-flash-loans
   difficultyLevel: "Low"
   choices:
     - content: To liquidate debt position on user’s behalf and avoid hefty liquidation fees
