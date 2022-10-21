@@ -53,6 +53,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * DeFi aims to eradicate this issue by being creditless and instantaneous. 
  
  **How DeFi works and its use cases**        
+<<<<<<< Updated upstream
 ### Blockchain basics
  * A blockchain is a digital ledger of data, a chain of blocks, hence the name - blockchain.
  * Each of the blocks have three important pieces of information: 
@@ -77,6 +78,36 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  * Further, it is a much safer option as the lender always holds custody of his assets.
 
 #### Flash loans
+=======
+* DeFi protocols are run on the blockchain, so it is important to understand blockchain first.
+
+#### Blockchain basics:
+* A blockchain is a digital ledger of data, a chain of blocks, hence the name - blockchain.
+* Each of the blocks have three important pieces of information: 
+  1) The data stored in the block
+  2) A hash (An encoded string of characters) uniquely generated with respect to the data it contains  
+  3) The hash of the previous blockchain. 
+
+* Since the hash of a block depends on its data, it changes if the data in the block is tampered with. 
+* Since the hashing information on the next blockchain about the changed blockchain will be wrong, the blockchain is invalidated.
+* DeFi protocols are all built on top of blockchains. This is why, the DeFi protocols are a safer, more transparent and a secure way of finance.
+* Defi uses addresses to uniquely identify entities.
+* There are two types of addresses, user wallet address and smart contract address.
+* Both types of address serve the same purpose of uniquely identifying different entities on the blockchain, to send and receive assets, etc.
+
+#### Use cases of DeFi:
+
+- #### Lending and Borrowing:
+* The main issue of lending and borrowing in TradFi is that it is expensive.
+* It is in the bank's best interest to increase the premiums the borrower pays to maximize its profits. 
+* DeFi mitigates the problem of unnecessarily high interest rates by employing logic that determines APY and interest premiums based on the supply-demand of a given asset.
+* Lending in DeFi is often more profitable than in TradFi.
+* In the event of a default on loan repayment or a decrease in the value of the security deposit, the protocol will automatically liquidate the collateral and give the proceeds to the lender.
+* The process of borrowing in DeFi is seamless. The requirement is to have a valid blockchain address and hold an overcollaterized position for the given loan.
+* Further, it is a much safer option as the lender always holds custody of his assets.
+
+- #### Flash loans:
+>>>>>>> Stashed changes
 * DeFi offers loans to the borrower, requiring no collateral to be handed over, these loans are called Flash loans.
 * The borrowed money must be used and repaid within one transaction block (around 10s).
 * In case of a default in repayment, all changes made to the blockchain after the flashloan was taken are reverted and it is like nothing happened at all.
