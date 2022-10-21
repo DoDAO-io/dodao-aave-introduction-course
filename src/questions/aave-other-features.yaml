@@ -1,0 +1,113 @@
+- uuid:  e0f6161d-19b2-4ee8-a17f-a4bc9c625a59
+  type: MultipleChoice
+  content: What are terms of use associated with flash loans?
+  hint: noHint
+  explanation: Flash loans require collateral and Instantaneously sanctioned, must be repaid within one transaction.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - flash-loans
+  difficultyLevel: "Low"
+  choices:
+    - content: Must be repaid within one transaction
+      key: A
+    - content: No collateral and Instantaneous
+      key: B
+    - content: Incase of lack of repayment, user is fined
+      key: C
+    - content: Needs to be collateraized compulsorily
+      key: D
+    
+- uuid: a3bace4d-f592-44ca-919d-d296394aaeff
+  type: SingleChoice
+  content: Why is a fee added to each transaction on the blockchain?
+  hint: noHint
+  explanation: The fee is added in order to incentivize the miners.
+  answerKeys:
+    - B
+  subTopics:
+    - flash-loans
+  difficultyLevel: "Low"
+  choices:
+    - content: For the protocol to make profits
+      key: A
+    - content: To incentivize the miners
+      key: B
+    - content: To refund the user on a later date
+      key: C
+    - content: Transaction fee is paid to banks
+      key: D
+
+
+- uuid: fe4c889a-f3c0-4bee-a805-6aaf758c5e46
+  type: SingleChoice
+  content: Which of these functions allow the borrower to borrow from a single reserve?
+  hint: noHint
+  explanation: flashLoanSimple, allows user to borrow flash loans from a single reserve alone.
+  answerKeys:
+    - C
+  subTopics:
+    - flash-loans
+  difficultyLevel: "Medium"
+  choices:
+    - content: |
+       `flashLoanBorrow`
+      key: A
+    - content: |
+       `flashLoan`
+      key: B
+    - content: |
+       `flashLoanSimple`
+      key: C
+    - content: |
+       `flashLoanSingle`
+      key: D
+
+
+- uuid: d4c74f5e-9b57-4048-9af6-c2cd06239bf7
+  type: MultipleChoice
+  content: What could be the possible causes of transaction reverting after a flash loan?
+  hint: noHint
+  explanation: The possible causes could be amount owed + fee is not paid back due to lack of balance or approval or Collateral or credit delegation is absent to open a debt position at the end of a flashLoan. 
+  answerKeys:
+    - A
+    - D
+  subTopics:
+    - flash-loans
+  difficultyLevel: "Low"
+  choices:
+    - content: The amount owed + fee is not paid back due to lack of balance or approval
+      key: A
+    - content: The flash loan is undercollateralized
+      key: B
+    - content: The blockchain is never reverted 
+      key: C
+    - content: Collateral or credit delegation is absent to open a debt position at the end of a flashLoan 
+      key: D
+
+
+- uuid: 26b46029-a873-4c23-b9cc-29d025319314
+  type: MultipleChoice
+  content: Flash loans allow users to do which of the following?
+  hint: noHint
+  explanation: Flash loans allow the user cost-free trades on asset exchange platform, to swap collateral in a debt position, and to liquidate debt 
+               position on user’s behalf and avoid hefty liquidation fees.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - flash-loans
+  difficultyLevel: "Low"
+  choices:
+    - content: To liquidate debt position on user’s behalf and avoid hefty liquidation fees
+      key: A
+    - content: To swap collateral in a debt position
+      key: B
+    - content: Do cost-free trades on asset exchange platforms
+      key: C
+    - content:  To borrow any amount of money for use until the user feels the need to repay the loan
+      key: D
+
+      

@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ---
 
-## Intro to Lending and Borrowing in DeFi
+## Other Features of AAVE
  
 .......
 
@@ -14,6 +14,6 @@ Details
 ## Links
 [Reading List](./../../generated/readings/intro-to-lending-borrowing.md)
 
-[Summary](./../../generated/summaries/intro-to-lending-borrowing.md)
+[Summary](./../../generated/summaries/aave-other-features.md)
 
-[Questions](./../../generated/questions/intro-to-lending-borrowing.md)
+[Questions](./../../generated/questions/aave-other-features.md)

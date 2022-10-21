@@ -1462,6 +1462,218 @@
           "details": "### Volatility Risk \nLending and borrowing in DeFi protocols can be done using cryptocurrencies. Cryptocurrencies are highly volatile, \nso users must consider the volatility of the assets before lending or borrowing. \n  \n#### Collateral Liquidation\nCollateral liquidation is the forced sale of pledged collateral by the borrower to repay a loan. It occurs when the sum of borrowed amount and interest exceeds its threshold value. \nThe volatility of assets is also a factor that leads to collateral liquidation.\n  \nDeFi tackles these issues by considering several factors. The important two factors are\n  1. Loan To Value\n  2. Healthfactor\n\nAssets with high volatility have very low loan-to-value ratios, meaning that users can borrow much less against them \nas collateral. Healthfactor helps users to know whether a position is \nat risk of being liquidated due to insufficient collateral. \n\n### Protocol Risk \nDeFi's are growing and developing hence various risks are associated with the DeFi protocol. The risks involved are \nsmart-contract risks, oracle risks, scaling risks, and other risks.\n  \n#### Smart contract risk\nThese are the risks involved with the smart contracts in the protocol. These risks are mitigated by rigorous code audits.\n  \n#### Oracle risks\nThese are risks involved with oracles. Blockchain is a sioled environment to get information from the real world, \nthey use oracles to provide real-world data like price feed, total supply, etc. \n\nProblems in oracles will be a massive problem for DeFi protocols. DeFi mitigates this risk by decentralized oracle \nnetworks like chainlink.\n       \n       \n"
         }
       ]
+    },
+    {
+      "title": "Other Features of AAVE",
+      "key": "lending-and-borrowing-in-defi",
+      "details": ".......\n\nDetails\n  * .....\n",
+      "order": 2,
+      "explanations": [
+        {
+          "title": "Flash Loans",
+          "shortTitle": "Flash Loans",
+          "key": "flash-loans",
+          "details": "#### What are Flash Loans?\nFlash loans are special transactions that allow you to borrow and repay assets, but unlike traditional DeFi borrowing, the money must be repaid within a single transaction. \nFlash loans do not require any collateral to function, and are instantaneous, hence the term “flash”. Flash loans are essentially like short-term loans that are codified by \nsmart contracts. This means that the terms of the loan are written in code, which helps to prevent funds from being transferred out of one account to another unless certain conditions \nhave been met. Flash loans are typically repaid in the same transaction, and they are only valid for as long as the liquidity remains in the pool. However, if a flash loan trade doesn't \nreturn the full amount of liquidity to the pool, the entire transaction will be reversed, which will also reverse all previous actions. This helps to ensure that funds are safe during the \nevent of a flash loan.\n\n#### Blockchain Transactions\nA transaction is a way of transferring value or any other type of token using Blockchain. In order to transfer cryptocurrency, you must have a digital wallet. This wallet must have a public \nand private key. You can think of it like this: your wallet is your bank account, your public key is your account number, other users use this to send you assets. Your private key is your pin code, \nwhich allows you to access the assets in your wallet. Once you have connected your wallet, you can use various decentralized exchanges and decentralized finance platforms to complete transactions. \nOn every transaction, a fee is added, which acts as an incentive to miners to keep the chain secure.\n \n #### Working of transactions\n `flashLoan`: Allows borrowers to access liquidity of *multiple reserves* in a single *flashLoan* transaction. The borrower also has an option to open a stable or variable rate debt position backed by supplied collateral or \n  credit delegation in this case.\n \n `flashLoanSimple`: Allows borrowers to access liquidity of *single reserve* for the transaction. In this case flash loan fee is not waived nor can the borrower open any debt position at the end of the transaction. \n  This method is gas efficient for those trying to take advantage of simple flash loans with a single reserve asset.\n \n \n #### Execution Flow\n Here is an example of an execution flow for developers,\n \n 1. Your contract calls the Pool contract, requesting for a flash loan of a certain amount from reserve(s) using `flashLoanSimple()`` or `flashLoan()``.\n 2. After some sanity checks, the pool transfers the requested amount from reserve(s) to your smart contract, then calls `executeOperation()`` on the receiver contract.    \n 3. Your smart contract, now holding the flash loaned amount, executes any arbitrary operation in its code.\n     * In case of a `flashloanSimple`, your code has finished. You just need to approve the pool the loaned amount + fee. \n     * If you are doing a `flashLoan`,  then depending on the interest rate mode and whether or not you want to open a debt position after the flash loan, you must either approve the \n       flash loan + fee to the pool or provide sufficient collateral or credit delegation should be available to open the debt position.\n     * If the amount owed is not available to the pool due to lack of balance or insufficient approved amount, then all changes made in the transaction are reverted.\n 4. All the above happens in one transaction block.\n\n #### Applications of flash loans\n\n **Arbitrage:** Users can earn a decent profit by trading assets at different platforms that offer different values. With flash loans, traders can launch an arbitrage without any existing assets. \n Therefore, arbitrage trades using a flash loan become \"cost-free\" as long as the traders can afford the gas and flash loan fee to launch the transaction.\n\n **Swapping collateral:**  Crypto asset investors can use collateral swapping to change out their investments without having to repay the debt of the original investment. Collateral swapping lets an investor \n replace their position with borrowed assets. Users can choose to pay back their CDP debt and take out all collateral, using part of it to repay flash loans and keeping the remaining \n for themselves.\n\n **Self Liquidation:** Markets can be very volatile and can lead to liquidation of the sensitive positions. Liquidation can be quite expensive on certain platforms. There are many applications that make use \n of flash loans and liquidate the position on user’s behalf saving the user hefty liquidation fees of the protocol.\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "e0f6161d-19b2-4ee8-a17f-a4bc9c625a59",
+          "type": "MultipleChoice",
+          "content": "What are terms of use associated with flash loans?",
+          "hint": "noHint",
+          "explanation": "Flash loans require collateral and Instantaneously sanctioned, must be repaid within one transaction.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "flash-loans"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Must be repaid within one transaction",
+              "key": "A"
+            },
+            {
+              "content": "No collateral and Instantaneous",
+              "key": "B"
+            },
+            {
+              "content": "Incase of lack of repayment, user is fined",
+              "key": "C"
+            },
+            {
+              "content": "Needs to be collateraized compulsorily",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a3bace4d-f592-44ca-919d-d296394aaeff",
+          "type": "SingleChoice",
+          "content": "Why is a fee added to each transaction on the blockchain?",
+          "hint": "noHint",
+          "explanation": "The fee is added in order to incentivize the miners.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "flash-loans"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "For the protocol to make profits",
+              "key": "A"
+            },
+            {
+              "content": "To incentivize the miners",
+              "key": "B"
+            },
+            {
+              "content": "To refund the user on a later date",
+              "key": "C"
+            },
+            {
+              "content": "Transaction fee is paid to banks",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fe4c889a-f3c0-4bee-a805-6aaf758c5e46",
+          "type": "SingleChoice",
+          "content": "Which of these functions allow the borrower to borrow from a single reserve?",
+          "hint": "noHint",
+          "explanation": "flashLoanSimple, allows user to borrow flash loans from a single reserve alone.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "flash-loans"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "`flashLoanBorrow`\n",
+              "key": "A"
+            },
+            {
+              "content": "`flashLoan`\n",
+              "key": "B"
+            },
+            {
+              "content": "`flashLoanSimple`\n",
+              "key": "C"
+            },
+            {
+              "content": "`flashLoanSingle`\n",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d4c74f5e-9b57-4048-9af6-c2cd06239bf7",
+          "type": "MultipleChoice",
+          "content": "What could be the possible causes of transaction reverting after a flash loan?",
+          "hint": "noHint",
+          "explanation": "The possible causes could be amount owed + fee is not paid back due to lack of balance or approval or Collateral or credit delegation is absent to open a debt position at the end of a flashLoan.",
+          "answerKeys": [
+            "A",
+            "D"
+          ],
+          "subTopics": [
+            "flash-loans"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The amount owed + fee is not paid back due to lack of balance or approval",
+              "key": "A"
+            },
+            {
+              "content": "The flash loan is undercollateralized",
+              "key": "B"
+            },
+            {
+              "content": "The blockchain is never reverted",
+              "key": "C"
+            },
+            {
+              "content": "Collateral or credit delegation is absent to open a debt position at the end of a flashLoan",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "26b46029-a873-4c23-b9cc-29d025319314",
+          "type": "MultipleChoice",
+          "content": "Flash loans allow users to do which of the following?",
+          "hint": "noHint",
+          "explanation": "Flash loans allow the user cost-free trades on asset exchange platform, to swap collateral in a debt position, and to liquidate debt position on user’s behalf and avoid hefty liquidation fees.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "flash-loans"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "To liquidate debt position on user’s behalf and avoid hefty liquidation fees",
+              "key": "A"
+            },
+            {
+              "content": "To swap collateral in a debt position",
+              "key": "B"
+            },
+            {
+              "content": "Do cost-free trades on asset exchange platforms",
+              "key": "C"
+            },
+            {
+              "content": "To borrow any amount of money for use until the user feels the need to repay the loan",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "13665e38-97ee-4dd1-88f1-896382eb8eb9",
+          "title": "Introduction to lending and borowing in crypto",
+          "shortTitle": "lending and borowing",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=SrArEE6p3zM",
+          "subTopics": [
+            "why-do-we-lending-borrowing"
+          ],
+          "details": "This video enables learners to know about\n  * Lending and borowing in crypto\n  * Centralized and  decentralized lending and borowing \n  * Working of lending and borrowing in crypto\n  * Risks in Lending and Borrowing in crypto\n"
+        },
+        {
+          "uuid": "7a36ecdd-bfdc-4564-b37f-316ef9a6e455",
+          "title": "Lending and borrowing in DeFi",
+          "shortTitle": "Lending and borrowing in DeFi",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=aTp9er6S73M",
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "details": "This video enables learners to know about\n  * Working of lending and borrowing in DeFi's\n  * Core concepts of lending and borrowing in Aave and Compound\n  * Determination of interest rates and other features in Aave\n  * Risks involved in DeFi\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Flash Loans",
+          "shortTitle": "Flash Loans",
+          "key": "flash-loans",
+          "details": "#### What are Flash Loans?\n* Flash loans are special transactions that allow you to borrow and repay assets, but unlike traditional DeFi borrowing, the money must be repaid within a single transaction. \n* Flash loans do not require any collateral to function, and are instantaneous, hence the term “flash”. \n* Flash loans are typically repaid in the same transaction, and they are only valid for as long as the liquidity remains in the pool. \n* However, if a flash loan trade doesn't return the full amount of liquidity to the pool, the entire transaction will be reversed, which will also reverse all previous actions.\n\n#### Transactions\n* A transaction is a way of transferring value or any other type of token using Blockchain. \n* In order to transfer cryptocurrency, you must have a digital wallet. This wallet must have a public and private key. \n* If your wallet is your bank account, your public key is your account number, other users use this to send you assets. \n* Similarly, your private key is your pin code, which allows you to access the assets in your wallet. \n* On every transaction, a fee is added, which acts as an incentive to miners to keep the chain secure.\n\n#### Working of flash loans\n##### **`flashLoan`** \n* Allows borrowers to access liquidity of *multiple reserves* in a single *flashLoan* transaction. \n* The borrower also has an option to open a stable or variable rate debt position backed by supplied collateral or \n credit delegation in this case.\n\n##### **`flashLoanSimple`:** \n  * Allows borrowers to access liquidity of *single reserve* for the transaction. \n  * In this case flash loan fee is not waived nor can the borrower open any debt position at the end of the transaction. \n  * This method is gas efficient for those trying to take advantage of simple flash loans with a single reserve asset.\n\n#### Execution Flow\n1. Your contract calls the Pool contract, requesting for a flash loan of a certain amount from reserve(s) using `flashLoanSimple()`` or `flashLoan()``.\n\n2. After some sanity checks, the pool transfers the requested amount from reserve(s) to your smart contract, then calls `executeOperation()`` on the receiver contract.\n\n3. Your smart contract, now holding the flash loaned amount, executes any arbitrary operation in its code.\n    * In case of a `flashloanSimple`, your code has finished. You just need to approve the pool the loaned amount + fee. \n    * If you are doing a `flashLoan`,  then depending on the interest rate mode and whether or not you want to open a debt position after the flash loan, you must either approve the \n      flash loan + fee to the pool or provide sufficient collateral or credit delegation should be available to open the debt position.\n    * If the amount owed is not available to the pool due to lack of balance or insufficient approved amount, then all changes made in the transaction are reverted.\n\n4. All the above happens in one transaction block.\n\n #### Applications of flash loans\n\n **Arbitrage:** \n * Users can earn a decent profit by trading assets at different platforms that offer different values. \n * With flash loans, traders can launch an arbitrage without any existing assets. \n * Therefore, arbitrage trades using a flash loan become \"cost-free\" as long as the traders can afford the gas and flash loan fee to launch the transaction.\n\n **Swapping collateral:**\n * Crypto asset investors can use collateral swapping to change out their investments without having to repay the debt of the original investment. \n * Collateral swapping lets an investor replace their position with borrowed assets. \n * Users can choose to pay back their CDP debt and take out all collateral, using part of it to repay flash loans and keeping the remaining for themselves.\n\n **Self Liquidation:**\n * Markets can be very volatile and can lead to liquidation of the sensitive positionsand liquidation can be quite expensive on certain platforms.  \n * There are many applications that make use of flash loans and liquidate the position on user’s behalf saving the user hefty liquidation fees of the protocol.\n"
+        }
+      ]
     }
   ]
 }
