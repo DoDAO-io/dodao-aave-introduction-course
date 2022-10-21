@@ -7,7 +7,7 @@
     - A
     - B
   subTopics:
-    - what-are-flash-loans
+    - flash-loans
   difficultyLevel: "Low"
   choices:
     - content: Must be repaid within one transaction
@@ -27,7 +27,7 @@
   answerKeys:
     - B
   subTopics:
-    - what-are-flash-loans
+    - flash-loans
   difficultyLevel: "Low"
   choices:
     - content: For the protocol to make profits
@@ -48,7 +48,7 @@
   answerKeys:
     - C
   subTopics:
-    - working-of-flash-loans
+    - flash-loans
   difficultyLevel: "Medium"
   choices:
     - content: |
@@ -74,7 +74,7 @@
     - A
     - D
   subTopics:
-    - working-of-flash-loans
+    - flash-loans
   difficultyLevel: "Low"
   choices:
     - content: The amount owed + fee is not paid back due to lack of balance or approval
@@ -98,7 +98,7 @@
     - B
     - C
   subTopics:
-    - applications-of-flash-loans
+    - flash-loans
   difficultyLevel: "Low"
   choices:
     - content: To liquidate debt position on user’s behalf and avoid hefty liquidation fees

@@ -43,3 +43,16 @@ topics:
     questions: intro-to-lending-borrowing.yaml
     status: In Progress
     completionWeek: In Progress
+  - title: Other Features of AAVE
+    key: lending-and-borrowing-in-defi
+    details: |
+      .......
+      
+      Details
+        * .....
+    explanations: aave-other-features.yaml
+    readings: intro-to-lending-borrowing.yaml
+    summaries: aave-other-features.yaml
+    questions: aave-other-features.yaml
+    status: In Progress
+    completionWeek: In Progress
