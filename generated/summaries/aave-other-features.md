@@ -25,7 +25,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 * The borrower also has an option to open a stable or variable rate debt position backed by supplied collateral or 
  credit delegation in this case.
 
-##### **`flashLoanSimple`:** 
+##### **`flashLoanSimple`** 
   * Allows borrowers to access liquidity of *single reserve* for the transaction. 
   * In this case flash loan fee is not waived nor can the borrower open any debt position at the end of the transaction. 
   * This method is gas efficient for those trying to take advantage of simple flash loans with a single reserve asset.
