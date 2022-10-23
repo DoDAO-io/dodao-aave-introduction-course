@@ -1,0 +1,182 @@
+- uuid: e2cc2946-3e82-4831-9e5a-d00481515186
+  type: SingleChoice
+  content: What is the requirement for lending in Aave?
+  hint: Wallet
+  explanation: Aave is a popular cryptocurrency lending platform that requires users to have only one cryptocurrency wallet to start lending. There are no age restrictions or KYC requirements in order to start lending on Aave.
+  answerKeys:
+    - B
+  subTopics:
+    - connect-aave
+  difficultyLevel: "Low"
+  choices:
+    - content: Users need to complete the KYC process
+      key: A
+    - content: Users need to have a cryptocurrency wallet 
+      key: B
+    - content: Users need to be above 25 years  
+      key: C
+    - content: The assets should be lent more than 100 dollars
+      key: D
+- uuid: 4831fa0f-76a2-4815-91e3-665bcf956107
+  type: MultipleChoice
+  content: Which of the following is/are correct about lending in Aave?
+  hint: noHint
+  explanation: |
+    In order to pay gas fees, users need to have some native tokens. For example, if you want to lend in the Ethereum network, 
+    you need to own some ether to pay the gas fees for the transaction. By adding aTokens to their wallet, users can track their balances.
+  answerKeys:
+    - A
+    - C
+  subTopics: 
+    - lending-Aave
+  difficultyLevel: "Medium"
+  choices:
+    - content: Users must have some native tokens to pay gas fees
+      key: A
+    - content: Users can use any token to pay the gas fees for lending 
+      key: B
+    - content: Users can add aTokens to their wallet to track their balances
+      key: C
+    - content: Users can lend only up to a maximum value of 10000 dollars
+      key: D
+- uuid: 5907bc09-941b-440f-8bdb-858cfc830293
+  type: SingleChoice
+  content: The procedure for lending is different for different networks
+  hint: All networks have same procedure
+  explanation: While the procedure for lending is the same for all networks, the market for different networks can vary. Therefore, the above statement is false.
+  answerKeys:
+    - B
+  subTopics: 
+    - lending-Aave
+  difficultyLevel: "Low"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+- uuid: 2b30d73b-8c6e-4e49-9213-b1ee3743e2bd
+  type: SingleChoice
+  content: Which of the following is correct about interest rates in borrowing?
+  hint: noHint
+  explanation: | 
+    Loans can be borrowed in both stable and variable interest rates so that users can choose what is best for them and their current financial situation. 
+    Interest rates can also be changed by the user at any time if their needs should happen to change in the future.
+  answerKeys:
+    - C
+  subTopics: 
+    - borrowing-Aave
+  difficultyLevel: "Low"
+  choices:
+    - content: Users can only borrow assets at a stable interest rate
+      key: A
+    - content: Users can only borrow assets at a variable interest rate
+      key: B
+    - content: Users can borrow assets at both stable and variable rate
+      key: C
+- uuid: bcf0c674-e052-43ca-a82d-47998a299386
+  type: SingleChoice
+  content: What is the repayment period for the loan?
+  hint: Norepayment
+  explanation: In Aave, there is no set repayment period or deadline for borrowers. Instead, users must make sure to have a good health factor to prevent liquidation of collateral.
+  answerKeys:
+    - A
+  subTopics: 
+    - borrowing-Aave
+  difficultyLevel: "Medium"
+  choices:
+    - content: There is no time limit for repayment
+      key: A
+    - content: Borrowed loans must be repaid before 70 days of borrowing 
+      key: B
+    - content: The repayment time for a loan depends on the amount borrowed
+      key: C
+    - content: Users need to repay the loans when their health factor reaches 10
+      key: D
+- uuid: 2f847ded-24f9-4816-99d6-68303ff8e24e
+  type: SingleChoice
+  content: |
+    Which of the following order is correct for borrowing loans in Aave?
+
+    A- Confirm the transaction using the connected wallet
+    B- To borrow, click the "Borrow" button. A new window will pop up. Fill in the required fields and click "Borrow."
+    C- Do not close the window until the transaction is complete
+    D- Connect the wallet and lock the collateral for borrowing
+    E- After the transaction has been finalized. We can add the tokens to our wallet
+
+  hint: Starts with connecting the wallet
+  explanation: |
+    The first thing you need to do is connect your wallet and lock your collateral. Then, click the borrow button and fill in the required details. After that, confirm 
+    the transaction using your wallet. Once the transaction is complete, the tokens will be added to your wallet.
+  answerKeys:
+    - C
+  subTopics: 
+    - borrowing-Aave
+  difficultyLevel: "Medium"
+  choices:
+    - content: A=>B=>C=>D=>E
+      key: A
+    - content: B=>E=>A=>C=>D
+      key: B
+    - content: D=>B=>A=>C=>E
+      key: C
+    - content: E=>D=>C=>B=>A
+      key: D
+- uuid: c5b2ceae-105a-411a-8aa2-77af2020ac78
+  type: MultipleChoice
+  content: Which of the following factor(s) is/are considered more significant while borrowing?
+  hint: Interest rate and health factor
+  explanation: Health factor should be considered while borrowing users need to make sure that they have a good health factor. Users also need to check the interest rates and liquidation ratio of collateral to ensure the safety of collateral.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics: 
+    - borrowing-Aave
+  difficultyLevel: "Medium"
+  choices:
+    - content: Interest rates for borrowing
+      key: A
+    - content: Utilization ratio 
+      key: B
+    - content: Health factor
+      key: C
+    - content: Liquidation threshold of the collateral
+      key: D  
+- uuid: e2535866-2f4b-4366-a2a8-5a8a31100ad3
+  type: SingleChoice
+  content: How the maximum borrowing limit is determined while borrowing assets?
+  hint: Loan-to-Value
+  explanation: The maximum loan amount you're able to take out is based on the Loan-to-Value (LTV) ratio of the collateral you're putting up.
+  answerKeys:
+    - B
+  subTopics: 
+    - borrowing-Aave
+  difficultyLevel: "Low"
+  choices:
+    - content: It is determined randomly using the SHA-256 algorithm
+      key: A
+    - content: It is determined based on the loan-to-value (LTV) of the collateral
+      key: B
+    - content: It is determined based on the lending rate of the asset
+      key: C
+    - content: None of these
+      key: D
+- uuid: 164d71e4-7589-4a4e-a9ec-8a550da8ec02
+  type: SingleChoice
+  content: What assets can be used as collateral?
+  hint: can be collateral
+  explanation: Assets that are marked with a tick in the "can be collateral" column can be used as collateral. Other assets cannot be used as collateral. Additionally, users can choose whether or not to use a particular asset as collateral.
+  answerKeys:
+    - B
+  subTopics: 
+    - lending-Aave
+  difficultyLevel: "Low"
+  choices:
+    - content: All assets can be used as collateral
+      key: A
+    - content: Assets that are marked with a tick in the "can be collateral" column can be used as collateral
+      key: B
+    - content: Stablecoins like USDC, DAI, etc. can be used as collateral
+      key: C
+    - content: Only ether can be used as collateral
+      key: D
