@@ -2,6 +2,7 @@
 node_modules
 /dist
 .yalc
+.yarn 
 
 # local env files
 .env.local

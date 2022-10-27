@@ -94,9 +94,9 @@ Sub Topics: flash-loans
 
 ##### Select the benefits AAVE portals  
 
-- [x]  Portals provide liquidity to l2-l2 bridges, which improves the user experience on the blockchain ecosystem
+- [x]  Portals increase the amount of liquidity that can be transferred through l2-l2 bridges, hence offering a better user experience
 - [x]  Portals make alt Evm L1 chains attractive and easier to access
-- [ ]  There is no way to confirm the trustworthiness of the validators who help transfer assets in portals
+- [ ]  They provide an alternative to the blockchain bridges protocol
 - [x]  Portal's feature seamlessly allows assets to flow between Aave markets on different networks
   
 Hint: noHint
@@ -141,7 +141,7 @@ Sub Topics: aave-portals
 ##### How are aave portals beneficial to the DeFi/ Blockchain ecosystem?  
 
 - [ ]  They provide a completely new protocol for users to be able to interact with different chains
-- [x]  Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
+- [x]  Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
 - [x]  Helps increase usership of EVM Layer 1 chains
 - [x]  Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions
   
@@ -202,11 +202,11 @@ Sub Topics: aave-portals
 
 ---
 
-##### What purpose does the “batch” serve?  
+##### What function does “batch” perform?  
 
-- [x]  It used to store assets supplied by multiple users in a pool, and then to batch them together
+- [x]  It batches assets sent by multiple users together
 - [ ]  It is a pool of assets sent by users to be transferred to another chain
-- [ ]  Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains
+- [ ]  Uses aTokens to withdraw funds and transfers them across blockchains
 - [ ]  It is an alias for "bridging protocol"
   
 Hint: noHint

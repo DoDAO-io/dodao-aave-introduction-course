@@ -1664,7 +1664,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Portals provide liquidity to l2-l2 bridges, which improves the user experience on the blockchain ecosystem",
+              "content": "Portals increase the amount of liquidity that can be transferred through l2-l2 bridges, hence offering a better user experience",
               "key": "A"
             },
             {
@@ -1672,7 +1672,7 @@
               "key": "B"
             },
             {
-              "content": "There is no way to confirm the trustworthiness of the validators who help transfer assets in portals",
+              "content": "They provide an alternative to the blockchain bridges protocol",
               "key": "C"
             },
             {
@@ -1758,7 +1758,7 @@
               "key": "A"
             },
             {
-              "content": "Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier",
+              "content": "Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier",
               "key": "B"
             },
             {
@@ -1872,7 +1872,7 @@
         {
           "uuid": "9efd4305-cb39-4b43-bd54-6c0dfda0ae78",
           "type": "SingleChoice",
-          "content": "What purpose does the “batch” serve?",
+          "content": "What function does “batch” perform?",
           "hint": "noHint",
           "explanation": "Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains.",
           "answerKeys": [
@@ -1884,7 +1884,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "It used to store assets supplied by multiple users in a pool, and then to batch them together",
+              "content": "It batches assets sent by multiple users together",
               "key": "A"
             },
             {
@@ -1892,7 +1892,7 @@
               "key": "B"
             },
             {
-              "content": "Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains",
+              "content": "Uses aTokens to withdraw funds and transfers them across blockchains",
               "key": "C"
             },
             {
