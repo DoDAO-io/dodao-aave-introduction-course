@@ -33,10 +33,13 @@ topics:
   - title: Intro to Lending and Borrowing in DeFi
     key: lending-and-borrowing-in-defi
     details: |
-      .......
+      This chapter explains how lending and borrowing works in both DeFi and TradFi. 
+      It also goes over the risks involved with lending and borrowing in DeFi.
       
       Details
-        * .....
+        * Lending and borrowing in TradFi
+        * Lending and borrowing in DeFi
+        * Risks involved in DeFi
     explanations: intro-to-lending-borrowing.yaml
     readings: intro-to-lending-borrowing.yaml
     summaries: intro-to-lending-borrowing.yaml
@@ -46,10 +49,12 @@ topics:
   - title: How to Lend and Borrow in AAVE
     key: how-lendings-borrowing-aave
     details: |
-      .......
+      This chapter covers Aave's lending and borrowing processes, ATokens and debt tokens, as well as how interest rates are calculated.
       
       Details
-        * .....
+        * How to lend and borrow in Aave
+        * Working of ATokens in Lending
+        * working of debt tokens and interest rates in borrowing
     explanations: how-lendings-borrowing-aave.yaml
     readings: intro-to-lending-borrowing.yaml
     summaries: how-lendings-borrowing-aave.yaml
