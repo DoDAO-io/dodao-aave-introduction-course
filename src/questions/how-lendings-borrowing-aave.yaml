@@ -1,6 +1,6 @@
 - uuid: e2cc2946-3e82-4831-9e5a-d00481515186
   type: SingleChoice
-  content: What is the requirement for lending in Aave?
+  content: Which of the following is required for lending in Aave?
   hint: Wallet
   explanation: Aave is a popular cryptocurrency lending platform that requires users to have only one cryptocurrency wallet to start lending. There are no age restrictions or KYC requirements in order to start lending on Aave.
   answerKeys:
