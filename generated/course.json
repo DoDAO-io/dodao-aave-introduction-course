@@ -731,7 +731,7 @@
     {
       "title": "Intro to Lending and Borrowing in DeFi",
       "key": "lending-and-borrowing-in-defi",
-      "details": ".......\n\nDetails\n  * .....\n",
+      "details": "This chapter explains how lending and borrowing works in both DeFi and TradFi. \nIt also goes over the risks involved with lending and borrowing in DeFi.\n\nDetails\n  * Lending and borrowing in TradFi\n  * Lending and borrowing in DeFi\n  * Risks involved in DeFi\n",
       "order": 1,
       "explanations": [
         {
@@ -1466,7 +1466,7 @@
     {
       "title": "How to Lend and Borrow in AAVE",
       "key": "how-lendings-borrowing-aave",
-      "details": ".......\n\nDetails\n  * .....\n",
+      "details": "This chapter covers Aave's lending and borrowing processes, ATokens and debt tokens, as well as how interest rates are calculated.\n\nDetails\n  * How to lend and borrow in Aave\n  * Working of ATokens in Lending\n  * working of debt tokens and interest rates in borrowing\n",
       "order": 2,
       "explanations": [
         {
