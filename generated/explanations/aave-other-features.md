@@ -73,7 +73,7 @@ However, with a bridge between two blockchains it becomes possible to transfer a
 #### Aave portals and how it simplifies things
 Now let us look at how Aave portals provide solutions to the problems posed by Bridges.
 
-The Portal's feature on Aave allows fortokenized assets to flow frictionlessly between markets on different networks. Aave allows for certain whitelisted entities or specific bridges to 'burn' aTokens in the source network and instantly 
+The Portal's feature on Aave allows for tokenized assets to flow frictionlessly between markets on different networks. Aave allows for certain whitelisted entities or specific bridges to 'burn' aTokens in the source network and instantly 
 mint them on the destination network. The actual underlying assets are then transferred to the destination network at a later time by being passed to the pool after it has been moved through the bridge.. The assets are transferred to the Aave 
 pool on the destination chain after the burning and minting of aTokens.
 
@@ -89,7 +89,7 @@ In order to bridge assets from one chain to another, the user first submits a br
 Behind the scenes, the bridging protocol mints unbacked aTokens on the destination chain to the intermediate contract, and in turn withdraws and transfers the underlying asset to the user immediately. The bridge contract on L2 then supplies the 
 underlying asset and fee to the Aave pool to back the previously minted unbacked aTokens. The "bridge" is used to store assets supplied by multiple users in a pool, and then to batch them together. The "hop" will use tokens to withdraw the assets 
 from the pool, and then use its own bridging protocol to transfer the assets from the original to destination chain. The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using Aave v3 portals. 
-This is how portals enable seamless transactions between markets in different networks. Also, the bridges are approved, sand assets are transferred under smart contracts Hence the transactions are secure.
+This is how portals enable seamless transactions between markets in different networks. Also, the bridges are approved, and assets are transferred under smart contracts Hence the transactions are secure.
 
 (Note: Only approved bridges use this portal feature, so there is no risk of withdrawing funds from Aave v3. Also, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets. There are no 
 other core protocols for directly using Aave portals from the user end.) 
