@@ -122,7 +122,7 @@
     - aave-portals
   difficultyLevel: "Medium"
   choices:
-    - content: By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a seamless experience for users
+    - content: Portals provide liquidity to l2-l2 bridges, which improves the user experience on the blockchain ecosystem
       key: A
     - content: Portals make alt Evm L1 chains attractive and easier to access
       key: B
@@ -142,11 +142,9 @@
     - aave-portals
   difficultyLevel: "Medium"
   choices:
-    - content: |
-       True
+    - content: "True"
       key: A
-    - content: |
-       False
+    - content: "False"
       key: B
 
 - uuid: 860f56ac-1c8f-4522-a576-343a93ab9b80

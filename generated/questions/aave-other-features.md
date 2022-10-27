@@ -94,7 +94,7 @@ Sub Topics: flash-loans
 
 ##### Select the benefits AAVE portals  
 
-- [x]  By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a seamless experience for users
+- [x]  Portals provide liquidity to l2-l2 bridges, which improves the user experience on the blockchain ecosystem
 - [x]  Portals make alt Evm L1 chains attractive and easier to access
 - [ ]  There is no way to confirm the trustworthiness of the validators who help transfer assets in portals
 - [x]  Portal's feature seamlessly allows assets to flow between Aave markets on different networks
@@ -111,9 +111,7 @@ Sub Topics: aave-portals
 ##### Aave portals technology makes use of bridges (T/F)  
 
 - [x]  True
-
 - [ ]  False
-
   
 Hint: noHint
          

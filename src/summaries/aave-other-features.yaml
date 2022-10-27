@@ -54,14 +54,14 @@
     **Self Liquidation:**
     * Markets can be very volatile and can lead to liquidation of the sensitive positionsand liquidation can be quite expensive on certain platforms.  
     * There are many applications that make use of flash loans and liquidate the position on user’s behalf saving the user hefty liquidation fees of the protocol.
-
+   
 - title: AAVE Portals
   shortTitle: AAVE Portals
   key: aave-portals
   details: |
    #### Layer 2 blockchains 
    * Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.
-   * On Ethereum mainnet, transactions can be slow and difficult, and the proof-of-work model can use a lot of energy.
+   * On Ethereum mainnet, transactions can be slow and difficult.
    * Layer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain.
    
    #### What are Blockchain Bridges and Why do we use them? 
@@ -81,6 +81,11 @@
       
       * **Nascent stage:**
       It is still unclear how bridges will work in various market conditions.
+
+      * **Complexity:**
+      Complexity is another big issue as the user needs to know the various steps needed to transfer the assets. These steps are often not standard and varies from one bridge to another which acts as cause for confusion
+      for users.
+   
    
    
    #### Aave portals and how it simplifies things
@@ -105,4 +110,3 @@
    * The "hop" will use tokens to withdraw the assets from the pool, and then use its own bridging protocol to transfer the assets from the original to destination chain. 
    * The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using Aave v3 portals. 
    * Note that, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets, there are no other core protocols for directly using Aave portals from the user end.
-   
