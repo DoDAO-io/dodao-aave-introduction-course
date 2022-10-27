@@ -57,7 +57,9 @@
    #### Layer 2 blockchains
    In 2020, we had seen a lot of people using Ethereum, and transaction requests increased. However, Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.
    On Ethereum mainnet, transactions can be slow and difficult, and we need an alternative that can improve these issues without compromising decentralization and security.
-   Layer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain. So the need for blockchain bridges arised.
+   Layer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain. 
+   
+To enable transfer of funds between Layer1 and Layer2 blockchains, one needs to use bridges.
    
 
    #### What are Blockchain Bridges and Why do we use them? 
