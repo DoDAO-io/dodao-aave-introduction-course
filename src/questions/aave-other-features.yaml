@@ -171,8 +171,9 @@
   type: MultipleChoice
   content: How are aave portals beneficial to the DeFi/ Blockchain ecosystem?
   hint: noHint
-  explanation: Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the 
-   user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions. 
+  explanation: Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Provides user with multiple blockchain options to invest their assets in, thus providing an 
+               opportunity to increase the usership of alternate layer 1 blockchains. Helps increase the user experience of the blockchain network by providing liquidity transfer to layer 2 blockchains which 
+               provide fast and scalable solutions to their issues related to transactions. 
   answerKeys:
     - B
     - C
@@ -185,9 +186,9 @@
       key: A
     - content: Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
       key: B
-    - content: Helps increase usership of EVM Layer 1 chains
+    - content: Helps users transfer their assets to other layer 1 blockchains, providing an opportunity to increase the usership of alternate layer 1 chains
       key: C
-    - content: Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions
+    - content: Helps increase the user experience of the blockchain network by providing a way transfer assets to layer 2 blockchains which have better transaction speed and lesser transaction fees.
       key: D
 
 
