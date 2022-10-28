@@ -109,5 +109,146 @@
       key: C
     - content:  To borrow any amount of money for use until the user feels the need to repay the loan
       key: D
+- uuid: dbc4b555-654e-418e-a170-5e617f8aab44
+  type: MultipleChoice
+  content: Select the benefits AAVE portals
+  hint: noHint
+  explanation: Portal's feature seamlessly allows assets to flow between Aave markets on different networks, portals make alt Evm L1 chains attractive and easier to access By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a seamless experience for users.
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Medium"
+  choices:
+    - content: Portals increase the amount of liquidity that can be transferred through l2-l2 bridges, hence offering a better user experience
+      key: A
+    - content: Portals make alt Evm L1 chains attractive and easier to access
+      key: B
+    - content: They provide an alternative to the blockchain bridges protocol
+      key: C
+    - content: Portal's feature seamlessly allows assets to flow between Aave markets on different networks
+      key: D
+
+- uuid: 4f30b2d2-a588-4997-b978-69ce6b00e3cb
+  type: SingleChoice
+  content: Aave portals technology makes use of bridges (T/F)
+  hint: noHint
+  explanation: Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets. There are no other core protocols for directly using Aave portals from the user end.
+  answerKeys:
+    - A
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Medium"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+
+- uuid: 860f56ac-1c8f-4522-a576-343a93ab9b80
+  type: SingleChoice
+  content: What are aTokens?
+  hint: noHint
+  explanation: Aave’s version of an already existing crypto currency. They are minted and burnt upon supply and withdrawal of the original currency. For example, aDai.
+  answerKeys:
+    - C
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Medium"
+  choices:
+    - content: aTokens are tokens given to user as incentive for being liquidity provider
+      key: A
+    - content: Aave's version of an already existing currency whose value is more than the original currency
+      key: B
+    - content: Aave’s version of an already existing crypto currency, minted and burnt upon supply and withdrawal of the original currency. 
+      key: C
+    - content: It is a new crypto currency that is independant of any other crypto currency
+      key: D
+
+- uuid: e6751153-9dcd-4e45-873e-c47a7da030a7
+  type: MultipleChoice
+  content: How are aave portals beneficial to the DeFi/ Blockchain ecosystem?
+  hint: noHint
+  explanation: Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the 
+   user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions. 
+  answerKeys:
+    - B
+    - C
+    - D
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Medium"
+  choices:
+    - content: They provide a completely new protocol for users to be able to interact with different chains
+      key: A
+    - content: Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
+      key: B
+    - content: Helps increase usership of EVM Layer 1 chains
+      key: C
+    - content: Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions
+      key: D
+
+
+- uuid: a0f5f042-39c5-44e1-b88b-7cb7c362e173
+  type: SingleChoice
+  content: What purpose does the “hop” serve?
+  hint: noHint
+  explanation: Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains.
+  answerKeys:
+    - C
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Low"
+  choices:
+    - content: It is a pool of assets sent by users to be transferred to another chain
+      key: A
+    - content: It used to store assets supplied by multiple users in a pool, and then to batch them together
+      key: B
+    - content: Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains
+      key: C
+    - content: It is an alias for "bridging protocol"
+      key: D
+
+- uuid: f8634936-afdd-4d00-abcf-6c45819b21de
+  type: SingleChoice
+  content: How is a portal transaction more secure than one that is done using bridges directly?
+  hint: noHint
+  explanation: Aave portals only used verified bridges, and it not possible for users to confirm trustworthiness of a bridge by their own.
+  answerKeys:
+    - C
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Medium"
+  choices:
+    - content: They have bugs in smart contracts
+      key: A
+    - content: It is very slow to transfer assets, making it more vulnerable to attacks
+      key: B
+    - content: They only use verified bridges
+      key: C
+    - content: It is unpredictable
+      key: D
+
+- uuid: 9efd4305-cb39-4b43-bd54-6c0dfda0ae78
+  type: SingleChoice
+  content: What function does “batch” perform?
+  hint: noHint
+  explanation: Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains.
+  answerKeys:
+    - A
+  subTopics:
+    - aave-portals
+  difficultyLevel: "Low"
+  choices:
+    - content: It batches assets sent by multiple users together
+      key: A
+    - content: It is a pool of assets sent by users to be transferred to another chain
+      key: B
+    - content: Uses aTokens to withdraw funds and transfers them across blockchains
+      key: C
+    - content: It is an alias for "bridging protocol"
+      key: D
 
       

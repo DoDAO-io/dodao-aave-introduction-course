@@ -59,4 +59,57 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  * Markets can be very volatile and can lead to liquidation of the sensitive positionsand liquidation can be quite expensive on certain platforms.  
  * There are many applications that make use of flash loans and liquidate the position on user’s behalf saving the user hefty liquidation fees of the protocol.
  
+ **AAVE Portals**        
+#### Layer 2 blockchains 
+* Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.
+* On Ethereum mainnet, transactions can be slow and difficult.
+* Layer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain.
+
+#### What are Blockchain Bridges and Why do we use them? 
+* Bridges in crypto act as a connection between two different blockchains. This connection is important because, without a bridge, blockchains would be isolated from each other.
+* With a bridge between two blockchains it becomes possible to transfer assets and arbitrary data between them.
+   
+   **Disadvantages of bridges:**
+   
+   * **Smart contract risks:**
+   This can happen in both trusted and trustless bridge contracts. Bugs in the smart contract can lead it to be hacked and cause loss.
+   
+   * **Systematic financial risks:**
+   The majority of bridges use wrapped assets to mint canonical versions of original assets in the new chain. However, this exposes the bridge to systematic risk of the wrapped asset being exploited.
+   
+   * **Trust issues:**
+   Bridges use third-party for the transfer of assets, this will require the users to put trust on the validator to not engage in activities detrimental to the users, like rag pulling.
+   
+   * **Nascent stage:**
+   It is still unclear how bridges will work in various market conditions.
+
+   * **Complexity:**
+   Complexity is another big issue as the user needs to know the various steps needed to transfer the assets. These steps are often not standard and varies from one bridge to another which acts as cause for confusion
+   for users.
+
+
+
+#### Aave portals and how it simplifies things
+* Portal's feature seamlessly allows assets to flow between Aave markets on different networks. 
+* Aave allows specific whitelist entities or specific bridges to burn aTokens (aTokens are nothing but AAVE’s token, which refers to a particular token as aDai refers to Dai) 
+  in the source network and instantly minting them on the destination network. 
+* The underlying assets are then transferred to the destination network in a deferred manner(postponed manner) by passing it to the pool after it has been moved through the bridge. 
+* The assets are transferred to the Aave pool on the destination chain after the burning and minting of aTokens.
+* Portals are authorized for only approved bridges by Aave Governance. The assets are moved under smart contracts, making the transactions highly secure.
+* Portal helps users overcome the difficulties of current bridging protocols, like liquidity fragmentation and non-optimal bridging experience. 
+* By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a seamless experience for users, bettering the user experience.
+* Portals act as gateways for alternate Ethereum chains (Evm L1), which are often connected to slow-moving centralized exchanges (CeFis). This can complicate onboarding new users, as it can be costly and difficult to 
+  reach alternatives. Portals reduce these difficulties by providing security and fast transactions, making alt Evm L1 chains attractive and easier to access.
+
+
+#### How portals work
+* In order to bridge assets from one chain to another, the user first submits a bridge transaction to a verified bridging protocol (such as Connext). 
+* As soon as the transaction is mined, the user has access to the funds on the destination chain. 
+* Behind the scenes, the bridging protocol mints unbacked aTokens on the destination chain to the intermediate contract, and in turn withdraws and transfers the underlying asset to the user immediately. 
+* The bridge contract on L2 then supplies the underlying asset and fee to the Aave pool to back the previously minted unbacked aTokens. 
+* The "bridge" is used to store assets supplied by multiple users in a pool, and then to batch them together. 
+* The "hop" will use tokens to withdraw the assets from the pool, and then use its own bridging protocol to transfer the assets from the original to destination chain. 
+* The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using Aave v3 portals. 
+* Note that, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets, there are no other core protocols for directly using Aave portals from the user end.
+ 
  
