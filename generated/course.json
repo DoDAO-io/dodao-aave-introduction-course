@@ -1486,6 +1486,18 @@
           "shortTitle": "Borrowing in Aave",
           "key": "borrowing-Aave",
           "details": "In this guide, we'll show you how to borrow assets from Aave. We'll use USDC as collateral to borrow DAI tokens.\nTo borrow DAI tokens, we need to connect our wallet to Aave, in the same way that we would if we were lending. The dashboard should look something like this:\nFor borrowing DAI, click \"Borrow.\" Before borrowing, I had 0 DAI tokens in my Metamask wallet.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/borrowDAI.jpg?raw=true)\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/beforeborrowing.jpg?raw=true)\n\nEnter the amount of DAI you would like to borrow, up to the maximum limit. Keep an eye on the health factor to make sure it stays at a good level. \nWe're going to borrow at a stable rate, so click on the stable rate and hit “Borrow DAI.” The connected wallet will pop up for confirmation; hit confirm and wait \nuntil the transaction completes. That maximum value is determined by our locked collateral. In our case it is USDC which is used as collateral.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/borrowingDAI.jpg?raw=true)\n\nAfter completing the transaction, the dashboard will look something like this. We can add the tokens to our wallet after the transaction is completed.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/BorrowedDAI.jpg?raw=true)\n\nWe have successfully borrowed DAI at a stable rate. Similarly, we can borrow at a variable rate. We have used USDC as collateral to borrow DAI. \nAfter borrowing the balance of DAI tokens is 1000 DAI in my wallet.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/afterborrowing.jpg?raw=true)\n"
+        },
+        {
+          "title": "How ATokens works in Lending",
+          "shortTitle": "Working of ATokens",
+          "key": "working-ATokens",
+          "details": "The ATokens are interest-bearing derivative tokens that are minted and burned upon Deposit and Redeem. ATokens are pegged to corresponding asset in the ratio 1:1. \nATokens can be stored and transferred. In order to store ATokens in a wallet, the user must first add the ATokens from Aave's app. For example, \nif the user wants to add AEth to their account, they need to click on “Eth” in the Aave app and then click on the “wallet” icon located next to it. After doing so, they can add it to their account.\n\nATokens are minted in a 1:1 ratio to the deposited amount using the `MintOnDeposit` function. This will create tokens that have accrued interest and have increased value. \nIf these minted tokens are added to the wallet, users will be able to track their balances from the wallet itself instead of having to open Aave's app. \nThe ATokens can be transferred or traded in a similar way to normal tokens, but with some additional benefits. For example, when ATokens are transferred from account A to account B, \nthe transferred ATokens will accrue interest for account B. Additionally, the ATokens can be used as collateral if it's indicated in the dashboard of Aave. \n\nThe interest rate is based on the earn rate of the Aave. The accrual of interest never stops until the lent assets are withdrawn. For example, interest will be accrued even when an asset is used as collateral.\nATokens are destroyed or \"burned\" when they are redeemed, similar to how new coins are minted. The function redeem executes this operation whenever a user withdraws assets. \nThis function will burn the ATokens and supply the assets at a 1:1 ratio of burnt ATokens to the user whenever they withdraw. The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. \nEIPs (Improvement Proposals) are suggestions for new features or functionality that could be introduced. Link of AToken contract: [Atoken contract](https://github.com/aave/aave-protocol/blob/master/contracts/tokenization/AToken.sol).\n"
+        },
+        {
+          "title": "How Borrowing works in Aave",
+          "shortTitle": "How borrowing works",
+          "key": "borrowing-technical",
+          "details": "Borrowing in Aave implements tokenisation concept similar to lending. The loans borrowed are overcollaterlized in order to negotiate the effect of  volatility of the assets as well to maintain the security of the assets. \nWhen a user borrows assets, the \"borrow\" function is called and debt tokens are minted in a 1:1 ratio to the corresponding borrowed asset. These debt tokens are similar to ATokens and work as an interest-bearing derivative token \nthat implements most of the functionalities in EIP-20/ERC-20, with the exception of transfer functions like \"transfer\" and \"allowance\". This means that debt tokens cannot be transferred like ATokens. When loans are repaid the \ndebt tokens are burnt and locked collateral is released.\n\nUsers can borrow funds in both stable and variable rates. Debt tokens are accrued based on the interest rate in which it is borrowed. Users can change the interest rate from stable to variable or vice-versa at any time. \nThis system allows users to have more control over their finances and how they want to manage their money.\n\n### Calculation of interest rates\n\n#### Important  Terms\n\n1. U = Utilization rate   = B<sub>t </sub>/ L<sub>t </sub>. Where B<sub>t </sub>is the total assets borrowed and L<sub>t</sub> is the total liquidity. Each reserve have its own  Utilization rate. For example Eth reserve has its own U(Utilization rate). U = 0 if  L<sub>t</sub> = 0;\n2. U<sub>optimal </sub>= expected Utilization rate or targeted Utilization rate.\n3. R<sub>o</sub> = Base Variable borrow rate. It is zero for B<sub>t</sub> =0.\n4. R<sub>slope1</sub> = It is a constant called as interest rate slope below optimal\n5. R<sub>slope2</sub> = It is a constant called as interest rate slope above optimal\n6. O<sub>ratio</sub> = Optimal stable to total debt ratio\n7. Base<sub>s</sub> = Base stable borrow rate\n\n\n#### Variable rate calculation\n\nThe interest rate R<sub>t </sub> follows the model:\n\nIf U≤U<sub>optimal</sub>   \n\nR<sub>t</sub> = R<sub>o </sub>+ U/U<sub>optimal </sub> * R<sub>slope1</sub>\n\nIf U>U<sub>optimal</sub>\n\nR<sub>t</sub> = R<sub>o </sub>+ [(U-U<sub>optimal</sub>)/(1-U<sub>optimal</sub>)]*R<sub>slope2</sub>\n\n\n\n* When U≤U<sub>optimal</sub>   \n\n    The interest rate increase slowly with Utilization\n\n* When U>U<sub>optimal</sub>   \n\n    The interest rate increases rapidly with the Utilization \n\n\nIn the borrow rate technical implementation, the[ ](https://github.com/aave/aave-v3-core/blob/e46341caf815edc268893f4f9398035f242375d9/contracts/protocol/libraries/math/MathUtils.sol#L51)calculateCompoundedInterest method relies on an approximation that mostly affects high interest rates. The resulting actual borrow rate is as follows: \n\nActualAPY=(1+TheoreticalAPY/secsperyear)^secsperyear-1\n\n\n### Stable Interest rate calculation\n\nBase<sub>s</sub> = R<sub>slope1</sub> + offset<sub>base   </sub>;   E<sub>util</sub> = 10^27 - U<sub>optimal</sub>\n\nRatio<sub>st</sub> = debt<sub>stable</sub>/Total debt ;  where Total debt = debt<sub>stable</sub>+<sub> </sub>debt<sub>variable</sub>\n\nThis ratio is called as stable to debt ratio.\n\nInterest rate R<sub>s</sub> is calculated as follows :\n\nIf U > U<sub>optimal</sub>\n\nR<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>]\n\nOtherwise\n\nR<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 * </sub>(U/U<sub>optimal</sub>)\n\nThe interest rate rebalances when Ratio<sub>st</sub> > O<sub>ratio</sub>\n\nR<sub>s</sub>  =  R<sub>s</sub>  + offset<sub>excess</sub> * [(ratio-O<sub>ratio</sub> )/10^27-O<sub>ratio</sub>] \n"
         }
       ],
       "questions": [
@@ -1767,6 +1779,350 @@
               "key": "D"
             }
           ]
+        },
+        {
+          "uuid": "848503df-e562-408e-9451-fad60b9e3235",
+          "type": "SingleChoice",
+          "content": "How much ATokens will be minted after lending 1000 USDC in Aave?",
+          "hint": "1:1 ratio",
+          "explanation": "ATokens are minted when corresponding assets are lent, in a 1:1 ratio. So, for example, 1000aUSDC will be minted for 1000 USDC that is lent. Atokens can be stored and transferred like other ERC20 tokens.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "2000 aUSDC",
+              "key": "A"
+            },
+            {
+              "content": "3000 aUSDC",
+              "key": "B"
+            },
+            {
+              "content": "1000 aUSDC",
+              "key": "C"
+            },
+            {
+              "content": "500 aUSDC",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5144ccdd-0c92-4f92-9476-a43548b8c0e0",
+          "type": "MultipleChoice",
+          "content": "Which of the following EIP's are implemented by ATokens in Aave?",
+          "hint": "EIP-20 and EIP-2612",
+          "explanation": "The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612.",
+          "answerKeys": [
+            "A",
+            "D"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "EIP-20/ERC-20",
+              "key": "A"
+            },
+            {
+              "content": "EIP-162",
+              "key": "B"
+            },
+            {
+              "content": "EIP-137",
+              "key": "C"
+            },
+            {
+              "content": "EIP-2612",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "cc8e5786-df34-4b5a-bc4c-befca07275a3",
+          "type": "SingleChoice",
+          "content": "Is it possible to transfer ATokens from one wallet to another wallet?",
+          "hint": "ERC-20 tokens",
+          "explanation": "The ATokens include the standard EIP-20/ERC20 token methods. This means that ATokens can be transferred in the same way as other tokens.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Yes, ATokens can be transferred from one wallet to another wallet",
+              "key": "A"
+            },
+            {
+              "content": "No, It can't be transferred",
+              "key": "B"
+            },
+            {
+              "content": "can't be determined",
+              "key": "C"
+            }
+          ]
+        },
+        {
+          "uuid": "ce07291c-d4a2-4b86-8b90-7cc71f558041",
+          "type": "SingleChoice",
+          "content": "When does accrual of interest on lent assets end?",
+          "hint": "withdraw",
+          "explanation": "Accrual of interest only stops when assets are withdrawn. Even if an asset is lent as collateral, accrual of interest will not stop.\n",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It will be stopped when the asset is used as collateral",
+              "key": "A"
+            },
+            {
+              "content": "It will be stopped when Health factor is zero",
+              "key": "B"
+            },
+            {
+              "content": "It will be stopped when the assets are withrawn",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2916ecf8-d9a1-4247-ae2e-a95ba312cb89",
+          "type": "MultipleChoice",
+          "content": "What happens when a user withdraws or redeems their assets in Aave?",
+          "hint": "noHint",
+          "explanation": "ATokens are destroyed or \"burned\" when they are redeemed, similar to how new coins are minted. The function `redeem` executes this operation whenever a user withdraws assets. \nThis function will burn the ATokens and supply the assets at a 1:1 ratio of burnt ATokens to the user whenever they withdraw.\n",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "ATokens are burnt and assets are supplied in 1:1 ratio of burnt ATokens",
+              "key": "A"
+            },
+            {
+              "content": "Liquidation call will occur",
+              "key": "B"
+            },
+            {
+              "content": "The function `redeem` will be executed",
+              "key": "C"
+            },
+            {
+              "content": "Aave will transfer the assets to the user's connected bank account",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "bc4407fd-16db-4ac1-a201-75a60cc1fba4",
+          "type": "MultipleChoice",
+          "content": "Consider a case, Jack is a lender who wants to lend 1000 USDC in return for interest. He chooses Aave as his lending platform and deposits 1000 USDC. \nIn return, he gets 1000 aUSDC and adds the atokens to his wallet. Luna was Jack's friend, and she asked him for 200 USDC. However, Jack had already lent out all his USDC, \nso he sent her 200 aUSDC instead. Luna kept the aUSDC as is, and after a few days, she connected her wallet to Aave.\n\nWhich of the following option(s) is/are correct for the above case?\n",
+          "hint": "noHint",
+          "explanation": "ATokens are transferable tokens that earn interest. Even though Jack owned ATokens through his wallet, any wallet can accrue interest from them. \nTherefore, 200 aUSDC will earn interest for Luna even though she didn't connect her wallet to Aave. the ATokens of Luna can be used as a collateral if it is indicated.\n",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "working-ATokens"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The accrual of interest will be stopped for the sent ATokens",
+              "key": "A"
+            },
+            {
+              "content": "The accrual of interest will not be stopped. It will accrued for both jack and Luna",
+              "key": "B"
+            },
+            {
+              "content": "Jack's remaining aUSDC will accrue interest but Luna's 200 aUSDC will accrue interest only when she connect her wallet to the Aave's app",
+              "key": "C"
+            },
+            {
+              "content": "Jack can use his 800aUSDC as collateral but Luna cannot use her 200aUSDC as a collateral",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e2c8942c-6b6f-45ae-8391-2cefc2c12d27",
+          "type": "MultipleChoice",
+          "content": "Which of the following factor(s) is/are correct?",
+          "hint": "tokenisation",
+          "explanation": "Borrowing in Aave implements the concept of tokenisation, which is similar to lending. The loans that are borrowed are overcollateralised in order to \nreduce the effect of volatility of the assets and to maintain the security of the assets.\n",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "borrowing-technical"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Borrowing implements tokenisation in order to represent the borrow position",
+              "key": "A"
+            },
+            {
+              "content": "users can take out a loan against an asset, which must have a minimum value of 35 ETH in order to serve as collateral",
+              "key": "B"
+            },
+            {
+              "content": "Loan borrowed are overcollaterlized",
+              "key": "C"
+            },
+            {
+              "content": "The debt tokens are minted in 1:1 ratio to the corresponding borrowed asset",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5512d581-bff6-44b1-8815-e080eac9cfc1",
+          "type": "SingleChoice",
+          "content": "Debt tokens can be transferred and stored like ATokens.",
+          "hint": "noHint",
+          "explanation": "Debt tokens implement most of the functionalities in ERC-20 with the exeception of transfer functions like \"transfer\" and \"allowance\".\nThis means that debt tokens cannot be transferred like ATokens.\n",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "borrowing-technical"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "74c8aa2f-908e-4fd8-bf7a-f688c97ae080",
+          "type": "SingleChoice",
+          "content": "What is the variable interest rate when Utilization rate is less than optimal Utilization rate?",
+          "hint": "Variable rate",
+          "explanation": "R<sub>t</sub> = R<sub>o </sub> + U/U<sub>optimal </sub> * R<sub>slope1</sub>. Where R<sub>o </sub> is the base variable borrow rate and R<sub>slope1</sub> is a constant.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "borrowing-technical"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "R<sub>o </sub> + U/R<sub>t </sub> * R<sub>slope1</sub>",
+              "key": "A"
+            },
+            {
+              "content": "R<sub>o </sub> + U/U<sub>optimal </sub> * R<sub>slope1</sub>",
+              "key": "B"
+            },
+            {
+              "content": "R<sub>o </sub>+ [(U-U<sub>optimal</sub>)/(1-U<sub>optimal</sub>)]*R<sub>slope2</sub>",
+              "key": "C"
+            },
+            {
+              "content": "0.02% for all assets",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d0319aab-f602-43a1-a048-827f95bd7593",
+          "type": "SingleChoice",
+          "content": "When the stable interest rate rebalances?",
+          "hint": "stable to total debt ratio",
+          "explanation": "The interest rate rebalances when Ratio<sub>st</sub> > O<sub>ratio</sub>. \nwhere, Ratio<sub>st</sub> is the stable debt to total debt ratio.\nO<sub>ratio</sub> is the optimal stable debt to total debt ratio.      \n",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "borrowing-technical"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "When variable interest rate exceeds 5%",
+              "key": "A"
+            },
+            {
+              "content": "when stable interest rate is less than variable rate",
+              "key": "B"
+            },
+            {
+              "content": "Ratio<sub>st</sub> > O<sub>ratio</sub>",
+              "key": "C"
+            },
+            {
+              "content": "U>U<sub>optimal</sub>",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f71e1aca-1997-4ff6-ae2e-0c07b0056efb",
+          "type": "SingleChoice",
+          "content": "What is the stable interest rate if Utilization rate is greater than optimal Utilization rate?",
+          "hint": "Stable rate",
+          "explanation": "The stable rate when Utilization rate is less than optimal Utilization rate is  R<sub>s </sub> = Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>].\nwhere R<sub>s </sub> is the stable interest rate and Base<sub>s </sub> is the base stable interest rate\nR<sub>slope1 </sub> and R<sub>slope2</sub> are constants\nU is the utilization rate Similarly U<sub>optimal</sub> is the optimal utilization rate\nE<sub>util</sub> is a value equals to (10^27 - U<sub>optimal</sub>)\n",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "borrowing-technical"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>]",
+              "key": "A"
+            },
+            {
+              "content": "variable interest rate * 20",
+              "key": "B"
+            },
+            {
+              "content": "Base<sub>s </sub> + R<sub>slope1 * </sub>(U/U<sub>optimal</sub>)",
+              "key": "C"
+            },
+            {
+              "content": "10%",
+              "key": "D"
+            }
+          ]
         }
       ],
       "readings": [
@@ -1811,6 +2167,18 @@
           "shortTitle": "Borrowing in Aave",
           "key": "borrowing-Aave",
           "details": "Follow the following steps to borrow assets in  Aave\n\n1. In order to borrow, you will need to put up some collateral first. After you have supplied the required collateral, you can click “borrow” in the borrowing column.\n2. After clicking the borrowing button, a new window will appear with details about the borrowing process. We need to fill in the necessary information and hit the borrow button. \n   We can choose a stable or variable rate for our borrowing.\n3. Keep an eye on the health factor to make sure it stays at a reasonable level.\n4. Now the connected wallet will pop up and ask you to confirm the transaction. Confirm the transaction and wait for it to finish.\n5. Please keep this window open until the transaction is completed. After the transaction has been finalized, we can add the tokens to our wallet.\n"
+        },
+        {
+          "title": "How ATokens works in Lending",
+          "shortTitle": "Working of ATokens",
+          "key": "working-ATokens",
+          "details": "The ATokens are interest-bearing derivative tokens that are minted and burned upon Deposit and Redeem. ATokens are pegged to corresponding asset in the ratio 1:1. \nATokens can be stored and transferred. ATokens are minted in a 1:1 ratio to the deposited amount using the `MintOnDeposit` function. \nThis will create tokens that have accrued interest and have increased value. If these minted tokens are added to the wallet, \nusers will be able to track their balances from the wallet itself instead of having to open Aave's app. The ATokens can be transferred or traded in a similar \nway to normal tokens.\n\nThe interest rate is based on the earn rate of the Aave. The accrual of interest never stops until the lent assets are withdrawn. For example, interest will be accrued even when an asset is used as collateral.\nATokens are destroyed or \"burned\" when they are redeemed, similar to how new coins are minted. The function `redeem` executes this operation whenever a user withdraws assets. \nThe ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. \n"
+        },
+        {
+          "title": "How Borrowing works in Aave",
+          "shortTitle": "How borrowing works",
+          "key": "borrowing-technical",
+          "details": "Borrowing in Aave implements tokenisation concept similar to lending. When a user borrows assets, the \"borrow\" function is called and debt tokens are minted in a 1:1 ratio to the corresponding borrowed asset. \nDebt tokens implement most of the functionalities in ERC-20 with the exeception of transferring properties. When loans are repaid the debt tokens are burnt and locked collateral is released.\n\nUsers can borrow funds in both stable and variable rates. Debt tokens are accrued based on the interest rate in which it is borrowed. \nUsers can change the interest rate from stable to variable or vice-versa at any time. \n\n### Calculation of interest rates\n\n#### Important  Terms\n\n1. U = Utilization rate   = B<sub>t </sub>/ L<sub>t </sub>. Where B<sub>t </sub>is the total assets borrowed and L<sub>t</sub> is the total liquidity. Each reserve have its own Utilization rate. \n2. U<sub>optimal </sub> = expected Utilization rate or targeted Utilization rate.\n3. R<sub>o</sub> = Base Variable borrow rate. It is zero for B<sub>t</sub> =0.\n4. R<sub>slope1</sub> = It is a constant called as interest rate slope below optimal\n5. R<sub>slope2</sub> = It is a constant called as interest rate slope above optimal\n6. O<sub>ratio</sub> = Optimal stable to total debt ratio\n7. Base<sub>s</sub> = Base stable borrow rate\n\n\n#### Variable rate calculation\n\nThe interest rate R<sub>t </sub> follows the model:\n\nIf U≤U<sub>optimal</sub>   \n\nR<sub>t</sub> = R<sub>o </sub>+ U/U<sub>optimal </sub> * R<sub>slope1</sub>\n\nIf U>U<sub>optimal</sub>\n\nR<sub>t</sub> = R<sub>o </sub>+ [(U-U<sub>optimal</sub>)/(1-U<sub>optimal</sub>)]*R<sub>slope2</sub>\n\n\n### Stable Interest rate calculation\n\nBase<sub>s</sub> = R<sub>slope1</sub> + offset<sub>base   </sub>;   E<sub>util</sub> = 10^27 - U<sub>optimal</sub>\n\nRatio<sub>st</sub> = debt<sub>stable</sub>/Total debt ;  where Total debt = debt<sub>stable</sub>+<sub> </sub>debt<sub>variable</sub>\n\nThis ratio is called as stable to debt ratio.\n\nInterest rate R<sub>s</sub> is calculated as follows :\n\nIf U > U<sub>optimal</sub>\n\nR<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>]\n\nOtherwise\n\nR<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 * </sub>(U/U<sub>optimal</sub>)\n\nThe interest rate rebalances when Ratio<sub>st</sub>> O<sub>ratio</sub>\n\nR<sub>s</sub>  =  R<sub>s</sub>  + offset<sub>excess</sub> * [(ratio-O<sub>ratio</sub> )/10^27-O<sub>ratio</sub>] \n"
         }
       ]
     },

@@ -180,3 +180,234 @@
       key: C
     - content: Only ether can be used as collateral
       key: D
+- uuid: 848503df-e562-408e-9451-fad60b9e3235
+  type: SingleChoice
+  content: How much ATokens will be minted after lending 1000 USDC in Aave?
+  hint: 1:1 ratio
+  explanation: ATokens are minted when corresponding assets are lent, in a 1:1 ratio. So, for example, 1000aUSDC will be minted for 1000 USDC that is lent. Atokens can be stored and transferred like other ERC20 tokens.
+  answerKeys:
+    - C
+  subTopics:
+    - working-ATokens
+  difficultyLevel: "Low"
+  choices:
+    - content: 2000 aUSDC
+      key: A
+    - content: 3000 aUSDC 
+      key: B
+    - content: 1000 aUSDC
+      key: C
+    - content: 500 aUSDC
+      key: D
+- uuid: 5144ccdd-0c92-4f92-9476-a43548b8c0e0
+  type: MultipleChoice
+  content: Which of the following EIP's are implemented by ATokens in Aave?
+  hint: EIP-20 and EIP-2612
+  explanation: The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. 
+  answerKeys:
+    - A
+    - D
+  subTopics: 
+    - working-ATokens
+  difficultyLevel: "Medium"
+  choices:
+    - content: EIP-20/ERC-20
+      key: A
+    - content: EIP-162
+      key: B
+    - content: EIP-137
+      key: C
+    - content: EIP-2612
+      key: D
+- uuid: cc8e5786-df34-4b5a-bc4c-befca07275a3
+  type: SingleChoice
+  content: Is it possible to transfer ATokens from one wallet to another wallet?
+  hint: ERC-20 tokens
+  explanation: The ATokens include the standard EIP-20/ERC20 token methods. This means that ATokens can be transferred in the same way as other tokens.
+  answerKeys:
+    - A
+  subTopics: 
+    - working-ATokens
+  difficultyLevel: "Low"
+  choices:
+    - content: Yes, ATokens can be transferred from one wallet to another wallet
+      key: A
+    - content: No, It can't be transferred
+      key: B
+    - content: can't be determined 
+      key: C
+
+- uuid: ce07291c-d4a2-4b86-8b90-7cc71f558041
+  type: SingleChoice
+  content: When does accrual of interest on lent assets end?
+  hint: withdraw
+  explanation: | 
+    Accrual of interest only stops when assets are withdrawn. Even if an asset is lent as collateral, accrual of interest will not stop.
+  answerKeys:
+    - C
+  subTopics: 
+    - working-ATokens
+  difficultyLevel: "Low"
+  choices:
+    - content: It will be stopped when the asset is used as collateral
+      key: A
+    - content: It will be stopped when Health factor is zero
+      key: B
+    - content: It will be stopped when the assets are withrawn
+      key: C
+    - content: None of these
+      key: D
+- uuid: 2916ecf8-d9a1-4247-ae2e-a95ba312cb89
+  type: MultipleChoice
+  content: What happens when a user withdraws or redeems their assets in Aave?
+  hint: noHint
+  explanation: |
+    ATokens are destroyed or "burned" when they are redeemed, similar to how new coins are minted. The function `redeem` executes this operation whenever a user withdraws assets. 
+    This function will burn the ATokens and supply the assets at a 1:1 ratio of burnt ATokens to the user whenever they withdraw.
+  answerKeys:
+    - A
+    - C
+  subTopics: 
+    - working-ATokens
+  difficultyLevel: "Medium"
+  choices:
+    - content: ATokens are burnt and assets are supplied in 1:1 ratio of burnt ATokens
+      key: A
+    - content: Liquidation call will occur
+      key: B
+    - content: The function `redeem` will be executed
+      key: C
+    - content: Aave will transfer the assets to the user's connected bank account
+      key: D
+- uuid: bc4407fd-16db-4ac1-a201-75a60cc1fba4
+  type: MultipleChoice
+  content: |
+    Consider a case, Jack is a lender who wants to lend 1000 USDC in return for interest. He chooses Aave as his lending platform and deposits 1000 USDC. 
+    In return, he gets 1000 aUSDC and adds the atokens to his wallet. Luna was Jack's friend, and she asked him for 200 USDC. However, Jack had already lent out all his USDC, 
+    so he sent her 200 aUSDC instead. Luna kept the aUSDC as is, and after a few days, she connected her wallet to Aave.
+
+    Which of the following option(s) is/are correct for the above case?
+  hint: noHint
+  explanation: |
+   ATokens are transferable tokens that earn interest. Even though Jack owned ATokens through his wallet, any wallet can accrue interest from them. 
+   Therefore, 200 aUSDC will earn interest for Luna even though she didn't connect her wallet to Aave. the ATokens of Luna can be used as a collateral if it is indicated.
+  answerKeys:
+    - B
+  subTopics: 
+    - working-ATokens
+  difficultyLevel: "Medium"
+  choices:
+    - content: The accrual of interest will be stopped for the sent ATokens
+      key: A
+    - content: The accrual of interest will not be stopped. It will accrued for both jack and Luna
+      key: B
+    - content: Jack's remaining aUSDC will accrue interest but Luna's 200 aUSDC will accrue interest only when she connect her wallet to the Aave's app
+      key: C
+    - content: Jack can use his 800aUSDC as collateral but Luna cannot use her 200aUSDC as a collateral
+      key: D
+- uuid: e2c8942c-6b6f-45ae-8391-2cefc2c12d27
+  type: MultipleChoice
+  content: Which of the following factor(s) is/are correct?
+  hint: tokenisation
+  explanation: |
+    Borrowing in Aave implements the concept of tokenisation, which is similar to lending. The loans that are borrowed are overcollateralised in order to 
+    reduce the effect of volatility of the assets and to maintain the security of the assets.
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics: 
+    - borrowing-technical
+  difficultyLevel: "Medium"
+  choices:
+    - content: Borrowing implements tokenisation in order to represent the borrow position
+      key: A
+    - content: users can take out a loan against an asset, which must have a minimum value of 35 ETH in order to serve as collateral
+      key: B
+    - content: Loan borrowed are overcollaterlized
+      key: C
+    - content: The debt tokens are minted in 1:1 ratio to the corresponding borrowed asset
+      key: D  
+- uuid: 5512d581-bff6-44b1-8815-e080eac9cfc1
+  type: SingleChoice
+  content: Debt tokens can be transferred and stored like ATokens.
+  hint: noHint
+  explanation: |
+    Debt tokens implement most of the functionalities in ERC-20 with the exeception of transfer functions like "transfer" and "allowance".
+    This means that debt tokens cannot be transferred like ATokens.
+  answerKeys:
+    - B
+  subTopics: 
+    - borrowing-technical
+  difficultyLevel: "Low"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+- uuid: 74c8aa2f-908e-4fd8-bf7a-f688c97ae080
+  type: SingleChoice
+  content: What is the variable interest rate when Utilization rate is less than optimal Utilization rate?
+  hint: Variable rate
+  explanation: R<sub>t</sub> = R<sub>o </sub> + U/U<sub>optimal </sub> * R<sub>slope1</sub>. Where R<sub>o </sub> is the base variable borrow rate and R<sub>slope1</sub> is a constant. 
+  answerKeys:
+    - B
+  subTopics: 
+    - borrowing-technical
+  difficultyLevel: "Low"
+  choices:
+    - content: R<sub>o </sub> + U/R<sub>t </sub> * R<sub>slope1</sub>
+      key: A
+    - content: R<sub>o </sub> + U/U<sub>optimal </sub> * R<sub>slope1</sub>
+      key: B
+    - content: R<sub>o </sub>+ [(U-U<sub>optimal</sub>)/(1-U<sub>optimal</sub>)]*R<sub>slope2</sub>
+      key: C
+    - content: 0.02% for all assets
+      key: D
+- uuid: d0319aab-f602-43a1-a048-827f95bd7593
+  type: SingleChoice
+  content: When the stable interest rate rebalances? 
+  hint: stable to total debt ratio
+  explanation: |
+    The interest rate rebalances when Ratio<sub>st</sub> > O<sub>ratio</sub>. 
+    where, Ratio<sub>st</sub> is the stable debt to total debt ratio.
+    O<sub>ratio</sub> is the optimal stable debt to total debt ratio.      
+  answerKeys:
+    - B
+  subTopics: 
+    - borrowing-technical
+  difficultyLevel: "Low"
+  choices:
+    - content: When variable interest rate exceeds 5%
+      key: A
+    - content: when stable interest rate is less than variable rate
+      key: B
+    - content: Ratio<sub>st</sub> > O<sub>ratio</sub>
+      key: C
+    - content: U>U<sub>optimal</sub>   
+      key: D
+
+- uuid: f71e1aca-1997-4ff6-ae2e-0c07b0056efb
+  type: SingleChoice
+  content: What is the stable interest rate if Utilization rate is greater than optimal Utilization rate?
+  hint: Stable rate
+  explanation: |
+    The stable rate when Utilization rate is less than optimal Utilization rate is  R<sub>s </sub> = Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>].
+    where R<sub>s </sub> is the stable interest rate and Base<sub>s </sub> is the base stable interest rate
+    R<sub>slope1 </sub> and R<sub>slope2</sub> are constants
+    U is the utilization rate Similarly U<sub>optimal</sub> is the optimal utilization rate
+    E<sub>util</sub> is a value equals to (10^27 - U<sub>optimal</sub>)
+  answerKeys:
+    - A
+  subTopics: 
+    - borrowing-technical
+  difficultyLevel: "Low"
+  choices:
+    - content: Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>]
+      key: A
+    - content: variable interest rate * 20
+      key: B
+    - content: Base<sub>s </sub> + R<sub>slope1 * </sub>(U/U<sub>optimal</sub>)
+      key: C
+    - content: 10%
+      key: D
