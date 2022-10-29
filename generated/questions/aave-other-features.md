@@ -199,3 +199,115 @@ Explanation: Uses aTokens to withdraw funds from its liquidity pool to transfers
 
 Sub Topics: aave-portals
  
+
+---
+
+##### Which of these changes would be made in Aave after GHO’s integration with Aave protocol?  
+
+- [x]  aTokens and debt tokens will be minted for GHO
+- [ ]  New aTokens and debt tokens will not be minted for GHO
+- [ ]  The Aave protocol will become slower due to integration of a new stablecoin
+- [x]  Aave market on Ethereum would become the first facilitator
+  
+Hint: noHint
+         
+Explanation: aTokens and debt tokens will be minted for GHO, Aave market on Ethereum would become the first facilitator, GHO will be borrowed at a stable rate determined by the DAO.
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Which of these statements about GHO’s interest rate is accurate?  
+
+- [x]  It will be set by the AaveDAO initially
+- [ ]  The rates determined by AaveDAO will be final and cannot be changed
+- [x]  It will be stable rate as opposed to variable rate, can be adapted to market conditions
+- [x]  The rates can be altered based on the community and governance
+  
+Hint: noHint
+         
+Explanation: Interest rate will be set by the AaveDAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### What criteria must be satisfied for the minting and burning of GHO?  
+
+- [ ]  It is burnt by borrowing it in an overcollateralized fashion
+- [x]  It is minted by borrowing it in an overcollateralized fashion
+- [x]  It is burnt as the borrower repays their borrow position
+- [ ]  It is unpredictable
+  
+Hint: noHint
+         
+Explanation: It is minted by borrowing it in an overcollateralized fashion, burnt by repaying the borrow position
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Who are facilitators?  
+
+- [x]  Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+- [ ]  Facilitators are entities or protocols who facilitate fast transactions of GHO in the blockchain
+- [ ]  Facilitators are entities or protocols who borrow GHO
+- [ ]  Facilitator is an alias for liquidator
+  
+Hint: noHint
+         
+Explanation: Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### What is GHO?  
+
+- [ ]  A collateral-backed stablecoin native to Aave, it is centralized and collateral backed pegged to USD
+- [ ]  A fiat-backed stablecoin native to Aave, it is decentralized and pegged to USD
+- [x]  A collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
+- [ ]  A collateral-backed stablecoin, not native to Aave, it is centralized and pegged to USD
+  
+Hint: noHint
+         
+Explanation: GHO is a collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Which of these are true regarding GHO’s scalability?  
+
+- [x]  Using portals, GHO can be minted on Ethereum and be transferred to other chains easily
+- [x]  The non-crypto native user base prefers stablecoins
+- [x]  The non-crypto native user base does not prefer stablecoins
+- [ ]  Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
+  
+Hint: noHint
+         
+Explanation: Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins. Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users.
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Which of these contribute to the safety of GHO’s use?  
+
+- [x]  A supply borrow cap can be levied to further improve its security
+- [x]  It is minted on Ethereum and supplied to other chains, since Ethereum is much safer
+- [x]  Only authorized facilitators can mint and burn GHO trustlessly
+- [x]  It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets
+  
+Hint: noHint
+         
+Explanation: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly. It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets, these factors improve the security of GHO.
+
+Sub Topics: aave-gho
+ 
