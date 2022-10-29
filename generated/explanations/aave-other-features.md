@@ -6,7 +6,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Other Features of AAVE
  
  **Flash Loans**        
-#### What are Flash Loans?
+### **What are Flash Loans?**
 Flash loans are special transactions that allow you to borrow and repay assets, but unlike traditional DeFi borrowing, the money must be repaid within a single transaction. 
 Flash loans do not require any collateral to function, and are instantaneous, hence the term “flash”. Flash loans are essentially like short-term loans that are codified by 
 smart contracts. This means that the terms of the loan are written in code, which helps to prevent funds from being transferred out of one account to another unless certain conditions 
@@ -14,13 +14,13 @@ have been met. Flash loans are typically repaid in the same transaction, and the
 return the full amount of liquidity to the pool, the entire transaction will be reversed, which will also reverse all previous actions. This helps to ensure that funds are safe during the 
 event of a flash loan.
 
-#### Blockchain Transactions
+### **Blockchain Transactions**
 A transaction is a way of transferring value or any other type of token using Blockchain. In order to transfer cryptocurrency, you must have a digital wallet. This wallet must have a public 
 and private key. You can think of it like this: your wallet is your bank account, your public key is your account number, other users use this to send you assets. Your private key is your pin code, 
 which allows you to access the assets in your wallet. Once you have connected your wallet, you can use various decentralized exchanges and decentralized finance platforms to complete transactions. 
 On every transaction, a fee is added, which acts as an incentive to miners to keep the chain secure.
  
-#### Working of Flash loans
+### **Working of Flash loans**
 `flashLoan`: Allows borrowers to access liquidity of *multiple reserves* in a single *flashLoan* transaction. The borrower also has an option to open a stable or variable rate debt position backed by supplied collateral or 
  credit delegation in this case.
 
@@ -28,7 +28,7 @@ On every transaction, a fee is added, which acts as an incentive to miners to ke
  This method is gas efficient for those trying to take advantage of simple flash loans with a single reserve asset.
 
 
-#### Execution Flow
+### **Execution Flow**
 Here is an example of an execution flow for developers,
 
 1. Your contract calls the Pool contract, requesting for a flash loan of a certain amount from reserve(s) using `flashLoanSimple()`` or `flashLoan()``.
@@ -41,13 +41,13 @@ Here is an example of an execution flow for developers,
 4. All the above happens in one transaction block.    #### Applications of flash loans       **Arbitrage:** Users can earn a decent profit by trading assets at different platforms that offer different values. With flash loans, traders can launch an arbitrage without any existing assets.     Therefore, arbitrage trades using a flash loan become "cost-free" as long as the traders can afford the gas and flash loan fee to launch the transaction.       **Swapping collateral:**  Crypto asset investors can use collateral swapping to change out their investments without having to repay the debt of the original investment. Collateral swapping lets an investor     replace their position with borrowed assets. Users can choose to pay back their CDP debt and take out all collateral, using part of it to repay flash loans and keeping the remaining     for themselves.       **Self Liquidation:** Markets can be very volatile and can lead to liquidation of the sensitive positions. Liquidation can be quite expensive on certain platforms. There are many applications that make use     of flash loans and liquidate the position on user’s behalf saving the user hefty liquidation fees of the protocol.
  
  **AAVE Portals**        
-#### Layer 2 blockchains
+### **Layer 2 blockchains**
 In 2020, we had seen a lot of people using Ethereum, and transaction requests increased. However, Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.
 On Ethereum mainnet, transactions can be slow and difficult. So we need an alternative that can improve these issues without compromising decentralization and security.
 Layer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain. 
 
 
-#### What are Blockchain Bridges and Why do we use them? 
+### **What are Blockchain Bridges and Why do we use them?** 
 Bridges in crypto act as a connection between two different blockchains. This connection is important because, without a bridge, blockchains would be isolated from each other.
 However, with a bridge between two blockchains it becomes possible to transfer assets and arbitrary data between them. Thus, blockchain bridges promote the interoperability in the crypto ecosystem and are necessary to make different blockchain networks compatible.
    
@@ -70,7 +70,7 @@ However, with a bridge between two blockchains it becomes possible to transfer a
 
 
 
-#### Aave portals and how it simplifies things
+### **Aave portals and how it simplifies things**
 Now let us look at how Aave portals provide solutions to the problems posed by Bridges.
 
 The Portal's feature on Aave allows for tokenized assets to flow frictionlessly between markets on different networks. Aave allows for certain whitelisted entities or specific bridges to 'burn' aTokens in the source network and instantly 
@@ -84,7 +84,7 @@ are often connected to slow-moving centralized exchanges (CeFis). This can compl
 transactions, making alt Evm L1 chains attractive and easier to access.
 
 
-#### How portals work
+### **How portals work**
 In order to bridge assets from one chain to another, the user first submits a bridge transaction to a verified bridging protocol (such as Connext). As soon as the transaction is mined, the user has access to the funds on the destination chain. 
 Behind the scenes, the bridging protocol mints unbacked aTokens on the destination chain to the intermediate contract, and in turn withdraws and transfers the underlying asset to the user immediately. The bridge contract on L2 then supplies the 
 underlying asset and fee to the Aave pool to back the previously minted unbacked aTokens. The "bridge" is used to store assets supplied by multiple users in a pool, and then to batch them together. The "hop" will use tokens to withdraw the assets 
@@ -93,5 +93,71 @@ This is how portals enable seamless transactions between markets in different ne
 
 (Note: Only approved bridges use this portal feature, so there is no risk of withdrawing funds from Aave v3. Also, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets. There are no 
 other core protocols for directly using Aave portals from the user end.) 
+ 
+ **AAVE GHO**        
+### **Introduction AAVE GHO**
+
+Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed and native to the Aave Protocol.
+GHO is a proposal to the Aave DAO for the introduction of a native decentralized, collateral-backed stablecoin, GHO, which will be pegged to USD.
+Aave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO 
+with the introduction of their own stablecoin, GHO. Before jumping into what GHO is, let us get a basic introduction of stablecoins
+
+### **What is Stablecoin?**
+
+Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. The stablecoins are quite popular to the audience that is not crypto-native. 
+They help in furthering the technology by being attractive to a user base that is not tech-savvy.
+
+
+    #### **Types of stablecoins:**
+
+    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.
+
+    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.
+
+    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. 
+                                  Instead, the value of a second token serves as collateral for the stablecoin.
+
+
+    **Collateral-backed stablecoins -** Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.
+
+### **How GHO would work:**
+
+Like with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. The minting process of GHO is different from that of USDC, where the user can mint one USDC with one dollar. GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like 
+traditional borrowing in Aave because the borrowed asset in this case (GHO) is minted on borrowing. The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. When the user borrows, 
+GHO is minted and when the borrow position is repaid, GHO is burnt. The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions. With the introduction of GHO, the DAO will be able to manage GHO’s native interest rate through a governance process, 
+which will be outlined in a future proposal. This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. The stable rate levied on GHO will provide certainty for the borrowers which is seen as synonymous with stablecoins. Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be 
+deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.
+
+### **Facilitators:**
+
+With GHO, Aave introduces the concept of facilitators. Facilitators are entities that can trustless mint and burn GHO tokens. The facilitators have to be approved by Aave governance. Once approved, the facilitator will be able to apply different generation strategies for minting GHO. 
+Each facilitator will also be given a “bucket” value. Bucket is a term made up by AaveDAO to specify the upper limit of the amount of GHO a facilitator can generate.  Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid 
+misuse of the asset. The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. 
+
+### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**
+
+#### **Cons:**
+
+**Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.
+
+**Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.
+
+**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.
+
+**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. 
+
+#### **Pros:**
+
+**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets
+
+**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.
+
+When it comes to GHO, 
+
+**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. 
+
+**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. 
+
+**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.
  
  

@@ -271,5 +271,153 @@
       key: C
     - content: It is an alias for "bridging protocol"
       key: D
+- uuid: c09b82e3-fe01-4d4c-b377-f2ac02a463f5
+  type: MultipleChoice
+  content: Which of these changes would be made in Aave after GHO’s integration with Aave protocol?
+  hint: noHint
+  explanation: aTokens and debt tokens will be minted for GHO, Aave market on Ethereum would become the first facilitator, GHO will be borrowed at a stable rate determined by the DAO.
+  answerKeys:
+    - A
+    - D
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Medium"
+  choices:
+    - content: aTokens and debt tokens will be minted for GHO
+      key: A
+    - content: New aTokens and debt tokens will not be minted for GHO
+      key: B
+    - content: The Aave protocol will become slower due to integration of a new stablecoin
+      key: C
+    - content: Aave market on Ethereum would become the first facilitator
+      key: D
+
+- uuid: c32c634a-47fe-4dbc-a485-e9e864ac702b
+  type: MultipleChoice
+  content: Which of these statements about GHO’s interest rate is accurate?
+  hint: noHint
+  explanation:  Interest rate will be set by the AaveDAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance 
+  answerKeys:
+    - A
+    - C
+    - D
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Medium"
+  choices:
+    - content: It will be set by the AaveDAO initially
+      key: A
+    - content: The rates determined by AaveDAO will be final and cannot be changed
+      key: B
+    - content: It will be stable rate as opposed to variable rate, can be adapted to market conditions
+      key: C
+    - content: The rates can be altered based on the community and governance 
+      key: D
+- uuid: 8bd737ea-e3c7-481d-80ab-3561b4e6fa16
+  type: MultipleChoice
+  content: What criteria must be satisfied for the minting and burning of GHO?
+  hint: noHint
+  explanation: It is minted by borrowing it in an overcollateralized fashion, burnt by repaying the borrow position
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Medium"
+  choices:
+    - content: It is burnt by borrowing it in an overcollateralized fashion
+      key: A
+    - content: It is minted by borrowing it in an overcollateralized fashion
+      key: B
+    - content: It is burnt as the borrower repays their borrow position
+      key: C
+    - content: It is unpredictable
+      key: D
+
+- uuid: 389e797c-69c2-4893-8f9e-aaf32b8943c1
+  type: SingleChoice
+  content: Who are facilitators?
+  hint: noHint
+  explanation: Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+  answerKeys:
+    - A
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Low"
+  choices:
+    - content: Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+      key: A
+    - content: Facilitators are entities or protocols who facilitate fast transactions of GHO in the blockchain
+      key: B
+    - content: Facilitators are entities or protocols who borrow GHO
+      key: C
+    - content: Facilitator is an alias for liquidator
+      key: D
+- uuid: b850e217-7dd0-4bdb-8766-9cec9d667554
+  type: SingleChoice
+  content: What is GHO?
+  hint: noHint
+  explanation: GHO is a collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
+  answerKeys:
+    - C
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Low"
+  choices:
+    - content: A collateral-backed stablecoin native to Aave, it is centralized and collateral backed pegged to USD
+      key: A
+    - content: A fiat-backed stablecoin native to Aave, it is decentralized and pegged to USD
+      key: B
+    - content: A collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
+      key: C
+    - content: A collateral-backed stablecoin, not native to Aave, it is centralized and pegged to USD
+      key: D
+
+- uuid: 865bf61c-1cf6-494f-a537-74c8140031db
+  type: MultipleChoice
+  content: Which of these are true regarding GHO’s scalability?
+  hint: noHint
+  explanation: Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins.
+   Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users. 
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Medium"
+  choices:
+    - content: Using portals, GHO can be minted on Ethereum and be transferred to other chains easily
+      key: A
+    - content: The non-crypto native user base prefers stablecoins
+      key: B
+    - content: The non-crypto native user base does not prefer stablecoins
+      key: C
+    - content: Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
+      key: D
+- uuid: 5598e841-0111-4515-8600-9525469fe1e5
+  type: MultipleChoice
+  content: Which of these contribute to the safety of GHO’s use?
+  hint: noHint
+  explanation: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security.
+    Only authorized facilitators can mint and burn GHO trustlessly. It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets, these factors 
+    improve the security of GHO.
+  answerKeys:
+    - A
+    - B
+    - C
+    - D
+  subTopics:
+    - aave-gho
+  difficultyLevel: "Medium"
+  choices:
+    - content: A supply borrow cap can be levied to further improve its security
+      key: A
+    - content: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer
+      key: B
+    - content: Only authorized facilitators can mint and burn GHO trustlessly
+      key: C
+    - content: It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets
+      key: D
 
       
