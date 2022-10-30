@@ -154,22 +154,6 @@ Sub Topics: aave-portals
 
 ---
 
-##### What are the disadvantages of using blockchain bridges?  
-
-- [x]  Bugs in smart contracts
-- [x]  It is very new and unpredictable
-- [x]  No way to confirm the trustworthiness of the validators who help transfer assets
-- [ ]  It is very slow to transfer assets
-  
-Hint: noHint
-         
-Explanation: Disadvantages of bridges are that there is no way to confirm the trustworthiness of the validators who help transfer assets, it is very new and unpredictable and there could be bugs in smart contracts
-
-Sub Topics: aave-portals
- 
-
----
-
 ##### What purpose does the “hop” serve?  
 
 - [ ]  It is a pool of assets sent by users to be transferred to another chain

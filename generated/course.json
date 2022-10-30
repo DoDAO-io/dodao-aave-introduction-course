@@ -731,7 +731,7 @@
     {
       "title": "Intro to Lending and Borrowing in DeFi",
       "key": "lending-and-borrowing-in-defi",
-      "details": ".......\n\nDetails\n  * .....\n",
+      "details": "This chapter explains how lending and borrowing works in both DeFi and TradFi. \nIt also goes over the risks involved with lending and borrowing in DeFi.\n\nDetails\n  * Lending and borrowing in TradFi\n  * Lending and borrowing in DeFi\n  * Risks involved in DeFi\n",
       "order": 1,
       "explanations": [
         {
@@ -1464,10 +1464,361 @@
       ]
     },
     {
+      "title": "How to Lend and Borrow in AAVE",
+      "key": "how-lendings-borrowing-aave",
+      "details": "This chapter covers Aave's lending and borrowing processes, ATokens and debt tokens, as well as how interest rates are calculated.\n\nDetails\n  * How to lend and borrow in Aave\n  * Working of ATokens in Lending\n  * working of debt tokens and interest rates in borrowing\n",
+      "order": 2,
+      "explanations": [
+        {
+          "title": "How to connect wallet to Aave",
+          "shortTitle": "How to connect",
+          "key": "connect-aave",
+          "details": "Aave is a decentralized finance platform that allows users to lend and borrow assets. In order to do so, users need to have a cryptocurrency wallet set up. \nOnce the wallet is set up, they can then commence lending and borrowing on the Aave platform. Follow this link for Aave's Dapp: [Aave app](https://app.aave.com/).\n\nWe need to connect the wallet for lending and borrowing. So we need to click the \"connect wallet\" button and select your preferred wallet for lending and borrowing.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/connectwallet.jpg?raw=true)\n\nAfter connecting the wallet, the dashboard will look like this. We can select our preferred network for lending and borrowing assets; however, in order to do so, \nwe need to pay gas fees similar to transactions. Consequently, we need to have some native token of the network to lend and borrow assets. For example, \nif we want to lend in Ethereum market, we need to own some ether for paying gas fees.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/aavedashboard.jpg?raw=true)\n"
+        },
+        {
+          "title": "How to lend in Aave",
+          "shortTitle": "Lending in Aave",
+          "key": "lending-Aave",
+          "details": "In this tutorial, we will be demonstrating how to lend assets using the Test Network. For this guide, we will be using the MetaMask Wallet. \nIf you have assets in your Wallet, you will have the option to supply those assets.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/supplyusdc.jpg?raw=true)\n\nWe will lend some USDC token - just click on the \"supply\" button. A new window will pop up; fill in the details and click on \"supply USDC\".\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/supplyingusdc.jpg?raw=true)\n\nNow the connected wallet will pop up and asks for confirmation for the transaction. We need to confirm the transaction. Wait until the transaction complete.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/confirmingLending.jpg?raw=true)\n\nAfter completing the procedure outlined above, your dashboard should look something like this. The interest rate is accrued based on the APY (annual percentage yield).\nUSDC can be used as collateral, as indicated by the tick mark in that column.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/lentusdc.jpg?raw=true)\n\nWe have successfully lent USDC in Aave. We can add aTokens to our wallet for tracking the balances. This procedure is the same for all networks like Ethereum mainnet, Polygon, etc.\n"
+        },
+        {
+          "title": "How to borrow in Aave",
+          "shortTitle": "Borrowing in Aave",
+          "key": "borrowing-Aave",
+          "details": "In this guide, we'll show you how to borrow assets from Aave. We'll use USDC as collateral to borrow DAI tokens.\nTo borrow DAI tokens, we need to connect our wallet to Aave, in the same way that we would if we were lending. The dashboard should look something like this:\nFor borrowing DAI, click \"Borrow.\" Before borrowing, I had 0 DAI tokens in my Metamask wallet.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/borrowDAI.jpg?raw=true)\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/beforeborrowing.jpg?raw=true)\n\nEnter the amount of DAI you would like to borrow, up to the maximum limit. Keep an eye on the health factor to make sure it stays at a good level. \nWe're going to borrow at a stable rate, so click on the stable rate and hit “Borrow DAI.” The connected wallet will pop up for confirmation; hit confirm and wait \nuntil the transaction completes. That maximum value is determined by our locked collateral. In our case it is USDC which is used as collateral.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/borrowingDAI.jpg?raw=true)\n\nAfter completing the transaction, the dashboard will look something like this. We can add the tokens to our wallet after the transaction is completed.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/BorrowedDAI.jpg?raw=true)\n\nWe have successfully borrowed DAI at a stable rate. Similarly, we can borrow at a variable rate. We have used USDC as collateral to borrow DAI. \nAfter borrowing the balance of DAI tokens is 1000 DAI in my wallet.\n\n![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/afterborrowing.jpg?raw=true)\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "e2cc2946-3e82-4831-9e5a-d00481515186",
+          "type": "SingleChoice",
+          "content": "Which of the following is required for lending in Aave?",
+          "hint": "Wallet",
+          "explanation": "Aave is a popular cryptocurrency lending platform that requires users to have only one cryptocurrency wallet to start lending. There are no age restrictions or KYC requirements in order to start lending on Aave.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "connect-aave"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Users need to complete the KYC process",
+              "key": "A"
+            },
+            {
+              "content": "Users need to have a cryptocurrency wallet",
+              "key": "B"
+            },
+            {
+              "content": "Users need to be above 25 years",
+              "key": "C"
+            },
+            {
+              "content": "The assets should be lent more than 100 dollars",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4831fa0f-76a2-4815-91e3-665bcf956107",
+          "type": "MultipleChoice",
+          "content": "Which of the following is/are correct about lending in Aave?",
+          "hint": "noHint",
+          "explanation": "In order to pay gas fees, users need to have some native tokens. For example, if you want to lend in the Ethereum network, \nyou need to own some ether to pay the gas fees for the transaction. By adding aTokens to their wallet, users can track their balances.\n",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "lending-Aave"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Users must have some native tokens to pay gas fees",
+              "key": "A"
+            },
+            {
+              "content": "Users can use any token to pay the gas fees for lending",
+              "key": "B"
+            },
+            {
+              "content": "Users can add aTokens to their wallet to track their balances",
+              "key": "C"
+            },
+            {
+              "content": "Users can lend only up to a maximum value of 10000 dollars",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5907bc09-941b-440f-8bdb-858cfc830293",
+          "type": "SingleChoice",
+          "content": "The procedure for lending is different for different networks",
+          "hint": "All networks have same procedure",
+          "explanation": "While the procedure for lending is the same for all networks, the market for different networks can vary. Therefore, the above statement is false.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "lending-Aave"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "2b30d73b-8c6e-4e49-9213-b1ee3743e2bd",
+          "type": "SingleChoice",
+          "content": "Which of the following is correct about interest rates in borrowing?",
+          "hint": "noHint",
+          "explanation": "Loans can be borrowed in both stable and variable interest rates so that users can choose what is best for them and their current financial situation. \nInterest rates can also be changed by the user at any time if their needs should happen to change in the future.\n",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "borrowing-Aave"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Users can only borrow assets at a stable interest rate",
+              "key": "A"
+            },
+            {
+              "content": "Users can only borrow assets at a variable interest rate",
+              "key": "B"
+            },
+            {
+              "content": "Users can borrow assets at both stable and variable rate",
+              "key": "C"
+            }
+          ]
+        },
+        {
+          "uuid": "bcf0c674-e052-43ca-a82d-47998a299386",
+          "type": "SingleChoice",
+          "content": "What is the repayment period for the loan?",
+          "hint": "Norepayment",
+          "explanation": "In Aave, there is no set repayment period or deadline for borrowers. Instead, users must make sure to have a good health factor to prevent liquidation of collateral.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "borrowing-Aave"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "There is no time limit for repayment",
+              "key": "A"
+            },
+            {
+              "content": "Borrowed loans must be repaid before 70 days of borrowing",
+              "key": "B"
+            },
+            {
+              "content": "The repayment time for a loan depends on the amount borrowed",
+              "key": "C"
+            },
+            {
+              "content": "Users need to repay the loans when their health factor reaches 10",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2f847ded-24f9-4816-99d6-68303ff8e24e",
+          "type": "SingleChoice",
+          "content": "Which of the following order is correct for borrowing loans in Aave?\n\nA- Confirm the transaction using the connected wallet\nB- To borrow, click the \"Borrow\" button. A new window will pop up. Fill in the required fields and click \"Borrow.\"\nC- Do not close the window until the transaction is complete\nD- Connect the wallet and lock the collateral for borrowing\nE- After the transaction has been finalized. We can add the tokens to our wallet\n",
+          "hint": "Starts with connecting the wallet",
+          "explanation": "The first thing you need to do is connect your wallet and lock your collateral. Then, click the borrow button and fill in the required details. After that, confirm \nthe transaction using your wallet. Once the transaction is complete, the tokens will be added to your wallet.\n",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "borrowing-Aave"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "A=>B=>C=>D=>E",
+              "key": "A"
+            },
+            {
+              "content": "B=>E=>A=>C=>D",
+              "key": "B"
+            },
+            {
+              "content": "D=>B=>A=>C=>E",
+              "key": "C"
+            },
+            {
+              "content": "E=>D=>C=>B=>A",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c5b2ceae-105a-411a-8aa2-77af2020ac78",
+          "type": "MultipleChoice",
+          "content": "Which of the following factor(s) is/are considered more significant while borrowing?",
+          "hint": "Interest rate and health factor",
+          "explanation": "Health factor should be considered while borrowing users need to make sure that they have a good health factor. Users also need to check the interest rates and liquidation ratio of collateral to ensure the safety of collateral.",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "borrowing-Aave"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Interest rates for borrowing",
+              "key": "A"
+            },
+            {
+              "content": "Utilization ratio",
+              "key": "B"
+            },
+            {
+              "content": "Health factor",
+              "key": "C"
+            },
+            {
+              "content": "Liquidation threshold of the collateral",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e2535866-2f4b-4366-a2a8-5a8a31100ad3",
+          "type": "SingleChoice",
+          "content": "How the maximum borrowing limit is determined while borrowing assets?",
+          "hint": "Loan-to-Value",
+          "explanation": "The maximum loan amount you're able to take out is based on the Loan-to-Value (LTV) ratio of the collateral you're putting up.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "borrowing-Aave"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It is determined randomly using the SHA-256 algorithm",
+              "key": "A"
+            },
+            {
+              "content": "It is determined based on the loan-to-value (LTV) of the collateral",
+              "key": "B"
+            },
+            {
+              "content": "It is determined based on the lending rate of the asset",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "164d71e4-7589-4a4e-a9ec-8a550da8ec02",
+          "type": "SingleChoice",
+          "content": "What assets can be used as collateral?",
+          "hint": "can be collateral",
+          "explanation": "Assets that are marked with a tick in the \"can be collateral\" column can be used as collateral. Other assets cannot be used as collateral. Additionally, users can choose whether or not to use a particular asset as collateral.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "lending-Aave"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "All assets can be used as collateral",
+              "key": "A"
+            },
+            {
+              "content": "Assets that are marked with a tick in the \"can be collateral\" column can be used as collateral",
+              "key": "B"
+            },
+            {
+              "content": "Stablecoins like USDC, DAI, etc. can be used as collateral",
+              "key": "C"
+            },
+            {
+              "content": "Only ether can be used as collateral",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "13665e38-97ee-4dd1-88f1-896382eb8eb9",
+          "title": "Introduction to lending and borowing in crypto",
+          "shortTitle": "lending and borowing",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=SrArEE6p3zM",
+          "subTopics": [
+            "why-do-we-lending-borrowing"
+          ],
+          "details": "This video enables learners to know about\n  * Lending and borowing in crypto\n  * Centralized and  decentralized lending and borowing \n  * Working of lending and borrowing in crypto\n  * Risks in Lending and Borrowing in crypto\n"
+        },
+        {
+          "uuid": "7a36ecdd-bfdc-4564-b37f-316ef9a6e455",
+          "title": "Lending and borrowing in DeFi",
+          "shortTitle": "Lending and borrowing in DeFi",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=aTp9er6S73M",
+          "subTopics": [
+            "lending-borrowing-DeFi"
+          ],
+          "details": "This video enables learners to know about\n  * Working of lending and borrowing in DeFi's\n  * Core concepts of lending and borrowing in Aave and Compound\n  * Determination of interest rates and other features in Aave\n  * Risks involved in DeFi\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "How to connect wallet to Aave",
+          "shortTitle": "How to connect",
+          "key": "connect-aave",
+          "details": "Aave is a decentralized finance platform that allows users to lend and borrow assets. In order to do so, users need to have a cryptocurrency wallet set up. \nOnce the wallet is set up, they can then commence lending and borrowing on the Aave platform. Follow this link for Aave's Dapp: [Aave app](https://app.aave.com/).\n\nFollow the following steps to connect the wallet to Aave\n\n1. we need to click the \"connect wallet\" button and select your preferred wallet for lending and borrowing and connect it.\n2. After connecting the wallet, we can select our preferred network for lending and borrowing assets.\n3. We need to pay gas fees for lending and borrowing, similar to transactions so we need some native tokens to pay the gas fees.\n"
+        },
+        {
+          "title": "How to lend in Aave",
+          "shortTitle": "Lending in Aave",
+          "key": "lending-Aave",
+          "details": "Follow the following steps to lend assets in  Aave\n\n1. In order to supply tokens, please click on the 'Supply' button next to the token. After that, a new window will pop up with additional details.\n2. Fill in the required transaction details in the fields provided and click on the 'Supply' button in that new window.\n3. Now the connected wallet will pop up and ask you to confirm the transaction. Confirm the transaction and wait for it to finish.\n4. Please keep this window open until the transaction is completed. After the transaction has been finalized, we can add the atokens to our wallet to track the balances.\n\nThis procedure is same for all networks. Tokens which are indicated by the tick mark in the \"can be collateral\" column can be used as a collateral.\n"
+        },
+        {
+          "title": "How to borrow in Aave",
+          "shortTitle": "Borrowing in Aave",
+          "key": "borrowing-Aave",
+          "details": "Follow the following steps to borrow assets in  Aave\n\n1. In order to borrow, you will need to put up some collateral first. After you have supplied the required collateral, you can click “borrow” in the borrowing column.\n2. After clicking the borrowing button, a new window will appear with details about the borrowing process. We need to fill in the necessary information and hit the borrow button. \n   We can choose a stable or variable rate for our borrowing.\n3. Keep an eye on the health factor to make sure it stays at a reasonable level.\n4. Now the connected wallet will pop up and ask you to confirm the transaction. Confirm the transaction and wait for it to finish.\n5. Please keep this window open until the transaction is completed. After the transaction has been finalized, we can add the tokens to our wallet.\n"
+        }
+      ]
+    },
+    {
       "title": "Other Features of AAVE",
       "key": "lending-and-borrowing-in-defi",
       "details": ".......\n\nDetails\n  * .....\n",
-      "order": 2,
+      "order": 3,
       "explanations": [
         {
           "title": "Flash Loans",
@@ -1773,40 +2124,6 @@
             },
             {
               "content": "Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "65e455cb-f1c5-4d42-a072-f126ea7055f2",
-          "type": "MultipleChoice",
-          "content": "What are the disadvantages of using blockchain bridges?",
-          "hint": "noHint",
-          "explanation": "Disadvantages of bridges are that there is no way to confirm the trustworthiness of the validators who help transfer assets, it is very new and unpredictable and there could be bugs in smart contracts",
-          "answerKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "subTopics": [
-            "aave-portals"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Bugs in smart contracts",
-              "key": "A"
-            },
-            {
-              "content": "It is very new and unpredictable",
-              "key": "B"
-            },
-            {
-              "content": "No way to confirm the trustworthiness of the validators who help transfer assets",
-              "key": "C"
-            },
-            {
-              "content": "It is very slow to transfer assets",
               "key": "D"
             }
           ]
