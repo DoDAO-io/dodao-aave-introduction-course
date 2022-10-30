@@ -74,25 +74,32 @@
     ATokens can be stored and transferred. In order to store ATokens in a wallet, the user must first add the ATokens from Aave's app. For example, 
     if the user wants to add AEth to their account, they need to click on “Eth” in the Aave app and then click on the “wallet” icon located next to it. After doing so, they can add it to their account.
 
-    ATokens are minted in a 1:1 ratio to the deposited amount using the `MintOnDeposit` function. This will create tokens that have accrued interest and have increased value. 
+    ### How Lending works internally with Aave
+
+    When a user supplies assets to Aave, the `deposit` function is called. This updates the interest rates and mints aTokens in a 1:1 ratio corresponding to the deposited assets. 
+    The assets are then transferred to the reserve. When a user withdraws their assets, the `redeem` function gets called. This function checks certain conditions and updates the 
+    interest rates accordingly. Then, it "burns" the Atokens and supplies assets in a 1:1 ratio. ATokens are minted and burnt using the `IAToken` contract, which implements the function 
+    `mint` and `burn`. Link for IAToken contract: [link](https://docs.aave.com/developers/v/2.0/the-core-protocol/atokens/iatoken).
+
     If these minted tokens are added to the wallet, users will be able to track their balances from the wallet itself instead of having to open Aave's app. 
     The ATokens can be transferred or traded in a similar way to normal tokens, but with some additional benefits. For example, when ATokens are transferred from account A to account B, 
     the transferred ATokens will accrue interest for account B. Additionally, the ATokens can be used as collateral if it's indicated in the dashboard of Aave. 
 
     The interest rate is based on the earn rate of the Aave. The accrual of interest never stops until the lent assets are withdrawn. For example, interest will be accrued even when an asset is used as collateral.
-    ATokens are destroyed or "burned" when they are redeemed, similar to how new coins are minted. The function redeem executes this operation whenever a user withdraws assets. 
-    This function will burn the ATokens and supply the assets at a 1:1 ratio of burnt ATokens to the user whenever they withdraw. The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. 
-    EIPs (Improvement Proposals) are suggestions for new features or functionality that could be introduced. Link of AToken contract: [Atoken contract](https://github.com/aave/aave-protocol/blob/master/contracts/tokenization/AToken.sol).
+    The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. EIPs (Improvement Proposals) are suggestions for new features or functionality that could be introduced. 
 - title: How Borrowing works in Aave
   shortTitle: How borrowing works
   key: borrowing-technical
   details: |
     Borrowing in Aave implements tokenisation concept similar to lending. The loans borrowed are overcollaterlized in order to negotiate the effect of  volatility of the assets as well to maintain the security of the assets. 
-    When a user borrows assets, the "borrow" function is called and debt tokens are minted in a 1:1 ratio to the corresponding borrowed asset. These debt tokens are similar to ATokens and work as an interest-bearing derivative token 
-    that implements most of the functionalities in EIP-20/ERC-20, with the exception of transfer functions like "transfer" and "allowance". This means that debt tokens cannot be transferred like ATokens. When loans are repaid the 
-    debt tokens are burnt and locked collateral is released.
+     
+    ### How Borrowing works internally with AAVE tokens
+    Aave uses tokenization to represent borrow positions. Debt tokens are interest-accruing tokens that accrue interest according to the interest rate. There are two types of debt tokens: stable debt tokens and variable debt tokens.
+    The `borrow` function is executed when a user borrows a loan, which will mint debt tokens in the 1:1 ratio to the corresponding borrowed asset, according to the interest rate. If the loan is borrowed at a stable rate, stable tokens are minted. 
+    These debt tokens will accrue interest and represent the borrow position. The `repay` function is executed when a user repays a loan, which will burn the debt tokens in the 1:1 ratio to the corresponding repaid asset. Link for debt token contract: [link](https://github.com/aave/protocol-v2/tree/ice/mainnet-deployment-03-12-2020/contracts/protocol/tokenization).
 
-    Users can borrow funds in both stable and variable rates. Debt tokens are accrued based on the interest rate in which it is borrowed. Users can change the interest rate from stable to variable or vice-versa at any time. 
+    These debt tokens are similar to ATokens, but they have some different features. For instance, they work as an interest-bearing derivative token that implements most of the functionalities in EIP-20/ERC-20, 
+    with the exception of transfer functions like "transfer" and "allowance". This means that they can't be transferred like ATokens. Users can change the interest rate from stable to variable or vice-versa at any time. 
     This system allows users to have more control over their finances and how they want to manage their money.
 
     ### Calculation of interest rates

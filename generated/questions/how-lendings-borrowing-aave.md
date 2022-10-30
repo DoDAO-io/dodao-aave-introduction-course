@@ -198,7 +198,7 @@ Sub Topics: working-ATokens
 
 - [x]  Yes, ATokens can be transferred from one wallet to another wallet
 - [ ]  No, It can't be transferred
-- [ ]  can't be determined
+- [ ]  It depends on they type of Atoken
   
 Hint: ERC-20 tokens
          
@@ -209,7 +209,7 @@ Sub Topics: working-ATokens
 
 ---
 
-##### When does accrual of interest on lent assets end?  
+##### When does accrual of interest on lent assets stop/end?  
 
 - [ ]  It will be stopped when the asset is used as collateral
 - [ ]  It will be stopped when Health factor is zero
@@ -317,11 +317,11 @@ Sub Topics: borrowing-technical
 
 ---
 
-##### When the stable interest rate rebalances?  
+##### When will the stable interest rate rebalance or adjust its value?  
 
 - [ ]  When variable interest rate exceeds 5%
-- [x]  when stable interest rate is less than variable rate
-- [ ]  Ratio<sub>st</sub> > O<sub>ratio</sub>
+- [ ]  when stable interest rate is less than variable rate
+- [x]  Ratio<sub>st</sub> > O<sub>ratio</sub>
 - [ ]  U>U<sub>optimal</sub>
   
 Hint: stable to total debt ratio

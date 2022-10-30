@@ -234,12 +234,12 @@
       key: A
     - content: No, It can't be transferred
       key: B
-    - content: can't be determined 
+    - content: It depends on they type of Atoken 
       key: C
 
 - uuid: ce07291c-d4a2-4b86-8b90-7cc71f558041
   type: SingleChoice
-  content: When does accrual of interest on lent assets end?
+  content: When does accrual of interest on lent assets stop/end?
   hint: withdraw
   explanation: | 
     Accrual of interest only stops when assets are withdrawn. Even if an asset is lent as collateral, accrual of interest will not stop.
@@ -366,14 +366,14 @@
       key: D
 - uuid: d0319aab-f602-43a1-a048-827f95bd7593
   type: SingleChoice
-  content: When the stable interest rate rebalances? 
+  content: When will the stable interest rate rebalance or adjust its value? 
   hint: stable to total debt ratio
   explanation: |
     The interest rate rebalances when Ratio<sub>st</sub> > O<sub>ratio</sub>. 
     where, Ratio<sub>st</sub> is the stable debt to total debt ratio.
     O<sub>ratio</sub> is the optimal stable debt to total debt ratio.      
   answerKeys:
-    - B
+    - C
   subTopics: 
     - borrowing-technical
   difficultyLevel: "Low"
