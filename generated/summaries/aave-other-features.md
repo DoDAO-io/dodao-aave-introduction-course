@@ -115,8 +115,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  **AAVE GHO**        
 ### **Introduction AAVE GHO**
 
-* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and native to the Aave Protocol.
-* Aave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.
+* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and it is proposed by the Aave DAO.
+* Aave aims to provide users more variety and accessible to the a wider user base, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.
 
 
 ### **What is Stablecoin?**
@@ -139,7 +139,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 * GHO is minted by borrowing it in an overcollateralized fashion and burnt when the borrow position is repaid
 * The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he used as collateral.
-* The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  
+* The interest rate for GHO will be initially determined by Aave DAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  
 * The DAO will be able to manage GHO’s native interest rate through a governance process. 
 * Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.
 

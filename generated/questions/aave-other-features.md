@@ -142,12 +142,12 @@ Sub Topics: aave-portals
 
 - [ ]  They provide a completely new protocol for users to be able to interact with different chains
 - [x]  Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
-- [x]  Helps increase usership of EVM Layer 1 chains
-- [x]  Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions
+- [x]  Helps users transfer their assets to other layer 1 blockchains, providing an opportunity to increase the usership of alternate layer 1 chains
+- [x]  Helps increase the user experience of the blockchain network by providing a way transfer assets to layer 2 blockchains which have better transaction speed and lesser transaction fees.
   
 Hint: noHint
          
-Explanation: Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions.
+Explanation: Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Provides user with multiple blockchain options to invest their assets in, thus providing an opportunity to increase the usership of alternate layer 1 blockchains. Helps increase the user experience of the blockchain network by providing liquidity transfer to layer 2 blockchains which provide fast and scalable solutions to their issues related to transactions.
 
 Sub Topics: aave-portals
  
@@ -202,7 +202,7 @@ Sub Topics: aave-portals
 
 ---
 
-##### Which of these changes would be made in Aave after GHO’s integration with Aave protocol?  
+##### Which of these enhancements/changes would be made in Aave after GHO’s integration with Aave protocol?  
 
 - [x]  aTokens and debt tokens will be minted for GHO
 - [ ]  New aTokens and debt tokens will not be minted for GHO
@@ -220,14 +220,14 @@ Sub Topics: aave-gho
 
 ##### Which of these statements about GHO’s interest rate is accurate?  
 
-- [x]  It will be set by the AaveDAO initially
-- [ ]  The rates determined by AaveDAO will be final and cannot be changed
-- [x]  It will be stable rate as opposed to variable rate, can be adapted to market conditions
+- [x]  It will be set by the Aave DAO initially
+- [ ]  The rates determined by Aave DAO will be final and cannot be changed
+- [x]  It will be stable rate, it can be changed
 - [x]  The rates can be altered based on the community and governance
   
 Hint: noHint
          
-Explanation: Interest rate will be set by the AaveDAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance
+Explanation: Interest rate will be set by the Aave DAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance
 
 Sub Topics: aave-gho
  
@@ -268,10 +268,10 @@ Sub Topics: aave-gho
 
 ##### What is GHO?  
 
-- [ ]  A collateral-backed stablecoin native to Aave, it is centralized and collateral backed pegged to USD
-- [ ]  A fiat-backed stablecoin native to Aave, it is decentralized and pegged to USD
-- [x]  A collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
-- [ ]  A collateral-backed stablecoin, not native to Aave, it is centralized and pegged to USD
+- [ ]  A collateral-backed stablecoin, it is centralized and collateral backed pegged to USD
+- [ ]  A fiat-backed stablecoin, it is decentralized and pegged to USD
+- [x]  A collateral-backed stablecoin, it is decentralized and pegged to USD
+- [ ]  A collateral-backed stablecoin, it is centralized and pegged to the value of gold in the US
   
 Hint: noHint
          
@@ -282,12 +282,12 @@ Sub Topics: aave-gho
 
 ---
 
-##### Which of these are true regarding GHO’s scalability?  
+##### Which of these are true regarding GHO’s adoption?  
 
-- [x]  Using portals, GHO can be minted on Ethereum and be transferred to other chains easily
-- [x]  The non-crypto native user base prefers stablecoins
-- [x]  The non-crypto native user base does not prefer stablecoins
-- [ ]  Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
+- [ ]  Using portals, GHO cannot be minted on Ethereum and be transferred to other chains easily
+- [ ]  Penetration into L2 chains would be impossible
+- [ ]  Penetration into L2 chains would be undesirable as they are loosing popularity amongst a vast majority of general users
+- [x]  Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
   
 Hint: noHint
          
@@ -303,11 +303,11 @@ Sub Topics: aave-gho
 - [x]  A supply borrow cap can be levied to further improve its security
 - [x]  It is minted on Ethereum and supplied to other chains, since Ethereum is much safer
 - [x]  Only authorized facilitators can mint and burn GHO trustlessly
-- [x]  It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets
+- [ ]  Only Aave can mint and burn GHO trustlessly
   
 Hint: noHint
          
-Explanation: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly. It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets, these factors improve the security of GHO.
+Explanation: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly, these factors improve the security of GHO.
 
 Sub Topics: aave-gho
  

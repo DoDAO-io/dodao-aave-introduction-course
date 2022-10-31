@@ -1836,7 +1836,7 @@
           "title": "AAVE GHO",
           "shortTitle": "AAVE GHO",
           "key": "aave-gho",
-          "details": "### **Introduction AAVE GHO**\n\nAave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed and native to the Aave Protocol.\nGHO is a proposal to the Aave DAO for the introduction of a native decentralized, collateral-backed stablecoin, GHO, which will be pegged to USD.\nAave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO \nwith the introduction of their own stablecoin, GHO. Before jumping into what GHO is, let us get a basic introduction of stablecoins\n\n### **What is Stablecoin?**\n\nStable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. The stablecoins are quite popular to the audience that is not crypto-native. \nThey help in furthering the technology by being attractive to a user base that is not tech-savvy.\n\n\n    #### **Types of stablecoins:**\n\n    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. \n                                  Instead, the value of a second token serves as collateral for the stablecoin.\n\n\n    **Collateral-backed stablecoins -** Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.\n\n### **How GHO would work:**\n\nLike with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. The minting process of GHO is different from that of USDC, where the user can mint one USDC with one dollar. GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like \ntraditional borrowing in Aave because the borrowed asset in this case (GHO) is minted on borrowing. The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. When the user borrows, \nGHO is minted and when the borrow position is repaid, GHO is burnt. The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions. With the introduction of GHO, the DAO will be able to manage GHO’s native interest rate through a governance process, \nwhich will be outlined in a future proposal. This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. The stable rate levied on GHO will provide certainty for the borrowers which is seen as synonymous with stablecoins. Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be \ndeployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\nWith GHO, Aave introduces the concept of facilitators. Facilitators are entities that can trustless mint and burn GHO tokens. The facilitators have to be approved by Aave governance. Once approved, the facilitator will be able to apply different generation strategies for minting GHO. \nEach facilitator will also be given a “bucket” value. Bucket is a term made up by AaveDAO to specify the upper limit of the amount of GHO a facilitator can generate.  Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid \nmisuse of the asset. The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n#### **Cons:**\n\n**Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. \n\n#### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n"
+          "details": "### **Introduction AAVE GHO**\n\nAave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed. \nA proposal has been made by the Aave DAO for the introduction of a native decentralized, collateral-backed stablecoin, GHO, which will be pegged to USD.\nAave aims to provide users more variety and accessible to a wider user base, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO \nwith the introduction of their own stablecoin, GHO. Before jumping into what GHO is, let us get a basic introduction of stablecoins\n\n### **What is Stablecoin?**\n\nStable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. The stablecoins are quite popular to the audience that is not crypto-native. \nThey help in furthering the technology by being attractive to a user base that is afraid of volatility or about getting started in the crypto world.\n\n\n    #### **Types of stablecoins:**\n\n    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. \n                                  Instead, the value of a second token serves as collateral for the stablecoin.\n\n\n    **Collateral-backed stablecoins -** Since trustless systems and decentralization are the foundations of the crypto ecosystem, stablecoin protocols that are not controlled by a central entity had to be developed. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.\n\n### **How GHO would work:**\n\nLike with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. The minting process of GHO is different from that of USDC, where the user can mint one USDC with one dollar. GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like \ntraditional borrowing in Aave because the borrowed asset in this case (GHO) is minted on borrowing. The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. When the user borrows, \nGHO is minted and when the borrow position is repaid, GHO is burnt. The interest rate for GHO will be initially determined by Aave Dao, it will be a stable interest rate which can be adapted according to market conditions. With the introduction of GHO, the DAO will be able to manage GHO’s native interest rate through a governance process, \nwhich will be outlined in a future proposal. This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. The stable rate levied on GHO will provide certainty for the borrowers which is seen as synonymous with stablecoins. Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be \ndeployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\nWith GHO, Aave introduces the concept of facilitators. Facilitators are entities that can trustless mint and burn GHO tokens. The facilitators have to be approved by Aave governance. Once approved, the facilitator will be able to apply different generation strategies for minting GHO. \nEach facilitator will also be given a “bucket” value. Bucket is a term made up by Aave Dao to specify the upper limit of the amount of GHO a facilitator can generate.  Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid \nmisuse of the asset. The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n  #### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n\n\n#### **Cons:**\n\n**Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. \n"
         }
       ],
       "questions": [
@@ -2099,7 +2099,7 @@
           "type": "MultipleChoice",
           "content": "How are aave portals beneficial to the DeFi/ Blockchain ecosystem?",
           "hint": "noHint",
-          "explanation": "Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions.",
+          "explanation": "Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Provides user with multiple blockchain options to invest their assets in, thus providing an opportunity to increase the usership of alternate layer 1 blockchains. Helps increase the user experience of the blockchain network by providing liquidity transfer to layer 2 blockchains which provide fast and scalable solutions to their issues related to transactions.",
           "answerKeys": [
             "B",
             "C",
@@ -2119,11 +2119,11 @@
               "key": "B"
             },
             {
-              "content": "Helps increase usership of EVM Layer 1 chains",
+              "content": "Helps users transfer their assets to other layer 1 blockchains, providing an opportunity to increase the usership of alternate layer 1 chains",
               "key": "C"
             },
             {
-              "content": "Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions",
+              "content": "Helps increase the user experience of the blockchain network by providing a way transfer assets to layer 2 blockchains which have better transaction speed and lesser transaction fees.",
               "key": "D"
             }
           ]
@@ -2227,7 +2227,7 @@
         {
           "uuid": "c09b82e3-fe01-4d4c-b377-f2ac02a463f5",
           "type": "MultipleChoice",
-          "content": "Which of these changes would be made in Aave after GHO’s integration with Aave protocol?",
+          "content": "Which of these enhancements/changes would be made in Aave after GHO’s integration with Aave protocol?",
           "hint": "noHint",
           "explanation": "aTokens and debt tokens will be minted for GHO, Aave market on Ethereum would become the first facilitator, GHO will be borrowed at a stable rate determined by the DAO.",
           "answerKeys": [
@@ -2262,7 +2262,7 @@
           "type": "MultipleChoice",
           "content": "Which of these statements about GHO’s interest rate is accurate?",
           "hint": "noHint",
-          "explanation": "Interest rate will be set by the AaveDAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance",
+          "explanation": "Interest rate will be set by the Aave DAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance",
           "answerKeys": [
             "A",
             "C",
@@ -2274,15 +2274,15 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "It will be set by the AaveDAO initially",
+              "content": "It will be set by the Aave DAO initially",
               "key": "A"
             },
             {
-              "content": "The rates determined by AaveDAO will be final and cannot be changed",
+              "content": "The rates determined by Aave DAO will be final and cannot be changed",
               "key": "B"
             },
             {
-              "content": "It will be stable rate as opposed to variable rate, can be adapted to market conditions",
+              "content": "It will be stable rate, it can be changed",
               "key": "C"
             },
             {
@@ -2371,33 +2371,31 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A collateral-backed stablecoin native to Aave, it is centralized and collateral backed pegged to USD",
+              "content": "A collateral-backed stablecoin, it is centralized and collateral backed pegged to USD",
               "key": "A"
             },
             {
-              "content": "A fiat-backed stablecoin native to Aave, it is decentralized and pegged to USD",
+              "content": "A fiat-backed stablecoin, it is decentralized and pegged to USD",
               "key": "B"
             },
             {
-              "content": "A collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD",
+              "content": "A collateral-backed stablecoin, it is decentralized and pegged to USD",
               "key": "C"
             },
             {
-              "content": "A collateral-backed stablecoin, not native to Aave, it is centralized and pegged to USD",
+              "content": "A collateral-backed stablecoin, it is centralized and pegged to the value of gold in the US",
               "key": "D"
             }
           ]
         },
         {
           "uuid": "865bf61c-1cf6-494f-a537-74c8140031db",
-          "type": "MultipleChoice",
-          "content": "Which of these are true regarding GHO’s scalability?",
+          "type": "SingleChoice",
+          "content": "Which of these are true regarding GHO’s adoption?",
           "hint": "noHint",
           "explanation": "Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins. Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users.",
           "answerKeys": [
-            "A",
-            "B",
-            "C"
+            "D"
           ],
           "subTopics": [
             "aave-gho"
@@ -2405,15 +2403,15 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Using portals, GHO can be minted on Ethereum and be transferred to other chains easily",
+              "content": "Using portals, GHO cannot be minted on Ethereum and be transferred to other chains easily",
               "key": "A"
             },
             {
-              "content": "The non-crypto native user base prefers stablecoins",
+              "content": "Penetration into L2 chains would be impossible",
               "key": "B"
             },
             {
-              "content": "The non-crypto native user base does not prefer stablecoins",
+              "content": "Penetration into L2 chains would be undesirable as they are loosing popularity amongst a vast majority of general users",
               "key": "C"
             },
             {
@@ -2427,12 +2425,11 @@
           "type": "MultipleChoice",
           "content": "Which of these contribute to the safety of GHO’s use?",
           "hint": "noHint",
-          "explanation": "It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly. It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets, these factors improve the security of GHO.",
+          "explanation": "It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly, these factors improve the security of GHO.",
           "answerKeys": [
             "A",
             "B",
-            "C",
-            "D"
+            "C"
           ],
           "subTopics": [
             "aave-gho"
@@ -2452,7 +2449,7 @@
               "key": "C"
             },
             {
-              "content": "It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets",
+              "content": "Only Aave can mint and burn GHO trustlessly",
               "key": "D"
             }
           ]
@@ -2499,7 +2496,7 @@
           "title": "AAVE GHO",
           "shortTitle": "AAVE GHO",
           "key": "aave-gho",
-          "details": "### **Introduction AAVE GHO**\n\n* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and native to the Aave Protocol.\n* Aave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.\n\n\n### **What is Stablecoin?**\n\n* Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. \n* The stablecoins are quite popular to the audience that is not crypto-native, helping to scale the technology up to a user base that is not used to it.\n\n\n### **Types of stablecoins:**\n\n**Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n**Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n**Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing.\n\n**Collateral-backed stablecoins -** These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets provided as collateral.\n\n### **How GHO would work:**\n\n* GHO is minted by borrowing it in an overcollateralized fashion and burnt when the borrow position is repaid\n* The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he used as collateral.\n* The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  \n* The DAO will be able to manage GHO’s native interest rate through a governance process. \n* Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\n* Facilitators are entities approved by Aave governance that can trustless mint and burn GHO tokens.\n* The facilitator will be able to apply their own generation strategies for minting GHO. \n* Each facilitator will be given a bucket value, signifying the upper limit of the amount of GHO a facilitator can generate.  \n* The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n#### **Cons:**\n\n**Collateral asset risk -** Centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets.\n\n#### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n"
+          "details": "### **Introduction AAVE GHO**\n\n* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and it is proposed by the Aave DAO.\n* Aave aims to provide users more variety and accessible to the a wider user base, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.\n\n\n### **What is Stablecoin?**\n\n* Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. \n* The stablecoins are quite popular to the audience that is not crypto-native, helping to scale the technology up to a user base that is not used to it.\n\n\n### **Types of stablecoins:**\n\n**Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n**Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n**Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing.\n\n**Collateral-backed stablecoins -** These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets provided as collateral.\n\n### **How GHO would work:**\n\n* GHO is minted by borrowing it in an overcollateralized fashion and burnt when the borrow position is repaid\n* The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he used as collateral.\n* The interest rate for GHO will be initially determined by Aave DAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  \n* The DAO will be able to manage GHO’s native interest rate through a governance process. \n* Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\n* Facilitators are entities approved by Aave governance that can trustless mint and burn GHO tokens.\n* The facilitator will be able to apply their own generation strategies for minting GHO. \n* Each facilitator will be given a bucket value, signifying the upper limit of the amount of GHO a facilitator can generate.  \n* The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n#### **Cons:**\n\n**Collateral asset risk -** Centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets.\n\n#### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n"
         }
       ]
     }
