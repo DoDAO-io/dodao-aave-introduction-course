@@ -289,7 +289,7 @@
       key: A
     - content: The rates determined by Aave DAO will be final and cannot be changed
       key: B
-    - content: It will be stable rate as opposed to variable rate, can be adapted to market conditions
+    - content: It will be stable rate, it can be changed 
       key: C
     - content: The rates can be altered based on the community and governance 
       key: D
