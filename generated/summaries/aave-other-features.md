@@ -176,4 +176,48 @@ When it comes to GHO,
 
 **Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.
  
+ **Applications that can be built on top of AAVE**        
+**NFT lending and borrowing -** 
+* When you buy NFTs the money that you invested in it is locked, it is not possible to gain interest on it or generate liquidity without selling in case need arises.
+* The user can offer their NFT as collateral to borrow assets or lend their NFT to generate liquidity, invest the loaned money somewhere else, and to gain interest on their lend position. 
+
+**Real world assets -** 
+* The user is able to loan assets against a tokenized form of the real estate, commodity or a possession they own. 
+* By fractionalizing the real world asset into multiple tokens, the user can decide what percent of the asset is to be used as collateral. 
+
+**Under collateralized borrowing -** 
+* Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem. 
+* Applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI could be used to provide under-collateralized loans. 
+
+**Liquidation strategies -** 
+* Applications that can allow the user to borrow from multiple pools in one borrow position can help with liquidity issues in the protocols.
+* This paves way for algorithms that allow users to get loans at the lowest premium possible.  
+* Applications providing strategies that benefit both the protocol and user by generating or safeguarding liquidity for the protocol whilst also providing value for the user can be developed.
+ 
+ **Applications that are built on top of AAVE**        
+
+Let us look at some of the exciting and innovative applications that have developed on top of AAVE.
+
+### Examples of Applications build on top of AAVE
+
+ ####**Mean finance:**
+ * DCA stands for Dollar Cost Average, it is an investing method adopted by users in order to minimize possible losses by investing a fixed amount of money in fixed periods of time. 
+ * Mean finance brings two yield related project one building on top of the other both using AAVE, first is a dollar-cost-averaging(DCA) product that deposits funds waiting to be swapped into investment token into AAVE to earn yield.
+ * Second is a product that rather that DCA-ing the initial investment DCA’s earned yield into a selected asset.
+ 
+ ####**Nomis:**
+ * Overcollateralized loans act as an obstacle towards DeFi's accessibility to mainstream audience. 
+ * This crypto protocol, based on a mathematical prediction model, use AI trained in hierarchical analysis to generate decentralized credit scores. 
+ * They offer users crypto loans on DeFi platforms with better terms (lower interest, less collateral) dependant on their generated credit score.
+ 
+ ####**Hashspace:**
+ * A game that integrates AAVE’s yield generation and Lens protocols social graph into a socialFi like game, helping users learn and discover more about the DeFi ecosystem in a fun way.
+ 
+ ####**Polypus:**
+ * Polypus is a lending protocol using NFTs as collateral offering good LTV and instant borrowing to the users. 
+ * The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration, When someone borrows, they just take the best offers in the order. 
+ * If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction.
+ * Unmatched liquidity providers will still earn a yield on AAVE.
+ 
+ 
  

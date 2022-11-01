@@ -395,5 +395,137 @@
       key: C
     - content: Only Aave can mint and burn GHO trustlessly
       key: D
-
-      
+- uuid: b717fe74-463c-4957-826c-ab19a718c865
+  type: SingleChoice
+  content: How can asset tokenization be used in lending and borrowing?
+  hint: noHint
+  explanation: By making use of assets as collateral to borrow and lending out the assets for interest
+  answerKeys:
+    - A
+  subTopics:
+    - aave-applications
+  difficultyLevel: "Medium"
+  choices:
+    - content: Real world assets can be made available as collateral in the DeFi ecosystem
+      key: A
+    - content: Real world assets cannot be tokenized and used as collateral
+      key: B
+    - content: Real world assets can only be used to as collateral 
+      key: C
+    - content: Real world assets can only be lent and not borrowed
+      key: D
+- uuid: b4472bbe-1d91-4af0-a180-c68a9994c812
+  type: SingleChoice
+  content: What could be the benefit of undercollateralized borrowing in DeFi?
+  hint: noHint
+  explanation: Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem, undercollateralized borrowing can help
+              to overcome this limitation.
+  answerKeys:
+    - C
+  subTopics:
+    - aave-applications
+  difficultyLevel: "Medium"
+  choices:
+    - content: Undercollateralized loans will help secure the lender's position
+      key: A
+    - content: Undercollateralized loans in DeFi are not beneficial
+      key: B
+    - content: It helps in making crypto loans more accessible to non crypto native user base 
+      key: C
+    - content: Undercollateralized loans will benefit borrowers who do not own any collateral
+      key: D
+- uuid: e870b988-fe1b-4565-a044-b2d0d6317d01
+  type: SingleChoice
+  content: What could be done to implement undercollateralized borrowing in DeFi?
+  hint: noHint
+  explanation: Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, 
+     or generate credit score of a user using AI which could allow the user to take undercollateralized loans. Since 
+     there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.
+  answerKeys:
+    - B
+  subTopics:
+    - aave-applications
+  difficultyLevel: "Medium"
+  choices:
+    - content: Development of predicting mathematical models based on statistical approaches
+      key: A
+    - content: Run checks based on carefully designed guidelines on the user's social profiles
+      key: B
+    - content: Use trained AIs to determine the credibility of user based on various factors
+      key: C
+    - content: Undercollateralized borrowing cannot be implemented in DeFi
+      key: D
+- uuid: 15c43f87-5c44-458f-b8f4-d9b12a97899e
+  type: MultipleChoice
+  content: What could be the use cases/effects of NFT lending and borrowing?
+  hint: noHint
+  explanation: The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - aave-applications
+  difficultyLevel: "Medium"
+  choices:
+    - content: Potentially contribute to price crashes and overall instability in the NFT market
+      key: A
+    - content: To generate liquidity
+      key: B
+    - content: To accrue interest by lending NFT
+      key: C
+    - content: Lending and borrowing of NFT does not have any use cases
+      key: D
+- uuid: 1dceeb6b6-7577-4afc-8c7d-27cc747833d8
+  type: SingleChoice
+  content: What happens in case of loan default in Polypus?
+  hint: noHint
+  explanation: The borrower's collateral is sold in a Dutch auction
+  answerKeys:
+    - C
+  subTopics:
+    - aave-applications-examples
+  difficultyLevel: "Low"
+  choices:
+    - content: Liquditators will buy the collateral at a discounted price in return for repaying the loan
+      key: A
+    - content: The borrower's collateral is sold in an English auction
+      key: B
+    - content: The borrower's collateral is sold in a Dutch auction
+      key: C
+    - content: The protocol takes back the given loan amount from the borrower
+      key: D
+- uuid: d639751c-5e7e-4242-88bb-161c6a1b5d62
+  type: SingleChoice
+  content: Unmatched suppliers do not get an interest in polypus (T/F)
+  hint: noHint
+  explanation: False, Unmatched liquidity providers will earn a yield on AAVE.
+  answerKeys:
+    - B
+  subTopics:
+    - aave-applications-examples
+  difficultyLevel: "Low"
+  choices:
+    - content: "True"
+      key: A
+    - content: "False"
+      key: B
+- uuid: c419d435-2265-48b7-ab92-6960cd89b138
+  type: SingleChoice
+  content: DCA is?
+  hint: noHint
+  explanation: DCA stands for Dollar Cost Average, it is an investing strategy. 
+  answerKeys:
+    - B
+  subTopics:
+    - aave-applications-examples
+  difficultyLevel: "Low"
+  choices:
+    - content: A DeFi protocol
+      key: A
+    - content: An investing strategy
+      key: B
+    - content: An application built on top of AAVE
+      key: C
+    - content: An alias for undercollateralized loans
+      key: D

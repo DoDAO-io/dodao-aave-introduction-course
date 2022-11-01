@@ -1,0 +1,27 @@
+- uuid: db925bec-8c34-44ae-b269-68a6fd9637bd
+  title: Flash loan introduction
+  shortTitle: Flash loan intro
+  type: YoutubeVideo
+  url: https://youtu.be/mCJUhnXQ76s
+  subTopics:
+    - flash-loans
+  details: |
+    This video enables learners to know about
+      * What a flash loan is
+      * How flash loans work    
+      * Use cases of flash loans
+
+- uuid: de3d5d14-690a-4a46-9111-cc52ed3120f0
+  title: AAVE GHO introduction 
+  shortTitle: AAVE GHO intro 
+  type: YoutubeVideo
+  url: https://youtu.be/oa2VcxsAIik
+  subTopics:
+    - aave-gho
+  details: |
+    This video enables learners to know about
+      * What GHO and how it works
+      * What are Facilitators, bucket size
+      * Interest rates of GHO
+      * Governance, and the use cases of GHOs
+

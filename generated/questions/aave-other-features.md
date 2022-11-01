@@ -311,3 +311,113 @@ Explanation: It is minted on Ethereum and supplied to other chains, since Ethere
 
 Sub Topics: aave-gho
  
+
+---
+
+##### How can asset tokenization be used in lending and borrowing?  
+
+- [x]  Real world assets can be made available as collateral in the DeFi ecosystem
+- [ ]  Real world assets cannot be tokenized and used as collateral
+- [ ]  Real world assets can only be used to as collateral
+- [ ]  Real world assets can only be lent and not borrowed
+  
+Hint: noHint
+         
+Explanation: By making use of assets as collateral to borrow and lending out the assets for interest
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be the benefit of undercollateralized borrowing in DeFi?  
+
+- [ ]  Undercollateralized loans will help secure the lender's position
+- [ ]  Undercollateralized loans in DeFi are not beneficial
+- [x]  It helps in making crypto loans more accessible to non crypto native user base
+- [ ]  Undercollateralized loans will benefit borrowers who do not own any collateral
+  
+Hint: noHint
+         
+Explanation: Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem, undercollateralized borrowing can help to overcome this limitation.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be done to implement undercollateralized borrowing in DeFi?  
+
+- [ ]  Development of predicting mathematical models based on statistical approaches
+- [x]  Run checks based on carefully designed guidelines on the user's social profiles
+- [ ]  Use trained AIs to determine the credibility of user based on various factors
+- [ ]  Undercollateralized borrowing cannot be implemented in DeFi
+  
+Hint: noHint
+         
+Explanation: Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI which could allow the user to take undercollateralized loans. Since there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be the use cases/effects of NFT lending and borrowing?  
+
+- [x]  Potentially contribute to price crashes and overall instability in the NFT market
+- [x]  To generate liquidity
+- [x]  To accrue interest by lending NFT
+- [ ]  Lending and borrowing of NFT does not have any use cases
+  
+Hint: noHint
+         
+Explanation: The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What happens in case of loan default in Polypus?  
+
+- [ ]  Liquditators will buy the collateral at a discounted price in return for repaying the loan
+- [ ]  The borrower's collateral is sold in an English auction
+- [x]  The borrower's collateral is sold in a Dutch auction
+- [ ]  The protocol takes back the given loan amount from the borrower
+  
+Hint: noHint
+         
+Explanation: The borrower's collateral is sold in a Dutch auction
+
+Sub Topics: aave-applications-examples
+ 
+
+---
+
+##### Unmatched suppliers do not get an interest in polypus (T/F)  
+
+- [ ]  True
+- [x]  False
+  
+Hint: noHint
+         
+Explanation: False, Unmatched liquidity providers will earn a yield on AAVE.
+
+Sub Topics: aave-applications-examples
+ 
+
+---
+
+##### DCA is?  
+
+- [ ]  A DeFi protocol
+- [x]  An investing strategy
+- [ ]  An application built on top of AAVE
+- [ ]  An alias for undercollateralized loans
+  
+Hint: noHint
+         
+Explanation: DCA stands for Dollar Cost Average, it is an investing strategy.
+
+Sub Topics: aave-applications-examples
+ 
