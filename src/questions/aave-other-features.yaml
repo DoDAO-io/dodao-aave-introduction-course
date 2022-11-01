@@ -390,7 +390,7 @@
       key: A
     - content: Real world assets cannot be tokenized and used as collateral
       key: B
-    - content: Real world assets can only be used to as collateral 
+    - content: Real world assets can only be used to represent NFTs. 
       key: C
     - content: Real world assets can only be lent and not borrowed
       key: D
