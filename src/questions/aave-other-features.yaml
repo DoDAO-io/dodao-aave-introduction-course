@@ -454,7 +454,7 @@
       key: B
     - content: To accrue interest by lending NFT
       key: C
-    - content: Lending and borrowing of NFT does not have any use cases
+    - content: Lending and borrowing of NFT is not possible
       key: D
 - uuid: 1dceeb6b6-7577-4afc-8c7d-27cc747833d8
   type: SingleChoice
