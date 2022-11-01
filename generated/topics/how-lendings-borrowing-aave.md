@@ -14,7 +14,7 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/intro-to-lending-borrowing.md)
+[Reading List](./../../generated/readings/how-lendings-borrowing-aave.md)
 
 [Summary](./../../generated/summaries/how-lendings-borrowing-aave.md)
 
