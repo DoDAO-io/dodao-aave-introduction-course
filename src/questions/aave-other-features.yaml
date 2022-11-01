@@ -386,7 +386,7 @@
     - aave-applications
   difficultyLevel: "Medium"
   choices:
-    - content: Real world assets can be made available as collateral in the DeFi ecosystem
+    - content: Real world assets can be lent and borrowed in parts on-chain in the DeFi ecosystem
       key: A
     - content: Real world assets cannot be tokenized and used as collateral
       key: B
