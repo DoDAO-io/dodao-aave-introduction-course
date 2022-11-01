@@ -415,7 +415,7 @@
     - content: Undercollateralized loans will not lead to any liquidation situations .
       key: D
 - uuid: e870b988-fe1b-4565-a044-b2d0d6317d01
-  type: SingleChoice
+  type: MultipleChoice
   content: What could be done to implement undercollateralized borrowing in DeFi?
   hint: noHint
   explanation: Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, 
@@ -423,6 +423,7 @@
      there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.
   answerKeys:
     - B
+    - C
   subTopics:
     - aave-applications
   difficultyLevel: "Medium"
@@ -441,14 +442,13 @@
   hint: noHint
   explanation: The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.
   answerKeys:
-    - A
     - B
     - C
   subTopics:
     - aave-applications
   difficultyLevel: "Medium"
   choices:
-    - content: Potentially contribute to price crashes and overall instability in the NFT market
+    - content: Lending NFT is possible but borrowing it is not
       key: A
     - content: To generate liquidity
       key: B
@@ -467,7 +467,7 @@
     - aave-applications-examples
   difficultyLevel: "Low"
   choices:
-    - content: Liquditators will buy the collateral at a discounted price in return for repaying the loan
+    - content: The borrower's collateral is sold at a discounted price on a first come, first served basis
       key: A
     - content: The borrower's collateral is sold in an English auction
       key: B

@@ -17,7 +17,7 @@
     {
       "title": "What is DeFi and Use Cases",
       "key": "what-is-defi",
-      "details": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases\n\nDetails\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
+      "details": "This chapter explains basics of DeFi, how it works, how its different from Traditional Finance, and its use cases\n\nDetails\n  * What is DeFi \n  * DeFi vs CeFi (Why we need DeFi)\n  * How Defi works\n  * Use cases of DeFi\n",
       "order": 0,
       "explanations": [
         {
@@ -1817,7 +1817,7 @@
     {
       "title": "Other Features of AAVE",
       "key": "lending-and-borrowing-in-defi",
-      "details": ".......\n\nDetails\n  * .....\n",
+      "details": "This chapter covers the other features of Aave that we haven't covered in the previous sections, flash loans, Aave portals, Aave GHO and other\napplications that are built on top of Aave.\n\nDetails\n  * Flash loans\n  * Aave portals\n  * Aave GHO\n  * Applications that could be built on top of Aave\n  * Examples of Applications built on top of Aave\n",
       "order": 3,
       "explanations": [
         {
@@ -2294,7 +2294,7 @@
               "key": "B"
             },
             {
-              "content": "It will be stable rate, it can be changed",
+              "content": "It will be stable rate but the rate can change based on market conditions.",
               "key": "C"
             },
             {
@@ -2401,38 +2401,6 @@
           ]
         },
         {
-          "uuid": "865bf61c-1cf6-494f-a537-74c8140031db",
-          "type": "SingleChoice",
-          "content": "Which of these are true regarding GHO’s adoption?",
-          "hint": "noHint",
-          "explanation": "Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins. Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "aave-gho"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Using portals, GHO cannot be minted on Ethereum and be transferred to other chains easily",
-              "key": "A"
-            },
-            {
-              "content": "Penetration into L2 chains would be impossible",
-              "key": "B"
-            },
-            {
-              "content": "Penetration into L2 chains would be undesirable as they are loosing popularity amongst a vast majority of general users",
-              "key": "C"
-            },
-            {
-              "content": "Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "5598e841-0111-4515-8600-9525469fe1e5",
           "type": "MultipleChoice",
           "content": "Which of these contribute to the safety of GHO’s use?",
@@ -2481,7 +2449,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Real world assets can be made available as collateral in the DeFi ecosystem",
+              "content": "Real world assets can be lent and borrowed in parts on-chain in the DeFi ecosystem",
               "key": "A"
             },
             {
@@ -2489,7 +2457,7 @@
               "key": "B"
             },
             {
-              "content": "Real world assets can only be used to as collateral",
+              "content": "Real world assets can only be used to represent NFTs.",
               "key": "C"
             },
             {
@@ -2517,27 +2485,28 @@
               "key": "A"
             },
             {
-              "content": "Undercollateralized loans in DeFi are not beneficial",
+              "content": "Undercollateralized loans in DeFi are not possible",
               "key": "B"
             },
             {
-              "content": "It helps in making crypto loans more accessible to non crypto native user base",
+              "content": "It helps in making crypto loans more accessible to everyone",
               "key": "C"
             },
             {
-              "content": "Undercollateralized loans will benefit borrowers who do not own any collateral",
+              "content": "Undercollateralized loans will not lead to any liquidation situations .",
               "key": "D"
             }
           ]
         },
         {
           "uuid": "e870b988-fe1b-4565-a044-b2d0d6317d01",
-          "type": "SingleChoice",
+          "type": "MultipleChoice",
           "content": "What could be done to implement undercollateralized borrowing in DeFi?",
           "hint": "noHint",
           "explanation": "Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI which could allow the user to take undercollateralized loans. Since there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.",
           "answerKeys": [
-            "B"
+            "B",
+            "C"
           ],
           "subTopics": [
             "aave-applications"
@@ -2569,7 +2538,6 @@
           "hint": "noHint",
           "explanation": "The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.",
           "answerKeys": [
-            "A",
             "B",
             "C"
           ],
@@ -2579,7 +2547,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Potentially contribute to price crashes and overall instability in the NFT market",
+              "content": "Lending NFT is possible but borrowing it is not",
               "key": "A"
             },
             {
@@ -2591,7 +2559,7 @@
               "key": "C"
             },
             {
-              "content": "Lending and borrowing of NFT does not have any use cases",
+              "content": "Lending and borrowing of NFT is not possible",
               "key": "D"
             }
           ]
@@ -2611,7 +2579,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Liquditators will buy the collateral at a discounted price in return for repaying the loan",
+              "content": "The borrower's collateral is sold at a discounted price on a first come, first served basis",
               "key": "A"
             },
             {
@@ -2687,26 +2655,26 @@
       ],
       "readings": [
         {
-          "uuid": "13665e38-97ee-4dd1-88f1-896382eb8eb9",
-          "title": "Introduction to lending and borowing in crypto",
-          "shortTitle": "lending and borowing",
+          "uuid": "db925bec-8c34-44ae-b269-68a6fd9637bd",
+          "title": "Flash loan introduction",
+          "shortTitle": "Flash loan intro",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=SrArEE6p3zM",
+          "url": "https://www.youtube.com/watch?v=mCJUhnXQ76s",
           "subTopics": [
-            "why-do-we-lending-borrowing"
+            "flash-loans"
           ],
-          "details": "This video enables learners to know about\n  * Lending and borowing in crypto\n  * Centralized and  decentralized lending and borowing \n  * Working of lending and borrowing in crypto\n  * Risks in Lending and Borrowing in crypto\n"
+          "details": "This video enables learners to know about\n  * What a flash loan is\n  * How flash loans work    \n  * Use cases of flash loans\n"
         },
         {
-          "uuid": "7a36ecdd-bfdc-4564-b37f-316ef9a6e455",
-          "title": "Lending and borrowing in DeFi",
-          "shortTitle": "Lending and borrowing in DeFi",
+          "uuid": "de3d5d14-690a-4a46-9111-cc52ed3120f0",
+          "title": "AAVE GHO introduction",
+          "shortTitle": "AAVE GHO intro",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=aTp9er6S73M",
+          "url": "https://www.youtube.com/watch?v=oa2VcxsAIik",
           "subTopics": [
-            "lending-borrowing-DeFi"
+            "aave-gho"
           ],
-          "details": "This video enables learners to know about\n  * Working of lending and borrowing in DeFi's\n  * Core concepts of lending and borrowing in Aave and Compound\n  * Determination of interest rates and other features in Aave\n  * Risks involved in DeFi\n"
+          "details": "This video enables learners to know about\n  * What GHO and how it works\n  * What are Facilitators, bucket size\n  * Interest rates of GHO\n  * Governance, and the use cases of GHOs\n"
         }
       ],
       "summaries": [

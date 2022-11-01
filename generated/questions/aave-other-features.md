@@ -222,7 +222,7 @@ Sub Topics: aave-gho
 
 - [x]  It will be set by the Aave DAO initially
 - [ ]  The rates determined by Aave DAO will be final and cannot be changed
-- [x]  It will be stable rate, it can be changed
+- [x]  It will be stable rate but the rate can change based on market conditions.
 - [x]  The rates can be altered based on the community and governance
   
 Hint: noHint
@@ -282,22 +282,6 @@ Sub Topics: aave-gho
 
 ---
 
-##### Which of these are true regarding GHO’s adoption?  
-
-- [ ]  Using portals, GHO cannot be minted on Ethereum and be transferred to other chains easily
-- [ ]  Penetration into L2 chains would be impossible
-- [ ]  Penetration into L2 chains would be undesirable as they are loosing popularity amongst a vast majority of general users
-- [x]  Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
-  
-Hint: noHint
-         
-Explanation: Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins. Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users.
-
-Sub Topics: aave-gho
- 
-
----
-
 ##### Which of these contribute to the safety of GHO’s use?  
 
 - [x]  A supply borrow cap can be levied to further improve its security
@@ -316,9 +300,9 @@ Sub Topics: aave-gho
 
 ##### How can asset tokenization be used in lending and borrowing?  
 
-- [x]  Real world assets can be made available as collateral in the DeFi ecosystem
+- [x]  Real world assets can be lent and borrowed in parts on-chain in the DeFi ecosystem
 - [ ]  Real world assets cannot be tokenized and used as collateral
-- [ ]  Real world assets can only be used to as collateral
+- [ ]  Real world assets can only be used to represent NFTs.
 - [ ]  Real world assets can only be lent and not borrowed
   
 Hint: noHint
@@ -333,9 +317,9 @@ Sub Topics: aave-applications
 ##### What could be the benefit of undercollateralized borrowing in DeFi?  
 
 - [ ]  Undercollateralized loans will help secure the lender's position
-- [ ]  Undercollateralized loans in DeFi are not beneficial
-- [x]  It helps in making crypto loans more accessible to non crypto native user base
-- [ ]  Undercollateralized loans will benefit borrowers who do not own any collateral
+- [ ]  Undercollateralized loans in DeFi are not possible
+- [x]  It helps in making crypto loans more accessible to everyone
+- [ ]  Undercollateralized loans will not lead to any liquidation situations .
   
 Hint: noHint
          
@@ -350,7 +334,7 @@ Sub Topics: aave-applications
 
 - [ ]  Development of predicting mathematical models based on statistical approaches
 - [x]  Run checks based on carefully designed guidelines on the user's social profiles
-- [ ]  Use trained AIs to determine the credibility of user based on various factors
+- [x]  Use trained AIs to determine the credibility of user based on various factors
 - [ ]  Undercollateralized borrowing cannot be implemented in DeFi
   
 Hint: noHint
@@ -364,10 +348,10 @@ Sub Topics: aave-applications
 
 ##### What could be the use cases/effects of NFT lending and borrowing?  
 
-- [x]  Potentially contribute to price crashes and overall instability in the NFT market
+- [ ]  Lending NFT is possible but borrowing it is not
 - [x]  To generate liquidity
 - [x]  To accrue interest by lending NFT
-- [ ]  Lending and borrowing of NFT does not have any use cases
+- [ ]  Lending and borrowing of NFT is not possible
   
 Hint: noHint
          
@@ -380,7 +364,7 @@ Sub Topics: aave-applications
 
 ##### What happens in case of loan default in Polypus?  
 
-- [ ]  Liquditators will buy the collateral at a discounted price in return for repaying the loan
+- [ ]  The borrower's collateral is sold at a discounted price on a first come, first served basis
 - [ ]  The borrower's collateral is sold in an English auction
 - [x]  The borrower's collateral is sold in a Dutch auction
 - [ ]  The protocol takes back the given loan amount from the borrower
