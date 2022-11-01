@@ -408,7 +408,7 @@
   choices:
     - content: Undercollateralized loans will help secure the lender's position
       key: A
-    - content: Undercollateralized loans in DeFi are not beneficial
+    - content: Undercollateralized loans in DeFi are not possible
       key: B
     - content: It helps in making crypto loans more accessible to everyone 
       key: C
