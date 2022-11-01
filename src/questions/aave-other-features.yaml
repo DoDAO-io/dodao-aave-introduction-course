@@ -412,7 +412,7 @@
       key: B
     - content: It helps in making crypto loans more accessible to everyone 
       key: C
-    - content: Undercollateralized loans will benefit borrowers who do not own any collateral
+    - content: Undercollateralized loans will further protect the lender from any default(liquidation) situations .
       key: D
 - uuid: e870b988-fe1b-4565-a044-b2d0d6317d01
   type: SingleChoice
