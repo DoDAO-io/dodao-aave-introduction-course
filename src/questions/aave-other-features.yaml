@@ -353,26 +353,6 @@
     - content: A collateral-backed stablecoin, it is centralized and pegged to the value of gold in the US
       key: D
 
-- uuid: 865bf61c-1cf6-494f-a537-74c8140031db
-  type: SingleChoice
-  content: Which of these are true regarding GHO’s adoption?
-  hint: noHint
-  explanation: Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins.
-   Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users. 
-  answerKeys:
-    - D
-  subTopics:
-    - aave-gho
-  difficultyLevel: "Medium"
-  choices:
-    - content: Using portals, GHO cannot be minted on Ethereum and be transferred to other chains easily
-      key: A
-    - content: Penetration into L2 chains would be impossible
-      key: B
-    - content: Penetration into L2 chains would be undesirable as they are loosing popularity amongst a vast majority of general users
-      key: C
-    - content: Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users
-      key: D
 - uuid: 5598e841-0111-4515-8600-9525469fe1e5
   type: MultipleChoice
   content: Which of these contribute to the safety of GHO’s use?
