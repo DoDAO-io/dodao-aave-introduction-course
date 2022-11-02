@@ -17,7 +17,7 @@
     {
       "title": "What is DeFi and Use Cases",
       "key": "what-is-defi",
-      "details": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases\n\nDetails\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
+      "details": "This chapter explains basics of DeFi, how it works, how its different from Traditional Finance, and its use cases\n\nDetails\n  * What is DeFi \n  * DeFi vs CeFi (Why we need DeFi)\n  * How Defi works\n  * Use cases of DeFi\n",
       "order": 0,
       "explanations": [
         {
@@ -2185,7 +2185,7 @@
     {
       "title": "Other Features of AAVE",
       "key": "lending-and-borrowing-in-defi",
-      "details": ".......\n\nDetails\n  * .....\n",
+      "details": "This chapter covers the other features of Aave that we haven't covered in the previous sections, flash loans, Aave portals, Aave GHO and other\napplications that are built on top of Aave.\n\nDetails\n  * Flash loans\n  * Aave portals\n  * Aave GHO\n  * Applications that could be built on top of Aave\n  * Examples of Applications built on top of Aave\n",
       "order": 3,
       "explanations": [
         {
@@ -2198,13 +2198,25 @@
           "title": "AAVE Portals",
           "shortTitle": "AAVE Portals",
           "key": "aave-portals",
-          "details": "### **Layer 2 blockchains**\nIn 2020, we had seen a lot of people using Ethereum, and transaction requests increased. However, Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.\nOn Ethereum mainnet, transactions can be slow and difficult. So we need an alternative that can improve these issues without compromising decentralization and security.\nLayer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain. \n\n\n### **What are Blockchain Bridges and Why do we use them?** \nBridges in crypto act as a connection between two different blockchains. This connection is important because, without a bridge, blockchains would be isolated from each other.\nHowever, with a bridge between two blockchains it becomes possible to transfer assets and arbitrary data between them. Thus, blockchain bridges promote the interoperability in the crypto ecosystem and are necessary to make different blockchain networks compatible.\n   \n   * **Disadvantages of bridges:**\n   * **Smart contract risks:**\n   This can happen in both trusted and trustless bridge contracts. Bugs in the smart contract can lead it to be hacked and cause loss.\n   \n   * **Systematic financial risks:**\n   The majority of bridges use wrapped assets to mint canonical versions of original assets in the new chain. However, this exposes the bridge to systematic risk of the wrapped asset being exploited.\n   \n   * **Trust issues:**\n   Bridges use third-party for the transfer of assets, this will require the users to put trust on the validator to not engage in activities detrimental to the users, like rag pulling.\n   \n   * **Nascent stage:**\n   It is still unclear how bridges will work in various market conditions.\n\n   * **Complexity:**\n   Complexity is another big issue as the user needs to know the various steps needed to transfer the assets. These steps are often not standard and varies from one bridge to another which acts as cause for confusion\n   for users.\n\n\n\n### **Aave portals and how it simplifies things**\nNow let us look at how Aave portals provide solutions to the problems posed by Bridges.\n\nThe Portal's feature on Aave allows for tokenized assets to flow frictionlessly between markets on different networks. Aave allows for certain whitelisted entities or specific bridges to 'burn' aTokens in the source network and instantly \nmint them on the destination network. The actual underlying assets are then transferred to the destination network at a later time by being passed to the pool after it has been moved through the bridge.. The assets are transferred to the Aave \npool on the destination chain after the burning and minting of aTokens.\n\nPortals are only authorized for approved bridges by Aave Governance, with transactions being completed through secure smart contracts. This system is quick and easy to use, helping users overcome the difficulties they may experience with current \nbridging protocols - like liquidity fragmentation and non-optimal bridging experience. By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a more seamless experience for users, greatly improving the overall user experience.\nMany people will be attracted to the Aave portal because of its features, which will in turn increase the amount of capital in Aave markets. Portals act as gateways for alternate Ethereum chains (Evm L1), which \nare often connected to slow-moving centralized exchanges (CeFis). This can complicate onboarding new users, as it can be costly and difficult to reach alternatives. Portals reduce these difficulties by providing security and fast \ntransactions, making alt Evm L1 chains attractive and easier to access.\n\n\n### **How portals work**\nIn order to bridge assets from one chain to another, the user first submits a bridge transaction to a verified bridging protocol (such as Connext). As soon as the transaction is mined, the user has access to the funds on the destination chain. \nBehind the scenes, the bridging protocol mints unbacked aTokens on the destination chain to the intermediate contract, and in turn withdraws and transfers the underlying asset to the user immediately. The bridge contract on L2 then supplies the \nunderlying asset and fee to the Aave pool to back the previously minted unbacked aTokens. The \"bridge\" is used to store assets supplied by multiple users in a pool, and then to batch them together. The \"hop\" will use tokens to withdraw the assets \nfrom the pool, and then use its own bridging protocol to transfer the assets from the original to destination chain. The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using Aave v3 portals. \nThis is how portals enable seamless transactions between markets in different networks. Also, the bridges are approved, and assets are transferred under smart contracts Hence the transactions are secure.\n\n(Note: Only approved bridges use this portal feature, so there is no risk of withdrawing funds from Aave v3. Also, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets. There are no \nother core protocols for directly using Aave portals from the user end.) \n"
+          "details": "### **Layer 2 blockchains**\nIn 2020, we had seen a lot of people using Ethereum, and transaction requests increased. However, Ethereum can only handle 30 transactions per second. This limitation caused gas prices to hike and transactions to become expensive.\nOn Ethereum mainnet, transactions can be slow and difficult. So we need an alternative that can improve these issues without compromising decentralization and security.\nLayer 2 chains offer an alternative to the high transaction costs and slow speeds of Ethereum blockchain. The main reason Layer 2 blockchains exist is to increase the scalability of the blockchain. \n\n\n### **What are Blockchain Bridges and Why do we use them?** \nBridges in crypto act as a connection between two different blockchains. This connection is important because, without a bridge, blockchains would be isolated from each other.\nHowever, with a bridge between two blockchains it becomes possible to transfer assets and arbitrary data between them. Thus, blockchain bridges promote the interoperability in the crypto ecosystem and are necessary to make different blockchain networks compatible.\n   \n   * **Disadvantages of bridges:**\n   * **Smart contract risks:**\n   This can happen in both trusted and trustless bridge contracts. Bugs in the smart contract can lead it to be hacked and cause loss.\n   \n   * **Systematic financial risks:**\n   The majority of bridges use wrapped assets to mint canonical versions of original assets in the new chain. However, this exposes the bridge to systematic risk of the wrapped asset being exploited.\n   \n   * **Trust issues:**\n   Bridges use third-party for the transfer of assets, this will require the users to put trust on the validator to not engage in activities detrimental to the users, like rag pulling.\n   \n   * **Nascent stage:**\n   It is still unclear how bridges will work in various market conditions.\n\n   * **Complexity:**\n   Complexity is another big issue as the user needs to know the various steps needed to transfer the assets. These steps are often not standard and varies from one bridge to another which acts as cause for confusion\n   for users.\n\n\n\n### **AAVE portals and how it simplifies things**\nNow let us look at how AAVE portals provide solutions to the problems posed by Bridges.\n\nThe Portal's feature on AAVE allows for tokenized assets to flow frictionlessly between markets on different networks. AAVE allows for certain whitelisted entities or specific bridges to 'burn' aTokens in the source network and instantly \nmint them on the destination network. The actual underlying assets are then transferred to the destination network at a later time by being passed to the pool after it has been moved through the bridge.. The assets are transferred to the AAVE \npool on the destination chain after the burning and minting of aTokens.\n\nPortals are only authorized for approved bridges by AAVE Governance, with transactions being completed through secure smart contracts. This system is quick and easy to use, helping users overcome the difficulties they may experience with current \nbridging protocols - like liquidity fragmentation and non-optimal bridging experience. By reducing liquidity limitations of l2-l2 bridges, the portal will allow for a more seamless experience for users, greatly improving the overall user experience.\nMany people will be attracted to the AAVE portal because of its features, which will in turn increase the amount of capital in AAVE markets. Portals act as gateways for alternate Ethereum chains (Evm L1), which \nare often connected to slow-moving centralized exchanges (CeFis). This can complicate onboarding new users, as it can be costly and difficult to reach alternatives. Portals reduce these difficulties by providing security and fast \ntransactions, making alt Evm L1 chains attractive and easier to access.\n\n\n### **How portals work**\nIn order to bridge assets from one chain to another, the user first submits a bridge transaction to a verified bridging protocol (such as Connext). As soon as the transaction is mined, the user has access to the funds on the destination chain. \nBehind the scenes, the bridging protocol mints unbacked aTokens on the destination chain to the intermediate contract, and in turn withdraws and transfers the underlying asset to the user immediately. The bridge contract on L2 then supplies the \nunderlying asset and fee to the AAVE pool to back the previously minted unbacked aTokens. The \"bridge\" is used to store assets supplied by multiple users in a pool, and then to batch them together. The \"hop\" will use tokens to withdraw the assets \nfrom the pool, and then use its own bridging protocol to transfer the assets from the original to destination chain. The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using AAVE v3 portals. \nThis is how portals enable seamless transactions between markets in different networks. Also, the bridges are approved, and assets are transferred under smart contracts Hence the transactions are secure.\n\n(Note: Only approved bridges use this portal feature, so there is no risk of withdrawing funds from AAVE v3. Also, AAVE portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets. There are no \nother core protocols for directly using AAVE portals from the user end.) \n"
         },
         {
           "title": "AAVE GHO",
           "shortTitle": "AAVE GHO",
           "key": "aave-gho",
-          "details": "### **Introduction AAVE GHO**\n\nAave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed and native to the Aave Protocol.\nGHO is a proposal to the Aave DAO for the introduction of a native decentralized, collateral-backed stablecoin, GHO, which will be pegged to USD.\nAave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO \nwith the introduction of their own stablecoin, GHO. Before jumping into what GHO is, let us get a basic introduction of stablecoins\n\n### **What is Stablecoin?**\n\nStable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. The stablecoins are quite popular to the audience that is not crypto-native. \nThey help in furthering the technology by being attractive to a user base that is not tech-savvy.\n\n\n    #### **Types of stablecoins:**\n\n    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. \n                                  Instead, the value of a second token serves as collateral for the stablecoin.\n\n\n    **Collateral-backed stablecoins -** Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.\n\n### **How GHO would work:**\n\nLike with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. The minting process of GHO is different from that of USDC, where the user can mint one USDC with one dollar. GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like \ntraditional borrowing in Aave because the borrowed asset in this case (GHO) is minted on borrowing. The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. When the user borrows, \nGHO is minted and when the borrow position is repaid, GHO is burnt. The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions. With the introduction of GHO, the DAO will be able to manage GHO’s native interest rate through a governance process, \nwhich will be outlined in a future proposal. This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. The stable rate levied on GHO will provide certainty for the borrowers which is seen as synonymous with stablecoins. Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be \ndeployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\nWith GHO, Aave introduces the concept of facilitators. Facilitators are entities that can trustless mint and burn GHO tokens. The facilitators have to be approved by Aave governance. Once approved, the facilitator will be able to apply different generation strategies for minting GHO. \nEach facilitator will also be given a “bucket” value. Bucket is a term made up by AaveDAO to specify the upper limit of the amount of GHO a facilitator can generate.  Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid \nmisuse of the asset. The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n#### **Cons:**\n\n**Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. \n\n#### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n"
+          "details": "### **Introduction AAVE GHO**\n\nAAVE has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed. \nA proposal has been made by the AAVE DAO for the introduction of a native decentralized, collateral-backed stablecoin, GHO, which will be pegged to USD.\nAAVE aims to provide users more variety and accessible to a wider user base, to make the AAVE stablecoin market more competitive and to generate more revenue for the DAO \nwith the introduction of their own stablecoin, GHO. Before jumping into what GHO is, let us get a basic introduction of stablecoins\n\n### **What is Stablecoin?**\n\nStable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. The stablecoins are quite popular to the audience that is not crypto-native. \nThey help in furthering the technology by being attractive to a user base that is afraid of volatility or about getting started in the crypto world.\n\n\n    #### **Types of stablecoins:**\n\n    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. \n                                  Instead, the value of a second token serves as collateral for the stablecoin.\n\n\n    **Collateral-backed stablecoins -** Since trustless systems and decentralization are the foundations of the crypto ecosystem, stablecoin protocols that are not controlled by a central entity had to be developed. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.\n\n### **How GHO would work:**\n\nLike with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. The minting process of GHO is different from that of USDC, where the user can mint one USDC with one dollar. GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like \ntraditional borrowing in AAVE because the borrowed asset in this case (GHO) is minted on borrowing. The borrowing follows the same principle as borrowing in AAVE, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. When the user borrows, \nGHO is minted and when the borrow position is repaid, GHO is burnt. The interest rate for GHO will be initially determined by AAVE Dao, it will be a stable interest rate which can be adapted according to market conditions. With the introduction of GHO, the DAO will be able to manage GHO’s native interest rate through a governance process, \nwhich will be outlined in a future proposal. This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. The stable rate levied on GHO will provide certainty for the borrowers which is seen as synonymous with stablecoins. Like other assets listed on the AAVE protocol, an aToken and debt token for GHO will be \ndeployed on the protocol and be registered on the Ethereum market once GHO is integrated to AAVE protocol.\n\n### **Facilitators:**\n\nWith GHO, AAVE introduces the concept of facilitators. Facilitators are entities that can trustless mint and burn GHO tokens. The facilitators have to be approved by AAVE governance. Once approved, the facilitator will be able to apply different generation strategies for minting GHO. \nEach facilitator will also be given a “bucket” value. Bucket is a term made up by AAVE Dao to specify the upper limit of the amount of GHO a facilitator can generate.  Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid \nmisuse of the asset. The first facilitator will be the AAVE market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n  #### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** AAVE DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  AAVE protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to AAVE.\n\n\n#### **Cons:**\n\n**Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. \n"
+        },
+        {
+          "title": "Applications that can be built on top of AAVE",
+          "shortTitle": "Application ideas",
+          "key": "aave-applications",
+          "details": "Let us take a look at some of the possible ideas for applications that can be build on top of AAVE's lending and borrowing.\n\n### Other Application that can be done on top of Lending and Borrowing\n\n**NFT lending and borrowing -** NFTs are gaining a lot of popularity among a non crypto native audience. Developers can and have already taken advantage of this scenario to bring them into the crypto ecosystem by creating applications that employ basic borrowing and lending with NFTs. When you buy NFTs the money \n that you invested in it is locked, when it could be gaining interest in some investment, or it could be possible that the user needs liquidity. In these cases, the user can offer their NFT as collateral to borrow assets. Lending NFTs is also an option in case the borrower wants to overcollateralize and borrow the NFT, \n sell it if there is a possibility of profit, buy it or pay back the loan and get back collateral in case the NFTs value does not appreciate, given the lender accepts the terms and conditions that would be needed for such a system. \n\n**Real world assets -** The combination of asset tokenization and DeFi lending and borrowing could result in some interesting applications where the user is able to loan assets against a tokenized form of the real estate, commodity or a possession they own. By fractionalizing the real world asset into multiple tokens, \n the user can also decide what percent of it is to be used as collateral. Real world assets can also be borrowed, gaining the interest (example, rent) that the asset token can accrue and the paying interest for borrowing the real world asset token. \n\n**Under collateralized borrowing -** Overcollateralization is a great system but it acts as an obstacle that limits participation of the non crypto native user base from entering the DeFi ecosystem. We could come up with applications that verify a user’s credibility by running checks on linkedin, and other social profiles, \n or generate credit score of a user using AI which could allow the user to take undercollateralized loans. \n\n**Liquidation strategies -** Applications that can allow the user to borrow from multiple pools in one borrow position can help with liquidity issues in the protocols while also providing the user with the lowest premium possible.  Other applications that come up with strategies that benefit both the protocol and user by \n generating or safeguarding  liquidity for the protocol whilst also providing value for the user can be developed.\n"
+        },
+        {
+          "title": "Applications that are built on top of AAVE",
+          "shortTitle": "Application examples",
+          "key": "aave-applications-examples",
+          "details": "\nLet us look at some of the exciting and innovative applications that have developed on top of AAVE.\n\n### Examples of Applications build on top of AAVE\n\n ####**Mean finance:**\n DCA stands for dollar cost average, it is an investing method adopted by users in order to minimize possible losses by investing a fixed amount of money in fixed periods of time, this way losses are compensated with the profits made from investing in another time. Mean finance brings two yield related project one building on \n top of the other both using AAVE, first is a dollar-cost-averaging(DCA) product that deposits funds waiting to be swapped into investment token into AAVE to earn yield, second is a product that rather that DCA-ing the initial investment DCA’s earned yield into a selected asset.\n \n ####**Nomis:**\n The lack of undercollateralized in DeFi is something that keeps a lot of users from using it, it acts as an obstacle towards scaling DeFi to mainstream audience. This crypto protocol, based on a mathematical prediction model and AI that generates decentralized credit scores. They use AI trained in hierarchical analysis, since \n there is a lack of past data of the crypto loan defaults for the development of predicting mathematical models based on statistical approaches. They offer users crypto loans on DeFi platforms with better terms (lower interest, less collateral) dependant on their generated credit score.\n \n ####**Hashspace:**\n A game that integrates AAVE’s yield generation and Lens protocols social graph into a socialFi like game. A DeFi product discovery game that makes it fun for players to learn and test out new DeFi products, solutions and protocols.\n \n ####**Polypus:**\n Polypus is a lending protocol using NFTs as collateral differentiating itself from the competition by offering better LTV and instant borrowing. The suppliers have to choose the LTV they are comfortable with. The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration. When someone borrows, \n they just take the best offers in the order. If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction. The last part of our borrower-friendly experience is that borrowers enjoy a fixed interest rate. Suppliers only get interest if their offer was good enough to be automatically taken. Unmatched liquidity \n providers will earn a yield on AAVE.\n \n"
         }
       ],
       "questions": [
@@ -2467,7 +2479,7 @@
           "type": "MultipleChoice",
           "content": "How are aave portals beneficial to the DeFi/ Blockchain ecosystem?",
           "hint": "noHint",
-          "explanation": "Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions.",
+          "explanation": "Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Provides user with multiple blockchain options to invest their assets in, thus providing an opportunity to increase the usership of alternate layer 1 blockchains. Helps increase the user experience of the blockchain network by providing liquidity transfer to layer 2 blockchains which provide fast and scalable solutions to their issues related to transactions.",
           "answerKeys": [
             "B",
             "C",
@@ -2487,11 +2499,11 @@
               "key": "B"
             },
             {
-              "content": "Helps increase usership of EVM Layer 1 chains",
+              "content": "Helps users transfer their assets to other layer 1 blockchains, providing an opportunity to increase the usership of alternate layer 1 chains",
               "key": "C"
             },
             {
-              "content": "Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions",
+              "content": "Helps increase the user experience of the blockchain network by providing a way transfer assets to layer 2 blockchains which have better transaction speed and lesser transaction fees.",
               "key": "D"
             }
           ]
@@ -2595,7 +2607,7 @@
         {
           "uuid": "c09b82e3-fe01-4d4c-b377-f2ac02a463f5",
           "type": "MultipleChoice",
-          "content": "Which of these changes would be made in Aave after GHO’s integration with Aave protocol?",
+          "content": "Which of these enhancements/changes would be made in Aave after GHO’s integration with Aave protocol?",
           "hint": "noHint",
           "explanation": "aTokens and debt tokens will be minted for GHO, Aave market on Ethereum would become the first facilitator, GHO will be borrowed at a stable rate determined by the DAO.",
           "answerKeys": [
@@ -2630,7 +2642,7 @@
           "type": "MultipleChoice",
           "content": "Which of these statements about GHO’s interest rate is accurate?",
           "hint": "noHint",
-          "explanation": "Interest rate will be set by the AaveDAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance",
+          "explanation": "Interest rate will be set by the Aave DAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance",
           "answerKeys": [
             "A",
             "C",
@@ -2642,15 +2654,15 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "It will be set by the AaveDAO initially",
+              "content": "It will be set by the Aave DAO initially",
               "key": "A"
             },
             {
-              "content": "The rates determined by AaveDAO will be final and cannot be changed",
+              "content": "The rates determined by Aave DAO will be final and cannot be changed",
               "key": "B"
             },
             {
-              "content": "It will be stable rate as opposed to variable rate, can be adapted to market conditions",
+              "content": "It will be stable rate but the rate can change based on market conditions.",
               "key": "C"
             },
             {
@@ -2739,53 +2751,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A collateral-backed stablecoin native to Aave, it is centralized and collateral backed pegged to USD",
+              "content": "A collateral-backed stablecoin, it is centralized and collateral backed pegged to USD",
               "key": "A"
             },
             {
-              "content": "A fiat-backed stablecoin native to Aave, it is decentralized and pegged to USD",
+              "content": "A fiat-backed stablecoin, it is decentralized and pegged to USD",
               "key": "B"
             },
             {
-              "content": "A collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD",
+              "content": "A collateral-backed stablecoin, it is decentralized and pegged to USD",
               "key": "C"
             },
             {
-              "content": "A collateral-backed stablecoin, not native to Aave, it is centralized and pegged to USD",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "865bf61c-1cf6-494f-a537-74c8140031db",
-          "type": "MultipleChoice",
-          "content": "Which of these are true regarding GHO’s scalability?",
-          "hint": "noHint",
-          "explanation": "Using portals, GHO can be minted on Ethereum and be transferred to other chains easily. The non-crypto native user base prefers stablecoins. Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users.",
-          "answerKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "subTopics": [
-            "aave-gho"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Using portals, GHO can be minted on Ethereum and be transferred to other chains easily",
-              "key": "A"
-            },
-            {
-              "content": "The non-crypto native user base prefers stablecoins",
-              "key": "B"
-            },
-            {
-              "content": "The non-crypto native user base does not prefer stablecoins",
-              "key": "C"
-            },
-            {
-              "content": "Penetration into L2 chains would be desirable as they are gaining popularity amongst a vast majority of general users",
+              "content": "A collateral-backed stablecoin, it is centralized and pegged to the value of gold in the US",
               "key": "D"
             }
           ]
@@ -2795,12 +2773,11 @@
           "type": "MultipleChoice",
           "content": "Which of these contribute to the safety of GHO’s use?",
           "hint": "noHint",
-          "explanation": "It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly. It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets, these factors improve the security of GHO.",
+          "explanation": "It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly, these factors improve the security of GHO.",
           "answerKeys": [
             "A",
             "B",
-            "C",
-            "D"
+            "C"
           ],
           "subTopics": [
             "aave-gho"
@@ -2820,7 +2797,225 @@
               "key": "C"
             },
             {
-              "content": "It is a stablecoin, and it has a stable interest rate which makes it relatively more predictable than usual crypto assets",
+              "content": "Only Aave can mint and burn GHO trustlessly",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b717fe74-463c-4957-826c-ab19a718c865",
+          "type": "SingleChoice",
+          "content": "How can asset tokenization be used in lending and borrowing?",
+          "hint": "noHint",
+          "explanation": "By making use of assets as collateral to borrow and lending out the assets for interest",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "aave-applications"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Real world assets can be lent and borrowed in parts on-chain in the DeFi ecosystem",
+              "key": "A"
+            },
+            {
+              "content": "Real world assets cannot be tokenized and used as collateral",
+              "key": "B"
+            },
+            {
+              "content": "Real world assets can only be used to represent NFTs.",
+              "key": "C"
+            },
+            {
+              "content": "Real world assets can only be lent and not borrowed",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b4472bbe-1d91-4af0-a180-c68a9994c812",
+          "type": "SingleChoice",
+          "content": "What could be the benefit of undercollateralized borrowing in DeFi?",
+          "hint": "noHint",
+          "explanation": "Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem, undercollateralized borrowing can help to overcome this limitation.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "aave-applications"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Undercollateralized loans will help secure the lender's position",
+              "key": "A"
+            },
+            {
+              "content": "Undercollateralized loans in DeFi are not possible",
+              "key": "B"
+            },
+            {
+              "content": "It helps in making crypto loans more accessible to everyone",
+              "key": "C"
+            },
+            {
+              "content": "Undercollateralized loans will not lead to any liquidation situations .",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e870b988-fe1b-4565-a044-b2d0d6317d01",
+          "type": "MultipleChoice",
+          "content": "What could be done to implement undercollateralized borrowing in DeFi?",
+          "hint": "noHint",
+          "explanation": "Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI which could allow the user to take undercollateralized loans. Since there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "aave-applications"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Development of predicting mathematical models based on statistical approaches",
+              "key": "A"
+            },
+            {
+              "content": "Run checks based on carefully designed guidelines on the user's social profiles",
+              "key": "B"
+            },
+            {
+              "content": "Use trained AIs to determine the credibility of user based on various factors",
+              "key": "C"
+            },
+            {
+              "content": "Undercollateralized borrowing cannot be implemented in DeFi",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "15c43f87-5c44-458f-b8f4-d9b12a97899e",
+          "type": "MultipleChoice",
+          "content": "What could be the use cases/effects of NFT lending and borrowing?",
+          "hint": "noHint",
+          "explanation": "The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "aave-applications"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Lending NFT is possible but borrowing it is not",
+              "key": "A"
+            },
+            {
+              "content": "To generate liquidity",
+              "key": "B"
+            },
+            {
+              "content": "To accrue interest by lending NFT",
+              "key": "C"
+            },
+            {
+              "content": "Lending and borrowing of NFT is not possible",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1dceeb6b6-7577-4afc-8c7d-27cc747833d8",
+          "type": "SingleChoice",
+          "content": "What happens in case of loan default in Polypus?",
+          "hint": "noHint",
+          "explanation": "The borrower's collateral is sold in a Dutch auction",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "aave-applications-examples"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The borrower's collateral is sold at a discounted price on a first come, first served basis",
+              "key": "A"
+            },
+            {
+              "content": "The borrower's collateral is sold in an English auction",
+              "key": "B"
+            },
+            {
+              "content": "The borrower's collateral is sold in a Dutch auction",
+              "key": "C"
+            },
+            {
+              "content": "The protocol takes back the given loan amount from the borrower",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d639751c-5e7e-4242-88bb-161c6a1b5d62",
+          "type": "SingleChoice",
+          "content": "Unmatched suppliers do not get an interest in polypus (T/F)",
+          "hint": "noHint",
+          "explanation": "False, Unmatched liquidity providers will earn a yield on AAVE.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "aave-applications-examples"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "c419d435-2265-48b7-ab92-6960cd89b138",
+          "type": "SingleChoice",
+          "content": "DCA is?",
+          "hint": "noHint",
+          "explanation": "DCA stands for Dollar Cost Average, it is an investing strategy.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "aave-applications-examples"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A DeFi protocol",
+              "key": "A"
+            },
+            {
+              "content": "An investing strategy",
+              "key": "B"
+            },
+            {
+              "content": "An application built on top of AAVE",
+              "key": "C"
+            },
+            {
+              "content": "An alias for undercollateralized loans",
               "key": "D"
             }
           ]
@@ -2828,26 +3023,26 @@
       ],
       "readings": [
         {
-          "uuid": "13665e38-97ee-4dd1-88f1-896382eb8eb9",
-          "title": "Introduction to lending and borowing in crypto",
-          "shortTitle": "lending and borowing",
+          "uuid": "db925bec-8c34-44ae-b269-68a6fd9637bd",
+          "title": "Flash loan introduction",
+          "shortTitle": "Flash loan intro",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=SrArEE6p3zM",
+          "url": "https://www.youtube.com/watch?v=mCJUhnXQ76s",
           "subTopics": [
-            "why-do-we-lending-borrowing"
+            "flash-loans"
           ],
-          "details": "This video enables learners to know about\n  * Lending and borowing in crypto\n  * Centralized and  decentralized lending and borowing \n  * Working of lending and borrowing in crypto\n  * Risks in Lending and Borrowing in crypto\n"
+          "details": "This video enables learners to know about\n  * What a flash loan is\n  * How flash loans work    \n  * Use cases of flash loans\n"
         },
         {
-          "uuid": "7a36ecdd-bfdc-4564-b37f-316ef9a6e455",
-          "title": "Lending and borrowing in DeFi",
-          "shortTitle": "Lending and borrowing in DeFi",
+          "uuid": "de3d5d14-690a-4a46-9111-cc52ed3120f0",
+          "title": "AAVE GHO introduction",
+          "shortTitle": "AAVE GHO intro",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=aTp9er6S73M",
+          "url": "https://www.youtube.com/watch?v=oa2VcxsAIik",
           "subTopics": [
-            "lending-borrowing-DeFi"
+            "aave-gho"
           ],
-          "details": "This video enables learners to know about\n  * Working of lending and borrowing in DeFi's\n  * Core concepts of lending and borrowing in Aave and Compound\n  * Determination of interest rates and other features in Aave\n  * Risks involved in DeFi\n"
+          "details": "This video enables learners to know about\n  * What GHO and how it works\n  * What are Facilitators, bucket size\n  * Interest rates of GHO\n  * Governance, and the use cases of GHOs\n"
         }
       ],
       "summaries": [
@@ -2867,7 +3062,19 @@
           "title": "AAVE GHO",
           "shortTitle": "AAVE GHO",
           "key": "aave-gho",
-          "details": "### **Introduction AAVE GHO**\n\n * Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin that is fully backed and native to the Aave Protocol.\n * It will be pegged to USD.\n * Aave aims to provide users more variety and inclusivity, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO \n\n \n ### **What is Stablecoin?**\n \n * Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. \n * The stablecoins are quite popular to the audience that is not crypto-native. \n * They help in furthering the technology by being attractive to a user base that is not tech-inclined.\n \n \n ### **Types of stablecoins:**\n\n **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. \n                               Instead, the value of a second token serves as collateral for the stablecoin.\n\n\n **Collateral-backed stablecoins -** Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.\n \n ### **How GHO would work:**\n \n * Like with other stablecoins, GHO will be minted when the user satisfies the conditions put forth by the stablecoin minter. \n * GHO is minted by borrowing it in an overcollateralized fashion, though it does not work exactly like traditional borrowing in Aave because the borrowed asset in this case (GHO) is minted on borrowing. \n * The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he has collateralized with, while being charged interest for his borrow position of GHO. \n * When the user borrows, GHO is minted and when the borrow position is repaid, GHO is burnt. \n * The interest rate for GHO will be initially determined by AaveDAO, it will be a stable interest rate which can be adapted according to market conditions. \n * The DAO will be able to manage GHO’s native interest rate through a governance process, which will be outlined in a future proposal. \n * This means that GHO’s monetary policy will be controlled in a decentralized way by AAVE governance. \n * The stable rate levied on GHO will provide certainty for the borrowers. \n * Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n \n ### **Facilitators:**\n \n * Facilitators are entities that can trustless mint and burn GHO tokens. \n * The facilitators have to be approved by Aave governance. \n * Once approved, the facilitator will be able to apply different generation strategies for minting GHO. \n * Each facilitator will also be given a “bucket” value. Bucket is a term made up by AaveDAO to specify the upper limit of the amount of GHO a facilitator can generate.  \n * Since the facilitators are able to mint GHO independently, it is important that they be regulated in this way to avoid misuse of the asset. \n * The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n \n ### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n \n #### **Cons:**\n \n **Collateral asset risk -** In most cases the collateral provided for the borrowing of stablecoins is a centralized cryptocoin (to reduce the risk of liquidation due to volatility), centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n \n **Flash crash conditions -** A sudden drop in the value of the collateralized asset could result in loss for the user who has borrowed stablecoin in an overcollateralized fashion. The sudden drop would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n \n **Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place. Because all users are not experts who can understand the working of these pools and the implications of the risk management measures employed by the DAO.\n \n **Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets being frozen forever always lingers in the case of blockchain development. \n \n #### **Pros:**\n \n **Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n \n **Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n \n When it comes to GHO, \n \n **Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n \n **Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n \n **Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n \n"
+          "details": "### **Introduction AAVE GHO**\n\n* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and it is proposed by the Aave DAO.\n* Aave aims to provide users more variety and accessible to the a wider user base, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.\n\n\n### **What is Stablecoin?**\n\n* Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. \n* The stablecoins are quite popular to the audience that is not crypto-native, helping to scale the technology up to a user base that is not used to it.\n\n\n### **Types of stablecoins:**\n\n**Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.\n\n**Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.\n\n**Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing.\n\n**Collateral-backed stablecoins -** These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets provided as collateral.\n\n### **How GHO would work:**\n\n* GHO is minted by borrowing it in an overcollateralized fashion and burnt when the borrow position is repaid\n* The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he used as collateral.\n* The interest rate for GHO will be initially determined by Aave DAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  \n* The DAO will be able to manage GHO’s native interest rate through a governance process. \n* Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.\n\n### **Facilitators:**\n\n* Facilitators are entities approved by Aave governance that can trustless mint and burn GHO tokens.\n* The facilitator will be able to apply their own generation strategies for minting GHO. \n* Each facilitator will be given a bucket value, signifying the upper limit of the amount of GHO a facilitator can generate.  \n* The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. \n\n### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**\n\n#### **Cons:**\n\n**Collateral asset risk -** Centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.\n\n**Flash crash conditions -** A sudden drop in the value of the collateralized asset would result in a situation where liquidators are unable to buy your collateral to pay off the debt.\n\n**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place.\n\n**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets.\n\n#### **Pros:**\n\n**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets\n\n**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.\n\nWhen it comes to GHO, \n\n**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. \n\n**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. \n\n**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.\n"
+        },
+        {
+          "title": "Applications that can be built on top of AAVE",
+          "shortTitle": "Application ideas",
+          "key": "aave-applications",
+          "details": "**NFT lending and borrowing -** \n* When you buy NFTs the money that you invested in it is locked, it is not possible to gain interest on it or generate liquidity without selling in case need arises.\n* The user can offer their NFT as collateral to borrow assets or lend their NFT to generate liquidity, invest the loaned money somewhere else, and to gain interest on their lend position. \n\n**Real world assets -** \n* The user is able to loan assets against a tokenized form of the real estate, commodity or a possession they own. \n* By fractionalizing the real world asset into multiple tokens, the user can decide what percent of the asset is to be used as collateral. \n\n**Under collateralized borrowing -** \n* Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem. \n* Applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI could be used to provide under-collateralized loans. \n\n**Liquidation strategies -** \n* Applications that can allow the user to borrow from multiple pools in one borrow position can help with liquidity issues in the protocols.\n* This paves way for algorithms that allow users to get loans at the lowest premium possible.  \n* Applications providing strategies that benefit both the protocol and user by generating or safeguarding liquidity for the protocol whilst also providing value for the user can be developed.\n"
+        },
+        {
+          "title": "Applications that are built on top of AAVE",
+          "shortTitle": "Application examples",
+          "key": "aave-applications-examples",
+          "details": "\nLet us look at some of the exciting and innovative applications that have developed on top of AAVE.\n\n### Examples of Applications build on top of AAVE\n\n ####**Mean finance:**\n * DCA stands for Dollar Cost Average, it is an investing method adopted by users in order to minimize possible losses by investing a fixed amount of money in fixed periods of time. \n * Mean finance brings two yield related project one building on top of the other both using AAVE, first is a dollar-cost-averaging(DCA) product that deposits funds waiting to be swapped into investment token into AAVE to earn yield.\n * Second is a product that rather that DCA-ing the initial investment DCA’s earned yield into a selected asset.\n \n ####**Nomis:**\n * Overcollateralized loans act as an obstacle towards DeFi's accessibility to mainstream audience. \n * This crypto protocol, based on a mathematical prediction model, use AI trained in hierarchical analysis to generate decentralized credit scores. \n * They offer users crypto loans on DeFi platforms with better terms (lower interest, less collateral) dependant on their generated credit score.\n \n ####**Hashspace:**\n * A game that integrates AAVE’s yield generation and Lens protocols social graph into a socialFi like game, helping users learn and discover more about the DeFi ecosystem in a fun way.\n \n ####**Polypus:**\n * Polypus is a lending protocol using NFTs as collateral offering good LTV and instant borrowing to the users. \n * The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration, When someone borrows, they just take the best offers in the order. \n * If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction.\n * Unmatched liquidity providers will still earn a yield on AAVE.\n \n"
         }
       ]
     }
