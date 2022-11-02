@@ -2127,26 +2127,26 @@
       ],
       "readings": [
         {
-          "uuid": "13665e38-97ee-4dd1-88f1-896382eb8eb9",
-          "title": "Introduction to lending and borowing in crypto",
-          "shortTitle": "lending and borowing",
+          "uuid": "69039c98-07e0-4a52-a839-68aa6693f4a1",
+          "title": "How to lend and borrow assets using Aave",
+          "shortTitle": "Lend and borrow",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=SrArEE6p3zM",
+          "url": "https://www.youtube.com/watch?v=IDzdrM4xjYw",
           "subTopics": [
-            "why-do-we-lending-borrowing"
+            "lending-Aave"
           ],
-          "details": "This video enables learners to know about\n  * Lending and borowing in crypto\n  * Centralized and  decentralized lending and borowing \n  * Working of lending and borrowing in crypto\n  * Risks in Lending and Borrowing in crypto\n"
+          "details": "This video enables learners to know about\n  * Connecting the wallet to Aave\n  * Aave overview\n  * How to lend and borrow in Aave \n  * Aave governance\n"
         },
         {
-          "uuid": "7a36ecdd-bfdc-4564-b37f-316ef9a6e455",
+          "uuid": "e7fa1c0b-7b82-43c2-9e38-e6d63af63df8",
           "title": "Lending and borrowing in DeFi",
-          "shortTitle": "Lending and borrowing in DeFi",
+          "shortTitle": "working-ATokens",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=aTp9er6S73M",
+          "url": "https://www.youtube.com/watch?v=aTp9er6S73M&list=PLjrTIwaNiTwn39tg3sR_bPBWGHoznv47D&index=18",
           "subTopics": [
-            "lending-borrowing-DeFi"
+            "working-ATokens"
           ],
-          "details": "This video enables learners to know about\n  * Working of lending and borrowing in DeFi's\n  * Core concepts of lending and borrowing in Aave and Compound\n  * Determination of interest rates and other features in Aave\n  * Risks involved in DeFi\n"
+          "details": "This video enables learners to know about\n  * DeFi - Aave and Compound\n  * Tokenisation concepts\n  * Borrowing in Aave\n  * Lending risks in DeFi\n"
         }
       ],
       "summaries": [

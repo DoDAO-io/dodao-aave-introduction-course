@@ -57,7 +57,7 @@ topics:
         * Working of ATokens in Lending
         * working of debt tokens and interest rates in borrowing
     explanations: how-lendings-borrowing-aave.yaml
-    readings: intro-to-lending-borrowing.yaml
+    readings: how-lendings-borrowing-aave.yaml
     summaries: how-lendings-borrowing-aave.yaml
     questions: how-lendings-borrowing-aave.yaml
     status: In Progress

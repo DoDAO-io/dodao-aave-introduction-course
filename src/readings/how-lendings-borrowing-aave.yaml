@@ -1,0 +1,27 @@
+- uuid: 69039c98-07e0-4a52-a839-68aa6693f4a1
+  title: How to lend and borrow assets using Aave
+  shortTitle: Lend and borrow
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=IDzdrM4xjYw
+  subTopics:
+    - lending-Aave
+  details: |
+    This video enables learners to know about
+      * Connecting the wallet to Aave
+      * Aave overview
+      * How to lend and borrow in Aave 
+      * Aave governance
+
+- uuid: e7fa1c0b-7b82-43c2-9e38-e6d63af63df8
+  title: Lending and borrowing in DeFi
+  shortTitle: working-ATokens
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=aTp9er6S73M&list=PLjrTIwaNiTwn39tg3sR_bPBWGHoznv47D&index=18
+  subTopics:
+    - working-ATokens
+  details: |
+    This video enables learners to know about
+      * DeFi - Aave and Compound
+      * Tokenisation concepts
+      * Borrowing in Aave
+      * Lending risks in DeFi
