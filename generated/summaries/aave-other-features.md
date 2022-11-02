@@ -112,4 +112,112 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 * The bridge contract in the destination chain will back the minted unbacked tokens, and reduce the fee for using Aave v3 portals. 
 * Note that, Aave portals are just a feature to transfer assets efficiently, but we need bridging protocols to transfer our assets, there are no other core protocols for directly using Aave portals from the user end.
  
+ **AAVE GHO**        
+### **Introduction AAVE GHO**
+
+* Aave has introduced GHO, a decentralized multi-collateral, collateral-backed stablecoin pegged to the USD that is fully backed and it is proposed by the Aave DAO.
+* Aave aims to provide users more variety and accessible to the a wider user base, to make the Aave stablecoin market more competitive and to generate more revenue for the DAO with the introduction of GHO.
+
+
+### **What is Stablecoin?**
+
+* Stable coins offer stability that is missing in crypto currencies while also maintaining the staple features of web3 - fast, secure and borderless. 
+* The stablecoins are quite popular to the audience that is not crypto-native, helping to scale the technology up to a user base that is not used to it.
+
+
+### **Types of stablecoins:**
+
+**Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.
+
+**Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.
+
+**Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing.
+
+**Collateral-backed stablecoins -** These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets provided as collateral.
+
+### **How GHO would work:**
+
+* GHO is minted by borrowing it in an overcollateralized fashion and burnt when the borrow position is repaid
+* The borrowing follows the same principle as borrowing in Aave, the user will also continue to gain interest on the assets he used as collateral.
+* The interest rate for GHO will be initially determined by Aave DAO, it will be a stable interest rate which can be adapted according to market conditions, providing certainty for the borrowers.  
+* The DAO will be able to manage GHO’s native interest rate through a governance process. 
+* Like other assets listed on the Aave protocol, an aToken and debt token for GHO will be deployed on the protocol and be registered on the Ethereum market once GHO is integrated to Aave protocol.
+
+### **Facilitators:**
+
+* Facilitators are entities approved by Aave governance that can trustless mint and burn GHO tokens.
+* The facilitator will be able to apply their own generation strategies for minting GHO. 
+* Each facilitator will be given a bucket value, signifying the upper limit of the amount of GHO a facilitator can generate.  
+* The first facilitator will be the Aave market on Ethereum. Governance will be able to determine and assign this facilitator a specific bucket capacity to bootstrap the GHO liquidity and the GHO market. 
+
+### **Pros and cons of collateral backed and decentralized stablecoins like GHO:**
+
+#### **Cons:**
+
+**Collateral asset risk -** Centralized entities have the ability to blacklist and freeze addresses from being able to use their currency.
+
+**Flash crash conditions -** A sudden drop in the value of the collateralized asset would result in a situation where liquidators are unable to buy your collateral to pay off the debt.
+
+**Pool configuration and Risk management -** The users are to trust the DAO to have the appropriate pool configuration and risk management measures in place.
+
+**Smart contract risk -** The possibility of smart contract bugs and failures which could result in huge losses or assets.
+
+#### **Pros:**
+
+**Transparency and flexibility -** Transparent and fully decentralized and quick to turn into other crypto assets
+
+**Trustless -** No external custodians, all assets are controlled by Ethereum accounts.
+
+When it comes to GHO, 
+
+**Risk management -** Aave DAO incentivizes users for long-term success (for example, discount model) , the community has control over the stable rate of GHO after its release and the option to levy maximum and minimum caps on borrowing also helps to provide considerable risk management to GHO. 
+
+**Flash crash prevention -**  Aave protocol, throughout its past has had very conservative LTVs (Loan To Value ratio), an effective liquidation mechanism and a community of liquidators which helps them mitigate this risk more than any other platform. 
+
+**Reduced collateral asset risk -** Assets allowed as collateral are determined by the DAO with considerable influence from Gauntlet who provides high quality risk management services to Aave.
+ 
+ **Applications that can be built on top of AAVE**        
+**NFT lending and borrowing -** 
+* When you buy NFTs the money that you invested in it is locked, it is not possible to gain interest on it or generate liquidity without selling in case need arises.
+* The user can offer their NFT as collateral to borrow assets or lend their NFT to generate liquidity, invest the loaned money somewhere else, and to gain interest on their lend position. 
+
+**Real world assets -** 
+* The user is able to loan assets against a tokenized form of the real estate, commodity or a possession they own. 
+* By fractionalizing the real world asset into multiple tokens, the user can decide what percent of the asset is to be used as collateral. 
+
+**Under collateralized borrowing -** 
+* Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem. 
+* Applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI could be used to provide under-collateralized loans. 
+
+**Liquidation strategies -** 
+* Applications that can allow the user to borrow from multiple pools in one borrow position can help with liquidity issues in the protocols.
+* This paves way for algorithms that allow users to get loans at the lowest premium possible.  
+* Applications providing strategies that benefit both the protocol and user by generating or safeguarding liquidity for the protocol whilst also providing value for the user can be developed.
+ 
+ **Applications that are built on top of AAVE**        
+
+Let us look at some of the exciting and innovative applications that have developed on top of AAVE.
+
+### Examples of Applications build on top of AAVE
+
+ ####**Mean finance:**
+ * DCA stands for Dollar Cost Average, it is an investing method adopted by users in order to minimize possible losses by investing a fixed amount of money in fixed periods of time. 
+ * Mean finance brings two yield related project one building on top of the other both using AAVE, first is a dollar-cost-averaging(DCA) product that deposits funds waiting to be swapped into investment token into AAVE to earn yield.
+ * Second is a product that rather that DCA-ing the initial investment DCA’s earned yield into a selected asset.
+ 
+ ####**Nomis:**
+ * Overcollateralized loans act as an obstacle towards DeFi's accessibility to mainstream audience. 
+ * This crypto protocol, based on a mathematical prediction model, use AI trained in hierarchical analysis to generate decentralized credit scores. 
+ * They offer users crypto loans on DeFi platforms with better terms (lower interest, less collateral) dependant on their generated credit score.
+ 
+ ####**Hashspace:**
+ * A game that integrates AAVE’s yield generation and Lens protocols social graph into a socialFi like game, helping users learn and discover more about the DeFi ecosystem in a fun way.
+ 
+ ####**Polypus:**
+ * Polypus is a lending protocol using NFTs as collateral offering good LTV and instant borrowing to the users. 
+ * The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration, When someone borrows, they just take the best offers in the order. 
+ * If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction.
+ * Unmatched liquidity providers will still earn a yield on AAVE.
+ 
+ 
  

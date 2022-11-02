@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
  
- ## Other Features of AAVE
+ ## Intro to Lending and Borrowing in DeFi
  
   **Introduction to lending and borowing in crypto**
  

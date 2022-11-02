@@ -142,12 +142,12 @@ Sub Topics: aave-portals
 
 - [ ]  They provide a completely new protocol for users to be able to interact with different chains
 - [x]  Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier
-- [x]  Helps increase usership of EVM Layer 1 chains
-- [x]  Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions
+- [x]  Helps users transfer their assets to other layer 1 blockchains, providing an opportunity to increase the usership of alternate layer 1 chains
+- [x]  Helps increase the user experience of the blockchain network by providing a way transfer assets to layer 2 blockchains which have better transaction speed and lesser transaction fees.
   
 Hint: noHint
          
-Explanation: Provides a more secure, faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Helps increase usership of EVM Layer 1 chains. Helps increase the user experience of the blockchain network by providing fast and scalable solutions to their issues related to transactions.
+Explanation: Provides a faster and cheaper alternative to blockchain bridges, making flow of assets across blockchains easier. Provides user with multiple blockchain options to invest their assets in, thus providing an opportunity to increase the usership of alternate layer 1 blockchains. Helps increase the user experience of the blockchain network by providing liquidity transfer to layer 2 blockchains which provide fast and scalable solutions to their issues related to transactions.
 
 Sub Topics: aave-portals
  
@@ -198,4 +198,210 @@ Hint: noHint
 Explanation: Uses aTokens to withdraw funds from its liquidity pool to transfers assets across blockchains.
 
 Sub Topics: aave-portals
+ 
+
+---
+
+##### Which of these enhancements/changes would be made in Aave after GHO’s integration with Aave protocol?  
+
+- [x]  aTokens and debt tokens will be minted for GHO
+- [ ]  New aTokens and debt tokens will not be minted for GHO
+- [ ]  The Aave protocol will become slower due to integration of a new stablecoin
+- [x]  Aave market on Ethereum would become the first facilitator
+  
+Hint: noHint
+         
+Explanation: aTokens and debt tokens will be minted for GHO, Aave market on Ethereum would become the first facilitator, GHO will be borrowed at a stable rate determined by the DAO.
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Which of these statements about GHO’s interest rate is accurate?  
+
+- [x]  It will be set by the Aave DAO initially
+- [ ]  The rates determined by Aave DAO will be final and cannot be changed
+- [x]  It will be stable rate but the rate can change based on market conditions.
+- [x]  The rates can be altered based on the community and governance
+  
+Hint: noHint
+         
+Explanation: Interest rate will be set by the Aave DAO initially, It will be stable rate as opposed to variable rate, can be adapted to market conditions. The rates can be altered based on the community and governance
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### What criteria must be satisfied for the minting and burning of GHO?  
+
+- [ ]  It is burnt by borrowing it in an overcollateralized fashion
+- [x]  It is minted by borrowing it in an overcollateralized fashion
+- [x]  It is burnt as the borrower repays their borrow position
+- [ ]  It is unpredictable
+  
+Hint: noHint
+         
+Explanation: It is minted by borrowing it in an overcollateralized fashion, burnt by repaying the borrow position
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Who are facilitators?  
+
+- [x]  Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+- [ ]  Facilitators are entities or protocols who facilitate fast transactions of GHO in the blockchain
+- [ ]  Facilitators are entities or protocols who borrow GHO
+- [ ]  Facilitator is an alias for liquidator
+  
+Hint: noHint
+         
+Explanation: Facilitators are entities or protocols who can mint GHO trustlessly and on their own terms and conditions
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### What is GHO?  
+
+- [ ]  A collateral-backed stablecoin, it is centralized and collateral backed pegged to USD
+- [ ]  A fiat-backed stablecoin, it is decentralized and pegged to USD
+- [x]  A collateral-backed stablecoin, it is decentralized and pegged to USD
+- [ ]  A collateral-backed stablecoin, it is centralized and pegged to the value of gold in the US
+  
+Hint: noHint
+         
+Explanation: GHO is a collateral-backed stablecoin native to Aave, it is decentralized and pegged to USD
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### Which of these contribute to the safety of GHO’s use?  
+
+- [x]  A supply borrow cap can be levied to further improve its security
+- [x]  It is minted on Ethereum and supplied to other chains, since Ethereum is much safer
+- [x]  Only authorized facilitators can mint and burn GHO trustlessly
+- [ ]  Only Aave can mint and burn GHO trustlessly
+  
+Hint: noHint
+         
+Explanation: It is minted on Ethereum and supplied to other chains, since Ethereum is much safer. A supply borrow cap can be levied to further improve its security. Only authorized facilitators can mint and burn GHO trustlessly, these factors improve the security of GHO.
+
+Sub Topics: aave-gho
+ 
+
+---
+
+##### How can asset tokenization be used in lending and borrowing?  
+
+- [x]  Real world assets can be lent and borrowed in parts on-chain in the DeFi ecosystem
+- [ ]  Real world assets cannot be tokenized and used as collateral
+- [ ]  Real world assets can only be used to represent NFTs.
+- [ ]  Real world assets can only be lent and not borrowed
+  
+Hint: noHint
+         
+Explanation: By making use of assets as collateral to borrow and lending out the assets for interest
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be the benefit of undercollateralized borrowing in DeFi?  
+
+- [ ]  Undercollateralized loans will help secure the lender's position
+- [ ]  Undercollateralized loans in DeFi are not possible
+- [x]  It helps in making crypto loans more accessible to everyone
+- [ ]  Undercollateralized loans will not lead to any liquidation situations .
+  
+Hint: noHint
+         
+Explanation: Overcollateralization acts as an obstacle that limits participation of general users in the DeFi ecosystem, undercollateralized borrowing can help to overcome this limitation.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be done to implement undercollateralized borrowing in DeFi?  
+
+- [ ]  Development of predicting mathematical models based on statistical approaches
+- [x]  Run checks based on carefully designed guidelines on the user's social profiles
+- [x]  Use trained AIs to determine the credibility of user based on various factors
+- [ ]  Undercollateralized borrowing cannot be implemented in DeFi
+  
+Hint: noHint
+         
+Explanation: Development of applications that verify a user’s credibility by running checks on linkedin, and other social profiles, or generate credit score of a user using AI which could allow the user to take undercollateralized loans. Since there is a lack of past data of the crypto loan defaults, the development of predicting mathematical models based on statistical approaches is not possible.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What could be the use cases/effects of NFT lending and borrowing?  
+
+- [ ]  Lending NFT is possible but borrowing it is not
+- [x]  To generate liquidity
+- [x]  To accrue interest by lending NFT
+- [ ]  Lending and borrowing of NFT is not possible
+  
+Hint: noHint
+         
+Explanation: The use cases of NFT borrowing and lending could be to generate liquidity, and to gain interest on the NFT by lending it.
+
+Sub Topics: aave-applications
+ 
+
+---
+
+##### What happens in case of loan default in Polypus?  
+
+- [ ]  The borrower's collateral is sold at a discounted price on a first come, first served basis
+- [ ]  The borrower's collateral is sold in an English auction
+- [x]  The borrower's collateral is sold in a Dutch auction
+- [ ]  The protocol takes back the given loan amount from the borrower
+  
+Hint: noHint
+         
+Explanation: The borrower's collateral is sold in a Dutch auction
+
+Sub Topics: aave-applications-examples
+ 
+
+---
+
+##### Unmatched suppliers do not get an interest in polypus (T/F)  
+
+- [ ]  True
+- [x]  False
+  
+Hint: noHint
+         
+Explanation: False, Unmatched liquidity providers will earn a yield on AAVE.
+
+Sub Topics: aave-applications-examples
+ 
+
+---
+
+##### DCA is?  
+
+- [ ]  A DeFi protocol
+- [x]  An investing strategy
+- [ ]  An application built on top of AAVE
+- [ ]  An alias for undercollateralized loans
+  
+Hint: noHint
+         
+Explanation: DCA stands for Dollar Cost Average, it is an investing strategy.
+
+Sub Topics: aave-applications-examples
  

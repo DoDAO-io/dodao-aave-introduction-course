@@ -5,11 +5,12 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## What is DeFi and Use Cases
  
-This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
+This chapter explains basics of DeFi, how it works, how its different from Traditional Finance, and its use cases
 
 Details
   * What is DeFi 
-  * CeFi vs DeFi
+  * DeFi vs CeFi (Why we need DeFi)
+  * How Defi works
   * Use cases of DeFi
 
 
