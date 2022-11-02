@@ -64,4 +64,98 @@ After borrowing the balance of DAI tokens is 1000 DAI in my wallet.
 
 ![AAVE](https://github.com/DoDAO-io/dodao-aave-introduction-course/blob/main/images/afterborrowing.jpg?raw=true)
  
+ **How ATokens works in Lending**        
+The ATokens are interest-bearing derivative tokens that are minted and burned upon Deposit and Redeem. ATokens are pegged to corresponding asset in the ratio 1:1. 
+ATokens can be stored and transferred. In order to store ATokens in a wallet, the user must first add the ATokens from Aave's app. For example, 
+if the user wants to add AEth to their account, they need to click on “Eth” in the Aave app and then click on the “wallet” icon located next to it. After doing so, they can add it to their account.
+
+### How Lending works internally with Aave
+
+When a user supplies assets to Aave, the `deposit` function is called. This updates the interest rates and mints aTokens in a 1:1 ratio corresponding to the deposited assets. 
+The assets are then transferred to the reserve. When a user withdraws their assets, the `redeem` function gets called. This function checks certain conditions and updates the 
+interest rates accordingly. Then, it "burns" the Atokens and supplies assets in a 1:1 ratio. ATokens are minted and burnt using the `IAToken` contract, which implements the function 
+`mint` and `burn`. Link for IAToken contract: [link](https://docs.aave.com/developers/v/2.0/the-core-protocol/atokens/iatoken).
+
+If these minted tokens are added to the wallet, users will be able to track their balances from the wallet itself instead of having to open Aave's app. 
+The ATokens can be transferred or traded in a similar way to normal tokens, but with some additional benefits. For example, when ATokens are transferred from account A to account B, 
+the transferred ATokens will accrue interest for account B. Additionally, the ATokens can be used as collateral if it's indicated in the dashboard of Aave. 
+
+The interest rate is based on the earn rate of the Aave. The accrual of interest never stops until the lent assets are withdrawn. For example, interest will be accrued even when an asset is used as collateral.
+The ATokens include EIP-20/ERC20 token methods with a few modifications, as well as EIP-2612. EIPs (Improvement Proposals) are suggestions for new features or functionality that could be introduced. 
+ 
+ **How Borrowing works in Aave**        
+Borrowing in Aave implements tokenisation concept similar to lending. The loans borrowed are overcollaterlized in order to negotiate the effect of  volatility of the assets as well to maintain the security of the assets. 
+ 
+### How Borrowing works internally with AAVE tokens
+Aave uses tokenization to represent borrow positions. Debt tokens are interest-accruing tokens that accrue interest according to the interest rate. There are two types of debt tokens: stable debt tokens and variable debt tokens.
+The `borrow` function is executed when a user borrows a loan, which will mint debt tokens in the 1:1 ratio to the corresponding borrowed asset, according to the interest rate. If the loan is borrowed at a stable rate, stable tokens are minted. 
+These debt tokens will accrue interest and represent the borrow position. The `repay` function is executed when a user repays a loan, which will burn the debt tokens in the 1:1 ratio to the corresponding repaid asset. Link for debt token contract: [link](https://github.com/aave/protocol-v2/tree/ice/mainnet-deployment-03-12-2020/contracts/protocol/tokenization).
+
+These debt tokens are similar to ATokens, but they have some different features. For instance, they work as an interest-bearing derivative token that implements most of the functionalities in EIP-20/ERC-20, 
+with the exception of transfer functions like "transfer" and "allowance". This means that they can't be transferred like ATokens. Users can change the interest rate from stable to variable or vice-versa at any time. 
+This system allows users to have more control over their finances and how they want to manage their money.
+
+### Calculation of interest rates
+
+#### Important  Terms
+
+1. U = Utilization rate   = B<sub>t </sub>/ L<sub>t </sub>. Where B<sub>t </sub>is the total assets borrowed and L<sub>t</sub> is the total liquidity. Each reserve have its own  Utilization rate. For example Eth reserve has its own U(Utilization rate). U = 0 if  L<sub>t</sub> = 0;
+2. U<sub>optimal </sub>= expected Utilization rate or targeted Utilization rate.
+3. R<sub>o</sub> = Base Variable borrow rate. It is zero for B<sub>t</sub> =0.
+4. R<sub>slope1</sub> = It is a constant called as interest rate slope below optimal
+5. R<sub>slope2</sub> = It is a constant called as interest rate slope above optimal
+6. O<sub>ratio</sub> = Optimal stable to total debt ratio
+7. Base<sub>s</sub> = Base stable borrow rate
+
+
+#### Variable rate calculation
+
+The interest rate R<sub>t </sub> follows the model:
+
+If U≤U<sub>optimal</sub>   
+
+R<sub>t</sub> = R<sub>o </sub>+ U/U<sub>optimal </sub> * R<sub>slope1</sub>
+
+If U>U<sub>optimal</sub>
+
+R<sub>t</sub> = R<sub>o </sub>+ [(U-U<sub>optimal</sub>)/(1-U<sub>optimal</sub>)]*R<sub>slope2</sub>
+
+
+
+* When U≤U<sub>optimal</sub>   
+
+    The interest rate increase slowly with Utilization
+
+* When U>U<sub>optimal</sub>   
+
+    The interest rate increases rapidly with the Utilization 
+
+
+In the borrow rate technical implementation, the[ ](https://github.com/aave/aave-v3-core/blob/e46341caf815edc268893f4f9398035f242375d9/contracts/protocol/libraries/math/MathUtils.sol#L51)calculateCompoundedInterest method relies on an approximation that mostly affects high interest rates. The resulting actual borrow rate is as follows: 
+
+ActualAPY=(1+TheoreticalAPY/secsperyear)^secsperyear-1
+
+
+### Stable Interest rate calculation
+
+Base<sub>s</sub> = R<sub>slope1</sub> + offset<sub>base   </sub>;   E<sub>util</sub> = 10^27 - U<sub>optimal</sub>
+
+Ratio<sub>st</sub> = debt<sub>stable</sub>/Total debt ;  where Total debt = debt<sub>stable</sub>+<sub> </sub>debt<sub>variable</sub>
+
+This ratio is called as stable to debt ratio.
+
+Interest rate R<sub>s</sub> is calculated as follows :
+
+If U > U<sub>optimal</sub>
+
+R<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 </sub>+ R<sub>slope2</sub>*[(U-U<sub>optimal</sub>)/E<sub>util</sub>]
+
+Otherwise
+
+R<sub>s </sub>= Base<sub>s </sub> + R<sub>slope1 * </sub>(U/U<sub>optimal</sub>)
+
+The interest rate rebalances when Ratio<sub>st</sub> > O<sub>ratio</sub>
+
+R<sub>s</sub>  =  R<sub>s</sub>  + offset<sub>excess</sub> * [(ratio-O<sub>ratio</sub> )/10^27-O<sub>ratio</sub>] 
+ 
  
