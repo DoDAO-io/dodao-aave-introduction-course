@@ -108,14 +108,14 @@ Stable coins offer stability that is missing in crypto currencies while also mai
 They help in furthering the technology by being attractive to a user base that is afraid of volatility or about getting started in the crypto world.
 
 
-    #### **Types of stablecoins:**
+#### **Types of stablecoins:**
 
-    **Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.
+**Fiat-backed stablecoins -** These stablecoins are linked to the value of a fiat currency. The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD.
 
-    **Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.
+**Commodity-backed stablecoins -** Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin.
 
-    **Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. 
-                                  Instead, the value of a second token serves as collateral for the stablecoin.
+**Algorithmic stablecoin -** Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. 
+                              Instead, the value of a second token serves as collateral for the stablecoin.
 
 
     **Collateral-backed stablecoins -** Since trustless systems and decentralization are the foundations of the crypto ecosystem, stablecoin protocols that are not controlled by a central entity had to be developed. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets.
@@ -200,6 +200,5 @@ Let us look at some of the exciting and innovative applications that have develo
  Polypus is a lending protocol using NFTs as collateral differentiating itself from the competition by offering better LTV and instant borrowing. The suppliers have to choose the LTV they are comfortable with. The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration. When someone borrows, 
  they just take the best offers in the order. If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction. The last part of our borrower-friendly experience is that borrowers enjoy a fixed interest rate. Suppliers only get interest if their offer was good enough to be automatically taken. Unmatched liquidity 
  providers will earn a yield on AAVE.
- 
  
  
