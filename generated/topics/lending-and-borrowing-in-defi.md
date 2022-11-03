@@ -3,22 +3,20 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ---
 
-## Other Features of AAVE
+## Intro to Lending and Borrowing in DeFi
  
-This chapter covers the other features of Aave that we haven't covered in the previous sections, flash loans, Aave portals, Aave GHO and other
-applications that are built on top of Aave.
+This chapter explains how lending and borrowing works in both DeFi and TradFi. 
+It also goes over the risks involved with lending and borrowing in DeFi.
 
 Details
-  * Flash loans
-  * Aave portals
-  * Aave GHO
-  * Applications that could be built on top of Aave
-  * Examples of Applications built on top of Aave
+  * Lending and borrowing in TradFi
+  * Lending and borrowing in DeFi
+  * Risks involved in DeFi
 
 
 ## Links
-[Reading List](./../../generated/readings/aave-other-features.md)
+[Reading List](./../../generated/readings/intro-to-lending-borrowing.md)
 
-[Summary](./../../generated/summaries/aave-other-features.md)
+[Summary](./../../generated/summaries/intro-to-lending-borrowing.md)
 
-[Questions](./../../generated/questions/aave-other-features.md)
+[Questions](./../../generated/questions/intro-to-lending-borrowing.md)
