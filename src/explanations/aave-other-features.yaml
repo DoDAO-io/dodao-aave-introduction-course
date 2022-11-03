@@ -193,18 +193,18 @@
 
     ### Examples of Applications build on top of AAVE
 
-     ####**Mean finance:**
+     #### **Mean finance:**
      DCA stands for dollar cost average, it is an investing method adopted by users in order to minimize possible losses by investing a fixed amount of money in fixed periods of time, this way losses are compensated with the profits made from investing in another time. Mean finance brings two yield related project one building on 
      top of the other both using AAVE, first is a dollar-cost-averaging(DCA) product that deposits funds waiting to be swapped into investment token into AAVE to earn yield, second is a product that rather that DCA-ing the initial investment DCA’s earned yield into a selected asset.
      
-     ####**Nomis:**
+     #### **Nomis:**
      The lack of undercollateralized in DeFi is something that keeps a lot of users from using it, it acts as an obstacle towards scaling DeFi to mainstream audience. This crypto protocol, based on a mathematical prediction model and AI that generates decentralized credit scores. They use AI trained in hierarchical analysis, since 
      there is a lack of past data of the crypto loan defaults for the development of predicting mathematical models based on statistical approaches. They offer users crypto loans on DeFi platforms with better terms (lower interest, less collateral) dependant on their generated credit score.
      
-     ####**Hashspace:**
+     #### **Hashspace:**
      A game that integrates AAVE’s yield generation and Lens protocols social graph into a socialFi like game. A DeFi product discovery game that makes it fun for players to learn and test out new DeFi products, solutions and protocols.
      
-     ####**Polypus:**
+     #### **Polypus:**
      Polypus is a lending protocol using NFTs as collateral differentiating itself from the competition by offering better LTV and instant borrowing. The suppliers have to choose the LTV they are comfortable with. The protocol builds an offer book in the contract from the best to worst LTV for a given loan duration. When someone borrows, 
      they just take the best offers in the order. If a borrower doesn’t repay before the due date, their assets are sold in a dutch auction. The last part of our borrower-friendly experience is that borrowers enjoy a fixed interest rate. Suppliers only get interest if their offer was good enough to be automatically taken. Unmatched liquidity 
      providers will earn a yield on AAVE.
