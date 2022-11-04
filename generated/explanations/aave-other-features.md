@@ -31,8 +31,8 @@ On every transaction, a fee is added, which acts as an incentive to miners to ke
 ### **Execution Flow**
 Here is an example of an execution flow for developers,
 
-1. Your contract calls the Pool contract, requesting for a flash loan of a certain amount from reserve(s) using `flashLoanSimple()`` or `flashLoan()``.
-2. After some sanity checks, the pool transfers the requested amount from reserve(s) to your smart contract, then calls `executeOperation()`` on the receiver contract.    
+1. Your contract calls the Pool contract, requesting for a flash loan of a certain amount from reserve(s) using `flashLoanSimple()` or `flashLoan()`.
+2. After some sanity checks, the pool transfers the requested amount from reserve(s) to your smart contract, then calls `executeOperation()` on the receiver contract.    
 3. Your smart contract, now holding the flash loaned amount, executes any arbitrary operation in its code.
     * In case of a `flashloanSimple`, your code has finished. You just need to approve the pool the loaned amount + fee. 
     * If you are doing a `flashLoan`,  then depending on the interest rate mode and whether or not you want to open a debt position after the flash loan, you must either approve the 

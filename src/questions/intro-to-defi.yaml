@@ -368,6 +368,8 @@
       key: B
     - content: Facilitates assets can be held in possession of multiple users at once
       key: C
+    - content: Increases the interest that needs to be paid by borrower
+      key: D
       
 - uuid: 3e37ae46-df52-4359-acdd-db569ab2fe19
   type: singleChoice
