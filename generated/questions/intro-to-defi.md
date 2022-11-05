@@ -299,6 +299,7 @@ Sub Topics: what-is-defi-and-why-do-we-need-it
 - [x]  Keeps count of the interest accrued by the user
 - [x]  Ensures that the user is in custody of his invested assets at all times
 - [ ]  Facilitates assets can be held in possession of multiple users at once
+- [ ]  Increases the interest that needs to be paid by borrower
   
 Hint: noHint
          
