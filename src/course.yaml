@@ -1,15 +1,8 @@
 title: Introduction to AAVE
 key: aave-introductory-course
 summary: >+
-  Lending and borrowing refer to the act of lending money to another individual
-  or entity, with the expectation that the borrowed funds will be repaid with
-  interest at a later date. In the context of Aave, a decentralized finance
-  platform, lending and borrowing refer to the ability for individuals to lend
-  and borrow cryptocurrencies, such as Ether (ETH), using smart contracts on the
-  Ethereum blockchain. This allows users to earn interest on their holdings or
-  access additional funds without the need for a traditional financial
-  institution.
-
+  This course explains the basics of Lending and Borrow and how it works
+  on-chain in AAVE
 
 
 highlights:
@@ -121,3 +114,7 @@ topics:
     questions: aave-other-features.yaml
     status: Completed
     completionWeek: Completed
+courseAdmins: []
+topicConfig:
+  showExplanations: false
+  showHints: false
