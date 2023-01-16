@@ -3,14 +3,20 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
 
- ## Introduction to AAVE (Completed)
- Lending and borrowing in DeFi are secured by blockchain and smart contracts. Users can lend their money without limits 
-similarly, withdrawal is also limitless. Lending and Borrowing in DeFi is anonymous hence privacy is maintained.
+ ## Introduction to AAVE
+ This course explains the basics of Lending and Borrow and how it works on-chain in AAVE
+
+
 
  
  ## Description
- ADD DEtails of the course
+ In the Aave protocol, lending and borrowing is facilitated through the use of smart contracts on the Ethereum blockchain. These smart contracts act as digital agreements that automatically enforce the terms of a loan, such as the loan amount, interest rate, and repayment schedule.
 
+To borrow funds on Aave, a user must first deposit a certain amount of a supported cryptocurrency (such as Ether) as collateral. The user can then borrow a different cryptocurrency from the Aave protocol, with the deposited collateral serving as security for the loan. The user will be required to pay interest on the borrowed funds, and the loan must be repaid according to the agreed-upon terms.
+
+To lend on Aave, a user must first deposit a certain amount of a supported cryptocurrency into the Aave protocol. The user can then earn interest on their deposit by providing funds to borrowers on the platform. The interest earned will depend on the supply and demand for the chosen cryptocurrency and the terms of the loan.
+
+Overall, the Aave protocol allows users to lend and borrow cryptocurrencies in a decentralized and secure manner, without the need for a traditional financial institution.
  
  ## Chapters
  
